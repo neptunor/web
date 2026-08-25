@@ -106,7 +106,7 @@ jobs:
       # 不清理的话部署后窗口期内旧 HTML 会引用已被替换的旧 hash assets(404)。
       # token 需 Zone › Cache Purge 权限；缺 zone/权限时跳过，不留红叉。
       - name: Purge CDN cache
-        if: steps.guard.outputs.enabled == 'true'
+        if: always() && steps.guard.outputs.enabled == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
@@ -138,7 +138,8 @@ jobs:
       # 冷 worker（TTFB 2-6s）。这里部署完立刻回源一次，把首页/es 写入
       # 边缘缓存（第一次渲染 + waitUntil 写缓存，sleep 后第二次确认命中）。
       - name: Warm edge cache
-        if: steps.guard.outputs.enabled == 'true'
+        if: always() && steps.guard.outputs.enabled == 'true'
+        continue-on-error: true
         env:
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
         run: |
@@ -151,7 +152,7 @@ jobs:
             echo "warm $p second pass -> HTTP $code2"
           done
       - name: Sync Worker secrets
-        if: steps.guard.outputs.enabled == 'true'
+        if: always() && steps.guard.outputs.enabled == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
