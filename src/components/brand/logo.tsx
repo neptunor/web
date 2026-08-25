@@ -4,7 +4,6 @@ import React from 'react'
 function LogoInner({ size = 28, compact: _compact }: { size?: number; compact?: boolean }) {
   return (
     <span className="inline-flex shrink-0 items-center">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/Neptunor_Logo.png"
         alt="Neptunor"
