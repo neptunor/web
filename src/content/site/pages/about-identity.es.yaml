@@ -1,0 +1,91 @@
+﻿meta:
+  title: 'Sobre Neptunor — Identidad de Marca | Neptunor'
+  description: 'Identidad de Neptunor: fabricante OEM/ODM de embarcaciones RIB y neumáticas. Entidad legal, fábrica de 18.000 m² en Qingdao, certificaciones y posicionamiento B2B.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'Neptunor identity'
+    - 'Neptunor Marine Co., Ltd.'
+    - 'fabricante de embarcaciones Neptunor'
+    - 'fábrica de RIB Qingdao'
+    - 'fabricante de embarcaciones neumáticas China'
+    - 'identidad de fábrica OEM de embarcaciones'
+
+hero:
+  tagline: 'Identidad de Marca'
+  title: '¿Quién Es Neptunor?'
+  subtitle: 'Neptunor es la marca B2B de fabricación de embarcaciones de Neptunor Marine Co., Ltd. — un fabricante especializado en embarcaciones RIB y neumáticas en Qingdao, Shandong, China. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos en ningún mercado.'
+
+answer:
+  label: 'En resumen'
+  text: 'Entidad legal: Neptunor Marine Co., Ltd. Marca de fabricación: Neptunor. Fábrica: planta de 18.000 m² en Qingdao, Shandong, China. Alcance: Fabricación OEM, ODM y marca privada de embarcaciones RIB, neumáticas y productos marinos hinchables. Certificaciones: ISO 9001:2015, CE (Directiva Europea de Embarcaciones de Recreo 2013/53/EU, categorías de diseño C/D), ISO 6185, BSCI, REACH, RoHS. No vendemos bajo nuestra propia marca — cada embarcación que producimos lleva la marca del comprador.'
+  verified: '2026-08'
+
+identity_detail:
+  tagline: Legal y Organizativo
+  title: 'Entidad Legal y Estructura'
+  subtitle: 'Transparencia total sobre estructura corporativa, alcance de fabricación y certificaciones.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: L
+      icon_bg: blue
+      title: 'Entidad Legal'
+      desc: 'Neptunor Marine Co., Ltd. — la entidad contratante para todos los acuerdos de fabricación, órdenes de compra y documentación de exportación. Registrada en Qingdao, Shandong, China.'
+    - icon: M
+      icon_bg: green
+      title: 'Marca de Fabricación'
+      desc: 'Neptunor es la marca de fabricación orientada al comprador de Neptunor Marine Co., Ltd., utilizada para programas internacionales de OEM, ODM y marca privada de embarcaciones. Una empresa, un sistema de calidad, un único punto de responsabilidad.'
+    - icon: F
+      icon_bg: purple
+      title: 'Ubicación de Fábrica'
+      desc: 'Qingdao, Shandong, China. Instalación de producción de 18.000 m² con 4 talleres especializados, 4 líneas de producción automatizadas, corte CNC, soldadura RF de 25 kW, laboratorio de pruebas y almacén de materiales, cerca del Puerto de Qingdao.'
+
+manufacturing_scope:
+  heading: 'Alcance de Fabricación'
+  body: |
+    Nuestro alcance de fabricación cubre toda la cadena de producción para embarcaciones RIB y neumáticas — desde la inspección de material entrante hasta el empaque final y documentación de exportación.
+
+    - **Categorías de productos**: Embarcaciones RIB (construcciones casco-tubo en hipalón/PVC), dinghies y auxiliares neumáticos, modelos con cubierta air-deck, botes de rescate y trabajo, además de consolas, asientos, bombas y accesorios.
+    - **Tipos de construcción**: Sistemas de tubo PVC soldado, costuras termoselladas, suelos y paneles drop-stitch air-deck, consolas y cascos de fibra de vidrio/RIM para configuraciones RIB. Especificaciones de construcción personalizadas por proyecto.
+    - **Modelos de colaboración**: OEM (diseño del comprador), ODM (desarrollado por fábrica a partir del brief del comprador), marca privada/co-branding (marca aplicada a plataformas probadas).
+    - **Certificaciones**: ISO 9001:2015 (gestión de calidad de fábrica), CE conforme a la Directiva Europea de Embarcaciones de Recreo 2013/53/EU (categorías de diseño C/D), ISO 6185, BSCI (cumplimiento social), REACH (seguridad química), RoHS (sustancias restringidas).
+    - **Capacidad de producción**: Más de 60.000 embarcaciones anuales, unas 5.000 mensuales en 4 líneas automatizadas. Escalabilidad disponible con programación anticipada.
+
+brand_positioning:
+  heading: 'Posicionamiento de Marca'
+  body: |
+    Neptunor ocupa una posición específica en el mercado — somos un fabricante que sirve a compradores profesionales, no una marca de consumo. Esta distinción moldea cada aspecto de cómo operamos:
+
+    - **Nunca vendemos bajo nuestra propia marca.** Cada embarcación que producimos lleva la marca del comprador. No competimos con nuestros clientes en ningún mercado, en ningún canal. Esta política es innegociable.
+    - **No somos una empresa comercializadora.** Operamos la fábrica. El control de calidad, la ingeniería, la programación de producción y la documentación de exportación se gestionan internamente. No hay intermediarios entre su pedido y la planta de producción.
+    - **Nos especializamos en embarcaciones RIB y neumáticas.** Esto no es una actividad secundaria ni una categoría de producto entre muchas. Las embarcaciones y los productos marinos son nuestra competencia central. Cada máquina, cada proceso, cada puerta de control de calidad está optimizada para esta categoría de producto.
+    - **Servimos a compradores profesionales.** Nuestros clientes son marcas, distribuidores, operadores de alquiler y resorts, concesionarios e instituciones — no consumidores individuales. Nuestros precios, estructura de MOQ, documentación y comunicación están diseñados para relaciones B2B.
+
+evidence_review:
+  tagline: 'Evidencia y Verificación'
+  title: 'ESPECIFICACIONES VERIFICADAS'
+  body: 'Todas las afirmaciones organizativas y de fabricación en esta página son verificables. El certificado ISO 9001, informe BSCI, licencia comercial y documentos de registro de fábrica están disponibles bajo solicitud. Visitas de fábrica bienvenidas. Especificaciones verificadas por última vez 2026-08.'
+
+faqs:
+  tagline: Preguntas Frecuentes
+  title: 'Identidad de Marca — Preguntas Frecuentes'
+  items:
+    - q: '¿Quién está detrás de la marca Neptunor?'
+      a: 'Neptunor es la marca B2B de fabricación de embarcaciones de Neptunor Marine Co., Ltd., un fabricante independiente con sede en Qingdao, Shandong, China. La entidad legal contratante para todos los pedidos es Neptunor Marine Co., Ltd. La marca, la fábrica, el equipo y el sistema de calidad son una sola operación.'
+    - q: '¿Venden embarcaciones bajo su propia marca?'
+      a: 'No. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos en ningún mercado. Esta es una política fundamental — no una posición temporal. Si encuentra una embarcación con la marca Neptunor en el mercado de consumo, no proviene de nuestra fábrica.'
+    - q: '¿Puedo visitar la fábrica?'
+      a: 'Sí. Recibimos visitas de fábrica y podemos organizar una auditoría estructurada que cubra todo el proceso de producción, puertas de control de calidad, almacén de materiales y revisión de documentación. Contáctenos para programar una visita.'
+    - q: '¿Qué fabrica Neptunor?'
+      a: 'Embarcaciones RIB y neumáticas: auxiliares y dinghies, modelos air-deck, botes de rescate y trabajo comercial, construidos con sistemas de tubo en PVC o Hipalón con costuras soldadas, suelos drop-stitch air-deck y consolas de fibra de vidrio o RIM. Toda la producción es OEM, ODM o marca privada para compradores profesionales.'
+
+cta:
+  title: '¿Listo para Verificar Nuestra Fábrica?'
+  subtitle: 'Solicite documentación, programe una visita de fábrica o inicie su breve de proyecto. Transparencia total, sin excepciones.'
+  actions:
+    - variant: primary
+      text: Solicitar Documentación
+      href: /es/contact#project-brief
+    - text: Verificar certificaciones y sistema de calidad
+      href: /es/proof-center
+    - text: Proceso de incorporación OEM
+      href: /es/oem-onboarding-guide

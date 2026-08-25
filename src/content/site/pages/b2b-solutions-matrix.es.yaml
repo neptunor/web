@@ -1,0 +1,134 @@
+meta:
+  title: 'Matriz de soluciones para clientes B2B | {SITE}'
+  description: 'Matriz completa de soluciones B2B de Neptunor para 24 tipos de cliente: desde startups de outdoor hasta instituciones de conservación marina.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Soluciones B2B
+  title: '24 soluciones B2B adaptadas a tu negocio'
+  subtitle: 'Desde fundadores de startups hasta distribuidores globales: encuentra la solución Neptunor exacta diseñada para tu modelo de negocio, tu sector y tus objetivos.'
+  image:
+    src: https://assets.neptunor.com/images/boats/factory/neptunor-factory-aerial-1.webp
+    alt: Fábrica e instalaciones de fabricación de Neptunor
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Una sola fábrica sirve todas las vías B2B: fabricación OEM/ODM con MOQ confirmado por proyecto (muestra 1–2 unidades, piloto 20–50, volumen estándar 90–100+ por rollo de 150 m; co-branding desde menos de 20 unidades), marca privada sobre plataformas probadas, distribución mayorista y programas de flotas para resorts, clubes y escuelas. Muestras en 10–15 días; producción en 30–45 días tras el PO y el depósito.'
+  verified: '2026-08'
+
+solutions:
+  title: Matriz de soluciones para clientes
+  subtitle: 'Cada tipo de cliente, su necesidad principal y la página de solución Neptunor diseñada para él.'
+  items:
+    - clientType: Fundador de startup de outdoor
+      need: Creación de marca
+      solutionPage: Crea tu marca de embarcación
+      link: /es/solutions/private-label-boats
+    - clientType: Responsable de marca outdoor
+      need: Expansión de la marca outdoor a los deportes acuáticos
+      solutionPage: Expande tu marca outdoor a los deportes acuáticos
+      link: /es/solutions/private-label-boats
+    - clientType: Concesionario de auxiliares de yate
+      need: Crecimiento del programa de auxiliares
+      solutionPage: Lleva la tecnología hinchable a tu programa de auxiliares
+      link: /es/solutions/yacht-tender-dealers
+    - clientType: Vendedor de Amazon
+      need: Crecimiento del e-commerce
+      solutionPage: Diferenciación de producto y suministro rápido
+      link: /es/solutions/private-label-boats
+    - clientType: Marca de equipo de pesca
+      need: Programa de embarcaciones de pesca
+      solutionPage: Crea tu marca de embarcación de pesca
+      link: /es/solutions/yacht-tender-dealers
+    - clientType: Escuela de buceo y deportes acuáticos
+      need: Ampliación de flota de actividades
+      solutionPage: Flotas de programa para escuelas y clubes
+      link: /es/solutions/fleet-rental
+    - clientType: Marca de creadores
+      need: Marca de influencers
+      solutionPage: Edición creador para embarcaciones
+      link: /es/solutions/private-label-boats
+    - clientType: Fundador de club náutico
+      need: Flota para club
+      solutionPage: Flota comercial de embarcaciones
+      link: /es/solutions/fleet-rental
+    - clientType: Propietario de negocio de alquiler
+      need: Operaciones de alquiler
+      solutionPage: Solución de flota de alquiler duradera
+      link: /es/solutions/fleet-rental
+    - clientType: Responsable de actividades de resort
+      need: Experiencia hotelera
+      solutionPage: Paquete de actividades acuáticas para resorts
+      link: /es/solutions/fleet-rental
+    - clientType: Academia de deportes acuáticos
+      need: Formación y educación
+      solutionPage: Programa de equipamiento para academias náuticas
+      link: /es/solutions/fleet-rental
+    - clientType: Compañía de cruceros y yates
+      need: Experiencia náutica
+      solutionPage: Paquete de embarcaciones portátiles de lujo
+      link: /es/solutions/fleet-rental
+    - clientType: Comprador minorista outdoor
+      need: Canal minorista
+      solutionPage: Programa de etiqueta privada minorista
+      link: /es/solutions/private-label-boats
+    - clientType: Distribuidor e importador
+      need: Distribución regional
+      solutionPage: Socio OEM regional y de cadena de suministro
+      link: /es/oem-manufacturing
+    - clientType: Comprador de proyectos corporativos
+      need: Eventos corporativos
+      solutionPage: Paquete de eventos náuticos corporativos
+      link: /es/solutions/private-label-boats
+    - clientType: Responsable de marca de deportes acuáticos
+      need: Expansión de marca de deportes acuáticos
+      solutionPage: Expande tu cartera de deportes acuáticos
+      link: /es/solutions/private-label-boats
+    - clientType: Propietario de marca de aventuras para mascotas
+      need: Outdoor con mascotas
+      solutionPage: Programa de embarcación para mascotas
+      link: /es/product-development
+    - clientType: Operador de recreo de playa
+      need: Entretenimiento de playa
+      solutionPage: Soluciones completas de equipamiento para actividades de playa
+      link: /es/solutions/fleet-rental
+    - clientType: Desarrollador de parques acuáticos
+      need: Entretenimiento temático
+      solutionPage: Flota de embarcaciones para parques acuáticos comerciales
+      link: /es/solutions/fleet-rental
+    - clientType: Propietario de isla privada y club de lujo
+      need: Estilo de vida de alta gama
+      solutionPage: Colección premium de embarcaciones a medida
+      link: /es/product-development
+    - clientType: Oficina de turismo y operador de parque público
+      need: Proyectos de turismo público
+      solutionPage: Paquete de deportes acuáticos de destino
+      link: /es/solutions/fleet-rental
+    - clientType: Operador de campamento de verano y aventura infantil
+      need: Educación juvenil
+      solutionPage: Programa de exploración infantil en embarcación
+      link: /es/solutions/fleet-rental
+    - clientType: Organización de rescate y seguridad acuática
+      need: Rescate profesional
+      solutionPage: Sistema profesional de rescate acuático
+      link: /es/solutions
+    - clientType: Institución de conservación e investigación marina
+      need: Investigación medioambiental
+      solutionPage: Plataforma ecológica de investigación y monitorización
+      link: /es/solutions/fleet-rental
+
+cta:
+  title: '¿No sabes qué solución se adapta a tu negocio?'
+  subtitle: 'Describe tu proyecto a nuestro equipo B2B y te recomendaremos la configuración y los precios adecuados.'
+  actions:
+    - variant: primary
+      text: Habla con nuestro equipo B2B
+      href: /es/contact?subject=b2b-solutions
+    - variant: secondary
+      text: Descargar catálogo
+      href: /es/knowledge
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Todas las rutas de esta matriz parten de lo mismo: nuestro <a href="/es/oem-manufacturing">programa de fabricación OEM/ODM</a> y la <a href="/es/factory">fábrica</a> — una planta de 18.000 m&sup2;, un mismo estándar de calidad para cada canal.</p>
+  </div>

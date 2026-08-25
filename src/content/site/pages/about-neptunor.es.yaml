@@ -1,0 +1,107 @@
+meta:
+  title: 'Sobre Neptunor — Fabricante de Embarcaciones RIB y Neumáticas en Qingdao | Neptunor'
+  description: 'Neptunor es la marca B2B de fabricación de embarcaciones de Neptunor Marine Co., Ltd. — una fábrica de RIB y neumáticas de 18.000 m² en Qingdao, China que produce más de 60.000 embarcaciones al año.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'Sobre Neptunor'
+    - 'Neptunor Marine Co., Ltd.'
+    - 'fabricante RIB Qingdao'
+    - 'fábrica de embarcaciones neumáticas China'
+
+hero:
+  tagline: 'Sobre Neptunor'
+  title: 'Una Fábrica. Una Marca. Cada Embarcación Construida Para Ti.'
+  subtitle: 'Neptunor es la marca B2B de fabricación de embarcaciones de Neptunor Marine Co., Ltd. — una planta de RIB y neumáticas de 18.000 m² en Qingdao, Shandong, China, creada para marcas, concesionarios y operadores de flota.'
+
+intro:
+  - Neptunor existe para simplificar la fabricación profesional de embarcaciones. Bajo una única entidad legal — Neptunor Marine Co., Ltd. — operamos un campus de producción de 18.000 m² en Qingdao con cuatro talleres especializados y cuatro líneas automatizadas, produciendo más de 60.000 embarcaciones al año para socios en más de 40 países de exportación.
+  - Somos ingenieros y constructores navales ante todo. El diseño, la ingeniería de cascos, la soldadura RF, el acabado de consolas, el montaje, las pruebas y la documentación de exportación ocurren todos bajo nuestro propio techo, así que cada compromiso que asumimos es uno que controlamos.
+
+stats:
+  - value: 18.000 m²
+    label: Campus de fabricación
+  - value: 300+
+    label: Trabajadores cualificados
+  - value: 60.000+
+    label: Embarcaciones producidas al año
+  - value: 40+
+    label: Países de exportación
+
+factory_details:
+  heading: 'La Fábrica'
+  body: |
+    Nuestro campus de Qingdao está organizado en cuatro talleres especializados sobre una única línea de flujo:
+
+    - **Material y corte** — Corte CNC de tejido con precisión de 0,1 mm, inspección entrante de PVC/Hipalón contra certificados de lote.
+    - **Fabricación** — Prensas de soldadura RF de alta frecuencia de 25 kW y celdas de soldadura de aire caliente producen los sistemas de tubo, costuras y paneles de suelo air-deck.
+    - **Montaje y acabado** — Integración casco-tubo, montaje de consolas de fibra de vidrio/RIM, aparejo y controles de montaje de 120 puntos.
+    - **Pruebas y liberación** — Un laboratorio de calidad dedicado ejecuta las 7 puertas de QC (Nodo 01–07), incluida una retención de presión de 24 horas a 0,35 bar por cámara, antes de que cualquier embarcación salga.
+
+team_structure:
+  tagline: 'Cómo Estamos Organizados'
+  title: 'Estructura de Equipo'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Ingeniería e I+D'
+      desc: 'Diseño de cascos, hidrodinámica, taller de prototipos, laboratorios de materiales e ingeniería de certificación — el equipo que convierte briefs en especificaciones construibles.'
+    - icon: P
+      icon_bg: green
+      title: 'Producción'
+      desc: 'Cuatro equipos de taller en cuatro líneas automatizadas, unas 5.000 embarcaciones al mes, cada unidad serializada para una trazabilidad de 10 años.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Calidad'
+      desc: 'Una organización de QC independiente que reporta a la dirección de planta — muestreo ISO 2859-1 Nivel II, coordinación con SGS/TÜV/BV/Intertek e inspecciones con presencia del comprador.'
+    - icon: S
+      icon_bg: orange
+      title: 'Ventas y Gestión de Proyecto'
+      desc: 'Gerentes de proyecto multilingües que son dueños de tu programa desde la cotización hasta el envío — un solo contacto, responsabilidad total.'
+
+values:
+  tagline: 'En Qué Creemos'
+  title: 'Principios de Operación'
+  features:
+    - icon: T
+      icon_bg: blue
+      title: 'Transparencia'
+      desc: 'Solo afirmaciones verificables. Certificados, informes de ensayo, registros de auditoría y documentación QC anonimizada están disponibles para los compradores bajo solicitud.'
+    - icon: E
+      icon_bg: green
+      title: 'Ingeniería Primero'
+      desc: 'Cada proyecto personalizado empieza con viabilidad y simulación, no con suposiciones — CAD, FEA y pruebas en agua antes del utillaje.'
+    - icon: P
+      icon_bg: purple
+      title: 'Protección al Socio'
+      desc: 'Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos. Solo B2B — sin ventas al consumidor.'
+    - icon: C
+      icon_bg: orange
+      title: 'Consistencia'
+      desc: 'Bases fijadas, retrabajo controlado y gestión documentada de cambios mantienen la unidad 1.000 idéntica a la unidad 10.'
+
+certifications:
+  tagline: 'Credenciales'
+  title: 'Certificaciones y Normas'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'CE — RCD EU 2013/53/EU'
+      desc: 'Conformidad con la Directiva de Embarcaciones de Recreo para categorías de diseño C y D, respaldada por la serie ISO 6185 para embarcaciones neumáticas.'
+    - icon: Q
+      icon_bg: green
+      title: 'ISO 9001:2015'
+      desc: 'Sistema de gestión de calidad en toda la fábrica auditado anualmente, con cumplimiento social BSCI.'
+    - icon: M
+      icon_bg: purple
+      title: 'Materiales y Cumplimiento'
+      desc: 'Documentación REACH y RoHS para tejidos, adhesivos y accesorios; ensayos de terceros vía SGS, TÜV, BV e Intertek.'
+
+cta:
+  title: 'Compruébalo Personalmente'
+  subtitle: 'Solicita documentación, reserva una auditoría de fábrica (presencial o por videollamada) o inicia hoy tu brief de proyecto.'
+  actions:
+    - variant: primary
+      text: Contactar Neptunor
+      href: /es/contact#project-brief
+    - text: Explorar la fábrica
+      href: /es/factory

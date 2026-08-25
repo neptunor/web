@@ -1,0 +1,16 @@
+badge: Latest Research
+heading: Knowledge Center
+description: In-depth technical research on RIB and inflatable boat materials, hull construction, safety standards, and OEM manufacturing
+topics:
+  - slug: drop-stitch-technology
+    category: Technology
+    readTime: 8 min read
+  - slug: pvc-vs-hypalon
+    category: Materials
+    readTime: 10 min read
+  - slug: ce-certification-guide
+    category: Compliance
+    readTime: 7 min read
+  - slug: oem-buyer-guide
+    category: Sourcing
+    readTime: 12 min read

@@ -1,0 +1,134 @@
+meta:
+  title: 'B2B Client Solutions Matrix | {SITE}'
+  description: 'Complete Neptunor B2B client solutions matrix covering 24 customer types — from outdoor startups to marine conservation institutions.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: B2B Client Solutions
+  title: '24 B2B Solutions Matched to Your Business'
+  subtitle: 'From startup founders to global distributors — find the exact Neptunor solution designed for your business model, industry, and goals.'
+  image:
+    src: https://assets.neptunor.com/images/boats/factory/neptunor-factory-aerial-1.webp
+    alt: Neptunor factory and manufacturing facility
+
+answer:
+  label: 'Straight answer'
+  text: 'One factory serves every B2B route: OEM/ODM manufacturing with project-confirmed MOQ (sample 1–2 units, pilot 20–50, standard volume 90–100+ per 150 m roll; co-branding from 5–10 units), private label on proven platforms, wholesale distribution and fleet programs for resorts, clubs and schools. Every customer type maps to a specific solution set — samples in 10–15 days, production 30–45 days after PO and deposit.'
+  verified: '2026-08'
+
+solutions:
+  title: Client Solutions Matrix
+  subtitle: 'Every customer type, their core need, and the Neptunor solution page designed for them.'
+  items:
+    - clientType: Outdoor Startup Founder
+      need: Brand Creation
+      solutionPage: Build Your Boat Brand
+      link: /solutions/private-label-boats
+    - clientType: Outdoor Brand Manager
+      need: Outdoor Brand Expansion Into Water Sports
+      solutionPage: Expand Outdoor Brand Into Water Sports
+      link: /solutions/private-label-boats
+    - clientType: Yacht Tender Dealer
+      need: Tender Program Growth
+      solutionPage: Bring Inflatable Technology Into Your Tender Program
+      link: /solutions/yacht-tender-dealers
+    - clientType: Amazon Seller
+      need: E-commerce Growth
+      solutionPage: Product Differentiation & Fast Supply
+      link: /solutions/private-label-boats
+    - clientType: Fishing Gear Brand
+      need: Fishing Boat Program
+      solutionPage: Create Your Fishing Boat Program
+      link: /solutions/yacht-tender-dealers
+    - clientType: Dive & Watersports School
+      need: Activity Fleet Expansion
+      solutionPage: Program Fleets for Schools and Clubs
+      link: /solutions/fleet-rental
+    - clientType: Creator Brand
+      need: Influencer Brand
+      solutionPage: Creator Edition boat Startup
+      link: /solutions/private-label-boats
+    - clientType: Boat Club Founder
+      need: Club Fleet
+      solutionPage: Commercial boat Fleet
+      link: /solutions/fleet-rental
+    - clientType: Rental Business Owner
+      need: Rental Operations
+      solutionPage: Durable Rental Fleet Solution
+      link: /solutions/fleet-rental
+    - clientType: Resort Activity Manager
+      need: Hotel Experience
+      solutionPage: Resort Water Activity Package
+      link: /solutions/fleet-rental
+    - clientType: Water Sports Academy
+      need: Training & Education
+      solutionPage: Boat Academy Equipment Program
+      link: /solutions/fleet-rental
+    - clientType: Cruise & Yacht Company
+      need: Yacht Experience
+      solutionPage: Luxury Portable Boat Package
+      link: /product-development
+    - clientType: Outdoor Retail Buyer
+      need: Retail Channel
+      solutionPage: Retail Private Label Program
+      link: /solutions/private-label-boats
+    - clientType: Distributor & Importer
+      need: Regional Distribution
+      solutionPage: Regional OEM & Supply Chain Partner
+      link: /partners
+    - clientType: Corporate Project Buyer
+      need: Corporate Events
+      solutionPage: Corporate Boat Event Package
+      link: /contact
+    - clientType: Water Sports Brand Manager
+      need: Water Sports Brand Expansion
+      solutionPage: Expand Your Water Sports Portfolio
+      link: /solutions/private-label-boats
+    - clientType: Pet Adventure Brand Owner
+      need: Pet Outdoor
+      solutionPage: Pet-Friendly Boat Program
+      link: /product-development
+    - clientType: Beach Recreation Operator
+      need: Beach Entertainment
+      solutionPage: Complete Beach Activity Equipment Solutions
+      link: /solutions/fleet-rental
+    - clientType: Water Park Developer
+      need: Theme Entertainment
+      solutionPage: Commercial Water Park Boat Fleet
+      link: /solutions/fleet-rental
+    - clientType: Private Island & Luxury Club Owner
+      need: High-End Lifestyle
+      solutionPage: Premium Custom Boat Collection
+      link: /product-development
+    - clientType: Tourism Boat & Public Park Operator
+      need: Public Tourism Projects
+      solutionPage: Destination Water Sports Package
+      link: /solutions/fleet-rental
+    - clientType: Kids Adventure & Summer Camp Operator
+      need: Youth Education
+      solutionPage: Kids Exploration Boat Program
+      link: /solutions/fleet-rental
+    - clientType: Water Rescue & Safety Organization
+      need: Professional Rescue
+      solutionPage: Professional Water Rescue Boat System
+      link: /product-development
+    - clientType: Marine Conservation & Research Institution
+      need: Environmental Research
+      solutionPage: Eco Research & Monitoring Boat Platform
+      link: /product-development
+
+cta:
+  title: 'Not sure which solution fits your business?'
+  subtitle: 'Describe your project to our B2B team and we will recommend the right configuration and pricing.'
+  actions:
+    - variant: primary
+      text: Talk to Our B2B Team
+      href: /contact?subject=b2b-solutions
+    - variant: secondary
+      text: Download Catalog
+      href: /products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Every route on this matrix starts with the same two things: our <a href="/oem-manufacturing">OEM/ODM manufacturing program</a> and the <a href="/factory">factory behind it</a> — one 18,000 m&sup2; plant, one set of quality standards, every channel served.</p>
+  </div>

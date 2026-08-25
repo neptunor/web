@@ -1,0 +1,14 @@
+meta:
+  title: 'News — boat Manufacturer & Nautical Updates | {SITE}'
+  description: 'Latest news from Neptunor: factory updates, new inflatable boat models, certifications, and nautical industry announcements.'
+  keywords:
+    - 'boat manufacturer news'
+    - 'Neptunor updates'
+    - 'inflatable boat announcements'
+    - 'nautical industry news'
+hero_text:
+  tagline: ''
+  title: News
+  subtitle: The latest from Neptunor —product launches, company updates, guides, and stories from the water
+news_list:
+  limit: 100

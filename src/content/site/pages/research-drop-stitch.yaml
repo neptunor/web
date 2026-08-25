@@ -1,0 +1,79 @@
+﻿meta:
+  title: 'How Drop Stitch Works — Air-Deck Floors & Rigid Panels'
+  description: 'How drop stitch turns flexible PVC into rigid panels for air-deck floors and seats in inflatable dinghies and RIB tenders: construction, materials, quality indicators and applications.'
+  author: 'Neptunor'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Back to Research'
+
+answer:
+  label: 'Straight answer'
+  text: 'Drop-stitch is a fabric whose pillars of polyester thread hold the top and bottom PVC layers a fixed distance apart, so air pressure turns the panel rigid. Neptunor uses it for air-deck floors and seat panels in inflatable dinghies and RIB tenders: 1,680 DTEX, 2 threads per square inch, 1.2 mm PVC outer laminate, validated by a 24-hour hold test at 0.35 bar.'
+  verified: '2026-08'
+
+hero:
+  tagline: 'Technology'
+  title: 'How Drop Stitch Works — The Engineering Behind Air-Deck Floors'
+  subtitle: '8 min read'
+
+content_html: |
+  <h2>What Is Drop Stitch?</h2>
+  <p>Drop stitch (also called "drop-stitch fabric" or "double-wall fabric") is a construction method in which thousands of individual polyester threads connect the top and bottom layers of a fabric shell. When the panel is inflated, these threads act as internal tension members — they prevent the top and bottom layers from bulging outward into a tube shape, forcing the panel to remain flat and rigid.</p>
+  <p>The result is a lightweight, portable structure that holds a fixed shape under load — a flat, walkable floor or a firm seat base that rolls up when deflated. This is exactly what an inflatable boat needs: rigidity on the water, compact volume in the box.</p>
+
+  <h2>How It Works: The Physics</h2>
+  <p>In a conventional inflatable structure (like a tube or fender), internal air pressure pushes equally in all directions, so the chamber naturally forms a cylinder. Drop stitch solves this by introducing tensile reinforcement:</p>
+  <ul>
+    <li>Thousands of threads connect the top and bottom fabric layers</li>
+    <li>When inflated, the air pressure tries to push the top and bottom apart</li>
+    <li>The threads resist this separation, transferring the load into tension along the thread axis</li>
+    <li>The result is a flat, rigid panel that resists bending underfoot</li>
+  </ul>
+
+  <h2>Construction Process</h2>
+  <ol>
+    <li><strong>Weaving:</strong> Polyester threads are woven simultaneously into two separate layers of base fabric (typically 1,100 DTEX or 1,680 DTEX PVC-coated polyester). The threads are loop-woven between the layers at a 90&deg; angle.</li>
+    <li><strong>Coating:</strong> The woven base fabric is coated with PVC (or occasionally TPU) using a knife-coating or calendar-coating process. This seals the threads and creates the air-tight membrane.</li>
+    <li><strong>Panel cutting:</strong> The laminated core is CNC-cut to the floor or seat geometry of the specific hull, so the panel locks between tube and keel without gaps.</li>
+    <li><strong>Welding:</strong> Panel edges and valve bases are sealed using hot-air welding or RF welding, integrating the panel with the boat's welded construction.</li>
+    <li><strong>Valve installation:</strong> Standard inflation valves are installed, typically with a pressure relief mechanism to prevent over-inflation of the panel.</li>
+  </ol>
+
+  <h2>Key Quality Indicators</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parameter</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Entry Level</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Thread density</td><td class="p-3 border">1 thread / sq in</td><td class="p-3 border">2 threads / sq in</td></tr>
+      <tr><td class="p-3 border">Base fabric</td><td class="p-3 border">1,100 DTEX</td><td class="p-3 border">1,680 DTEX</td></tr>
+      <tr><td class="p-3 border">Panel stiffness</td><td class="p-3 border">Serviceable flex under load</td><td class="p-3 border">Near-rigid underfoot at working pressure</td></tr>
+      <tr><td class="p-3 border">PVC thickness</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Edge construction</td><td class="p-3 border">Folded &amp; glued</td><td class="p-3 border">Welded &amp; fusion-bonded</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Applications in Inflatable Boats</h2>
+  <ul>
+    <li><strong>Air-deck floors:</strong> Roll-up dinghies and tenders use drop-stitch floors as the walking surface — a firm, flat deck that replaces slatted wood floors at a fraction of the weight.</li>
+    <li><strong>RIB floors and footwells:</strong> Drop-stitch panels serve as lightweight interior decks, casting platforms and footwell inserts in larger RIB tenders.</li>
+    <li><strong>Seat bases and benches:</strong> Rigid, pressure-held seat panels that stay flat under crew weight and stow flat inside the boat bag.</li>
+    <li><strong>Fenders and dock structures:</strong> Low-pressure drop stitch for shaped fenders with flat faces.</li>
+  </ul>
+
+  <h2>Drop Stitch vs. Plywood or Aluminum Floors</h2>
+  <p>Traditional inflatables use segmented plywood or aluminum floorboards: stiff and proven, but heavy, rattly and awkward to pack. A drop-stitch air-deck trades a small amount of stiffness for major gains in weight, setup time and packed volume — one person can roll the deck out and inflate it in minutes. For commercial rental fleets and yacht tenders, the reduced crew strain and faster turnaround usually outweigh the stiffness difference.</p>
+
+  <h2>How Neptunor Uses Drop Stitch</h2>
+  <p>Neptunor builds its air-deck floors and seat panels from a 1,680 DTEX drop-stitch core with 2 threads per square inch and a 1.2 mm PVC outer laminate. Panels are CNC-cut to each hull's floor geometry, edge-welded with hot-air triple-layer fusion, and every finished boat — tubes and air-deck together — passes a 24-hour pressure hold test at 0.35 bar before shipment, with tube working pressure set at 0.25 bar.</p>
+  <p>Drop-stitch is one pillar of our boat construction — see the <a href="/technology">technology overview</a> and how panels are integrated on the <a href="/factory">factory production line</a>.</p>
+
+cta:
+  title: 'Want to learn more about drop stitch?'
+  subtitle: 'Contact us for technical specifications and OEM inquiries.'
+  button_text: 'Contact sales'
+  button_link: /contact

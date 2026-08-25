@@ -1,0 +1,107 @@
+meta:
+  title: 'About Neptunor — RIB & Inflatable Boat Manufacturer in Qingdao | Neptunor'
+  description: 'Neptunor is the B2B boat-manufacturing brand of Neptunor Marine Co., Ltd. — an 18,000 m² RIB and inflatable boat factory in Qingdao, China producing 60,000+ boats a year.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'About Neptunor'
+    - 'Neptunor Marine Co., Ltd.'
+    - 'RIB manufacturer Qingdao'
+    - 'inflatable boat factory China'
+
+hero:
+  tagline: 'About Neptunor'
+  title: 'One Factory. One Brand. Every Boat Built for You.'
+  subtitle: 'Neptunor is the B2B boat-manufacturing brand of Neptunor Marine Co., Ltd. — an 18,000 m² RIB and inflatable boat plant in Qingdao, Shandong, China, built for brands, dealers and fleet operators.'
+
+intro:
+  - Neptunor exists to make professional boat manufacturing simple. Under one legal entity — Neptunor Marine Co., Ltd. — we run an 18,000 m² production campus in Qingdao with four specialized workshops and four automated lines, producing more than 60,000 boats a year for partners in 40+ export countries.
+  - We are engineers and boatbuilders first. Design, hull engineering, RF welding, console finishing, assembly, testing and export documentation all happen under our own roof, so every commitment we make is one we control.
+
+stats:
+  - value: 18,000 m²
+    label: Manufacturing campus
+  - value: 300+
+    label: Skilled workers
+  - value: 60,000+
+    label: Boats produced annually
+  - value: 40+
+    label: Export countries
+
+factory_details:
+  heading: 'The Factory'
+  body: |
+    Our Qingdao campus is organized into four specialized workshops on a single flow line:
+
+    - **Material & cutting** — CNC fabric cutting at 0.1 mm precision, incoming PVC/Hypalon inspection against batch certificates.
+    - **Fabrication** — 25 kW high-frequency RF welding presses and hot-air welding cells produce the tube systems, seams and air-deck floor panels.
+    - **Assembly & finishing** — Hull-to-tube integration, fiberglass/RIM console mounting, rigging and 120-point assembly checks.
+    - **Testing & release** — A dedicated quality lab runs 7-stage QC gates (Node 01–07), including 24-hour pressure holds at 0.35 bar per chamber, before any boat ships.
+
+team_structure:
+  tagline: 'How We Are Organized'
+  title: 'Team Structure'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Engineering & R&D'
+      desc: 'Hull design, hydrodynamics, prototyping workshop, material labs and certification engineering — the team that turns briefs into buildable specifications.'
+    - icon: P
+      icon_bg: green
+      title: 'Production'
+      desc: 'Four workshop teams across four automated lines, ~5,000 boats per month, every unit serialized for 10-year traceability.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Quality'
+      desc: 'An independent QC organization reporting to plant management — ISO 2859-1 Level II sampling, SGS/TÜV/BV/Intertek coordination and buyer witness inspections.'
+    - icon: S
+      icon_bg: orange
+      title: 'Sales & Project Management'
+      desc: 'Multilingual project managers who own your program from quotation through shipment — one contact, full accountability.'
+
+values:
+  tagline: 'What We Stand For'
+  title: 'Operating Principles'
+  features:
+    - icon: T
+      icon_bg: blue
+      title: 'Transparency'
+      desc: 'Verifiable claims only. Certificates, test reports, audit records and anonymized QC documentation are available to buyers on request.'
+    - icon: E
+      icon_bg: green
+      title: 'Engineering First'
+      desc: 'Every custom project starts with feasibility and simulation, not guesswork — CAD, FEA and water testing before tooling.'
+    - icon: P
+      icon_bg: purple
+      title: 'Partner Protection'
+      desc: 'We manufacture exclusively under our clients'' brands and never compete with them. B2B only — no consumer sales.'
+    - icon: C
+      icon_bg: orange
+      title: 'Consistency'
+      desc: 'Locked baselines, controlled rework and documented change management keep unit 1,000 identical to unit 10.'
+
+certifications:
+  tagline: 'Credentials'
+  title: 'Certifications & Standards'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'CE — EU RCD 2013/53/EU'
+      desc: 'Recreational Craft Directive conformity for design categories C and D, supported by the ISO 6185 series for inflatable boats.'
+    - icon: Q
+      icon_bg: green
+      title: 'ISO 9001:2015'
+      desc: 'Factory-wide quality management system audited annually, with BSCI social compliance.'
+    - icon: M
+      icon_bg: purple
+      title: 'Materials & Compliance'
+      desc: 'REACH and RoHS documentation for fabrics, adhesives and fittings; third-party testing via SGS, TÜV, BV and Intertek.'
+
+cta:
+  title: 'See It for Yourself'
+  subtitle: 'Request documentation, book a factory audit (on-site or by video call), or start your project brief today.'
+  actions:
+    - variant: primary
+      text: Contact Neptunor
+      href: /contact#project-brief
+    - text: Explore the factory
+      href: /factory

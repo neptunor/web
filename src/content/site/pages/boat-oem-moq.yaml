@@ -1,0 +1,88 @@
+meta:
+  title: 'Custom Boat MOQ & Lead Time — Tiers, Timelines and Cost Drivers | Neptunor'
+  description: 'MOQ and lead-time framework for custom RIB and inflatable boat orders at Neptunor: sample, co-branding, pilot and volume tiers, production timelines and the real cost drivers.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'custom boat MOQ'
+    - 'inflatable boat OEM lead time'
+    - 'RIB tender MOQ'
+    - 'boat manufacturing timeline'
+
+hero:
+  tagline: 'MOQ & Lead Time'
+  title: 'Custom Boat MOQ & Lead Time'
+  subtitle: 'A transparent tier framework for Neptunor boat programs — from first samples to full container runs — with honest lead times and the cost drivers that move them.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Neptunor works in five MOQ tiers: samples 1–2 boats, co-branding 5–10, pilot runs 20–50, standard volume 90–100+ per configuration (one full fabric roll cycle), and new hull/console tooling programs from 50–100+. Samples ship in 10–15 days after specification freeze; standard production runs 30–45 days from confirmed PO and deposit. New hull or console tooling adds 20–35 days before mass production.'
+  verified: '2026-08'
+
+moq_tiers_table:
+  title: 'MOQ & Lead-Time Tiers'
+  headers: ['Tier', 'Quantity', 'Lead Time', 'Best For']
+  rows:
+    - ['Sample', '1–2 boats', '10–15 days', 'Fit, finish and spec validation before committing']
+    - ['Co-branding', '5–10 boats', '15–25 days', 'Your branding on a proven platform hull']
+    - ['Pilot run', '20–50 boats', '25–35 days', 'Market testing, first dealership placements']
+    - ['Standard volume', '90–100+ per config', '30–45 days', 'Full production from one complete fabric roll cycle']
+    - ['New tooling program', '50–100+ boats', '+20–35 days tooling, then 30–45 days production', 'Custom hull shapes, consoles or structural changes']
+
+cost_drivers:
+  tagline: 'What Moves Your Price'
+  title: 'Cost Drivers Behind Every Quote'
+  subtitle: 'Four factors determine both MOQ economics and final unit cost.'
+  features:
+    - icon: F
+      icon_bg: blue
+      title: 'Fabric Batch Yield'
+      desc: 'Boat length, tube diameter and nesting efficiency decide how many hulls one 150 m PVC fabric roll yields. Longer boats and wider tubes lower the yield per roll, raising the practical MOQ per configuration.'
+    - icon: C
+      icon_bg: green
+      title: 'Console & Hull Tooling'
+      desc: 'Custom consoles or fiberglass/RIM hulls require dedicated tooling — quoted separately, amortized across the first run, and adding 20–35 days before production starts.'
+    - icon: A
+      icon_bg: purple
+      title: 'Accessories Package'
+      desc: 'Oars, pumps, seats, wheels, repair kits and console electronics each add BOM lines. Shared accessory kits across models reduce per-unit cost and inventory.'
+    - icon: P
+      icon_bg: orange
+      title: 'Packaging & Export'
+      desc: 'Retail cartons, barcode marking, container load plans and incoterms (FOB Qingdao default) are locked at quotation so the price you plan against is the price that ships.'
+
+timeline:
+  title: 'End-to-End Timeline'
+  steps:
+    - title: 'Specification freeze'
+      description: 'Drawings, BOM, branding artwork and certification targets confirmed and signed. Days 0–3.'
+    - title: 'Sampling'
+      description: 'First articles built and shipped in 10–15 days for your inspection and water testing.'
+    - title: 'Tooling (if required)'
+      description: 'Hull or console molds produced in parallel with pilot planning — adds 20–35 days only on new-tooling programs.'
+    - title: 'Production'
+      description: '30–45 days from PO confirmation and deposit: material incoming QC, welding, assembly, 120-point checks and 24-hour pressure holds at 0.35 bar.'
+    - title: 'Shipment release'
+      description: 'Pre-shipment inspection, container loading and export documentation from the Port of Qingdao.'
+
+faqs:
+  tagline: FAQ
+  title: 'MOQ & Lead Time — Frequently Asked Questions'
+  items:
+    - q: 'Can I order fewer than 90 boats?'
+      a: 'Yes. Sample, co-branding and pilot tiers exist exactly for that. Most new brands start with a 5–10 boat co-branding batch on a proven hull, then scale into full 90–100+ configurations once the market validates.'
+    - q: 'Why does a "standard" MOQ track the fabric roll?'
+      a: 'Tube fabric is bought and cut in 150 m master rolls. A configuration is priced on full-roll yield — typically 90–100+ dinghies depending on length and tube diameter — which is why the volume tier is expressed per configuration rather than as one blanket number.'
+    - q: 'How fast can a repeat order ship?'
+      a: 'Repeat orders with frozen specs and reserved material slots typically land at the faster end of the 30–45 day window, because sampling, tooling and approval gates are already cleared.'
+    - q: 'Does tooling cost apply to every project?'
+      a: 'No. It applies only when you need a new hull shape, console mold or structural change outside our validated platforms. Where it applies, the fee is amortized across the first production run and stated in writing at quotation.'
+
+cta:
+  title: 'Ready to Scope Your Boat Program?'
+  subtitle: 'Send your target boat type, size and quantity — we will return a tier recommendation, lead time and itemized quote.'
+  actions:
+    - variant: primary
+      text: Request a Quote
+      href: /contact#project-brief
+    - text: Review the flexible branding guide
+      href: /oem-moq-guide

@@ -1,0 +1,90 @@
+meta:
+  title: 'Inicia Tu Proyecto de Embarcación — Lista de Intake OEM/ODM | Neptunor'
+  description: 'Inicia tu proyecto de embarcación RIB o neumática con Neptunor: la lista de verificación que prepara el comprador — mercado objetivo, tipo de embarcación, tamaño, cantidad, certificación, marca y cronograma.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'iniciar proyecto de embarcación'
+    - 'consulta OEM embarcaciones neumáticas'
+    - 'brief fabricante RIB'
+    - 'proyecto auxiliar personalizado'
+
+hero:
+  tagline: 'Inicia Tu Proyecto'
+  title: 'Inicia Tu Proyecto de Embarcación'
+  subtitle: 'Un brief estructurado es todo lo que hace falta. Esto es exactamente lo que debes preparar antes de contactar a Neptunor — para que tu primera cotización llegue cerca de la final.'
+
+answer:
+  label: 'Qué ocurre después'
+  text: 'Envíanos el brief de tu proyecto a través del formulario de contacto o por email a info@neptunor.com. En un día laborable recibes una respuesta revisada por ingeniería; en tres, una recomendación de nivel, precios orientativos y un plan de muestreo. Las muestras salen en 10–15 días tras la congelación de especificaciones.'
+  verified: '2026-08'
+
+process_steps:
+  title: 'Del Brief a la Producción'
+  steps:
+    - title: 'Envía tu brief'
+      description: 'Mercado objetivo, tipo de embarcación, tamaños, cantidades y cronograma — un email breve basta para empezar.'
+    - title: 'Revisión de ingeniería'
+      description: 'Nuestro equipo de proyecto verifica viabilidad, alcance de certificación y opciones de configuración en 24 horas.'
+    - title: 'Cotización y niveles'
+      description: 'Cotización detallada con recomendación de nivel de MOQ (muestra, co-branding, piloto o volumen) y plazo.'
+    - title: 'Muestreo'
+      description: 'Primera unidad construida en 10–15 días para tu inspección, prueba en agua y aprobación.'
+    - title: 'Producción y exportación'
+      description: 'Producción de 30–45 días con 7 puertas de QC, luego liberación de envío desde Qingdao.'
+
+collaboration_types:
+  tagline: 'Elige Tu Modo'
+  title: 'Cuatro Formas de Trabajar Con Nosotros'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM'
+      desc: 'Tus planos y especificaciones, nuestra línea de producción. Tú posees la propiedad intelectual del diseño de principio a fin.'
+    - icon: D
+      icon_bg: green
+      title: 'ODM'
+      desc: 'Desarrollamos la embarcación a partir de tu brief — concepto de mercado, objetivos de rendimiento o adaptación de plataforma — y apruebas antes de producir.'
+    - icon: P
+      icon_bg: purple
+      title: 'Marca Privada'
+      desc: 'Tu marca, gráficos y embalaje sobre un casco probado y validado, sin cambios estructurales.'
+    - icon: F
+      icon_bg: orange
+      title: 'Flota Comercial'
+      desc: 'Programas de alquiler, resort, rescate y concesionarios configurados por ciclo de uso, servicio y suministro de repuestos.'
+
+what_we_need:
+  heading: 'Lista de Intake — Qué Preparar'
+  body: |
+    Cuanto más completo sea tu brief, menos rondas de cotización. Prepara estos siete puntos:
+
+    - **Mercado objetivo** — país o región de venta; define el alcance de certificación (Directiva Europea de Embarcaciones de Recreo 2013/53/EU categorías C/D, ISO 6185, registros locales).
+    - **Tipo de embarcación** — auxiliar RIB, dinghy air-deck, bote de rescate/trabajo, modelo de flota de alquiler o un concepto personalizado.
+    - **Tamaño** — eslora y manga objetivo, capacidad de pasajeros y diámetro de tubo si lo conoces.
+    - **Cantidad** — estimación del primer pedido y proyección a 12 meses, para recomendar el nivel de MOQ adecuado.
+    - **Necesidades de certificación** — categoría CE, inspecciones de terceros (SGS/TÜV/BV/Intertek) o documentación específica del mercado.
+    - **Marca** — ubicación del logo, gráficos del casco, branding de consola, embalaje y manuales.
+    - **Cronograma** — fecha requerida de muestra y ventana de lanzamiento, incluidos plazos de ferias.
+
+faqs:
+  tagline: Preguntas Frecuentes
+  title: 'Iniciar un Proyecto — Preguntas Frecuentes'
+  items:
+    - q: '¿Necesito planos finales antes de contactaros?'
+      a: 'No. Una descripción clara del tipo de embarcación, tamaño, cantidad y mercado basta para una primera revisión de ingeniería y una cotización presupuestaria. Los planos pueden desarrollarse juntos en modo ODM o suministrarse después en modo OEM.'
+    - q: '¿Qué rapidez de respuesta tengo?'
+      a: 'Cada brief recibe una respuesta revisada por ingeniería en un día laborable, seguida de una cotización detallada normalmente en tres días laborables una vez clara la configuración.'
+    - q: '¿Pueden firmar un NDA antes de compartir diseños?'
+      a: 'Sí. Firmamos NDAs antes de recibir cualquier plano, arte o especificación propietaria, y todos los archivos del proyecto se almacenan en sistemas con control de acceso y trazabilidad de auditoría.'
+    - q: '¿Quién posee el diseño?'
+      a: 'En modo OEM, tú — por completo. En modo ODM, la propiedad de la plataforma adaptada a partir de tu brief se acuerda antes de empezar. En marca privada, la plataforma sigue siendo nuestra mientras todos los activos de marca siguen siendo tuyos.'
+
+cta:
+  title: 'Listos Cuando Lo Estés'
+  subtitle: 'Escribe a info@neptunor.com con tu lista — o adjunta lo que tengas y completamos el resto.'
+  actions:
+    - variant: primary
+      text: Envía Tu Brief de Proyecto
+      href: /es/contact#project-brief
+    - text: Revisar primero niveles de MOQ y plazos
+      href: /es/oem-boat-moq

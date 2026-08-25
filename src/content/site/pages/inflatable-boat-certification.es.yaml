@@ -1,0 +1,68 @@
+meta:
+  title: 'Guía de Certificación de Embarcaciones Neumáticas — RCD EU e ISO 6185 | Neptunor'
+  description: 'Cómo funciona la certificación de embarcaciones neumáticas: Directiva Europea de Embarcaciones de Recreo 2013/53/EU y categorías de diseño C/D, serie ISO 6185, documentos que recibe el comprador y cómo verificar la cobertura del certificado.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'certificación embarcaciones neumáticas'
+    - 'RCD EU 2013/53/EU'
+    - 'ISO 6185'
+    - 'categoría de diseño CE C D'
+
+hero:
+  tagline: 'Guía de Certificación'
+  title: 'Guía de Certificación de Embarcaciones Neumáticas'
+  subtitle: 'Qué significa realmente el marcado CE en una embarcación neumática, qué normas ISO lo respaldan y exactamente qué documentos debes recibir del fabricante antes del envío.'
+
+direct_answer:
+  label: 'Respuesta directa'
+  text: 'Para el mercado de la UE, las embarcaciones de recreo neumáticas deben ajustarse a la Directiva de Embarcaciones de Recreo 2013/53/EU (RCD). La mayoría de los auxiliares, dinghies y RIB que venden nuestros clientes se certifican en categoría de diseño C (navegación costera) o D (aguas abrigadas), con la conformidad demostrada frente a la serie armonizada ISO 6185. Neptunor entrega declaración de conformidad, informes de ensayo y soporte de marcado por proyecto — el alcance se confirma por modelo, nunca se reclama de forma universal.'
+  verified: '2026-08'
+
+details:
+  heading: 'Detalles de Certificación'
+  body: |
+    **Directiva Europea de Embarcaciones de Recreo 2013/53/EU (RCD).** La RCD aplica a las embarcaciones de recreo puestas en el mercado de la UE. Las embarcaciones neumáticas se evalúan en estabilidad, flotabilidad, francobordo y construcción frente a normas armonizadas; la directiva define cuatro categorías de diseño:
+
+    - **Categoría C (costera)** — diseñada para vientos de hasta fuerza 6 Beaufort y olas de unos 2 m; típica de auxiliares costeros, RIB y embarcaciones de día.
+    - **Categoría D (aguas abrigadas)** — vientos de hasta fuerza 4 Beaufort y olas ocasionales de menos de 0,5 m; típica de dinghies pequeños, auxiliares y uso en lagos.
+    - Las categorías A (océano) y B (alta mar) existen pero requieren cascos mayores; la mayoría de las neumáticas de esta clase se expiden como C o D.
+
+    **Serie ISO 6185.** La familia de normas armonizadas para embarcaciones neumáticas de hasta 8 m de eslora: ISO 6185-1 cubre embarcaciones con potencia máxima de motor de hasta 4,5 kW, ISO 6185-2 motores de 4,5–7,5 kW, e ISO 6185-3 motores superiores a 7,5 kW. Tu categoría de diseño objetivo y la potencia del motor determinan qué parte aplica.
+
+    **Cumplimiento complementario.** La ISO 9001 gobierna el sistema de calidad de fábrica detrás de cada unidad certificada; la documentación REACH/RoHS cubre los materiales; inspecciones de terceros (SGS, TÜV, BV, Intertek) pueden presenciar los ensayos según lo requiera el comprador.
+
+scope_notes:
+  heading: 'Notas de Alcance — Lee Antes de Comprar'
+  body: |
+    - **El CE es por modelo, no por fábrica.** Un certificado cubre un modelo, tamaño y categoría de diseño definidos. Ningún fabricante puede afirmar honestamente que "todos los productos son CE". Pregunta qué modelos tienen certificados vigentes.
+    - **La categoría de diseño condiciona el precio.** La categoría C exige más flotabilidad de reserva y estabilidad que la D — tubos más grandes, mayor francobordo, otra carga de cubierta. Confirma tu zona de uso antes del muestreo.
+    - **Los mercados fuera de la UE difieren.** Muchos mercados aceptan documentación basada en CE, pero otros exigen registros nacionales o documentación de transporte. Confirmamos los requisitos durante el intake del proyecto, no después de producir.
+    - **Certificar no es garantía.** La certificación demuestra conformidad en la evaluación; las condiciones comerciales de garantía viven en tu contrato de pedido.
+
+request:
+  heading: 'Documentos Que Recibes de Neptunor'
+  body: |
+    Para cada configuración certificada, los compradores reciben:
+
+    - **Declaración UE de Conformidad** citando la RCD, la parte ISO 6185 aplicable y la categoría de diseño.
+    - **Informes de ensayo** del modelo certificado — estabilidad, flotabilidad y pruebas de presión, además del registro de retención de presión de 24 horas a 0,35 bar por cámara.
+    - **Arte de placa del constructor y marcado** con fabricante, marca CE, categoría de diseño y carga máxima/personas — aplicado según dibujo aprobado.
+    - **Documentos de cumplimiento de materiales** (declaraciones REACH/RoHS) para tejidos, adhesivos y accesorios.
+    - **Informes de inspección de terceros** cuando el programa incluye presencia de SGS/TÜV/BV/Intertek.
+
+    Para verificar la cobertura antes de pedir, solicita el número de certificado y comprueba que nombre del modelo, eslora, potencia de motor, categoría de diseño y fechas de validez coinciden exactamente con tu especificación de compra.
+
+evidence_review:
+  tagline: 'Evidencia y Verificación'
+  title: 'VERIFICA ANTES DE COMPROMETERTE'
+  body: 'Neptunor aporta evidencia de certificación en la fase de cotización — copias de certificados con números, definiciones de alcance y muestras de informes de ensayo. Si un proveedor duda en mostrar cualquiera de los documentos listados, tómalo como señal de alerta. Contacta con info@neptunor.com para solicitar el paquete documental de tus modelos objetivo.'
+
+cta:
+  title: '¿Necesitas Certificación para Tu Mercado?'
+  subtitle: 'Dinos tu mercado objetivo y tipo de embarcación — trazaremos la ruta de certificación exacta, costes y cronograma de tu proyecto.'
+  actions:
+    - variant: primary
+      text: Preguntar por Certificación
+      href: /es/contact#project-brief
+    - text: Revisar nuestra página de certificaciones
+      href: /es/quality

@@ -1,0 +1,91 @@
+meta:
+  title: 'About Neptunor — Brand Identity | Neptunor'
+  description: 'Neptunor brand identity: RIB boat and inflatable boat OEM/ODM manufacturer. Legal entity, 18,000 m² Qingdao factory, certifications and B2B brand positioning.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'Neptunor identity'
+    - 'Neptunor Marine Co., Ltd.'
+    - 'Neptunor boat manufacturer'
+    - 'RIB boat factory Qingdao'
+    - 'inflatable boat manufacturer China'
+    - 'OEM boat factory identity'
+
+hero:
+  tagline: 'Brand Identity'
+  title: 'Who Is Neptunor?'
+  subtitle: 'Neptunor is the B2B boat-manufacturing brand of Neptunor Marine Co., Ltd. — a specialized RIB boat and inflatable boat manufacturer in Qingdao, Shandong, China. We manufacture exclusively under the brands of our clients and never compete with them in any market.'
+
+answer:
+  label: 'In brief'
+  text: 'Legal entity: Neptunor Marine Co., Ltd. Manufacturing brand: Neptunor. Factory: 18,000 m² plant in Qingdao, Shandong, China. Scope: OEM, ODM and private-label manufacturing of RIB boats, inflatable boats and marine inflatables. Certifications: ISO 9001:2015, CE (EU Recreational Craft Directive 2013/53/EU, design categories C/D), ISO 6185, BSCI, REACH, RoHS. We do not sell under our own brand — every boat we produce carries the brand of the buyer.'
+  verified: '2026-08'
+
+identity_detail:
+  tagline: Legal & Organizational
+  title: 'Legal Entity & Structure'
+  subtitle: 'Full transparency on corporate structure, manufacturing scope and certifications.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: L
+      icon_bg: blue
+      title: 'Legal Entity'
+      desc: 'Neptunor Marine Co., Ltd. — the contracting entity for all manufacturing agreements, purchase orders and export documentation. Registered in Qingdao, Shandong, China.'
+    - icon: M
+      icon_bg: green
+      title: 'Manufacturing Brand'
+      desc: 'Neptunor is the buyer-facing manufacturing brand of Neptunor Marine Co., Ltd., used for international OEM, ODM and private-label boat programs. One company, one quality system, one point of accountability.'
+    - icon: F
+      icon_bg: purple
+      title: 'Factory Location'
+      desc: 'Qingdao, Shandong, China. An 18,000 m² production facility with 4 specialized workshops, 4 automated production lines, CNC cutting, 25 kW RF welding, a testing lab and material warehouse, close to the Port of Qingdao.'
+
+manufacturing_scope:
+  heading: 'Manufacturing Scope'
+  body: |
+    Our manufacturing scope covers the full production chain for RIB boats and inflatable boats — from raw material incoming inspection through final packaging and export documentation.
+
+    - **Product categories**: RIB boats (hypalon/PVC hull-tube constructions), inflatable dinghies and tenders, air-deck boats, rescue and workboats, plus consoles, seats, pumps and accessories.
+    - **Construction types**: Welded PVC tube systems, heat-sealed seams, drop-stitch air-deck floors and panels, fiberglass/RIM consoles and hulls for RIB configurations. Custom construction specifications per project.
+    - **Collaboration models**: OEM (buyer-owned design), ODM (factory-developed from buyer brief), private-label/co-branding (brand applied to proven platforms).
+    - **Certifications**: ISO 9001:2015 (factory quality management), CE per EU Recreational Craft Directive 2013/53/EU (design categories C/D), ISO 6185, BSCI (social compliance), REACH (chemical safety), RoHS (restricted substances).
+    - **Production capacity**: 60,000+ boats annually, ~5,000 boats monthly across 4 automated lines. Scale-up available with advance scheduling.
+
+brand_positioning:
+  heading: 'Brand Positioning'
+  body: |
+    Neptunor occupies a specific position in the market — we are a manufacturer serving professional buyers, not a consumer brand. This distinction shapes every aspect of how we operate:
+
+    - **We never sell under our own brand.** Every boat we produce carries the brand of the buyer. We do not compete with our clients in any market, in any channel. This policy is non-negotiable.
+    - **We are not a trading company.** We operate the factory. Quality control, engineering, production scheduling and export documentation are all managed in-house. There are no intermediaries between your order and the production floor.
+    - **We specialize in RIB and inflatable boats.** This is not a sideline or one product category among many. Boat and marine products are our core competence. Every machine, every process, every QC gate is optimized for this product category.
+    - **We serve professional buyers.** Our clients are brands, distributors, rental and resort operators, dealers and institutions — not individual consumers. Our pricing, MOQ structure, documentation and communication are designed for B2B relationships.
+
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'SPECIFICATIONS VERIFIED'
+  body: 'All organizational and manufacturing claims on this page are verifiable. ISO 9001 certificate, BSCI report, business license and factory registration documents are available on request. Factory visits welcome. Specifications last verified 2026-08.'
+
+faqs:
+  tagline: FAQ
+  title: 'Brand Identity — Frequently Asked Questions'
+  items:
+    - q: 'Who is behind the Neptunor brand?'
+      a: 'Neptunor is the B2B boat-manufacturing brand of Neptunor Marine Co., Ltd., a standalone manufacturer headquartered in Qingdao, Shandong, China. The legal contracting entity for all orders is Neptunor Marine Co., Ltd. The brand, the factory, the team and the quality system are one operation.'
+    - q: 'Do you sell boats under your own brand?'
+      a: 'No. We manufacture exclusively under the brands of our clients and never compete with them in any market. This is a core policy — not a temporary position. If you find a Neptunor-branded boat on the consumer market, it is not from our factory.'
+    - q: 'Can I visit the factory?'
+      a: 'Yes. We welcome factory visits and can arrange a structured audit covering the full production process, QC gates, material warehouse and documentation review. Contact us to schedule a visit.'
+    - q: 'What does Neptunor manufacture?'
+      a: 'RIB boats and inflatable boats: tenders and dinghies, air-deck models, rescue and commercial workboats, built in PVC or Hypalon tube systems with welded seams, drop-stitch air-deck floors and fiberglass or RIM consoles. All production is OEM, ODM or private-label for professional buyers.'
+
+cta:
+  title: 'Ready to Verify Our Factory?'
+  subtitle: 'Request documentation, schedule a factory visit or start your project brief. Full transparency, no exceptions.'
+  actions:
+    - variant: primary
+      text: Request Documentation
+      href: /contact#project-brief
+    - text: Verify certifications and quality system
+      href: /proof-center
+    - text: OEM onboarding process
+      href: /oem-onboarding-guide

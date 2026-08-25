@@ -1,0 +1,447 @@
+- slug: home
+  label: Home
+  path: /
+  permalink: /
+  sections:
+    - { key: hero, type: hero, label: 'Hero Section' }
+    - { key: collaboration_selector, type: features, label: 'Collaboration Mode Selector (OEM/ODM/Private Label/Commercial)' }
+    - { key: commercial_terms, type: content, label: 'Commercial Terms Summary' }
+    - { key: factory_evidence, type: features, label: 'Factory Evidence (Capability + Quality)' }
+    - { key: process_steps, type: steps, label: 'Process Steps (How It Works)' }
+    - { key: client_types, type: features, label: 'Client Types (Who We Serve)' }
+    - { key: cases, type: content, label: 'Case Studies' }
+    - { key: faqs, type: faqs, label: 'FAQs (5 key questions)' }
+    - { key: cta, type: cta, label: 'Bottom CTA Section' }
+
+- slug: about-neptunor
+  label: About Neptunor
+  path: /about/neptunor
+  permalink: /about/neptunor
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: stats, type: stats, label: 'Statistics' }
+    - { key: factory_details, type: content, label: 'Factory Details' }
+    - { key: team_structure, type: features, label: 'Team Structure' }
+    - { key: values, type: features, label: 'Operating Principles' }
+    - { key: certifications, type: features, label: 'Certifications' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: certifications
+  label: Certifications
+  path: /quality
+  permalink: /quality
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: stats, type: stats, label: 'Statistics' }
+    - { key: quality_basis, type: features, label: 'Quality Basis (5 Locked Baselines)' }
+    - { key: tests, type: features, label: 'Tests & Procedures' }
+    - { key: qc_flow, type: content, label: '7-Stage Inspection Flow' }
+    - { key: system_map, type: features, label: 'Quality System Map (4 Standards)' }
+    - { key: intelligence_cards, type: content, label: 'Documentation & Traceability — Anonymized Record Samples' }
+    - { key: doc_register, type: features, label: 'Controlled Document Register (00–15)' }
+    - { key: traceability, type: features, label: 'Traceability Matrix' }
+    - { key: non_conformance, type: features, label: 'Non-Conformance Control' }
+    - { key: third_party, type: features, label: 'Third-Party & Buyer Inspection' }
+    - { key: content_certifications, type: content, label: 'Certifications Content' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: contact
+  label: Contact
+  path: /contact
+  permalink: /contact
+  sections:
+    - { key: hero_text, type: hero_text, label: 'Top HeroText' }
+    - { key: contact_form, type: contact, label: 'Contact Form' }
+    - { key: map, type: map, label: 'Google Maps Location' }
+
+- slug: factory
+  label: Factory
+  path: /factory
+  permalink: /factory
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: stats, type: stats, label: 'Statistics' }
+    - { key: intelligence_tagline, type: content, label: 'Intelligence Tagline' }
+    - { key: intelligence_title, type: content, label: 'Intelligence Title' }
+    - { key: intelligence_cards, type: content, label: 'Intelligence Cards' }
+    - { key: workshops_section, type: features, label: 'Workshops' }
+    - { key: equipment_section, type: features, label: 'Equipment' }
+    - { key: qc_section, type: content, label: 'Quality Control' }
+    - { key: oem_section, type: content, label: 'OEM/ODM Section' }
+    - { key: faq_section, type: faqs, label: 'FAQs' }
+    - { key: production_flow, type: content, label: 'Production Flow' }
+    - { key: workforce, type: content, label: 'Workforce' }
+    - { key: material_traceability, type: content, label: 'Material Traceability' }
+    - { key: qc_dashboard, type: content, label: 'QC Dashboard' }
+    - { key: process_cta, type: cta, label: 'Process CTA' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
+
+- slug: factory-capacity
+  label: Factory Capacity
+  path: /factory/capacity
+  permalink: /factory/capacity
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: highlights, type: stats, label: 'Capacity Highlights' }
+    - { key: workshops, type: features, label: 'Workshops' }
+    - { key: lead_time_explainer, type: features, label: 'Lead Time Explainer' }
+    - { key: oem_capacity, type: content, label: 'OEM Capacity Details' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: factory-equipment
+  label: Factory Equipment
+  path: /factory/equipment
+  permalink: /factory/equipment
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: categories, type: features, label: 'Equipment Categories' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: factory-oem-capability
+  label: Factory OEM Capability
+  path: /factory/oem-capability
+  permalink: /factory/oem-capability
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: highlight, type: content, label: 'Highlight' }
+    - { key: services, type: features, label: 'OEM Services' }
+    - { key: moq_table, type: content, label: 'MOQ Table' }
+    - { key: why_us, type: features, label: 'Why Choose Us' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: factory-process
+  label: Factory Process
+  path: /factory/process
+  permalink: /factory/process
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: steps, type: steps, label: 'Process Steps' }
+    - { key: evidence_gates, type: features, label: 'Inspection Evidence Photos & Reports' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: factory-quality-lab
+  label: Factory Quality Lab
+  path: /factory/quality-lab
+  permalink: /factory/quality-lab
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: highlights, type: stats, label: 'Quality Highlights' }
+    - { key: test_procedures, type: steps, label: 'Test Procedures' }
+    - { key: equipment, type: features, label: 'Lab Equipment' }
+    - { key: lab_evidence, type: features, label: 'Lab Test Report Downloads' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: factory-quality-inspection
+  label: Quality Inspection Standards
+  path: /factory/quality-inspection
+  permalink: /factory/quality-inspection
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: scope_note, type: content, label: 'Scope Note' }
+    - { key: stages, type: steps, label: '4-Stage QC Framework' }
+    - { key: inspection_points, type: features, label: 'Inspection Control Points' }
+    - { key: traceability_intro, type: content, label: 'Traceability Intro' }
+    - { key: traceability_chain, type: steps, label: 'Traceability Chain' }
+    - { key: traceability_sample, type: content, label: 'Traceability Sample' }
+    - { key: quarantine_intro, type: content, label: 'Quarantine Intro' }
+    - { key: quarantine_flow, type: steps, label: '7-Step Quarantine Flow' }
+    - { key: quarantine_evidence, type: features, label: 'Quarantine Evidence Photos' }
+    - { key: rework_intro, type: content, label: 'Rework Governance Intro' }
+    - { key: rework_decision, type: steps, label: 'Interactive Rework Decision Flow' }
+    - { key: defect_matrix, type: table, label: 'Defect Classification Matrix' }
+    - { key: rework_flow, type: steps, label: '7-Step Controlled Rework Workflow' }
+    - { key: quality_safeguards, type: features, label: 'Quality Safeguards' }
+    - { key: rework_boundaries, type: content, label: 'Rework Scope & Boundaries' }
+    - { key: method_cards, type: table, label: 'Method Card Index' }
+    - { key: inspector_friendly, type: content, label: 'Inspector-Friendly Protocol' }
+    - { key: document_pack, type: features, label: 'Quality Documentation Pack Downloads' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Quality Review CTA' }
+
+- slug: factory-quality-change-control
+  label: Rework Change Control Standard
+  path: /factory/quality-change-control
+  permalink: /factory/quality-change-control
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: stats, type: stats, label: 'Change Control Stats' }
+    - { key: cc_intro, type: content, label: 'Governance Principles' }
+    - { key: cc_scope, type: table, label: 'Change Scope & Risk Classification' }
+    - { key: cc_containment, type: content, label: 'Containment Rule' }
+    - { key: cc_flow, type: steps, label: '9-Step Change Control Loop' }
+    - { key: cc_approval, type: table, label: 'Cross-Department Approval Matrix' }
+    - { key: cc_validation, type: content, label: 'Validation & Acceptance Protocol' }
+    - { key: cc_engineering, type: table, label: 'Engineering Execution Matrix' }
+    - { key: cc_photos, type: features, label: 'Factory Floor Photos' }
+    - { key: cc_pokayoke, type: features, label: 'Poka-Yoke Safeguards' }
+    - { key: cc_downloads, type: features, label: 'QMS Document Downloads' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: factory-non-conforming-control
+  label: Non-Conforming Product Control
+  path: /factory/non-conforming-control
+  permalink: /factory/non-conforming-control
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: stats, type: stats, label: 'NCP Stats' }
+    - { key: nc_intro, type: content, label: 'Control of Non-Conforming Outputs' }
+    - { key: nc_flow, type: steps, label: '7-Step Closed-Loop' }
+    - { key: nc_pillars, type: features, label: 'Buyer Trust Pillars' }
+    - { key: nc_photos, type: features, label: 'Factory Floor Photos' }
+    - { key: nc_severity, type: table, label: 'Severity & Disposition Authority' }
+    - { key: nc_matrix, type: table, label: 'SUP Defect Disposition Matrix' }
+    - { key: nc_scrap, type: content, label: 'Witnessed Destruction Protocol' }
+    - { key: nc_downloads, type: features, label: 'QMS Document Downloads' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: gallery
+  label: Gallery
+  path: /gallery
+  permalink: /gallery
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: albums, type: features, label: 'Photo Albums' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: knowledge
+  label: Knowledge
+  path: /knowledge
+  permalink: /knowledge
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: clusters, type: features, label: 'Knowledge Clusters' }
+    - { key: featured_guides, type: content, label: 'Featured Guides' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: news
+  label: News
+  path: /news
+  permalink: /news
+  sections:
+    - { key: hero_text, type: hero_text, label: 'Page Header (title, subtitle, tagline)' }
+    - { key: news_list, type: blog_latest, label: 'News List' }
+
+- slug: oem-moq-guide
+  label: MOQ & Flexible Branding Guide
+  path: /oem-moq-guide
+  permalink: /oem-moq-guide
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: moq_principle, type: content, label: 'Engineering Logic: 150m Roll' }
+    - { key: moq_tiers, type: features, label: 'Volume OEM vs Co-Branding Cards' }
+    - { key: moq_fees, type: table, label: 'Transparent Screen-Printing Fees' }
+    - { key: moq_stages, type: steps, label: 'Sample / Pilot / Volume Stages' }
+    - { key: moq_factors, type: table, label: 'MOQ Drivers Table' }
+    - { key: moq_downloads, type: features, label: 'Official PDF Downloads' }
+    - { key: moq_faqs, type: faqs, label: 'FAQs' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: boat-oem-moq
+  label: Custom Boat MOQ & Lead Time
+  path: /oem-boat-moq
+  permalink: /oem-boat-moq
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: moq_tiers_table, type: table, label: 'MOQ & Lead-Time Tiers Table' }
+    - { key: cost_drivers, type: features, label: 'Cost Drivers' }
+    - { key: timeline, type: steps, label: 'End-to-End Timeline' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: new-brand-trial-order
+  label: New-Brand Trial Order
+  path: /new-brand-trial-order
+  permalink: /new-brand-trial-order
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: trial_included, type: features, label: 'What the Trial Order Includes' }
+    - { key: trial_steps, type: steps, label: 'Six-Gate Launch Roadmap' }
+    - { key: trial_budget, type: table, label: 'Indicative Price Ranges' }
+    - { key: derisk, type: features, label: 'De-Risking Cards' }
+    - { key: scale_path, type: steps, label: 'After the Trial Path' }
+    - { key: trial_faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: oem-trust-assurance
+  label: OEM Trust & Factory Assurance
+  path: /oem-trust-assurance
+  permalink: /oem-trust-assurance
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: trust_stats, type: stats, label: 'Verifiable Factory Stats' }
+    - { key: role_boundary, type: features, label: 'Role Boundary A/B Cards' }
+    - { key: trust_steps, type: steps, label: 'Verification Case Study Steps' }
+    - { key: trust_faqs, type: faqs, label: '12 Buyer FAQs' }
+    - { key: governance, type: content, label: 'Governance & Signatures' }
+    - { key: trust_downloads, type: features, label: 'Official PDF Downloads' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: partners
+  label: Partners
+  path: /partners
+  permalink: /partners
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: content_programs, type: content, label: 'Programs Content' }
+    - { key: content_benefits, type: content, label: 'Benefits Content' }
+    - { key: content_process, type: content, label: 'Process Content' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: proof-center
+  label: Proof Center
+  path: /proof-center
+  permalink: /proof-center
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: entities, type: features, label: 'Entity Chain — Three Names, One Legal Chain' }
+    - { key: proof_stats, type: stats, label: 'Verifiable Factory Stats' }
+    - { key: certifications, type: table, label: 'Certificates & Scope Table' }
+    - { key: evidence_gates, type: features, label: 'Evidence Folders — Equipment, Gates, Lab, Traceability' }
+    - { key: traceability, type: content, label: 'Batch Traceability Chain Sample' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: inflatable-boat-certification
+  label: Inflatable Boat Certification Guide
+  path: /inflatable-boat-certification
+  permalink: /inflatable-boat-certification
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: direct_answer, type: answer, label: 'Direct Answer' }
+    - { key: details, type: content, label: 'Certification Details' }
+    - { key: scope_notes, type: content, label: 'Scope Notes' }
+    - { key: request, type: content, label: 'Documents You Receive' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: randdcenter
+  label: R&D Center
+  path: /randdcenter
+  permalink: /randdcenter
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: mission, type: content, label: 'Mission' }
+    - { key: pillars, type: features, label: 'Pillars' }
+    - { key: capabilities, type: features, label: 'Capabilities' }
+    - { key: rd_numbers, type: stats, label: 'R&D Numbers' }
+    - { key: rd_services, type: features, label: 'R&D Services' }
+    - { key: vision, type: content, label: 'Vision' }
+    - { key: labs_section, type: features, label: 'Labs Section' }
+
+- slug: solutions
+  label: Solutions
+  path: /solutions
+  permalink: /solutions
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: stats, type: stats, label: 'Statistics' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: technology
+  label: Technology
+  path: /technology
+  permalink: /technology
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: sections, type: features, label: 'Technology Sections' }
+    - { key: related, type: content, label: 'Related Content' }
+
+- slug: warranty
+  label: Warranty
+  path: /warranty
+  permalink: /warranty
+  sections:
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: subtitle, type: content, label: 'Subtitle' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: body, type: content, label: 'Body Content' }
+
+- slug: oem-odm-private-label-comparison
+  label: OEM vs ODM vs Private Label Comparison
+  path: /oem-odm-private-label-comparison
+  permalink: /oem-odm-private-label-comparison
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Comparison' }
+    - { key: comparison_table, type: table, label: 'Side-by-Side Comparison Table' }
+    - { key: scenario_cards, type: features, label: 'When to Choose Each Path' }
+    - { key: ip_rules, type: content, label: 'IP Protection Rules' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: start-boat-project
+  label: Start Your Boat Project
+  path: /start-boat-project
+  permalink: /start-boat-project
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'What Happens Next' }
+    - { key: process_steps, type: steps, label: 'Process Steps' }
+    - { key: collaboration_types, type: features, label: 'Collaboration Types' }
+    - { key: what_we_need, type: content, label: 'What to Prepare' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: oem-onboarding-guide
+  label: OEM Onboarding Guide
+  path: /oem-onboarding-guide
+  permalink: /oem-onboarding-guide
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: process_steps, type: steps, label: 'Onboarding Gates' }
+    - { key: collaboration_modes, type: features, label: 'Collaboration Modes' }
+    - { key: checklist, type: content, label: 'Pre-Brief Checklist' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: factory-audit-checklist
+  label: Factory Audit Checklist
+  path: /factory-audit-checklist
+  permalink: /factory-audit-checklist
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: audit_areas, type: features, label: 'Audit Areas' }
+    - { key: our_position, type: content, label: 'Our Position' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: about-identity
+  label: About Identity
+  path: /about/identity
+  permalink: /about/identity
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'In Brief' }
+    - { key: identity_detail, type: features, label: 'Identity Detail' }
+    - { key: manufacturing_scope, type: content, label: 'Manufacturing Scope' }
+    - { key: brand_positioning, type: content, label: 'Brand Positioning' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }

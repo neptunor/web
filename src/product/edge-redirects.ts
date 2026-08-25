@@ -1,0 +1,76 @@
+/**
+ * Product-specific edge redirect rules.
+ *
+ * These 301 redirects handle legacy URL migration from previous site
+ * versions. When deploying a new product, replace these with the new
+ * site's redirect policy. The gatePath() logic in edge-gate.ts is
+ * framework-level and consumes this map.
+ */
+
+import { GONE_PATHS, ABOUT_BRAND_PATH } from '@/config/navigation'
+
+export const EDGE_REDIRECTS: Record<string, string> = {
+  '/oem-odm': '/oem-manufacturing',
+  '/zh/oem-odm': '/es/oem-manufacturing',
+  '/oem-odm-manufacturer': '/oem-manufacturing',
+  '/es/oem-odm-manufacturer': '/es/oem-manufacturing',
+  '/zh/oem-odm-manufacturer': '/es/oem-manufacturing',
+  '/request-quotation': '/contact',
+  '/es/request-quotation': '/es/contact',
+  '/fabricant-bateau-gonflable': '/oem-manufacturing',
+  '/bateau-gonflable-fabricant': '/oem-manufacturing',
+  '/fournisseur-nautique': '/solutions/fleet-rental',
+  '/custom': '/product-development',
+  '/es/custom': '/es/product-development',
+  '/quality-testing': '/quality',
+  '/es/quality-testing': '/es/quality',
+  '/safety': '/quality',
+  '/es/safety': '/es/quality',
+  '/trust': '/quality',
+  '/es/trust': '/es/quality',
+  '/quality-control': '/factory/quality-inspection',
+  '/es/quality-control': '/es/factory/quality-inspection',
+  '/solutions/resorts-hotels': '/solutions/fleet-rental',
+  '/es/solutions/resorts-hotels': '/es/solutions/fleet-rental',
+  '/solutions/paddle-clubs': '/solutions/fleet-rental',
+  '/es/solutions/paddle-clubs': '/es/solutions/fleet-rental',
+  '/solutions/build-your-own-brand': '/solutions/private-label-boats',
+  '/es/solutions/build-your-own-brand': '/es/solutions/private-label-boats',
+  '/brand': '/about',
+  '/es/brand': '/es/about',
+  '/zh/brand': '/es/about',
+  '/brand/story': ABOUT_BRAND_PATH,
+  '/es/brand/story': `/es${ABOUT_BRAND_PATH}`,
+  '/zh/brand/story': `/es${ABOUT_BRAND_PATH}`,
+  '/brand/global-presence': '/about',
+  '/es/brand/global-presence': '/es/about',
+  '/brand/marine-expertise': '/about',
+  '/es/brand/marine-expertise': '/es/about',
+  '/brand/team': '/about',
+  '/es/brand/team': '/es/about',
+  '/learn': '/knowledge',
+  '/es/learn': '/es/knowledge',
+  '/academy': '/knowledge',
+  '/es/academy': '/es/knowledge',
+  '/guides': '/knowledge',
+  '/es/guides': '/es/knowledge',
+  '/research': '/knowledge',
+  '/es/research': '/es/knowledge',
+  '/resources': '/knowledge',
+  '/es/resources': '/es/knowledge',
+  '/es/resources/download-catalog': '/es/products',
+  '/community': '/knowledge',
+  '/es/community': '/es/knowledge',
+  '/lifestyle': '/knowledge',
+  '/es/lifestyle': '/es/knowledge',
+  '/journal': '/news',
+  '/es/journal': '/es/news',
+  '/media': '/products',
+  '/es/media': '/es/products',
+  '/evidence': '/projects',
+  '/es/evidence': '/es/projects',
+  '/case-studies': '/projects',
+  '/es/case-studies': '/es/projects',
+}
+
+export { GONE_PATHS }

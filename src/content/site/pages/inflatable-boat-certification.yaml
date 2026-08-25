@@ -1,0 +1,68 @@
+meta:
+  title: 'Inflatable Boat Certification Guide — EU RCD & ISO 6185 | Neptunor'
+  description: 'How inflatable boat certification works: EU Recreational Craft Directive 2013/53/EU design categories C/D, the ISO 6185 series, the documents buyers receive and how to verify certificate coverage.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'inflatable boat certification'
+    - 'EU RCD 2013/53/EU'
+    - 'ISO 6185'
+    - 'CE design category C D'
+
+hero:
+  tagline: 'Certification Guide'
+  title: 'Inflatable Boat Certification Guide'
+  subtitle: 'What CE marking on an inflatable boat really means, which ISO standards sit behind it, and exactly which documents you should receive from your manufacturer before shipment.'
+
+direct_answer:
+  label: 'Straight answer'
+  text: 'For the EU market, recreational inflatable boats must conform to the Recreational Craft Directive 2013/53/EU (RCD). Most tenders, dinghies and RIBs sold by our clients are certified in design category C (inshore) or D (sheltered waters), with conformity demonstrated against the harmonized ISO 6185 series. Neptunor supplies declaration of conformity, test reports and marking support per project — scope is confirmed per model, never claimed universally.'
+  verified: '2026-08'
+
+details:
+  heading: 'Certification Details'
+  body: |
+    **EU Recreational Craft Directive 2013/53/EU (RCD).** The RCD applies to recreational boats placed on the EU market. Inflatable boats are assessed for stability, buoyancy, freeboard and construction against harmonized standards; the directive defines four design categories:
+
+    - **Category C (Inshore)** — designed for winds up to Beaufort 6 and waves up to about 2 m; typical for coastal tenders, RIBs and day boats.
+    - **Category D (Sheltered waters)** — winds up to Beaufort 4 and occasional waves under 0.5 m; typical for small dinghies, tender and lake use.
+    - Categories A (ocean) and B (offshore) exist but require larger hulls; most inflatables in this class ship as C or D.
+
+    **ISO 6185 series.** The harmonized standard family for inflatable boats up to 8 m in length: ISO 6185-1 covers boats with a maximum motor power rating of up to 4.5 kW, ISO 6185-2 covers motors of 4.5–7.5 kW, and ISO 6185-3 covers motors above 7.5 kW. Your target design category and engine rating determine which part applies.
+
+    **Supporting compliance.** ISO 9001 governs the factory quality system behind every certified unit; REACH/RoHS documentation covers materials; third-party inspections (SGS, TÜV, BV, Intertek) can witness testing per buyer requirement.
+
+scope_notes:
+  heading: 'Scope Notes — Read Before You Buy'
+  body: |
+    - **CE is per model, not per factory.** A certificate covers a defined model, size and design category. No manufacturer can truthfully claim "all products are CE." Ask which models hold current certificates.
+    - **Design category drives price.** Category C demands more reserve buoyancy and stability than D — bigger tubes, higher freeboard, different floor loading. Confirm your intended use zone before sampling.
+    - **Non-EU markets differ.** Many markets accept CE-based documentation, but some require national registrations or transport-compliance paperwork. We confirm requirements during project intake, not after production.
+    - **Certification ≠ warranty.** Certification proves conformity at assessment; commercial warranty terms live in your order contract.
+
+request:
+  heading: 'Documents You Receive From Neptunor'
+  body: |
+    For every certified configuration, buyers receive:
+
+    - **EU Declaration of Conformity** referencing the RCD, applicable ISO 6185 part and design category.
+    - **Test reports** for the certified model — stability, buoyancy and pressure tests, plus the factory's 24-hour pressure-hold record at 0.35 bar per chamber.
+    - **Builder's plate and marking artwork** showing manufacturer, CE mark, design category and maximum load/persons — applied per approved drawing.
+    - **Material compliance documents** (REACH/RoHS statements) for fabrics, adhesives and fittings.
+    - **Third-party inspection reports** where the program includes SGS/TÜV/BV/Intertek witnessing.
+
+    To verify coverage before ordering, request the certificate number and check that model name, length, engine rating, design category and validity dates match your purchase specification exactly.
+
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'VERIFY BEFORE YOU COMMIT'
+  body: 'Neptunor provides certification evidence at quotation stage — certificate copies with numbers, scope definitions and test report samples. If a supplier hesitates to show any document listed above, treat it as a red flag. Contact info@neptunor.com to request the documentation pack for your target models.'
+
+cta:
+  title: 'Need Certification for Your Market?'
+  subtitle: 'Tell us your target market and boat type — we will map the exact certification path, costs and timeline for your project.'
+  actions:
+    - variant: primary
+      text: Ask About Certification
+      href: /contact#project-brief
+    - text: Review our certifications page
+      href: /quality

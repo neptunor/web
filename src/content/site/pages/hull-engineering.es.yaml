@@ -1,0 +1,94 @@
+meta:
+  title: 'Ingeniería de cascos embarcación — Diseño de embarcaciones con CAD y FEA'
+  description: 'Ingeniería de cascos embarcación: diseño CAD, análisis FEA de estructuras drop-stitch y formas de casco a medida para proyectos OEM de embarcaciones.'
+back_text: 'Volver al Centro de I+D'
+home_label: 'Inicio'
+
+hero:
+  tagline: 'Lab 02'
+  title: 'Estudio de Ingeniería de Embarcaciones'
+  subtitle: 'Simulación digital, inteligencia estructural, diseño de embarcaciones a medida'
+  image: 'https://assets.neptunor.com/images/boats/factory/neptunor-design-review.webp'
+  image_alt: 'Estación de trabajo CAD de ingeniería de embarcaciones de Neptunor'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Las embarcaciones a medida se diseñan en nuestras instalaciones con modelado de superficies 3D en SolidWorks, análisis FEA con ANSYS y CFD: cada embarcación se simula para la distribución de tensiones y la rigidez de la cubierta, con un factor de seguridad obligatorio ≥ 2.5 antes del prototipado. Una forma a medida tarda 10–15 días en llegar al prototipo; el utillaje completo de un molde personalizado añade 20–35 días al plazo de producción estándar de 30–45 días, con el MOQ confirmado por configuración del proyecto (consulta nuestra Guía de MOQ).'
+  verified: '2026-08'
+
+intro: 'La forma de una embarcación — su arrufo de proa, el perfil del tubo y las líneas de quilla — determina cómo gobierna, cómo gira y cómo mantiene la línea. En {SITE.name}, nuestro Estudio de Ingeniería de Embarcaciones combina el modelado CAD de superficies, el análisis por elementos finitos (FEA) de estructuras drop-stitch y la experiencia de producción para entregar embarcaciones optimizadas para cada tipo de uso: estabilidad para auxiliares, eficiencia para botes auxiliares o capacidad de carga profesional. Cada embarcación a medida nace de tu especificación, no de una forma genérica de catálogo.'
+
+content_html: |
+  <h2>Donde la resistencia se encuentra con la hidrodinámica</h2>
+  <p>Una embarcación neumática combina tubos de PVC soldados por alta frecuencia con un suelo autoportante drop-stitch: miles de hilos de poliéster mantienen el panel plano a su presión de trabajo, mientras que el diámetro del tubo, el arrufo de proa y la geometría de la quilla controlan la interacción de la embarcación con el agua. Diseñamos la forma 3D, la simulamos y validamos el resultado en nuestras instalaciones antes de cortar una sola muestra.</p>
+
+  <h2>Herramientas y estándares de diseño</h2>
+  <p>Nuestro entorno de ingeniería digital incluye:</p>
+  <table>
+    <thead><tr><th>Capacidad</th><th>Software / Herramienta</th><th>Aplicación</th></tr></thead>
+    <tbody>
+      <tr><td>Modelado paramétrico 3D</td><td>SolidWorks Professional</td><td>Superficie del casco, línea de arrufo, perfil del tubo, integración de asas y anclajes de asiento</td></tr>
+      <tr><td>Análisis por elementos finitos</td><td>ANSYS Mechanical</td><td>Mapa de tensiones del núcleo drop-stitch, rigidez de la cubierta bajo carga, refuerzo del punto del asa</td></tr>
+      <tr><td>Dinámica de fluidos computacional</td><td>ANSYS Fluent</td><td>Predicción de la resistencia hidrodinámica, optimización del ángulo de planeo</td></tr>
+      <tr><td>Ingeniería de laminado</td><td>ESAComp</td><td>Apilado de capas de PVC, selección del peso de tejido y estimación del peso</td></tr>
+      <tr><td>Revisión de la superficie del molde</td><td>Moldex3D</td><td>Revisión de la geometría del utillaje de soldadura para la unión por RF</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Nuestro proceso de ingeniería</h2>
+  <p>Cada diseño de embarcación, ya sea un modelo estándar o un proyecto totalmente personalizado, pasa por un proceso riguroso de cinco fases:</p>
+  <ol>
+    <li><strong>Concepto y recopilación de requisitos</strong> — Definimos el rango de rango de carga, el uso previsto (auxiliar, dinghy air-deck, trabajo, rescate, flota de alquiler), la longitud, el ancho y el grosor objetivo, y las características especiales (sistemas de carga, pavimentos de cubierta, puntos de amarre).</li>
+    <li><strong>Modelado de superficies 3D y cálculo de volumen</strong> — La forma de la embarcación se construye en SolidWorks y se comprueba el reparto de volumen, el desplazamiento y la estabilidad frente al peso objetivo del rider.</li>
+    <li><strong>FEA estructural</strong> — La embarcación inflada se analiza con carga estática en cubierta (100 kg en el centro) y con cargas dinámicas (impacto de olas en los tubos). Se revisan los contornos de tensión; el factor de seguridad ≥ 2.5 es obligatorio.</li>
+    <li><strong>Optimización de la resistencia con CFD</strong> — El casco se simula en tres condiciones de carga y a cinco velocidades. La superficie mojada, el ángulo de trimado y la resistencia residual se reducen de forma iterativa.</li>
+    <li><strong>Revisión y liberación del diseño</strong> — El paquete de ingeniería completo (modelo 3D, informe FEA, informe CFD, estimación de peso y plano de corte de paneles) se revisa con nuestro ingeniero senior antes de pasar al taller de prototipos.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Resultados del FEA — embarcación polivalente de 3,35 m (1,52 m de manga)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">Factor de seguridad con carga máxima de 250 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Flechado del suelo autoportante a presión nominal, sin carga</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 mm</span>
+        <span class="text-gray-500">Máxima flexión del suelo autoportante con carga estática de 250 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0,90 bar</span>
+        <span class="text-gray-500">Presión de análisis — suelo autoportante (tubos 0,25 bar)</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Personalización: tu embarcación, tus reglas</h2>
+  <p>No hay dos marcas que necesiten lo mismo. Una flota de alquiler necesita una embarcación polivalente ancha y estable con tubos reforzados; un operador chárter necesita eficiencia de gran autonomía con estiba segura; un programa de rescate necesita cubiertas autovaciantes y agarraderas perimetrales. No obligamos a tu gama a adoptar formas preexistentes: diseñamos partiendo de tu especificación.</p>
+  <p>Ejemplos recientes de ingeniería de embarcaciones a medida:</p>
+  <ul>
+    <li>Un auxiliar de gran autonomía de 4,2 m para una flota chárter de yates, con proa de entrada en V profunda y cubierta de estiba rebajada (+15 % de superficie útil de cubierta).</li>
+    <li>Una embarcación polivalente de 3,2 m para la flota de un complejo turístico, con tubos laterales de doble capa y capacidad nominal de 500 kg.</li>
+    <li>Un auxiliar de buceo de 2,7 m con plataforma de proa abierta y anclajes de escalera, desarrollado para una línea dedicada de escuela de deportes náuticos.</li>
+  </ul>
+
+  <h2>Nuestros ingenieros</h2>
+  <p>El estudio lo dirige un ingeniero senior de producto con 14 años de experiencia en diseño de productos hinchables, apoyado por dos ingenieros mecánicos especializados en FEA y CFD. Los tres están titulados en Ingeniería por universidades de reconocido prestigio internacional, y el equipo colabora con nuestra fábrica para asegurar que cada diseño se fabrica a escala de contenedor.</p>
+
+  <h2>Colabora con nosotros en tu próxima embarcación</h2>
+  <p>Desde el primer boceto del concepto hasta el informe final de tensiones, nuestro Estudio de Ingeniería de Embarcaciones es tu socio para crear una embarcación que no solo está construida, sino diseñada con ingeniería. Invertimos horas de simulación al principio del proceso para que cada soldadura, cada capa y cada curva del casco exista por una razón.</p>
+  <p>Y tanto si solo necesitas una pequeña modificación de un modelo existente como un diseño partiendo de cero, estamos listos para hablar de tus requisitos.</p>
+
+cta:
+  title: 'Empieza tu consultoría de diseño de embarcación'
+  subtitle: 'Cuéntanos la aplicación objetivo y los usos que tendrá tu embarcación, y te propondremos la ruta de ingeniería.'
+  actions:
+    - variant: primary
+      text: Contacta con nuestro equipo de ingeniería
+      href: /es/contact#project-brief
+    - text: Volver al centro de I+D
+      href: /es/randdcenter

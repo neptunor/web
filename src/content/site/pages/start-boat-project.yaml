@@ -1,0 +1,90 @@
+meta:
+  title: 'Start Your Boat Project — OEM/ODM Intake Checklist | Neptunor'
+  description: 'Start your RIB or inflatable boat project with Neptunor: the intake checklist buyers prepare — target market, boat type, size, quantity, certification needs, branding and timeline.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'start boat project'
+    - 'OEM inflatable boat inquiry'
+    - 'RIB manufacturer brief'
+    - 'custom tender project'
+
+hero:
+  tagline: 'Start Your Project'
+  title: 'Start Your Boat Project'
+  subtitle: 'One structured brief is all it takes. Here is exactly what to prepare before contacting Neptunor — so your first quotation lands close to final.'
+
+answer:
+  label: 'What happens next'
+  text: 'Send us your project brief through the contact form or email info@neptunor.com. Within one business day you receive an engineer-reviewed reply; within three you have a tier recommendation, indicative pricing and a sampling plan. Samples ship 10–15 days after specification freeze.'
+  verified: '2026-08'
+
+process_steps:
+  title: 'From Brief to Production'
+  steps:
+    - title: 'Send your brief'
+      description: 'Target market, boat type, sizes, quantities and timeline — a short email is enough to start.'
+    - title: 'Engineer review'
+      description: 'Our project team checks feasibility, certification scope and configuration options within 24 hours.'
+    - title: 'Quotation & tiers'
+      description: 'Itemized quote with MOQ tier recommendation (sample, co-branding, pilot or volume) and lead time.'
+    - title: 'Sampling'
+      description: 'First article built in 10–15 days for your inspection, water trial and sign-off.'
+    - title: 'Production & export'
+      description: '30–45 day production with 7-stage QC gates, then shipment release from Qingdao.'
+
+collaboration_types:
+  tagline: 'Choose Your Mode'
+  title: 'Four Ways to Work With Us'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM'
+      desc: 'Your drawings and specifications, our production line. You own the design IP end to end.'
+    - icon: D
+      icon_bg: green
+      title: 'ODM'
+      desc: 'We develop the boat from your brief — market concept, performance targets or platform adaptation — you approve before production.'
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label'
+      desc: 'Your brand, graphics and packaging on a proven, validated hull with no structural changes.'
+    - icon: F
+      icon_bg: orange
+      title: 'Commercial Fleet'
+      desc: 'Rental, resort, rescue and dealer programs configured for duty cycle, serviceability and spare-parts supply.'
+
+what_we_need:
+  heading: 'Intake Checklist — What to Prepare'
+  body: |
+    The more complete your brief, the fewer quotation rounds. Prepare these seven items:
+
+    - **Target market** — country or region of sale; this sets certification scope (EU Recreational Craft Directive 2013/53/EU design categories C/D, ISO 6185, local registrations).
+    - **Boat type** — RIB tender, air-deck dinghy, rescue/workboat, rental fleet model, or a custom concept.
+    - **Size** — target length and beam, passenger capacity, and tube diameter if known.
+    - **Quantity** — first-order estimate and 12-month projection, so we recommend the right MOQ tier.
+    - **Certification needs** — CE category, third-party inspections (SGS/TÜV/BV/Intertek), or market-specific documentation.
+    - **Branding** — logo placement, hull graphics, console branding, packaging and manuals.
+    - **Timeline** — required sample date and launch window, including any trade-show deadline.
+
+faqs:
+  tagline: FAQ
+  title: 'Starting a Project — Frequently Asked Questions'
+  items:
+    - q: 'Do I need final drawings before contacting you?'
+      a: 'No. A clear description of boat type, size, quantity and market is enough for a first engineering review and budget quotation. Drawings can be developed together in ODM mode or supplied later in OEM mode.'
+    - q: 'How quickly will I hear back?'
+      a: 'Every brief receives an engineer-reviewed reply within one business day, followed by an itemized quotation typically within three business days once configuration is clear.'
+    - q: 'Can you sign an NDA before I share designs?'
+      a: 'Yes. We sign NDAs before receiving any proprietary drawings, artwork or specifications, and all project files are stored under access-controlled, audit-traceable systems.'
+    - q: 'Who owns the design?'
+      a: 'In OEM mode, you do — fully. In ODM mode, platform IP adapted from your brief is settled by agreement before work starts. In private-label mode, the platform stays ours while all brand assets stay yours.'
+
+cta:
+  title: 'Ready When You Are'
+  subtitle: 'Email info@neptunor.com with your checklist — or attach what you have and we will fill in the rest.'
+  actions:
+    - variant: primary
+      text: Send Your Project Brief
+      href: /contact#project-brief
+    - text: Review MOQ & lead-time tiers first
+      href: /oem-boat-moq

@@ -1,0 +1,111 @@
+meta:
+  title: 'Knowledge — Inflatable Boat & OEM Guides | {SITE}'
+  description: 'Neptunor knowledge base: guides on inflatable boats, boat materials, boat selection, and industry insights for brands and professionals.'
+  dateModified: '2026-08'
+  keywords:
+    - 'boat knowledge'
+    - 'inflatable boat guide'
+    - 'boat materials'
+    - 'boat industry insights'
+hero:
+  tagline: 'Knowledge Center'
+  title: 'boat Knowledge Center'
+  subtitle: |
+    A structured knowledge base covering inflatable boat technology, 
+    water safety, boat engineering, and adventure planning.
+  taglineSection: 'Explore. Learn. Go with confidence.'
+
+clusters:
+  tagline: 'Knowledge Clusters'
+  title: 'Explore by topic'
+  subtitle: 'Deep dives into the technology, safety, and skills behind every Neptunor product.'
+  items:
+    - title: 'Boat Buying Guides'
+      description: 'From choosing your first boat to advanced cruising techniques —everything about inflatable boating.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'How to choose your first inflatable boat'
+        - 'Boat size and payload capacity guide'
+        - 'Best boat for beginners, coastal cruising, diving and family fun'
+        - 'Common boat buying mistakes to avoid'
+        - 'Inflatable vs hard boat comparison'
+    - title: 'Boat Engineering & Technology'
+      description: 'Technical guides on inflatable boats —materials, construction methods, and manufacturing processes.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Drop-stitch technology deep dive'
+        - 'Military-grade PVC specifications'
+        - 'Fusion lamination vs adhesive bonding'
+        - 'EVA foam decking technology and artwork methods'
+        - 'Boat valve types and transom fittings'
+    - title: 'Boat Safety & Maintenance'
+      description: 'Essential safety knowledge for every boater —from PFD selection to weather reading to boat care and repair.'
+      icon: 'tabler:shield'
+      topics:
+        - 'Boat safety checklist and PFD requirements'
+        - 'Multi-chamber safety for remote water'
+        - 'Boat inflation pressure guide'
+        - 'Boat storage and winter care'
+        - 'Inflatable repair techniques'
+    - title: 'Boat Handling & Skills'
+      description: 'Boat handling, seamanship, and trip planning for all skill levels.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'First-time skipper techniques'
+        - 'Docking and mooring basics'
+        - 'Coastal trip planning'
+        - 'Anchoring and beaching skills'
+        - 'Reading weather and water conditions'
+    - title: 'Boat Lifestyle & Special Uses'
+      description: 'Specialized boat activities —fishing, diving, dogs, families, and travel tips.'
+      icon: 'tabler:heart'
+      topics:
+        - 'Days on the water with family and friends'
+        - 'Fishing from an inflatable boat'
+        - 'Boating with dogs and kids'
+        - 'Traveling with your boat by air and car'
+        - 'Boat accessories and gear essentials'
+    - title: 'Boat Comparisons & References'
+      description: 'Side-by-side comparisons to help you make informed decisions.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'Inflatable boat vs kayak — which is right for you?'
+        - 'PVC vs Hypalon material comparison'
+        - 'Single chamber vs multi-chamber safety'
+        - 'Boat materials explained'
+        - 'UV printing vs EVA block artwork'
+
+featured_guides:
+  tagline: 'Featured Guides'
+  title: 'Most popular knowledge resources'
+  items:
+    - title: 'Boat Basics'
+      href: '/knowledge'
+    - title: 'PVC vs Hypalon Materials'
+      href: '/research/pvc-vs-hypalon'
+    - title: 'Water Safety Guide'
+      href: '/knowledge'
+    - title: 'Materials Reference'
+      href: '/knowledge'
+    - title: 'Boat Buying Guide'
+      href: '/knowledge'
+    - title: 'Boat Size & Payload Guide'
+      href: '/knowledge'
+    - title: 'Boat Tech Center'
+      href: '/technology'
+    - title: 'Boat Maintenance'
+      href: '/knowledge'
+    - title: 'Certification Guide'
+      href: '/inflatable-boat-certification'
+    - title: 'Boat Handling Basics'
+      href: '/knowledge'
+
+cta:
+  title: 'Start exploring'
+  subtitle: 'Dive into our knowledge base and get the information you need for your next water adventure.'
+  actions:
+    - variant: primary
+      text: 'Browse all guides'
+      href: '/knowledge'
+    - text: 'Explore Knowledge Graph'
+      href: '/knowledge'

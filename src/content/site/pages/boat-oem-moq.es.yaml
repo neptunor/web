@@ -1,0 +1,88 @@
+meta:
+  title: 'MOQ y Plazo de Embarcaciones a Medida — Niveles, Plazos y Factores de Coste | Neptunor'
+  description: 'Marco de MOQ y plazos para pedidos de embarcaciones RIB y neumáticas personalizadas en Neptunor: niveles de muestra, co-branding, piloto y volumen, cronogramas de producción y factores reales de coste.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'MOQ embarcaciones personalizadas'
+    - 'plazo OEM embarcaciones neumáticas'
+    - 'MOQ auxiliar RIB'
+    - 'cronograma fabricación embarcaciones'
+
+hero:
+  tagline: 'MOQ y Plazo'
+  title: 'MOQ y Plazo de Embarcaciones Personalizadas'
+  subtitle: 'Un marco de niveles transparente para los programas de embarcaciones de Neptunor — desde las primeras muestras hasta contenedores completos — con plazos honestos y los factores de coste que los mueven.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Neptunor trabaja con cinco niveles de MOQ: muestras de 1–2 embarcaciones, co-branding 5–10, tiradas piloto 20–50, volumen estándar 90–100+ por configuración (un ciclo completo de rollo de tejido) y programas de utillaje nuevo de casco/consola desde 50–100+. Las muestras salen en 10–15 días tras la congelación de especificaciones; la producción estándar lleva 30–45 días desde PO confirmada y depósito. El utillaje nuevo de casco o consola añade 20–35 días antes de la producción en serie.'
+  verified: '2026-08'
+
+moq_tiers_table:
+  title: 'Niveles de MOQ y Plazo'
+  headers: ['Nivel', 'Cantidad', 'Plazo', 'Ideal Para']
+  rows:
+    - ['Muestra', '1–2 embarcaciones', '10–15 días', 'Validar ajuste, acabado y especificación antes de comprometerse']
+    - ['Co-branding', '5–10 embarcaciones', '15–25 días', 'Tu marca sobre un casco probado']
+    - ['Tirada piloto', '20–50 embarcaciones', '25–35 días', 'Prueba de mercado, primeras colocaciones en concesionarios']
+    - ['Volumen estándar', '90–100+ por configuración', '30–45 días', 'Producción completa a partir de un ciclo de rollo de tejido']
+    - ['Programa con utillaje nuevo', '50–100+ embarcaciones', '+20–35 días de utillaje, luego 30–45 días de producción', 'Formas de casco, consolas o cambios estructurales personalizados']
+
+cost_drivers:
+  tagline: 'Qué Mueve Tu Precio'
+  title: 'Factores de Coste Detrás de Cada Cotización'
+  subtitle: 'Cuatro factores determinan la economía del MOQ y el coste unitario final.'
+  features:
+    - icon: F
+      icon_bg: blue
+      title: 'Rendimiento del Lote de Tejido'
+      desc: 'La eslora, el diámetro del tubo y la eficiencia de anidado deciden cuántos cascos rinde un rollo de tejido PVC de 150 m. Embarcaciones más largas y tubos más anchos reducen el rendimiento por rollo y elevan el MOQ práctico por configuración.'
+    - icon: C
+      icon_bg: green
+      title: 'Utillaje de Consola y Casco'
+      desc: 'Las consolas personalizadas o los cascos de fibra de vidrio/RIM requieren utillaje dedicado — cotizado aparte, amortizado en la primera tirada, y que añade 20–35 días antes de iniciar la producción.'
+    - icon: A
+      icon_bg: purple
+      title: 'Paquete de Accesorios'
+      desc: 'Remos o palas, bombas, asientos, ruedas, kits de reparación y electrónica de consola añaden líneas al BOM. Los kits de accesorios compartidos entre modelos reducen el coste unitario y el inventario.'
+    - icon: P
+      icon_bg: orange
+      title: 'Embalaje y Exportación'
+      desc: 'Cajas minoristas, marcado de códigos de barras, planes de carga de contenedor e incoterms (FOB Qingdao por defecto) se fijan en la cotización para que el precio planificado sea el que se envía.'
+
+timeline:
+  title: 'Cronograma de Extremo a Extremo'
+  steps:
+    - title: 'Congelación de especificaciones'
+      description: 'Planos, BOM, arte de marca y objetivos de certificación confirmados y firmados. Días 0–3.'
+    - title: 'Muestreo'
+      description: 'Primeras unidades construidas y enviadas en 10–15 días para tu inspección y prueba en el agua.'
+    - title: 'Utillaje (si aplica)'
+      description: 'Moldes de casco o consola producidos en paralelo con la planificación piloto — solo añade 20–35 días en programas con utillaje nuevo.'
+    - title: 'Producción'
+      description: '30–45 días desde la confirmación de PO y depósito: QC de material entrante, soldadura, montaje, 120 puntos de control y retenciones de presión de 24 h a 0,35 bar.'
+    - title: 'Liberación de envío'
+      description: 'Inspección previa al embarque, carga de contenedor y documentación de exportación desde el Puerto de Qingdao.'
+
+faqs:
+  tagline: Preguntas Frecuentes
+  title: 'MOQ y Plazo — Preguntas Frecuentes'
+  items:
+    - q: '¿Puedo pedir menos de 90 embarcaciones?'
+      a: 'Sí. Los niveles de muestra, co-branding y piloto existen precisamente para eso. La mayoría de las marcas nuevas empieza con un lote de co-branding de 5–10 embarcaciones sobre un casco probado y escala a configuraciones completas de 90–100+ cuando el mercado lo valida.'
+    - q: '¿Por qué el MOQ "estándar" sigue al rollo de tejido?'
+      a: 'El tejido de tubo se compra y corta en rollos madre de 150 m. Una configuración se precioa por rendimiento de rollo completo — normalmente 90–100+ dinghies según eslora y diámetro de tubo — por eso el nivel de volumen se expresa por configuración y no como una cifra única.'
+    - q: '¿Cómo de rápido puede salir un pedido repetido?'
+      a: 'Los pedidos repetidos con especificaciones congeladas y huecos de material reservados suelen quedar en el extremo rápido de la ventana de 30–45 días, porque las puertas de muestreo, utillaje y aprobación ya están superadas.'
+    - q: '¿El coste de utillaje aplica a todos los proyectos?'
+      a: 'No. Solo aplica cuando necesitas una forma de casco nueva, molde de consola o cambio estructural fuera de nuestras plataformas validadas. Cuando aplica, la tarifa se amortiza en la primera tirada de producción y se indica por escrito en la cotización.'
+
+cta:
+  title: '¿Listo para Definir Tu Programa de Embarcaciones?'
+  subtitle: 'Envíanos el tipo de embarcación objetivo, tamaño y cantidad — te devolvemos una recomendación de nivel, plazo y cotización detallada.'
+  actions:
+    - variant: primary
+      text: Solicitar Cotización
+      href: /es/contact#project-brief
+    - text: Consultar la guía de branding flexible
+      href: /es/oem-moq-guide

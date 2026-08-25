@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://neptunor.com/#organization",
+  "name": "Neptunor",
+  "alternateName": "Neptunor — RIB & Inflatable Boat Manufacturing",
+  "url": "https://neptunor.com",
+  "description": "Neptunor is a RIB boat and inflatable boat OEM/ODM manufacturer (Neptunor Marine Co., Ltd.), an 18,000 m² marine manufacturing plant in Qingdao, China. Hull engineering, tube fabrication, tooling, sampling, production and export for boat brands, fleet operators and rescue organizations worldwide.",
+  "industry": "Marine Equipment Manufacturing — RIB & Inflatable Boats",
+  "foundingDate": "2012",
+  "isicV4": "3011",
+  "numberOfEmployees": "300+",
+  "logo": "https://neptunor.com/logo192.png",
+  "location": {
+    "@type": "Place",
+    "name": "Qingdao Manufacturing Facility",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Qingdao",
+      "addressRegion": "Shandong",
+      "addressCountry": "CN"
+    }
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Country", "name": "Germany" },
+    { "@type": "Country", "name": "France" },
+    { "@type": "Country", "name": "United Kingdom" },
+    { "@type": "Country", "name": "Australia" },
+    { "@type": "Country", "name": "Japan" },
+    { "@type": "Country", "name": "Spain" },
+    { "@type": "Country", "name": "Italy" },
+    { "@type": "Country", "name": "Netherlands" },
+    { "@type": "Country", "name": "United Arab Emirates" },
+    { "@type": "Country", "name": "China" }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+86-18600000000",
+      "contactType": "sales",
+      "email": "info@neptunor.com",
+      "availableLanguage": ["English", "Chinese", "Spanish"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+86-18600000000",
+      "contactType": "customer service",
+      "email": "info@neptunor.com",
+      "availableLanguage": ["English", "Chinese"]
+    }
+  ],
+  "sameAs": [
+    "https://www.youtube.com/@neptunor",
+    "https://www.facebook.com/neptunor",
+    "https://www.linkedin.com/company/neptunor"
+  ]
+}

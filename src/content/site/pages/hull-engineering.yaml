@@ -1,0 +1,94 @@
+meta:
+  title: 'boat Hull Engineering — CAD & FEA Boat Design'
+  description: 'boat engineering studio: CAD boat design, finite element analysis (FEA) of drop-stitch structures and custom hull shapes for OEM projects.'
+back_text: 'Back to R&D Center'
+home_label: 'Home'
+
+hero:
+  tagline: 'Lab 02'
+  title: 'Boat Engineering Studio'
+  subtitle: 'Digital simulation, structural intelligence, custom boat design'
+  image: 'https://assets.neptunor.com/images/boats/factory/neptunor-design-review.webp'
+  image_alt: 'Neptunor boat engineering CAD design workstation'
+
+answer:
+  label: 'Straight answer'
+  text: 'Custom boats are designed in-house with SolidWorks 3D surfacing, ANSYS FEA and CFD — every boat is simulated for stress distribution and deck stiffness with a mandatory safety factor ≥ 2.5 before prototyping. A custom shape takes 10–15 days to prototype; full custom mould tooling adds 20–35 days to the 30–45 day production lead time, with MOQ confirmed by project configuration (see our MOQ guide).'
+  verified: '2026-08'
+
+intro: 'The shape of a boat — its bow rise, tube wall profile and keel lines — determines how it handles, turns and tracks. At {SITE.name}, our Boat Engineering Studio combines CAD surfacing, finite element analysis (FEA) of drop-stitch structures, and production experience to deliver boats optimised for their intended use: tender stability, dinghy efficiency or workboat load capacity. Every custom boat starts from your specification, not a generic shape from a catalogue.'
+
+content_html: |
+  <h2>Where strength meets hydrodynamics</h2>
+  <p>An inflatable boat combines RF-welded PVC tubes with a drop-stitch air-deck floor: thousands of polyester threads hold the panel flat at working pressure, while the tube diameter, bow rise and keel geometry control how the boat interacts with water. We design the 3D shape, simulate the inflated structure, and validate the result in-house before a single sample is cut.</p>
+
+  <h2>Design tools and standards</h2>
+  <p>Our digital engineering environment includes:</p>
+  <table>
+    <thead><tr><th>Capability</th><th>Software / Tool</th><th>Application</th></tr></thead>
+    <tbody>
+      <tr><td>3D parametric modelling</td><td>SolidWorks Professional</td><td>Hull surface, bow rise line, tube profile, handle &amp; seat-mount integration</td></tr>
+      <tr><td>Finite element analysis</td><td>ANSYS Mechanical</td><td>Drop-stitch core stress mapping, deck stiffness under load, handle-point reinforcement</td></tr>
+      <tr><td>Computational fluid dynamics</td><td>Ansys Fluent</td><td>Hydrodynamic drag prediction, planing trim optimisation</td></tr>
+      <tr><td>Lamination engineering</td><td>ESAComp</td><td>PVC layer stacking, fabric weight selection, weight estimation</td></tr>
+      <tr><td>Mould surface review</td><td>Moldex3D</td><td>Weld-tool geometry review for RF welding</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Our engineering workflow</h2>
+  <p>Every boat design, whether a standard model or a fully custom project, follows a rigorous five-stage process:</p>
+  <ol>
+    <li><strong>Concept &amp; requirements gathering</strong> — We define payload range, intended use (tender, air-deck dinghy, workboat, rescue, fleet rental), length, width and thickness targets, and any special features (cargo systems, EVA decking panels, tie-down points).</li>
+    <li><strong>3D surfacing &amp; volume calculation</strong> — The boat form is modelled in SolidWorks and checked for volume distribution, displacement and stability against the target load rating.</li>
+    <li><strong>Structural FEA</strong> — The inflated boat is analysed under static deck load (100 kg at centre) and dynamic loads (wave impact on the tubes). Stress contours are reviewed; safety factor ≥ 2.5 is mandatory.</li>
+    <li><strong>CFD drag optimisation</strong> — The hull is simulated at three loading conditions and five speeds. Wetted surface, trim angle and residual resistance are iteratively reduced.</li>
+    <li><strong>Design review &amp; release</strong> — The complete engineering package (3D model, FEA report, CFD report, weight estimate, panel lay plan) is reviewed by our senior engineer before release to the prototype workshop.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">FEA Results — 3.35 m All-Purpose Boat (1.52 m Beam)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">Safety factor at 250 kg maximum payload</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Air-deck deflection at rated pressure, no load</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 mm</span>
+        <span class="text-gray-500">Max air-deck flex under 250 kg static load</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0.90 bar</span>
+        <span class="text-gray-500">Analysis pressure — air-deck rating (tubes 0.25 bar)</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Customisation: your boat, your rules</h2>
+  <p>No two brands have identical requirements. A rental fleet needs a wide, stable all-around boat with reinforced tubes; a charter operator needs long-range efficiency with secure stowage; a rescue program needs self-draining decks and full-perimeter grab lines. We do not force your range into pre-existing shapes — we design from your specification upward.</p>
+  <p>Examples of recent custom boat engineering projects:</p>
+  <ul>
+    <li>A 4.2 m long-range tender for a yacht-charter fleet, with a deep-V entry bow and recessed stowage deck (+15% usable deck area).</li>
+    <li>A 3.2 m all-purpose boat for a resort fleet, with double-layer side tubes and a 500 kg rated payload.</li>
+    <li>A 2.7 m dive tender with an open bow platform and ladder mounts, developed for a dedicated watersports-school line.</li>
+  </ul>
+
+  <h2>Our engineers</h2>
+  <p>The studio is led by a senior product engineer with 14 years of experience in inflatable product design, supported by two mechanical engineers specialised in FEA and CFD. All three hold advanced degrees in engineering from internationally recognised universities, and the team works directly with our production floor to ensure every design is manufacturable at container scale.</p>
+
+  <h2>Partner with us on your next boat</h2>
+  <p>From the first concept sketch to the final stress report, our Boat Engineering Studio is your partner in creating a boat that is not just built — but engineered. We invest the simulation hours upfront so that every weld, every laminate layer, and every tube seam is there for a reason.</p>
+  <p>Whether you need a minor modification to an existing model or a completely clean-sheet design, we are ready to discuss your requirements.</p>
+
+cta:
+  title: 'Start your boat design consultation'
+  subtitle: 'Tell us about your target application and duty cycle and we will propose an engineering path.'
+  actions:
+    - variant: primary
+      text: Contact our engineering team
+      href: /contact#project-brief
+    - text: Back to the R&D Center
+      href: /randdcenter

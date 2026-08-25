@@ -1,0 +1,111 @@
+meta:
+  title: 'Conocimiento — Guías de embarcaciones | {SITE}'
+  description: 'Guías sobre embarcaciones neumáticas, materiales, selección de embarcaciones y análisis del sector para marcas y profesionales.'
+  keywords:
+    - 'conocimiento embarcaciones'
+    - 'guía embarcación neumática'
+    - 'materiales embarcaciones'
+    - 'análisis industria náutica'
+  dateModified: '2026-08'
+hero:
+  tagline: 'Gráfico de conocimiento'
+  title: 'Conocimiento para explorar el agua'
+  subtitle: |
+    Una base de conocimiento estructurada que cubre la tecnología de las embarcaciones neumáticas,
+    la seguridad en el agua, la ingeniería naval y la planificación de aventuras.
+  taglineSection: 'Explora. Aprende. Navega con confianza.'
+
+clusters:
+  tagline: 'Grupos de conocimiento'
+  title: 'Explora por tema'
+  subtitle: 'Análisis en profundidad de la tecnología, la seguridad y las habilidades que hay detrás de cada producto Neptunor.'
+  items:
+    - title: 'Guías de compra de embarcaciones'
+      description: 'Desde elegir tu primera embarcación hasta técnicas avanzadas de crucero costero: todo sobre la navegación en embarcaciones neumáticas.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Cómo elegir tu primera embarcación neumática'
+        - 'Guía de tamaños y capacidad de carga de la embarcación'
+        - 'Mejor embarcación para principiantes, crucero costero, buceo y familia'
+        - 'Errores de compra de embarcaciones que debes evitar'
+        - 'Comparativa: neumática frente a embarcación rígida'
+    - title: 'Ingeniería y tecnología de embarcaciones'
+      description: 'Guías técnicas sobre embarcaciones neumáticas: materiales, métodos de construcción y procesos de fabricación.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Tecnología drop-stitch en profundidad'
+        - 'Especificaciones del PVC de grado militar'
+        - 'Laminación por fusión frente a unión adhesiva'
+        - 'Tecnología de espuma EVA y métodos de arte'
+        - 'Tipos de válvulas y accesorios de popa para embarcaciones'
+    - title: 'Seguridad y mantenimiento de embarcaciones'
+      description: 'Conocimientos de seguridad esenciales para cada navegante: desde la elección del chaleco hasta la lectura del clima y el cuidado y reparación de la embarcación.'
+      icon: 'tabler:shield'
+      topics:
+        - 'Lista de seguridad a bordo y requisitos de chalecos'
+        - 'Seguridad multicámara en aguas remotas'
+        - 'Guía de presión de inflado de la embarcación'
+        - 'Almacenamiento y cuidado invernal de la embarcación'
+        - 'Técnicas de reparación de hinchables'
+    - title: 'Manejo y habilidades náuticas'
+      description: 'Manejo de la embarcación, navegación y planificación de rutas para todos los niveles.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Técnicas para patrones primerizos'
+        - 'Fundamentos de atraque y amarre'
+        - 'Planificación de rutas costeras'
+        - 'Fondeo y varado en playa'
+        - 'Leer el clima y las condiciones del agua'
+    - title: 'Estilo de vida y usos especiales de embarcaciones'
+      description: 'Actividades especializadas: pesca, buceo, perros, familias y consejos de viaje.'
+      icon: 'tabler:heart'
+      topics:
+        - 'Días en el agua con familia y amigos'
+        - 'Pesca desde una embarcación neumática'
+        - 'Navegación con perros y niños'
+        - 'Viajar con tu embarcación en avión y coche'
+        - 'Accesorios y equipo esencial de embarcación'
+    - title: 'Comparativas y referencias de embarcaciones'
+      description: 'Comparativas lado a lado para ayudarte a tomar decisiones informadas.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'Embarcación neumática frente a kayak: ¿cuál te conviene?'
+        - 'Comparativa de materiales: PVC frente a Hypalon'
+        - 'Seguridad de una cámara frente a multicámara'
+        - 'Materiales de embarcaciones explicados'
+        - 'Impresión UV frente a arte en bloque EVA'
+
+featured_guides:
+  tagline: 'Guías destacadas'
+  title: 'Los recursos de conocimiento más populares'
+  items:
+    - title: 'Nociones de embarcación'
+      href: '/es/knowledge'
+    - title: 'PVC frente a Hypalon'
+      href: '/es/research/pvc-vs-hypalon'
+    - title: 'Guía de seguridad en el agua'
+      href: '/es/knowledge'
+    - title: 'Referencia de materiales'
+      href: '/es/knowledge'
+    - title: 'Guía de compra de embarcación'
+      href: '/es/knowledge'
+    - title: 'Guía de tamaños y carga'
+      href: '/es/knowledge'
+    - title: 'Centro técnico de embarcaciones'
+      href: '/es/technology'
+    - title: 'Mantenimiento de embarcaciones'
+      href: '/es/knowledge'
+    - title: 'Guía de certificación'
+      href: '/es/inflatable-boat-certification'
+    - title: 'Manejo básico de embarcaciones'
+      href: '/es/knowledge'
+
+cta:
+  title: 'Empieza a explorar'
+  subtitle: 'Sumérgete en nuestra base de conocimiento y obtén la información que necesitas para tu próxima aventura en el agua.'
+  actions:
+    - variant: primary
+      text: 'Ver todas las guías'
+      href: '/es/knowledge'
+    - text: 'Explorar el gráfico de conocimiento'
+      href: '/es/knowledge'
