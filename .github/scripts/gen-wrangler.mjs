@@ -74,7 +74,12 @@ if (CF_PROD_VECTORIZE_INDEX) {
 if (CF_PROD_DOMAIN) {
   prod = prod.replace(
     new RegExp(`"name": "${SITE_ID}-production",`),
-    `"name": "${SITE_ID}-production",\n\t\t\t"routes": [{ "pattern": "${CF_PROD_DOMAIN}", "custom_domain": true }],`,
+    `"name": "${SITE_ID}-production",\n\t\t\t"workers_dev": false,\n\t\t\t"routes": [{ "pattern": "${CF_PROD_DOMAIN}", "custom_domain": true }],`,
+  )
+} else {
+  prod = prod.replace(
+    new RegExp(`"name": "${SITE_ID}-production",`),
+    `"name": "${SITE_ID}-production",\n\t\t\t"workers_dev": true,`,
   )
 }
 

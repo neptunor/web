@@ -30,7 +30,6 @@
 		"nodejs_compat"
 	],
 	"main": "./src/worker.ts",
-	"workers_dev": true,
 	"observability": {
 		"enabled": true
 	},
