@@ -12,7 +12,7 @@
 import { SITE_NAME, SITE_DOMAIN } from './site'
 import { PRODUCT_BOILERPLATE, PRODUCT_BUILD_LINE, PRODUCT_NOT_ROB, PRODUCT_OG_IMAGE_FILENAME } from '@/product/brand-constants'
 
-export const BRAND_LOGO_URL = '/logo192.png' as const
+export const BRAND_LOGO_URL = '/Neptunor_Logo.png' as const
 
 export const BRAND_FAVICON_ICO = '/favicon.ico' as const
 export const BRAND_FAVICON_SVG = '/favicon.svg' as const
