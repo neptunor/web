@@ -183,6 +183,87 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
       ],
     },
+    {
+      slug: 'inflatable-catamaran',
+      navLabel: 'Inflatable Catamarans',
+      metaTitle: 'Custom Inflatable Catamarans — OEM Manufacturer | Neptunor',
+      metaDescription:
+        'Custom inflatable catamarans manufactured under your brand — speed 470 (4.7 m) and kaboat fish 375 (3.75 m), twin-hull design, drop-stitch floors. Factory direct from Qingdao, China.',
+      kicker: 'Series · Inflatable Catamarans',
+      h1: 'Custom Inflatable Catamarans — Speed, Stability, Open-Bow Versatility',
+      intro: [
+        'Inflatable catamarans combine the aerodynamic efficiency of twin-hull construction with the portability of an inflatable. The dual-sponson design channels air under the hull for reduced drag, while the keel-less architecture delivers razor-sharp tracking without the complexity of a central keel chamber.',
+        'We manufacture catamarans under your brand on the speed-470 (4.7 m racing/rescue) and kaboat-fish-375 (3.75 m fishing/recreation) platforms — drop-stitch air floors, open-bow configurations, and four styling collections from minimalist solids to tactical camo.',
+      ],
+      faqs: [
+        {
+          q: 'What makes a catamaran hull different from a monohull inflatable?',
+          a: 'The twin-sponson design creates an air cushion beneath the hull, reducing friction and improving fuel efficiency. It also eliminates body roll and provides dual-stabilizer tracking — critical for high-speed racing and rescue operations.',
+        },
+        {
+          q: 'Can catamarans be configured for rescue operations?',
+          a: 'Yes. The open-bow architecture is purpose-built for fast beach landings, rapid water extraction and equipment deployment. We add rescue-rack mounts, grab lines and self-righting bag options for agency fleets.',
+        },
+        {
+          q: 'What is the MOQ for inflatable catamarans?',
+          a: 'Samples ship in 10–15 days; production runs 30–45 days after confirmed PO. Standard batches start at 90–100+ units per configuration, pilot runs at 20–50 units.',
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-kayak',
+      navLabel: 'Inflatable Kayaks',
+      metaTitle: 'Custom Inflatable Kayaks — OEM Manufacturer | Neptunor',
+      metaDescription:
+        'Custom inflatable kayaks manufactured under your brand — full drop-stitch tour 365 (3.65 m) and hybrid 335 (3.35 m), performance and recreational models. Factory direct from Qingdao, China.',
+      kicker: 'Series · Inflatable Kayaks',
+      h1: 'Custom Inflatable Kayaks — Full Drop-Stitch Performance & Hybrid Comfort',
+      intro: [
+        'Inflatable kayaks have evolved from soft, round-tube recreational toys into rigid, high-performance touring machines. Full drop-stitch construction delivers flat-panel sidewalls that rival hard-shell rigidity, while hybrid designs combine thick PVC tubes with removable drop-stitch floors for rental-friendly versatility.',
+        'We manufacture kayaks under your brand on the tour-365 (3.65 m full drop-stitch performance) and hybrid-335 (3.35 m hybrid recreational) platforms — from cockpit coaming and embedded bungee systems to Polynesian-inspired graphics and high-visibility racing palettes.',
+      ],
+      faqs: [
+        {
+          q: 'What is the difference between full drop-stitch and hybrid kayaks?',
+          a: 'Full drop-stitch kayaks use high-pressure panels for all surfaces (sidewalls, floor, deck), delivering maximum rigidity and hard-shell performance. Hybrid kayaks use traditional round PVC tubes for the sides with a drop-stitch floor, offering more interior comfort and easier entry at a lower price point.',
+        },
+        {
+          q: 'Can inflatable kayaks handle Class III rapids?',
+          a: 'The full drop-stitch tour-365 is designed for touring and moderate rapids. For serious whitewater (Class III+), we recommend our inflatable raft series with I-Beam self-bailing floors.',
+        },
+        {
+          q: 'What is the MOQ for inflatable kayaks?',
+          a: 'Samples ship in 10–15 days; production runs 30–45 days after confirmed PO. Standard batches start at 90–100+ units per configuration, pilot runs at 20–50 units.',
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-raft',
+      navLabel: 'Inflatable Rafts',
+      metaTitle: 'Custom Inflatable Whitewater Rafts — OEM Manufacturer | Neptunor',
+      metaDescription:
+        'Custom inflatable whitewater rafts manufactured under your brand — raft-white-380 (3.8 m), self-bailing I-Beam floor, frame-ready modular construction. Factory direct from Qingdao, China.',
+      kicker: 'Series · Inflatable Rafts',
+      h1: 'Custom Inflatable Whitewater Rafts — Self-Bailing, Frame-Ready, Expedition-Proven',
+      intro: [
+        'Inflatable whitewater rafts are the workhorses of river outfitters, expedition teams and commercial rafting operations. A self-bailing floor evacuates water in seconds, flat-bottom zero-keel construction enables precise maneuvering in rock-strewn rapids, and modular frame-ready perimeters convert the raft into a luxury drift boat.',
+        'We manufacture rafts under your brand on the raft-white-380 (3.8 m) platform — I-Beam raised floors, 5-chamber multi-tube construction, drop-stitch air deck upgrades and colorways ranging from Insta-ready neon accents to tactical expedition tones.',
+      ],
+      faqs: [
+        {
+          q: 'How does the self-bailing system work?',
+          a: 'The raised I-Beam inflatable floor forces water to the edges, where it exits through perimeter bailing holes. When waves crash into the boat, the floor buoyancy evacuates water within seconds — no manual bucketing required.',
+        },
+        {
+          q: 'Can rafts accept fishing frames?',
+          a: 'Yes. The rigid perimeter tubes are designed to lock in aluminum fishing or rowing frames with swivel seats, anchor systems and coolers. The drop-stitch air deck upgrade (10–15 psi) provides rock-solid standing stability for fly casting.',
+        },
+        {
+          q: 'What is the MOQ for inflatable rafts?',
+          a: 'Samples ship in 10–15 days; production runs 30–45 days after confirmed PO. Standard batches start at 90–100+ units per configuration, pilot runs at 20–50 units.',
+        },
+      ],
+    },
   ],
   es: [
     {
@@ -337,6 +418,87 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         {
           q: '¿Podemos lanzar rápido una línea de neumáticas de marca privada?',
           a: 'Sí. El arte de marca privada en tubos, asientos y cajas se desarrolla a partir de tus activos, se verifica en muestra física y luego se bloquea como BOM para que los reordenes sean consistentes. Códigos de barras, etiquetas y versiones de manual por mercado objetivo se gestionan dentro del mismo programa.',
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-catamaran',
+      navLabel: 'Catamaranes inflables',
+      metaTitle: 'Catamaranes inflables personalizados — Fabricante OEM | Neptunor',
+      metaDescription:
+        'Catamaranes inflables personalizados bajo tu marca: speed-470 (4,7 m) y kaboat-fish-375 (3,75 m), diseño de doble casco, suelos drop-stitch. Directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Catamaranes inflables',
+      h1: 'Catamaranes inflables personalizados: velocidad, estabilidad y proa abierta',
+      intro: [
+        'Los catamaranes inflables combinan la eficiencia aerodinámica de la construcción de doble casco con la portabilidad de un inflable. El diseño de doble flotador canaliza el aire bajo el casco para reducir la resistencia, mientras que la arquitectura sin quilla ofrece un seguimiento preciso sin la complejidad de una cámara de quilla central.',
+        'Fabricamos catamaranes bajo tu marca sobre las plataformas speed-470 (4,7 m racing/rescate) y kaboat-fish-375 (3,75 m pesca/recreación): suelos drop-stitch, configuraciones de proa abierta y cuatro colecciones de estilo desde sólidos minimalistas hasta camuflaje táctico.',
+      ],
+      faqs: [
+        {
+          q: '¿Qué diferencia un casco catamarán de un inflable monocasco?',
+          a: 'El diseño de doble flotador crea una almohada de aire bajo el casco, reduciendo la fricción y mejorando la eficiencia de combustible. También elimina el balanceo y proporciona un seguimiento con estabilizadores duales — crítico para carreras de alta velocidad y operaciones de rescate.',
+        },
+        {
+          q: '¿Se pueden configurar catamaranes para operaciones de rescate?',
+          a: 'Sí. La arquitectura de proa abierta está diseñada para aterrizajes rápidos en la playa, extracción rápida del agua y despliegue de equipamiento. Añadimos montajes para rak de rescate, líneas de agarre y opciones de bolsa auto-hinchable para flotas de agencias.',
+        },
+        {
+          q: '¿Cuál es el pedido mínimo para catamaranes inflables?',
+          a: 'Las muestras salen en 10–15 días; la producción corre entre 30 y 45 días tras PO confirmado. Los lotes estándar parten de 90–100+ uds. por configuración, los pilotos de 20–50 uds.',
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-kayak',
+      navLabel: 'Kayaks inflables',
+      metaTitle: 'Kayaks inflables personalizados — Fabricante OEM | Neptunor',
+      metaDescription:
+        'Kayaks inflables personalizados bajo tu marca: tour-365 full drop-stitch (3,65 m) e híbrido 335 (3,35 m), modelos de rendimiento y recreación. Directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Kayaks inflables',
+      h1: 'Kayaks inflables personalizados: rendimiento full drop-stitch y comodidad híbrida',
+      intro: [
+        'Los kayaks inflables han evolucionado de juguetes recreativos blandos a máquinas de touring rígidas y de alto rendimiento. La construcción full drop-stitch ofrece paredes planas que rivalen con la rigidez de un casco duro, mientras que los diseños híbridos combinan tubos gruesos de PVC con suelos drop-stitch removibles para versatilidad de alquiler.',
+        'Fabricamos kayaks bajo tu marca sobre las plataformas tour-365 (3,65 m full drop-stitch de rendimiento) e hybrid-335 (3,35 m híbrido recreativo): desde coaming de cockpit y sistemas de elásticos empotrados hasta gráficos de inspiración polinesia y paletas de carreras de alto contraste.',
+      ],
+      faqs: [
+        {
+          q: '¿Cuál es la diferencia entre kayaks full drop-stitch e híbridos?',
+          a: 'Los kayaks full drop-stitch usan paneles de alta presión para todas las superficies (paredes, suelo, cubierta), ofreciendo máxima rigidez y rendimiento de casco duro. Los híbridos usan tubos redondos tradicionales de PVC para los laterales con un suelo drop-stitch, ofreciendo más comidad interior y entrada más fácil a menor precio.',
+        },
+        {
+          q: '¿Pueden los kayaks inflables manejar rápidos de clase III?',
+          a: 'El tour-365 full drop-stitch está diseñado para touring y rápidos moderados. Para aguas bravas serias (clase III+), recomendamos nuestra serie de balsas inflables con suelos I-Beam de drenaje automático.',
+        },
+        {
+          q: '¿Cuál es el pedido mínimo para kayaks inflables?',
+          a: 'Las muestras salen en 10–15 días; la producción corre entre 30 y 45 días tras PO confirmado. Los lotes estándar parten de 90–100+ uds. por configuración, los pilotos de 20–50 uds.',
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-raft',
+      navLabel: 'Balsas inflables',
+      metaTitle: 'Balsas inflables de aguas bravas personalizadas — Fabricante OEM | Neptunor',
+      metaDescription:
+        'Balsas inflables de aguas bravas personalizadas bajo tu marca: raft-white-380 (3,8 m), suelo I-Beam de drenaje automático, construcción modular lista para marco. Directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Balsas inflables',
+      h1: 'Balsas inflables de aguas bravas personalizadas: drenaje automático, lista para marco, probadas en expedición',
+      intro: [
+        'Las balsas inflables de aguas bravas son las mulas de carga de outfitters fluviales, equipos de expedición y operaciones de rafting comercial. Un suelo de drenaje automático evacúa el agua en segundos, la construcción plana sin quilla permite maniobras precisas en rápidos rocosos, y los perímetros modulares listos para marco convierten la balsa en un lujoso bote de deriva.',
+        'Fabricamos balsas bajo tu marca sobre la plataforma raft-white-380 (3,8 m): suelos I-Beam elevados, construcción de 5 cámaras, actualizaciones de cubierta drop-stitch y colores que van desde acentos neón listos para Instagram hasta tonos tácticos de expedición.',
+      ],
+      faqs: [
+        {
+          q: '¿Cómo funciona el sistema de drenaje automático?',
+          a: 'El piso inflable I-Beam elevado fuerza el agua hacia los bordes, donde sale a través de orificios de drenaje perimetrales. Cuando las olas golpean la embarcación, la boyancia del piso evacúa el agua en segundos — sin necesidad de cubo manual.',
+        },
+        {
+          q: '¿Pueden las balsas aceptar marcos de pesca?',
+          a: 'Sí. Los tubos perimetrales rígidos están diseñados para acoplar marcos de pesca o remo de aluminio con asientos giratorios, sistemas de ancla y enfriadores. La actualización de cubierta drop-stitch (10–15 psi) proporciona estabilidad sólida para la pesca con mosca de pie.',
+        },
+        {
+          q: '¿Cuál es el pedido mínimo para balsas inflables?',
+          a: 'Las muestras salen en 10–15 días; la producción corre entre 30 y 45 días tras PO confirmado. Los lotes estándar parten de 90–100+ uds. por configuración, los pilotos de 20–50 uds.',
         },
       ],
     },
