@@ -105,27 +105,27 @@ labs_section:
   tagline: Labs
   title: Our Laboratories
   labs:
-    - image: https://assets.neptunor.com/images/boats/randd/neptunor-pvc-material-lab.webp
+    - image: https://neptunor.com/assets/images/boats/randd/neptunor-pvc-material-lab.webp
       title: PVC Fabric Lab
       description: Continuous research and testing of PVC and Hypalon tube fabrics for tensile strength, UV resistance, abrasion, and low-temperature flexibility to ensure long-term reliability in marine environments.
       href: /randdcenter/pvc-fabric-lab
-    - image: https://assets.neptunor.com/images/boats/factory/neptunor-design-discussion-2.webp
+    - image: https://neptunor.com/assets/images/boats/factory/neptunor-design-discussion-2.webp
       title: Hull Engineering Studio
       description: CAD-driven design and finite element analysis of HDPE, aluminum, and fiberglass hulls. Every hull is digitally simulated for stress distribution and impact resistance before the first prototype is built.
       href: /randdcenter/hull-engineering
-    - image: https://assets.neptunor.com/images/boats/factory/neptunor-boat-manufacturing-3.webp
+    - image: https://neptunor.com/assets/images/boats/factory/neptunor-boat-manufacturing-3.webp
       title: RF Welding Center
       description: Dedicated radio-frequency welding facility with precision temperature and pressure control, producing high-strength, airtight seams that meet marine industry standards for inflatable craft.
       href: /randdcenter/rf-welding
-    - image: https://assets.neptunor.com/images/boats/factory/neptunor-design-discussion-original.webp
+    - image: https://neptunor.com/assets/images/boats/factory/neptunor-design-discussion-original.webp
       title: Hydrodynamic Test Tank
       description: Scale-model testing in our in-house test tank to optimize hull form, planing performance, stability, and fuel efficiency across a range of load and sea conditions.
       href: /randdcenter/hydrodynamic-test-tank
-    - image: https://assets.neptunor.com/images/boats/products/boat-series/boat-ocean-voyager-1.webp
+    - image: https://neptunor.com/assets/images/boats/products/boat-series/boat-ocean-voyager-1.webp
       title: Prototype Workshop
       description: Full-scale prototyping and rigging facility where new models are built, fitted, and sea-trialed. Every prototype undergoes a minimum 20-hour in-water test programme before production approval.
       href: /randdcenter/prototype-workshop
-    - image: https://assets.neptunor.com/images/boats/factory/neptunor-uv-resistance-testing.webp
+    - image: https://neptunor.com/assets/images/boats/factory/neptunor-uv-resistance-testing.webp
       title: Quality & Inspection Lab
       description: Dedicated quality assurance lab performing tensile testing, air-retention cycling, seam peel tests, and material certification to ensure every boat leaving the workshop meets our published specifications.
       href: /randdcenter/quality-inspection-lab

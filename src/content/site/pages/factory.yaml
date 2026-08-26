@@ -119,27 +119,27 @@ workshops_section:
   workshops:
     - title: PVC Cutting & Material Preparation
       description: Automatic CNC cutting machines process PVC, Hypalon, and drop-stitch fabrics with sub-millimetre precision. Computer-optimised nesting minimises material waste and ensures every panel meets its dimensional specification before welding.
-      image: https://assets.neptunor.com/images/boats/hero/production-dept.webp
+      image: https://neptunor.com/assets/images/boats/hero/production-dept.webp
       alt: CNC PVC cutting machine preparing inflatable boat fabric panels at Qingdao factory
     - title: Tube Welding & Heat Sealing
       description: Dedicated welding workshop with heat sealing machines  and RF dielectric presses. Hot-air heat sealers bond and fuse PVC tube chambers, while RF welds produce high-strength airtight seams that exceed  requirements.
-      image: https://assets.neptunor.com/images/boats/factory/neptunor-production-department.webp
+      image: https://neptunor.com/assets/images/boats/factory/neptunor-production-department.webp
       alt: RF welding machine sealing inflatable boat tube chambers at Qingdao factory
     - title: Drop-Stitch Core Bonding
       description: boat drop-stitch cores are bonded to outer PVC laminates using heat lamination. Thousands of internal polyester threads connect top and bottom layers, creating a rigid structure at 0.25 bar working pressure. Rail bands are triple-layer fusion bonded for edge strength.
-      image: https://assets.neptunor.com/images/boats/factory/neptunor-boat-manufacturing.webp
+      image: https://neptunor.com/assets/images/boats/factory/neptunor-boat-manufacturing.webp
       alt: Inflatable boat manufacturing line with drop-stitch core bonding equipment at Qingdao factory
     - title: boat Printing & Decoration
       description: boats are decorated using digital printing  for full-colour graphics and screen printing  for logos and repeating patterns. Digital printers produce photo-quality deck designs, while screen printing delivers durable, vivid brand marks.
-      image: https://assets.neptunor.com/images/boats/factory/neptunor-production-department-2.webp
+      image: https://neptunor.com/assets/images/boats/factory/neptunor-production-department-2.webp
       alt: Production department interior at Qingdao inflatable boat factory
     - title: Final Assembly & Fitting
       description: Assembly line where valves, D-rings, handles, seat mounts, and EVA decking is installed on each boat. Each boat follows a 120-point assembly checklist signed off by the team lead.
-      image: https://assets.neptunor.com/images/boats/factory/neptunor-production-department.webp
+      image: https://neptunor.com/assets/images/boats/factory/neptunor-production-department.webp
       alt: Production department with assembly workstations at Qingdao factory
     - title: Quality Testing & Inspection
       description: Every completed boat undergoes mandatory air-retention testing, seam peel verification, and a full systems check before shipping. Our quality lab operates independently from production and reports directly to management.
-      image: https://assets.neptunor.com/images/boats/factory/neptunor-pressure-testing.webp
+      image: https://neptunor.com/assets/images/boats/factory/neptunor-pressure-testing.webp
       alt: Pressure testing inflatable boat for air retention before shipping at Qingdao factory
 
 equipment_section:

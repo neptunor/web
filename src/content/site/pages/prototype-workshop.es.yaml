@@ -14,7 +14,7 @@ hero:
   tagline: 'Lab 05'
   title: 'Taller de Prototipos'
   subtitle: 'Del modelo CAD a la embarcación de muestra comprobada — construida, equipada y validada'
-  image: 'https://assets.neptunor.com/images/boats/products/boat-series/boat-ocean-voyager-1.webp'
+  image: 'https://neptunor.com/assets/images/boats/products/boat-series/boat-ocean-voyager-1.webp'
   image_alt: 'Fabricación de una embarcación prototipo en el taller de prototipos de Neptunor'
 
 intro: 'Un modelo CAD, por muy detallado que sea, no puede revelar cómo se siente una embarcación hasta que se infla, se sube a ella y se palea. Por eso nuestro Taller de Prototipos está pensado para convertir los datos de ingeniería en una embarcación física y navegable de la forma más rápida y precisa posible. Cada nuevo modelo de {SITE.name} — y cada construcción a medida significativa — pasa por este taller antes de comprometer el utillaje de producción.'

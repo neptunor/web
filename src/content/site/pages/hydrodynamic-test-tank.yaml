@@ -14,7 +14,7 @@ hero:
   tagline: 'Lab 04'
   title: 'Hydrodynamic Test Tank'
   subtitle: 'Validating performance before the first full-scale prototype'
-  image: 'https://assets.neptunor.com/images/boats/factory/neptunor-design-discussion-original.webp'
+  image: 'https://neptunor.com/assets/images/boats/factory/neptunor-design-discussion-original.webp'
   image_alt: 'Neptunor hydrodynamic test tank performance testing'
 
 intro: 'It is a common misconception that hydrodynamic testing is reserved for ships and racing craft. In reality, the performance of a boat — a planing hull of 10 to 14 feet — is just as dependent on its underwater shape as any other craft. Bow profile, tube radius, bow rise and wetted surface area all have a dramatic effect on drag, glide efficiency and stability. At {SITE.name}, we operate a dedicated hydrodynamic test tank that allows us to quantify these effects at model scale — before committing fabric and tooling to a full-size prototype.'

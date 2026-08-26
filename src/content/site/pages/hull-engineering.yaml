@@ -8,7 +8,7 @@ hero:
   tagline: 'Lab 02'
   title: 'Boat Engineering Studio'
   subtitle: 'Digital simulation, structural intelligence, custom boat design'
-  image: 'https://assets.neptunor.com/images/boats/factory/neptunor-design-review.webp'
+  image: 'https://neptunor.com/assets/images/boats/factory/neptunor-design-review.webp'
   image_alt: 'Neptunor boat engineering CAD design workstation'
 
 answer:
