@@ -15,7 +15,6 @@ import { PRODUCT_BOILERPLATE, PRODUCT_BUILD_LINE, PRODUCT_NOT_ROB } from '@/prod
 export const BRAND_LOGO_URL = '/Neptunor_Logo.png' as const
 
 export const BRAND_FAVICON_ICO = '/favicon.ico' as const
-export const BRAND_FAVICON_SVG = '/favicon.svg' as const
 
 export const BRAND_OG_IMAGE = '/og-image.jpg' as const
 export const BRAND_HERO_IMAGE = '/og-image.jpg' as const
