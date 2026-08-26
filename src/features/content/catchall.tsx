@@ -393,16 +393,46 @@ export function ProductView({ product, related, origin, locale }: { product: Con
   const { t } = useTranslation()
   const specs = product.specs ?? []
   const gallery = product.gallery?.length ? product.gallery : product.image ? [{ url: product.image, alt: product.title }] : []
+  const [activeImg, setActiveImg] = React.useState(0)
   const fl = useLocalizePath()
   return (
     <>
       <PageHero kicker={product.category ?? t('content.kickers.product')} title={product.title} sub={brandify(product.summary ?? '')} />
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7 md:py-16">
         <div className="grid gap-8 lg:grid-cols-[1.1fr_1fr]">
-          <div className="grid gap-3">
-            {gallery.map((img, i) => (
-              <img key={img.url} src={img.url} alt={img.alt ?? product.title} width={1200} height={630} loading={i === 0 ? 'eager' : 'lazy'} fetchPriority={i === 0 ? 'high' : 'auto'} decoding={i === 0 ? 'auto' : 'async'} className="w-full rounded-2xl border border-border-2 object-cover" />
-            ))}
+          <div className="flex flex-col gap-3">
+            <div className="relative overflow-hidden rounded-2xl border border-border-2 bg-bg-alt">
+              {gallery.map((img, i) => (
+                <img
+                  key={img.url}
+                  src={img.url}
+                  alt={img.alt ?? product.title}
+                  width={1200}
+                  height={630}
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                  fetchPriority={i === 0 ? 'high' : 'auto'}
+                  decoding={i === 0 ? 'auto' : 'async'}
+                  className={`w-full object-cover transition-opacity duration-300 ${i === activeImg ? 'block' : 'hidden'}`}
+                />
+              ))}
+              {gallery.length > 1 && (
+                <>
+                  <button type="button" aria-label="Previous image" onClick={() => setActiveImg((p) => (p - 1 + gallery.length) % gallery.length)} className="absolute left-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-card/80 text-fg backdrop-blur transition-colors hover:bg-card">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+                  </button>
+                  <button type="button" aria-label="Next image" onClick={() => setActiveImg((p) => (p + 1) % gallery.length)} className="absolute right-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-card/80 text-fg backdrop-blur transition-colors hover:bg-card">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+                  </button>
+                </>
+              )}
+            </div>
+            {gallery.length > 1 && (
+              <div className="flex items-center justify-center gap-2">
+                {gallery.map((img, i) => (
+                  <button key={img.url} type="button" aria-label={`View image ${i + 1}`} onClick={() => setActiveImg(i)} className={`h-2 rounded-full transition-all ${i === activeImg ? 'w-6 bg-primary' : 'w-2 bg-border-3 hover:bg-fg-3'}`} />
+                ))}
+              </div>
+            )}
           </div>
           <div>
             <div className="flex items-center gap-3">
