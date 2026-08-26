@@ -1,5 +1,5 @@
 /**
- * Stylized top-view SUP board illustration used across the marketing site as
+ * Stylized top-view boat illustration used across the marketing site as
  * a stand-in for product photography (hero mockup, product cards, gallery,
  * customizer preview). Colors track the theme tokens so it adapts to
  * light/dark; `hue` tints the brand accents per product/project.
@@ -7,7 +7,7 @@
 export function BoardArt({
   hue = 195,
   label,
-  ariaLabel = 'SUP board',
+  ariaLabel = 'boat illustration',
   className,
 }: {
   hue?: number

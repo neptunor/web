@@ -16,7 +16,7 @@ export interface InquiryPrefill {
   /** Product platform name (shown in the notice + board-platform field). */
   name?: string
   sku?: string
-  /** SUP product category key, preselected in the category field. */
+  /** Boat product category key, preselected in the category field. */
   category?: string
   /** Project intent label from a CTA deep link (e.g. custom OEM, MOQ planning). */
   intent?: string

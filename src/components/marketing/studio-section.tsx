@@ -5,7 +5,7 @@ import { SectionHead } from './section-head'
 
 const ICONS = [Ruler, Palette, Layers, Wrench, Package]
 
-/** Custom SUP Studio: horizontal snap-scroll strip of the five build layers. */
+/** Custom Boat Studio: horizontal snap-scroll strip of the five build layers. */
 export function StudioSection() {
   const { locale } = useTranslation()
   const c = pick(studio, locale)

@@ -6,7 +6,7 @@ import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 
 /** Home: buyer-education cards linking into the news guides, pitched at the
- *  sourcing questions every SUP brand asks before ordering. */
+ *  sourcing questions every boat brand asks before ordering. */
 export function GuidesSection() {
   const { locale, t } = useTranslation()
   const c = pick(guides, locale)

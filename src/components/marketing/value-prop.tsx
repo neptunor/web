@@ -6,7 +6,7 @@ import { Reveal } from './reveal'
 
 const ICONS = [Sparkles, Layers, DraftingCompass, Factory, BadgeCheck, Globe]
 
-/** Core value proposition: "More Than a SUP Factory" — product development & manufacturing partner positioning. */
+/** Core value proposition: "More Than a Boat Factory" — product development & manufacturing partner positioning. */
 export function ValueProp() {
   const { locale } = useTranslation()
   const c = pick(valueProp, locale)

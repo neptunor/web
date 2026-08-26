@@ -34,7 +34,7 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
   component: CustomizerPage,
 })
 
-/** SUP Design Studio: clean white configurator layout with a live color-picking preview. */
+/** Boat Design Studio: clean white configurator layout with a live color-picking preview. */
 function CustomizerPage() {
   const { locale, t } = useTranslation()
   const fl = useLocalizePath()

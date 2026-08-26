@@ -5,7 +5,7 @@ import { pick, platforms } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 
-/** Home: "SUP Platforms Available For Customization" — four platform cards, each with a request CTA. */
+/** Home: "Boat Platforms Available For Customization" — four platform cards, each with a request CTA. */
 export function PlatformsSection() {
   const { locale } = useTranslation()
   const c = pick(platforms, locale)

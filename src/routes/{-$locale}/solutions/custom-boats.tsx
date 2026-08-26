@@ -2,7 +2,7 @@ import { createFileRoute, redirect } from '@tanstack/react-router'
 import { localizePath, type Locale } from '@/features/i18n/locale'
 
 /**
- * The custom-SUP solution consolidated on the product-development pillar page
+ * The custom-boat solution consolidated on the product-development pillar page
  * (pipeline, FAQs and schema in one place). Permanent 301 so indexed URLs and
  * inbound links consolidate on it.
  */

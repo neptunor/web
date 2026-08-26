@@ -32,7 +32,7 @@ const MODE_ENTRIES = [
     key: 'commercial' as const,
     icon: Ship,
     buyerState: 'Procuring rental, school or resort equipment',
-    ctaLabel: 'Build a Commercial SUP Fleet',
+    ctaLabel: 'Build a Commercial Boat Fleet',
     href: '/solutions/fleet-rental',
   },
 ]
