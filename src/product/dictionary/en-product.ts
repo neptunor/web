@@ -80,7 +80,7 @@ export const enProduct = {
     privacySections: [
       {
         heading: 'Data Controller',
-        body: `Neptunor Marine Co., Ltd. (Qingdao, Shandong, China) is the controller of personal data collected through ${SITE_DOMAIN}. You can reach us at ${BRAND_CONTACT.email} or +86 186 0000 0000.`,
+        body: `Neptunor Marine Co., Ltd. (Qingdao, Shandong, China) is the controller of personal data collected through ${SITE_DOMAIN}. You can reach us at ${BRAND_CONTACT.email} or +86 192 9532 9680.`,
       },
       {
         heading: 'Data We Collect',

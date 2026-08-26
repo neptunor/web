@@ -2154,13 +2154,13 @@ export const cta: Localized<CtaContent> = {
     title: 'Ready to Start Your Boat Project?',
     body: "Whether you already have a complete product specification or are still developing your concept, our team can help you evaluate the next step. Tell us what you want to build — we'll review your requirements and discuss the most practical path from concept to production.",
     button: 'Start Your Boat Project',
-    note: 'Reply within 1 business day · NDA signed within 4 business hours · info@neptunor.com · +86 186 0000 0000',
+    note: 'Reply within 1 business day · NDA signed within 4 business hours · info@neptunor.com · +86 192 9532 9680',
   },
   es: {
     title: '¿Listo para iniciar tu proyecto náutico?',
     body: 'Ya sea que tengas una especificación de producto completa o estés todavía desarrollando tu concepto, nuestro equipo puede ayudarte a evaluar el siguiente paso. Cuéntanos qué quieres construir — revisaremos tus requisitos y plantearemos la vía más práctica del concepto a la producción.',
     button: 'Inicia tu proyecto náutico',
-    note: 'Respuesta en 1 día laborable · NDA firmado en 4 horas laborables · info@neptunor.com · +86 186 0000 0000',
+    note: 'Respuesta en 1 día laborable · NDA firmado en 4 horas laborables · info@neptunor.com · +86 192 9532 9680',
   },
 }
 /* ─────────────────────────── home: value proposition (More Than a Boat Factory) ─────────────────────────── */

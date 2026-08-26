@@ -34,8 +34,8 @@ export const BRAND_SOCIAL = {
 export const BRAND_CONTACT = {
   email: `info@${SITE_DOMAIN}`,
   // TODO(launch): replace placeholder phone/WhatsApp with the real business number.
-  whatsapp: '+86 186 0000 0000',
-  whatsappLink: 'https://wa.me/8618600000000',
+  whatsapp: '+86 192 9532 9680',
+  whatsappLink: 'https://wa.me/8619295329680',
   address: 'Qingdao, Shandong, China',
 } as const
 

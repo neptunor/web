@@ -80,7 +80,7 @@ export const esProduct = {
     privacySections: [
       {
         heading: 'Responsable del tratamiento',
-        body: `Neptunor Marine Co., Ltd. (Qingdao, Shandong, China) es el responsable del tratamiento de los datos personales recogidos a través de ${SITE_DOMAIN}. Puedes contactarnos en ${BRAND_CONTACT.email} o en el +86 186 0000 0000.`,
+        body: `Neptunor Marine Co., Ltd. (Qingdao, Shandong, China) es el responsable del tratamiento de los datos personales recogidos a través de ${SITE_DOMAIN}. Puedes contactarnos en ${BRAND_CONTACT.email} o en el +86 192 9532 9680.`,
       },
       {
         heading: 'Datos que recogemos',
