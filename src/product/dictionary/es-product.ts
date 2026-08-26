@@ -622,6 +622,7 @@ export const esProduct = {
       guideLink: 'Revisar la guía de muestras y MOQ',
     },
     invalid: 'Completa los campos obligatorios.',
+    submittedSuccess: 'Tu consulta ha sido enviada correctamente. Nuestro equipo te contactará pronto.',
     captcha: 'Verificación fallida. Inténtalo de nuevo.',
     rateLimited: 'Demasiados intentos — vuelve a intentarlo en unos minutos.',
     failed: 'Algo salió mal. Inténtalo de nuevo o escríbenos directamente.',

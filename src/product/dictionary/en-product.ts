@@ -622,6 +622,7 @@ export const enProduct = {
       guideLink: 'Review sample and MOQ guidance',
     },
     invalid: 'Please fill in the required fields.',
+    submittedSuccess: 'Your inquiry has been submitted successfully. Our team will contact you shortly.',
     captcha: 'Verification failed. Please try again.',
     rateLimited: 'Too many attempts — please try again in a few minutes.',
     failed: 'Something went wrong. Please try again or email us directly.',
