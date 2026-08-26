@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useRef } from 'react'
 import { ArrowRight, Check, ChevronDown, FileText, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { dictionaries } from '@/features/i18n/locale'
@@ -51,6 +51,8 @@ export function InquiryForm({
   const [customization, setCustomization] = useState<Record<string, boolean>>({})
   const [docs, setDocs] = useState<Record<string, boolean>>({})
   const [consent, setConsent] = useState(false)
+  const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({})
+  const formRef = useRef<HTMLFormElement>(null)
 
   const toggleKey = useCallback((set: Record<string, boolean>, setter: (v: Record<string, boolean>) => void, value: string) => {
     setter({ ...set, [value]: !set[value] })
@@ -80,23 +82,65 @@ export function InquiryForm({
     }
   }
 
+  function validateStep(s: 1 | 2): boolean {
+    const form = formRef.current
+    if (!form) return true
+    const errors: Record<string, string> = {}
+    let firstInvalid: HTMLElement | null = null
+
+    const fields = form.querySelectorAll<HTMLElement>('[required]')
+    for (const el of fields) {
+      const name = (el as HTMLInputElement).name || el.id
+      if (!name) continue
+      const fieldset = el.closest('fieldset')
+      if (fieldset?.disabled) continue
+
+      const valid = (el as HTMLInputElement).checkValidity()
+      if (!valid) {
+        const label = el.closest('.field')?.querySelector('label')?.textContent?.replace(/\*/g, '').trim() ?? name
+        errors[name] = `${label} — ${t('inquiry.invalid')}`
+        if (!firstInvalid) firstInvalid = el
+      }
+    }
+
+    if (s === 2 && !Object.values(customization).some(Boolean)) {
+      const container = form.querySelector('.field:has([name="customization"])') as HTMLElement | null
+      const label = container?.querySelector('label')?.textContent?.replace(/\*/g, '').trim() ?? 'customization'
+      errors['customization'] = `${label} — ${t('inquiry.invalid')}`
+      if (!firstInvalid && container) firstInvalid = container
+    }
+
+    setFieldErrors(errors)
+    if (firstInvalid) {
+      firstInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      setTimeout(() => (firstInvalid as HTMLElement).focus(), 400)
+      return false
+    }
+    return true
+  }
+
+  function clearFieldError(name: string) {
+    setFieldErrors((prev) => {
+      if (!(name in prev)) return prev
+      const next = { ...prev }
+      delete next[name]
+      return next
+    })
+  }
+
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    const form = e.currentTarget
     if (step === 1) {
-      if (!form.checkValidity()) {
-        form.reportValidity()
-        return
-      }
+      if (!validateStep(1)) return
       setStep(2)
       return
     }
-    // The file input is optional, so native validation won't catch a bad file —
-    // block the POST here so the server never sees an invalid logo.
     if (fileError) {
       setMsg({ kind: 'err', text: fileErrorText(fileError) })
       return
     }
+    if (!validateStep(2)) return
+    const form = e.currentTarget
     setBusy(true)
     setMsg(null)
     setFileError(null)
@@ -146,7 +190,7 @@ export function InquiryForm({
   if (doneTier) return <SuccessPanel tier={doneTier} />
 
   return (
-    <form onSubmit={submit} className="flex flex-col gap-4">
+    <form ref={formRef} onSubmit={submit} className="flex flex-col gap-4">
       {prefill?.intent && (
         <p className="flex items-center gap-2 rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
           <ArrowRight size={14} className="shrink-0" />
@@ -173,7 +217,7 @@ export function InquiryForm({
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="field">
             <Label htmlFor="inq-type">{t('inquiry.businessType')} <span className="req">*</span></Label>
-            <Select id="inq-type" name="businessType" defaultValue="" required autoComplete="off">
+            <Select id="inq-type" name="businessType" defaultValue="" required autoComplete="off" onChange={() => clearFieldError('businessType')}>
               <option value="" disabled>{t('inquiry.businessTypeHint')}</option>
               <option value="brand">{t('inquiry.businessOptions.brand')}</option>
               <option value="retailer">{t('inquiry.businessOptions.retailer')}</option>
@@ -184,20 +228,24 @@ export function InquiryForm({
               <option value="corporate">{t('inquiry.businessOptions.corporate')}</option>
               <option value="other">{t('inquiry.businessOptions.other')}</option>
             </Select>
+            <FieldError name="businessType" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-company">{t('inquiry.company')} <span className="req">*</span></Label>
-            <Input id="inq-company" name="company" required minLength={2} maxLength={120} autoComplete="organization" />
+            <Input id="inq-company" name="company" required minLength={2} maxLength={120} autoComplete="organization" onChange={() => clearFieldError('company')} />
             <span className="field-hint">{t('inquiry.companyHint')}</span>
+            <FieldError name="company" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-email">{t('inquiry.email')} <span className="req">*</span></Label>
-            <Input id="inq-email" name="email" type="email" required maxLength={200} autoComplete="email" />
+            <Input id="inq-email" name="email" type="email" required maxLength={200} autoComplete="email" onChange={() => clearFieldError('email')} />
             <span className="field-hint">{t('inquiry.emailHint')}</span>
+            <FieldError name="email" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-country">{t('inquiry.country')} <span className="req">*</span></Label>
-            <Input id="inq-country" name="country" required maxLength={80} autoComplete="country-name" />
+            <Input id="inq-country" name="country" required maxLength={80} autoComplete="country-name" onChange={() => clearFieldError('country')} />
+            <FieldError name="country" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-market">{t('inquiry.targetMarket')}</Label>
@@ -206,7 +254,7 @@ export function InquiryForm({
           </div>
           <div className="field">
             <Label htmlFor="inq-category">{t('inquiry.category')} <span className="req">*</span></Label>
-            <Select id="inq-category" name="category" defaultValue={prefill?.category ?? 'unsure'} required autoComplete="off">
+            <Select id="inq-category" name="category" defaultValue={prefill?.category ?? 'unsure'} required autoComplete="off" onChange={() => clearFieldError('category')}>
               <option value="all-around">{t('inquiry.categoryOptions.all-around')}</option>
               <option value="race">{t('inquiry.categoryOptions.race')}</option>
               <option value="surf">{t('inquiry.categoryOptions.surf')}</option>
@@ -222,10 +270,11 @@ export function InquiryForm({
               <option value="unsure">{t('inquiry.categoryOptions.unsure')}</option>
             </Select>
             <span className="field-hint">{t('inquiry.categoryHint')}</span>
+            <FieldError name="category" errors={fieldErrors} />
           </div>
           <div className="field sm:col-span-2">
             <Label htmlFor="inq-qty">{t('inquiry.quantity')} <span className="req">*</span></Label>
-            <Select id="inq-qty" name="quantity" defaultValue="" required autoComplete="off">
+            <Select id="inq-qty" name="quantity" defaultValue="" required autoComplete="off" onChange={() => clearFieldError('quantity')}>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="q1-9">{t('inquiry.quantityOptions.q1-9')}</option>
               <option value="q10-49">{t('inquiry.quantityOptions.q10-49')}</option>
@@ -236,10 +285,11 @@ export function InquiryForm({
               <option value="unsure">{t('inquiry.quantityOptions.unsure')}</option>
             </Select>
             <span className="field-hint">{t('inquiry.quantityHint')}</span>
+            <FieldError name="quantity" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-timeline">{t('inquiry.timeline')} <span className="req">*</span></Label>
-            <Select id="inq-timeline" name="timeline" defaultValue="" required autoComplete="off">
+            <Select id="inq-timeline" name="timeline" defaultValue="" required autoComplete="off" onChange={() => clearFieldError('timeline')}>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="now">{t('inquiry.timelineOptions.now')}</option>
               <option value="t1-3mo">{t('inquiry.timelineOptions.t1-3mo')}</option>
@@ -249,10 +299,11 @@ export function InquiryForm({
               <option value="unsure">{t('inquiry.timelineOptions.unsure')}</option>
             </Select>
             <span className="field-hint">{t('inquiry.timelineHint')}</span>
+            <FieldError name="timeline" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-stage">{t('inquiry.projectStage')} <span className="req">*</span></Label>
-            <Select id="inq-stage" name="projectStage" defaultValue="" required autoComplete="off">
+            <Select id="inq-stage" name="projectStage" defaultValue="" required autoComplete="off" onChange={() => clearFieldError('projectStage')}>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="ready">{t('inquiry.projectStageOptions.ready')}</option>
               <option value="reviewing">{t('inquiry.projectStageOptions.reviewing')}</option>
@@ -261,6 +312,7 @@ export function InquiryForm({
               <option value="future">{t('inquiry.projectStageOptions.future')}</option>
             </Select>
             <span className="field-hint">{t('inquiry.projectStageHint')}</span>
+            <FieldError name="projectStage" errors={fieldErrors} />
           </div>
           <div className="field sm:col-span-2">
             <Label htmlFor="inq-whatsapp">{t('inquiry.whatsapp')}</Label>
@@ -556,4 +608,9 @@ function Select(props: React.SelectHTMLAttributes<HTMLSelectElement>) {
       <ChevronDown size={16} className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-fg-3" />
     </div>
   )
+}
+
+function FieldError({ name, errors }: { name: string; errors: Record<string, string> }) {
+  if (!errors[name]) return null
+  return <p className="mt-1 text-[12px] font-medium text-destructive">{errors[name]}</p>
 }
