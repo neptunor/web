@@ -56,6 +56,7 @@ export function InquiryForm({
 
   const toggleKey = useCallback((set: Record<string, boolean>, setter: (v: Record<string, boolean>) => void, value: string) => {
     setter({ ...set, [value]: !set[value] })
+    clearFieldError('customization')
   }, [])
 
   function fileErrorText(reason: 'empty' | 'type' | 'size' | null): string {
@@ -88,26 +89,32 @@ export function InquiryForm({
     const errors: Record<string, string> = {}
     let firstInvalid: HTMLElement | null = null
 
-    const fields = form.querySelectorAll<HTMLElement>('[required]')
-    for (const el of fields) {
-      const name = (el as HTMLInputElement).name || el.id
-      if (!name) continue
-      const fieldset = el.closest('fieldset')
-      if (fieldset?.disabled) continue
+    const step1Names = ['businessType', 'company', 'email', 'country', 'category', 'quantity', 'timeline', 'projectStage']
+    const step2Names = ['role', 'boardPlatform', 'construction', 'packaging', 'compliance', 'nda']
+    const names = s === 1 ? step1Names : step2Names
 
-      const valid = (el as HTMLInputElement).checkValidity()
-      if (!valid) {
+    for (const name of names) {
+      const el = form.querySelector(`[name="${name}"]`) as HTMLInputElement | HTMLSelectElement | null
+      if (!el) continue
+      const val = el.value?.trim() ?? ''
+      if (!val) {
         const label = el.closest('.field')?.querySelector('label')?.textContent?.replace(/\*/g, '').trim() ?? name
         errors[name] = `${label} — ${t('inquiry.invalid')}`
-        if (!firstInvalid) firstInvalid = el
+        if (!firstInvalid) firstInvalid = el as HTMLElement
       }
     }
 
-    if (s === 2 && !Object.values(customization).some(Boolean)) {
-      const container = form.querySelector('.field:has([name="customization"])') as HTMLElement | null
-      const label = container?.querySelector('label')?.textContent?.replace(/\*/g, '').trim() ?? 'customization'
-      errors['customization'] = `${label} — ${t('inquiry.invalid')}`
-      if (!firstInvalid && container) firstInvalid = container
+    if (s === 2) {
+      if (!consent) {
+        errors['consent'] = `${t('inquiry.consent')} — ${t('inquiry.invalid')}`
+        if (!firstInvalid) firstInvalid = form.querySelector('[name="consent"]')
+      }
+      if (!Object.values(customization).some(Boolean)) {
+        const container = form.querySelector('.field:has([name="customization"])') as HTMLElement | null
+        const label = container?.querySelector('label')?.textContent?.replace(/\*/g, '').trim() ?? 'Customization'
+        errors['customization'] = `${label} — ${t('inquiry.invalid')}`
+        if (!firstInvalid && container) firstInvalid = container
+      }
     }
 
     setFieldErrors(errors)
@@ -498,7 +505,7 @@ export function InquiryForm({
             name="consent"
             required
             checked={consent}
-            onChange={(e) => setConsent(e.target.checked)}
+            onChange={(e) => { setConsent(e.target.checked); clearFieldError('consent') }}
             className="mt-0.5 h-4 w-4 shrink-0 accent-primary"
           />
           <span className="text-[12.5px] leading-relaxed text-fg-2">
