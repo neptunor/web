@@ -52,6 +52,7 @@ export function InquiryForm({
   const [docs, setDocs] = useState<Record<string, boolean>>({})
   const [consent, setConsent] = useState(false)
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({})
+  const [showValidation, setShowValidation] = useState(false)
   const formRef = useRef<HTMLFormElement>(null)
 
   const toggleKey = useCallback((set: Record<string, boolean>, setter: (v: Record<string, boolean>) => void, value: string) => {
@@ -110,7 +111,7 @@ export function InquiryForm({
         if (!firstInvalid) firstInvalid = form.querySelector('[name="consent"]')
       }
       if (!Object.values(customization).some(Boolean)) {
-        const container = form.querySelector('.field:has([name="customization"])') as HTMLElement | null
+        const container = document.getElementById('field-customization') as HTMLElement | null
         const label = container?.querySelector('label')?.textContent?.replace(/\*/g, '').trim() ?? 'Customization'
         errors['customization'] = `${label} — ${t('inquiry.invalid')}`
         if (!firstInvalid && container) firstInvalid = container
@@ -118,6 +119,7 @@ export function InquiryForm({
     }
 
     setFieldErrors(errors)
+    setShowValidation(Object.keys(errors).length > 0)
     if (firstInvalid) {
       firstInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' })
       setTimeout(() => (firstInvalid as HTMLElement).focus(), 400)
@@ -139,6 +141,7 @@ export function InquiryForm({
     e.preventDefault()
     if (step === 1) {
       if (!validateStep(1)) return
+      setShowValidation(false)
       setStep(2)
       return
     }
@@ -197,7 +200,7 @@ export function InquiryForm({
   if (doneTier) return <SuccessPanel tier={doneTier} />
 
   return (
-    <form ref={formRef} onSubmit={submit} className="flex flex-col gap-4">
+    <form ref={formRef} onSubmit={submit} className={`flex flex-col gap-4 ${showValidation ? 'validation-active' : ''}`}>
       {prefill?.intent && (
         <p className="flex items-center gap-2 rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
           <ArrowRight size={14} className="shrink-0" />
@@ -219,12 +222,12 @@ export function InquiryForm({
       </div>
 
       {/* ── Step 1: project fit ── */}
-      <fieldset disabled={step === 2} className={step === 2 ? 'hidden' : ''}>
+      <fieldset className={step === 2 ? 'hidden' : ''}>
         <legend className="sr-only">{t('inquiry.step1Legend')}</legend>
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="field">
             <Label htmlFor="inq-type">{t('inquiry.businessType')} <span className="req">*</span></Label>
-            <Select id="inq-type" name="businessType" defaultValue="" required autoComplete="off" onChange={() => clearFieldError('businessType')}>
+            <Select id="inq-type" name="businessType" defaultValue="" autoComplete="off" onChange={() => clearFieldError('businessType')}>
               <option value="" disabled>{t('inquiry.businessTypeHint')}</option>
               <option value="brand">{t('inquiry.businessOptions.brand')}</option>
               <option value="retailer">{t('inquiry.businessOptions.retailer')}</option>
@@ -239,19 +242,19 @@ export function InquiryForm({
           </div>
           <div className="field">
             <Label htmlFor="inq-company">{t('inquiry.company')} <span className="req">*</span></Label>
-            <Input id="inq-company" name="company" required minLength={2} maxLength={120} autoComplete="organization" onChange={() => clearFieldError('company')} />
+            <Input id="inq-company" name="company" minLength={2} maxLength={120} autoComplete="organization" onChange={() => clearFieldError('company')} />
             <span className="field-hint">{t('inquiry.companyHint')}</span>
             <FieldError name="company" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-email">{t('inquiry.email')} <span className="req">*</span></Label>
-            <Input id="inq-email" name="email" type="email" required maxLength={200} autoComplete="email" onChange={() => clearFieldError('email')} />
+            <Input id="inq-email" name="email" type="email" maxLength={200} autoComplete="email" onChange={() => clearFieldError('email')} />
             <span className="field-hint">{t('inquiry.emailHint')}</span>
             <FieldError name="email" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-country">{t('inquiry.country')} <span className="req">*</span></Label>
-            <Input id="inq-country" name="country" required maxLength={80} autoComplete="country-name" onChange={() => clearFieldError('country')} />
+            <Input id="inq-country" name="country" maxLength={80} autoComplete="country-name" onChange={() => clearFieldError('country')} />
             <FieldError name="country" errors={fieldErrors} />
           </div>
           <div className="field">
@@ -261,7 +264,7 @@ export function InquiryForm({
           </div>
           <div className="field">
             <Label htmlFor="inq-category">{t('inquiry.category')} <span className="req">*</span></Label>
-            <Select id="inq-category" name="category" defaultValue={prefill?.category ?? 'unsure'} required autoComplete="off" onChange={() => clearFieldError('category')}>
+            <Select id="inq-category" name="category" defaultValue={prefill?.category ?? 'unsure'} autoComplete="off" onChange={() => clearFieldError('category')}>
               <option value="all-around">{t('inquiry.categoryOptions.all-around')}</option>
               <option value="race">{t('inquiry.categoryOptions.race')}</option>
               <option value="surf">{t('inquiry.categoryOptions.surf')}</option>
@@ -281,7 +284,7 @@ export function InquiryForm({
           </div>
           <div className="field sm:col-span-2">
             <Label htmlFor="inq-qty">{t('inquiry.quantity')} <span className="req">*</span></Label>
-            <Select id="inq-qty" name="quantity" defaultValue="" required autoComplete="off" onChange={() => clearFieldError('quantity')}>
+            <Select id="inq-qty" name="quantity" defaultValue="" autoComplete="off" onChange={() => clearFieldError('quantity')}>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="q1-9">{t('inquiry.quantityOptions.q1-9')}</option>
               <option value="q10-49">{t('inquiry.quantityOptions.q10-49')}</option>
@@ -296,7 +299,7 @@ export function InquiryForm({
           </div>
           <div className="field">
             <Label htmlFor="inq-timeline">{t('inquiry.timeline')} <span className="req">*</span></Label>
-            <Select id="inq-timeline" name="timeline" defaultValue="" required autoComplete="off" onChange={() => clearFieldError('timeline')}>
+            <Select id="inq-timeline" name="timeline" defaultValue="" autoComplete="off" onChange={() => clearFieldError('timeline')}>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="now">{t('inquiry.timelineOptions.now')}</option>
               <option value="t1-3mo">{t('inquiry.timelineOptions.t1-3mo')}</option>
@@ -310,7 +313,7 @@ export function InquiryForm({
           </div>
           <div className="field">
             <Label htmlFor="inq-stage">{t('inquiry.projectStage')} <span className="req">*</span></Label>
-            <Select id="inq-stage" name="projectStage" defaultValue="" required autoComplete="off" onChange={() => clearFieldError('projectStage')}>
+            <Select id="inq-stage" name="projectStage" defaultValue="" autoComplete="off" onChange={() => clearFieldError('projectStage')}>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="ready">{t('inquiry.projectStageOptions.ready')}</option>
               <option value="reviewing">{t('inquiry.projectStageOptions.reviewing')}</option>
@@ -340,7 +343,7 @@ export function InquiryForm({
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="field">
             <Label htmlFor="inq-role">{t('inquiry.role')} <span className="req">*</span></Label>
-            <Select id="inq-role" name="role" defaultValue="" required>
+            <Select id="inq-role" name="role" defaultValue="" onChange={() => clearFieldError('role')}>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="owner">{t('inquiry.roleOptions.owner')}</option>
               <option value="purchasing">{t('inquiry.roleOptions.purchasing')}</option>
@@ -350,22 +353,24 @@ export function InquiryForm({
               <option value="other">{t('inquiry.roleOptions.other')}</option>
             </Select>
             <span className="field-hint">{t('inquiry.roleHint')}</span>
+            <FieldError name="role" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-platform">{t('inquiry.boardPlatform')} <span className="req">*</span></Label>
             <Input
               id="inq-platform"
               name="boardPlatform"
-              required
               maxLength={120}
               defaultValue={prefill?.name ?? undefined}
               placeholder={t('inquiry.boardPlatformPlaceholder')}
+              onChange={() => clearFieldError('boardPlatform')}
             />
             <span className="field-hint">{t('inquiry.boardPlatformHint')}</span>
+            <FieldError name="boardPlatform" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-construction">{t('inquiry.construction')} <span className="req">*</span></Label>
-            <Select id="inq-construction" name="construction" defaultValue="" required>
+            <Select id="inq-construction" name="construction" defaultValue="" onChange={() => clearFieldError('construction')}>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="standard">{t('inquiry.constructionOptions.standard')}</option>
               <option value="premium">{t('inquiry.constructionOptions.premium')}</option>
@@ -373,10 +378,11 @@ export function InquiryForm({
               <option value="need-rec">{t('inquiry.constructionOptions.need-rec')}</option>
             </Select>
             <span className="field-hint">{t('inquiry.constructionHint')}</span>
+            <FieldError name="construction" errors={fieldErrors} />
           </div>
           <div className="field">
             <Label htmlFor="inq-packaging">{t('inquiry.packaging')} <span className="req">*</span></Label>
-            <Select id="inq-packaging" name="packaging" defaultValue="" required>
+            <Select id="inq-packaging" name="packaging" defaultValue="" onChange={() => clearFieldError('packaging')}>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="export">{t('inquiry.packagingOptions.export')}</option>
               <option value="branded">{t('inquiry.packagingOptions.branded')}</option>
@@ -385,8 +391,9 @@ export function InquiryForm({
               <option value="not-decided">{t('inquiry.packagingOptions.not-decided')}</option>
             </Select>
             <span className="field-hint">{t('inquiry.packagingHint')}</span>
+            <FieldError name="packaging" errors={fieldErrors} />
           </div>
-          <div className="field sm:col-span-2">
+          <div id="field-customization" className="field sm:col-span-2">
             <Label>{t('inquiry.customization')} <span className="req">*</span></Label>
             <div className="mt-2 grid gap-2 sm:grid-cols-2">
               {(['logo', 'graphics', 'eva', 'accessories', 'packaging', 'tooling', 'not-sure'] as const).map((v) => (
@@ -395,16 +402,15 @@ export function InquiryForm({
                   checked={!!customization[v]}
                   onChange={() => toggleKey(customization, setCustomization, v)}
                   label={t(`inquiry.customizationOptions.${v}`)}
-                  name="customization"
-                  required={!Object.values(customization).some(Boolean)}
                 />
               ))}
             </div>
             <span className="field-hint">{t('inquiry.customizationHint')}</span>
+            <FieldError name="customization" errors={fieldErrors} />
           </div>
           <div className="field sm:col-span-2">
             <Label htmlFor="inq-compliance">{t('inquiry.compliance')} <span className="req">*</span></Label>
-            <Select id="inq-compliance" name="compliance" defaultValue="" required>
+            <Select id="inq-compliance" name="compliance" defaultValue="" onChange={() => clearFieldError('compliance')}>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="eu">{t('inquiry.complianceOptions.eu')}</option>
               <option value="uk">{t('inquiry.complianceOptions.uk')}</option>
@@ -414,6 +420,7 @@ export function InquiryForm({
               <option value="guidance">{t('inquiry.complianceOptions.guidance')}</option>
             </Select>
             <span className="field-hint">{t('inquiry.complianceHint')}</span>
+            <FieldError name="compliance" errors={fieldErrors} />
           </div>
           <div className="field sm:col-span-2">
             <Label>{t('inquiry.docs')}</Label>
@@ -424,7 +431,6 @@ export function InquiryForm({
                   checked={!!docs[v]}
                   onChange={() => toggleKey(docs, setDocs, v)}
                   label={t(`inquiry.docsOptions.${v}`)}
-                  name="docs"
                 />
               ))}
             </div>
@@ -491,7 +497,7 @@ export function InquiryForm({
           </div>
           <div className="field sm:col-span-2">
             <Label htmlFor="inq-nda">{t('inquiry.nda')} <span className="req">*</span></Label>
-            <Select id="inq-nda" name="nda" defaultValue="no" required>
+            <Select id="inq-nda" name="nda" defaultValue="no">
               <option value="yes">{t('inquiry.ndaOptions.yes')}</option>
               <option value="no">{t('inquiry.ndaOptions.no')}</option>
             </Select>
@@ -503,7 +509,6 @@ export function InquiryForm({
           <input
             type="checkbox"
             name="consent"
-            required
             checked={consent}
             onChange={(e) => { setConsent(e.target.checked); clearFieldError('consent') }}
             className="mt-0.5 h-4 w-4 shrink-0 accent-primary"
@@ -515,6 +520,7 @@ export function InquiryForm({
             </a>
           </span>
         </label>
+        <FieldError name="consent" errors={fieldErrors} />
 
         <div className="rounded-xl border border-border bg-bg-alt p-4">
           <p className="flex items-center gap-2 text-[13px] font-bold"><ShieldCheck size={15} className="text-primary" /> {t('inquiry.whatNext')}</p>
@@ -585,18 +591,14 @@ function CheckOption({
   checked,
   onChange,
   label,
-  name,
-  required,
 }: {
   checked: boolean
   onChange: () => void
   label: string
-  name: string
-  required?: boolean
 }) {
   return (
     <label className={`flex cursor-pointer items-center gap-2.5 rounded-lg border px-3 py-2.5 transition-colors ${checked ? 'border-primary/50 bg-primary/5' : 'border-border bg-background hover:border-primary/30'}`}>
-      <input type="checkbox" name={name} checked={checked} required={required} onChange={onChange} className="h-4 w-4 accent-primary" />
+      <input type="checkbox" checked={checked} onChange={onChange} className="h-4 w-4 accent-primary" />
       <span className="text-[13px] font-medium text-fg-2">{label}</span>
     </label>
   )
@@ -619,5 +621,5 @@ function Select(props: React.SelectHTMLAttributes<HTMLSelectElement>) {
 
 function FieldError({ name, errors }: { name: string; errors: Record<string, string> }) {
   if (!errors[name]) return null
-  return <p className="mt-1 text-[12px] font-medium text-destructive">{errors[name]}</p>
+  return <p className="field-error mt-1 text-[12px] font-medium text-destructive">{errors[name]}</p>
 }

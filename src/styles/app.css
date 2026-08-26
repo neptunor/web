@@ -703,6 +703,16 @@ input {
   color: var(--destructive);
 }
 
+.validation-active .field:has(.field-error) input,
+.validation-active .field:has(.field-error) select {
+  border-color: var(--destructive);
+}
+.validation-active .field:has(.field-error) input:focus,
+.validation-active .field:has(.field-error) select:focus {
+  border-color: var(--destructive);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--destructive) 12%, transparent);
+}
+
 .social-btn {
   display: inline-flex;
   align-items: center;
