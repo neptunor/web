@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef, useEffect } from 'react'
+import { useState, useCallback, useRef } from 'react'
 import { ArrowRight, Check, ChevronDown, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
@@ -53,12 +53,6 @@ export function InquiryForm({
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({})
   const [showValidation, setShowValidation] = useState(false)
   const formRef = useRef<HTMLFormElement>(null)
-
-  useEffect(() => {
-    if (!submitSuccess) return
-    const timer = setTimeout(() => setSubmitSuccess(false), 4000)
-    return () => clearTimeout(timer)
-  }, [submitSuccess])
 
   const toggleKey = useCallback((set: Record<string, boolean>, setter: (v: Record<string, boolean>) => void, value: string) => {
     setter({ ...set, [value]: !set[value] })
@@ -203,7 +197,8 @@ export function InquiryForm({
   }, [])
 
   return (
-    <form ref={formRef} onSubmit={submit} className={`flex flex-col gap-4 ${showValidation ? 'validation-active' : ''}`}>
+    <>
+      <form ref={formRef} onSubmit={submit} className={`flex flex-col gap-4 ${showValidation ? 'validation-active' : ''}`}>
       {prefill?.intent && (
         <p className="flex items-center gap-2 rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
           <ArrowRight size={14} className="shrink-0" />
@@ -544,6 +539,7 @@ export function InquiryForm({
         </div>
         <p className="text-center text-[12px] text-fg-3">{t('inquiry.noObligation')}</p>
       </fieldset>
+      </form>
 
       {submitSuccess && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
@@ -563,7 +559,7 @@ export function InquiryForm({
           </div>
         </div>
       )}
-    </form>
+    </>
   )
 }
 
