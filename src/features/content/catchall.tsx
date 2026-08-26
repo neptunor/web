@@ -415,21 +415,26 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   className={`w-full object-cover transition-opacity duration-300 ${i === activeImg ? 'block' : 'hidden'}`}
                 />
               ))}
-              {gallery.length > 1 && (
-                <>
-                  <button type="button" aria-label="Previous image" onClick={() => setActiveImg((p) => (p - 1 + gallery.length) % gallery.length)} className="absolute left-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-card/80 text-fg backdrop-blur transition-colors hover:bg-card">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-                  </button>
-                  <button type="button" aria-label="Next image" onClick={() => setActiveImg((p) => (p + 1) % gallery.length)} className="absolute right-3 top-1/2 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full bg-card/80 text-fg backdrop-blur transition-colors hover:bg-card">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6"/></svg>
-                  </button>
-                </>
-              )}
+              {gallery.length > 1 && (() => {
+                const c = gallery[activeImg]?.color
+                const btnBg = c ? `${c}cc` : 'var(--color-card, #fff)'
+                const btnFg = c ? '#fff' : 'var(--color-fg, #000)'
+                return (
+                  <>
+                    <button type="button" aria-label="Previous image" onClick={() => setActiveImg((p) => (p - 1 + gallery.length) % gallery.length)} style={{ backgroundColor: btnBg, color: btnFg }} className="absolute left-3 top-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full shadow-lg backdrop-blur transition-colors hover:opacity-80">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+                    </button>
+                    <button type="button" aria-label="Next image" onClick={() => setActiveImg((p) => (p + 1) % gallery.length)} style={{ backgroundColor: btnBg, color: btnFg }} className="absolute right-3 top-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full shadow-lg backdrop-blur transition-colors hover:opacity-80">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+                    </button>
+                  </>
+                )
+              })()}
             </div>
             {gallery.length > 1 && (
               <div className="flex items-center justify-center gap-2">
                 {gallery.map((img, i) => (
-                  <button key={img.url} type="button" aria-label={`View image ${i + 1}`} onClick={() => setActiveImg(i)} className={`h-2 rounded-full transition-all ${i === activeImg ? 'w-6 bg-primary' : 'w-2 bg-border-3 hover:bg-fg-3'}`} />
+                  <button key={img.url} type="button" aria-label={`View image ${i + 1}`} onClick={() => setActiveImg(i)} style={i === activeImg && img.color ? { backgroundColor: img.color } : undefined} className={`h-2 rounded-full transition-all ${i === activeImg ? 'w-6' : 'w-2 bg-border-3 hover:bg-fg-3'}`} />
                 ))}
               </div>
             )}

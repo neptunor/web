@@ -38,6 +38,7 @@ export interface ContentPage {
 export interface ContentGalleryImage {
   url: string
   alt?: string
+  color?: string
 }
 
 export interface ContentSpec {

@@ -209,7 +209,7 @@ function productOf(slug: string, d: Record<string, unknown>, body: string): Cont
   const rec = { ...(d as object) } as Record<string, unknown>
   if (typeof rec.image === 'string') rec.image = assetUrl(rec.image)
   if (Array.isArray(rec.gallery)) {
-    rec.gallery = (rec.gallery as { url?: unknown; alt?: unknown }[]).map((g) => ({
+    rec.gallery = (rec.gallery as { url?: unknown; alt?: unknown; color?: unknown }[]).map((g) => ({
       ...g,
       url: typeof g.url === 'string' ? assetUrl(g.url) : g.url,
     }))
