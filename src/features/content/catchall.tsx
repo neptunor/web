@@ -136,7 +136,7 @@ export const contentServerLoader = createServerFn({ method: 'GET' })
 
 /**
  * Product-detail resolver for the /products/$series route: when the segment is
- * a content product slug (not a series), resolve it here �?the same layering
+ * a content product slug (not a series), resolve it here —?the same layering
  * as the root catch-all, so the 900 KB+ corpus stays server-only.
  */
 export const contentProductLoader = createServerFn({ method: 'GET' })
@@ -263,7 +263,7 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
         '@type': 'PriceSpecification',
         price: 'Quote-based',
         priceCurrency: 'USD',
-        description: 'B2B OEM/ODM custom manufacturing �?pricing determined per project specification, volume, and customization scope.',
+        description: 'B2B OEM/ODM custom manufacturing —?pricing determined per project specification, volume, and customization scope.',
       },
     },
   }
@@ -499,7 +499,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
           <Markdown text={brandify(product.body)} />
         </div>
 
-        {/* customization options �?every platform is customizable under your brand */}
+        {/* customization options —?every platform is customizable under your brand */}
         <div className="mx-auto mt-14 max-w-3xl">
           <h2 className="font-display text-2xl font-extrabold tracking-tight">
             {t('content.product.customizationOptions')}
@@ -517,7 +517,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
           </div>
         </div>
 
-        {/* OEM applications �?who manufactures this platform with us */}
+        {/* OEM applications —?who manufactures this platform with us */}
         <div className="mx-auto mt-14 max-w-3xl">
           <h2 className="font-display text-2xl font-extrabold tracking-tight">
             {t('content.product.oemApplications')}
@@ -576,7 +576,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
           </div>
         )}
 
-        {/* related services �?product pages must link into the OEM/ODM funnel */}
+        {/* related services —?product pages must link into the OEM/ODM funnel */}
         <div className="mx-auto mt-12 max-w-3xl">
           <h2 className="font-display text-2xl font-extrabold tracking-tight">
             {t('content.product.produceUnderBrand')}
@@ -607,7 +607,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
   )
 }
 
-/** Product FAQ pool: product-specific entries + shared fallbacks (�? total). */
+/** Product FAQ pool: product-specific entries + shared fallbacks (—? total). */
 function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: string }[] {
   const specific = product.faqs ?? []
   const pool: { q: string; a: string }[] = locale !== 'en'
@@ -622,7 +622,7 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
         },
         {
           q: '¿Puedo cambiar los colores, el arte y el logo?',
-          a: 'Sí �?gráficos, colores, EVA, logotipo, embalaje y accesorios se personalizan en cada plataforma. Comparte tu logo y te haremos una prueba visual antes de la producción.',
+          a: 'Sí — gráficos, colores, EVA, logotipo, embalaje y accesorios se personalizan en cada plataforma. Comparte tu logo y te haremos una prueba visual antes de la producción.',
         },
         {
           q: '¿Cómo se controla la calidad antes del envío?',
@@ -640,7 +640,7 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
         },
         {
           q: 'Can I change colors, artwork and the logo?',
-          a: 'Yes �?graphics, colors, EVA traction, logo, packaging and accessories are all customizable on every platform. Share your logo and we produce a visual proof before production.',
+          a: 'Yes — graphics, colors, EVA traction, logo, packaging and accessories are all customizable on every platform. Share your logo and we produce a visual proof before production.',
         },
         {
           q: 'How is quality controlled before shipment?',
@@ -850,7 +850,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
   )
 }
 
-/** Content �?inquiry conversion block appended to news, tech articles, case studies and guides. */
+/** Content —?inquiry conversion block appended to news, tech articles, case studies and guides. */
 function ContentCta() {
   const { t } = useTranslation()
   const fl = useLocalizePath()

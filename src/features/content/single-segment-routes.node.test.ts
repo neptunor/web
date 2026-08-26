@@ -16,7 +16,7 @@ const routeName = (f: string): string | null => {
   return name
 }
 
-/** Dedicated root routes (`factory.tsx` �?`/factory`) that outrank the `{- $locale}` group. */
+/** Dedicated root routes (`factory.tsx` —`/factory`) that outrank the `{- $locale}` group. */
 const rootRoutes = readdirSync(routesRoot)
   .map(routeName)
   .filter((n): n is string => n != null)
@@ -40,7 +40,7 @@ test('every single-segment site page has a serving route (P0 regression guard)',
     // be covered by a dedicated root route (contentSingleRoute), a `{- $locale}`
     // child (locale=undefined), or an edge-gate redirect/410.
     const covered = rootRoutes.includes(p) || localeGroupChildren.includes(p) || gatePath(p).action !== 'ok'
-    expect(covered, `${p} would 404 through the {- $locale} group �?add a dedicated route via contentSingleRoute`).toBe(true)
+    expect(covered, `${p} would 404 through the {- $locale} group —add a dedicated route via contentSingleRoute`).toBe(true)
   }
 })
 

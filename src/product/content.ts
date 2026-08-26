@@ -82,14 +82,14 @@ export const hero: Localized<HeroContent> = {
       { value: '18.000 m²', label: 'Fábrica propia — Qingdao, China' },
       { value: '60.000+', label: 'Botes producidos anualmente' },
       { value: '40+', label: 'Países de exportación' },
-      { value: FACTS.ndaWindow, label: 'Plazo de respuesta NDA' },
+      { value: '4 horas laborables', label: 'Plazo de respuesta NDA' },
     ],
     mockupLabel: 'RIB insignia',
     mockupBrand: 'Neptunor Alloy 430',
     mockupHint: 'Tus gráficos · tus colores · tu packaging',
     heroNote: FACTS.moqNoteEs,
     float1: { value: '1–2 uds.', label: 'Muestra y aprobación (antes de compromiso de volumen)' },
-    float2: { value: FACTS.leadTime, label: 'Plazo de producción (tras PO)' },
+    float2: { value: '30–45 días', label: 'Plazo de producción (tras PO)' },
   },
 }
 
