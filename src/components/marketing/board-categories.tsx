@@ -19,17 +19,19 @@ export function BoardCategories() {
               href={fl(item.href)}
               className="group relative overflow-hidden rounded-2xl border border-border bg-card transition-all duration-300 hover:shadow-xl"
             >
-              <div className="aspect-[4/3] overflow-hidden">
-                <img
-                  src={item.image}
-                  alt={item.label}
-                  width={800}
-                  height={600}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
+              {item.image && (
+                <div className="aspect-[4/3] overflow-hidden">
+                  <img
+                    src={item.image}
+                    alt={item.label}
+                    width={800}
+                    height={600}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              )}
               <div className="p-5">
                 <h3 className="text-[17px] font-bold">{item.label}</h3>
                 <p className="mt-1 text-[13.5px] leading-relaxed text-fg-2">{item.desc}</p>

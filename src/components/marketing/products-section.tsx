@@ -14,6 +14,7 @@ function ProductCardInner({ product, priority = false }: { product: Product; pri
       className="group block h-full text-current"
     >
       <div className="marine-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">
+      {product.image && (
       <div className="zoom-img relative aspect-[3/4] overflow-hidden border-b border-border-2 bg-bg-alt">
         <img
           src={product.image}
@@ -34,6 +35,7 @@ function ProductCardInner({ product, priority = false }: { product: Product; pri
           {t('marketing.oemOdmBadge')}
         </span>
       </div>
+      )}
       <div className="flex flex-1 flex-col p-6">
         <span className="pill self-start border-primary/25! bg-soft! text-primary!">{product.tagline}</span>
         <h3 className="mt-3.5 font-display text-[18px] font-bold">{product.name}</h3>

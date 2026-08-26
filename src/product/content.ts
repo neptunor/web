@@ -870,7 +870,7 @@ export interface Product {
   for: string[]
   specs: string
   artwork: string
-  image: string
+  image?: string
   hue: number
 }
 
@@ -932,7 +932,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Startups', 'Rental fleets'],
         specs: '3.60 m LOA · 1.70 m beam · 0.42 m tube · 4 persons · 20 HP max',
         artwork: 'Marine-grade alloy hull, press-formed & welded · 3-chamber tubes · self-draining deck',
-        image: 'https://neptunor.com/assets/products/2026/aluminum-rib/rib-alloy-360-01.avif',
         hue: 200,
       },
       {
@@ -946,7 +945,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Fleet buyers', 'Resorts'],
         specs: '4.30 m LOA · 1.85 m beam · 0.45 m tube · 6 persons · 40 HP max',
         artwork: 'Reinforced transom · 4-chamber tubes · lifting davit points · alloy console option',
-        image: 'https://neptunor.com/assets/products/2026/aluminum-rib/rib-alloy-430-01.avif',
         hue: 205,
       },
       {
@@ -960,7 +958,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Professional agencies', 'Workboat operators'],
         specs: '4.70 m LOA · 1.95 m beam · 0.47 m tube · 8 persons · 50 HP max',
         artwork: 'Thickened keel guard · bow locker · jockey console option · 5-chamber tubes',
-        image: 'https://neptunor.com/assets/products/2026/aluminum-rib/rib-alloy-470-01.avif',
         hue: 195,
       },
       {
@@ -974,7 +971,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Dealers', 'Charter startups'],
         specs: '3.80 m LOA · 1.72 m beam · 0.43 m tube · 5 persons · 25 HP max',
         artwork: 'GRP deep-V hull · automotive-grade gelcoat · 3-chamber tubes · bow sun deck option',
-        image: 'https://neptunor.com/assets/products/2026/fiberglass-rib/rib-glass-380-01.avif',
         hue: 190,
       },
       {
@@ -988,7 +984,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Dealers', 'Charter fleets'],
         specs: '5.20 m LOA · 2.10 m beam · 0.48 m tube · 10 persons · 60 HP max',
         artwork: 'Double-console option · aft boarding ladder · ski tow point · hydraulic steering option',
-        image: 'https://neptunor.com/assets/products/2026/fiberglass-rib/rib-glass-520-01.avif',
         hue: 215,
       },
       {
@@ -1002,7 +997,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Charter operators', 'Premium dealers'],
         specs: '6.40 m LOA · 2.35 m beam · 0.52 m tube · 14 persons · 115 HP max',
         artwork: 'Stepped deep-V hull · enclosed console · 6-chamber tubes · twin fuel tank option',
-        image: 'https://neptunor.com/assets/products/2026/fiberglass-rib/rib-glass-640-01.avif',
         hue: 185,
       },
       {
@@ -1016,7 +1010,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Rental operators', 'Lifestyle brands'],
         specs: '4.50 m LOA · 1.92 m beam · 0.46 m tube · 6 persons · 40 HP max',
         artwork: 'Stepped aft deck · ski tow point · bucket-seat helm · wraparound livery printing',
-        image: 'https://neptunor.com/assets/products/2026/sport-console/sport-wave-450-01.avif',
         hue: 220,
       },
       {
@@ -1030,7 +1023,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Lifestyle brands', 'Premium dealers'],
         specs: '5.50 m LOA · 2.16 m beam · 0.50 m tube · 8 persons · 90 HP max',
         artwork: 'Deep-V hull · console with head compartment · aft sunpad · gelcoat-and-livery color system',
-        image: 'https://neptunor.com/assets/products/2026/sport-console/sport-wave-550-01.avif',
         hue: 230,
       },
       {
@@ -1044,7 +1036,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Rescue agencies', 'Civil protection'],
         specs: '4.70 m LOA · 1.98 m beam · 0.50 m tube · 6 crew · 60 HP max',
         artwork: 'Reinforced sponsons · rescue rack mounts · self-righting bag option · grab lines throughout',
-        image: 'https://neptunor.com/assets/products/2026/rescue-pro/rescue-guard-470-01.avif',
         hue: 15,
       },
       {
@@ -1058,7 +1049,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Government fleets', 'Security firms'],
         specs: '6.00 m LOA · 2.30 m beam · 0.52 m tube · 10 crew · 115 HP max',
         artwork: 'Jockey console · radar arch provision · twin fuel option · navigation lighting prep',
-        image: 'https://neptunor.com/assets/products/2026/rescue-pro/patrol-line-600-01.avif',
         hue: 210,
       },
       {
@@ -1072,7 +1062,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Dive operators', 'Research teams'],
         specs: '4.20 m LOA · 1.90 m beam · 0.46 m tube · 6 divers · 40 HP max',
         artwork: 'Tank strap points · heavy-duty ladder · low freeboard recovery zone · stowage lockers',
-        image: 'https://neptunor.com/assets/products/2026/rescue-pro/dive-team-420-01.avif',
         hue: 175,
       },
       {
@@ -1086,7 +1075,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Yacht builders', 'Outdoor retailers'],
         specs: '2.70 m LOA · 1.52 m beam · 3 chambers · 3 persons · 5 HP max',
         artwork: 'Slatted floor · roll-up stow bag · 3 chambers · lifting/tow rings',
-        image: 'https://neptunor.com/assets/products/2026/inflatable-dinghy/airtender-270-01.avif',
         hue: 170,
       },
       {
@@ -1100,7 +1088,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Outdoor retailers', 'Rental fleets'],
         specs: '3.30 m LOA · 1.62 m beam · airdeck floor · 4–5 persons · 9.9 HP max',
         artwork: 'High-pressure airdeck floor · rigid feel at 0.25 bar working pressure · carry bags included',
-        image: 'https://neptunor.com/assets/products/2026/inflatable-dinghy/airdock-330-01.avif',
         hue: 160,
       },
       {
@@ -1205,7 +1192,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas emergentes', 'Flotas de alquiler'],
         specs: '3,60 m de eslora · 1,70 m de manga · tubo de 0,42 m · 4 plazas · 20 CV máx.',
         artwork: 'Casco de aleación marina conformado y soldado · tubos de 3 cámaras · cubierta autovaciante',
-        image: 'https://neptunor.com/assets/products/2026/aluminum-rib/rib-alloy-360-01.avif',
         hue: 200,
       },
       {
@@ -1219,7 +1205,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Compradores de flota', 'Resorts'],
         specs: '4,30 m de eslora · 1,85 m de manga · tubo de 0,45 m · 6 plazas · 40 CV máx.',
         artwork: 'Espejo de popa reforzado · tubos de 4 cámaras · puntos de izado · consola de aluminio opcional',
-        image: 'https://neptunor.com/assets/products/2026/aluminum-rib/rib-alloy-430-01.avif',
         hue: 205,
       },
       {
@@ -1233,7 +1218,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Agencias profesionales', 'Operadores de trabajo'],
         specs: '4,70 m de eslora · 1,95 m de manga · tubo de 0,47 m · 8 plazas · 50 CV máx.',
         artwork: 'Protección de quilla engrosada · cofre de proa · consola jockey opcional · tubos de 5 cámaras',
-        image: 'https://neptunor.com/assets/products/2026/aluminum-rib/rib-alloy-470-01.avif',
         hue: 195,
       },
       {
@@ -1247,7 +1231,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Distribuidores', 'Charters emergentes'],
         specs: '3,80 m de eslora · 1,72 m de manga · tubo de 0,43 m · 5 plazas · 25 CV máx.',
         artwork: 'Casco profundo en V de PRFV · gelcoat de grado automoción · tubos de 3 cámaras · solarium de proa opcional',
-        image: 'https://neptunor.com/assets/products/2026/fiberglass-rib/rib-glass-380-01.avif',
         hue: 190,
       },
       {
@@ -1261,7 +1244,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Distribuidores', 'Flotas de chárter'],
         specs: '5,20 m de eslora · 2,10 m de manga · tubo de 0,48 m · 10 plazas · 60 CV máx.',
         artwork: 'Opción de doble consola · escalerilla de baño · punto de remolque de esquí · dirección hidráulica opcional',
-        image: 'https://neptunor.com/assets/products/2026/fiberglass-rib/rib-glass-520-01.avif',
         hue: 215,
       },
       {
@@ -1275,7 +1257,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Operadores de chárter', 'Distribuidores premium'],
         specs: '6,40 m de eslora · 2,35 m de manga · tubo de 0,52 m · 14 plazas · 115 CV máx.',
         artwork: 'Casco escalonado profundo en V · consola cerrada · tubos de 6 cámaras · doble depósito de combustible opcional',
-        image: 'https://neptunor.com/assets/products/2026/fiberglass-rib/rib-glass-640-01.avif',
         hue: 185,
       },
       {
@@ -1289,7 +1270,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Operadores de alquiler', 'Marcas lifestyle'],
         specs: '4,50 m de eslora · 1,92 m de manga · tubo de 0,46 m · 6 plazas · 40 CV máx.',
         artwork: 'Plataforma de popa escalonada · remolque de esquí · timón con butacas · impresión de libré envolvente',
-        image: 'https://neptunor.com/assets/products/2026/sport-console/sport-wave-450-01.avif',
         hue: 220,
       },
       {
@@ -1303,7 +1283,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Marcas lifestyle', 'Distribuidores premium'],
         specs: '5,50 m de eslora · 2,16 m de manga · tubo de 0,50 m · 8 plazas · 90 CV máx.',
         artwork: 'Casco profundo en V · consola con aseo · solarium de popa · sistema de color en gelcoat y libré',
-        image: 'https://neptunor.com/assets/products/2026/sport-console/sport-wave-550-01.avif',
         hue: 230,
       },
       {
@@ -1317,7 +1296,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Agencias de rescate', 'Protección civil'],
         specs: '4,70 m de eslora · 1,98 m de manga · tubo de 0,50 m · 6 tripulantes · 60 CV máx.',
         artwork: 'Flotadores reforzados · anclajes de bastidor de rescate · bolsa autoderechante opcional · cablines a toda la embarcación',
-        image: 'https://neptunor.com/assets/products/2026/rescue-pro/rescue-guard-470-01.avif',
         hue: 15,
       },
       {
@@ -1331,7 +1309,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Flotas gubernamentales', 'Empresas de seguridad'],
         specs: '6,00 m de eslora · 2,30 m de manga · tubo de 0,52 m · 10 tripulantes · 115 CV máx.',
         artwork: 'Consola jockey · preparación para arco de radar · doble depósito opcional · preparación de luces de navegación',
-        image: 'https://neptunor.com/assets/products/2026/rescue-pro/patrol-line-600-01.avif',
         hue: 210,
       },
       {
@@ -1345,7 +1322,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Operadores de buceo', 'Equipos de investigación'],
         specs: '4,20 m de eslora · 1,90 m de manga · tubo de 0,46 m · 6 buceadores · 40 CV máx.',
         artwork: 'Anclajes de correas para botellas · escalerilla reforzada · zona de obra viva baja · coffers de estiba',
-        image: 'https://neptunor.com/assets/products/2026/rescue-pro/dive-team-420-01.avif',
         hue: 175,
       },
       {
@@ -1359,7 +1335,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Astilleros', 'Tiendas outdoor'],
         specs: '2,70 m de eslora · 1,52 m de manga · 3 cámaras · 3 plazas · 5 CV máx.',
         artwork: 'Suelo de listones · bolsa de estiba enrollable · 3 cámaras · anillas de izado y remolque',
-        image: 'https://neptunor.com/assets/products/2026/inflatable-dinghy/airtender-270-01.avif',
         hue: 170,
       },
       {
@@ -1373,7 +1348,6 @@ export const products: Localized<ProductsContent> = {
         for: ['Tiendas outdoor', 'Flotas de alquiler'],
         specs: '3,30 m de eslora · 1,62 m de manga · suelo de aire a presión · 4–5 plazas · 9,9 CV máx.',
         artwork: 'Suelo de aire a alta presión · sensación rígida a 0,25 bar de presión de trabajo · bolsas de transporte incluidas',
-        image: 'https://neptunor.com/assets/products/2026/inflatable-dinghy/airdock-330-01.avif',
         hue: 160,
       },
       {
@@ -1629,7 +1603,7 @@ export interface BoardCategory {
   id: string
   label: string
   desc: string
-  image: string
+  image?: string
   href: string
 }
 
@@ -1648,11 +1622,11 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     sub: 'Every category is a manufacturing platform — choose your starting point and we customize the hull, tubes, graphics and specs to your program.',
     viewLabel: 'View',
     items: [
-      { id: 'aluminum-rib', label: 'Aluminum Hull RIBs', desc: 'Welded alloy hulls for work duty, patrol and tender programs.', image: 'https://neptunor.com/assets/products/2026/aluminum-rib/rib-alloy-360-01.avif', href: '/products/rib-alloy-360' },
-      { id: 'fiberglass-rib', label: 'Fiberglass Hull RIBs', desc: 'Deep-V GRP hulls from 3.8 to 6.4 m for dealers and charter fleets.', image: 'https://neptunor.com/assets/products/2026/fiberglass-rib/rib-glass-380-01.avif', href: '/products/rib-glass-380' },
-      { id: 'sport-console', label: 'Sport & Console Boats', desc: 'Fast console RIBs for watersports and coastal day runs.', image: 'https://neptunor.com/assets/products/2026/sport-console/sport-wave-450-01.avif', href: '/products/sport-wave-450' },
-      { id: 'rescue-pro', label: 'Rescue & Professional', desc: 'Mission-configured boats for rescue, patrol and dive teams.', image: 'https://neptunor.com/assets/products/2026/rescue-pro/rescue-guard-470-01.avif', href: '/products/rescue-guard-470' },
-      { id: 'inflatable-dinghy', label: 'Dinghies & Tenders', desc: 'Compact inflatables for yacht tenders, camping and light utility.', image: 'https://neptunor.com/assets/products/2026/inflatable-dinghy/airtender-270-01.avif', href: '/products/airtender-270' },
+      { id: 'aluminum-rib', label: 'Aluminum Hull RIBs', desc: 'Welded alloy hulls for work duty, patrol and tender programs.', href: '/products/rib-alloy-360' },
+      { id: 'fiberglass-rib', label: 'Fiberglass Hull RIBs', desc: 'Deep-V GRP hulls from 3.8 to 6.4 m for dealers and charter fleets.', href: '/products/rib-glass-380' },
+      { id: 'sport-console', label: 'Sport & Console Boats', desc: 'Fast console RIBs for watersports and coastal day runs.', href: '/products/sport-wave-450' },
+      { id: 'rescue-pro', label: 'Rescue & Professional', desc: 'Mission-configured boats for rescue, patrol and dive teams.', href: '/products/rescue-guard-470' },
+      { id: 'inflatable-dinghy', label: 'Dinghies & Tenders', desc: 'Compact inflatables for yacht tenders, camping and light utility.', href: '/products/airtender-270' },
       { id: 'inflatable-catamaran', label: 'Inflatable Catamarans', desc: 'Twin-hull inflatables for speed, fishing and rescue missions.', image: 'https://neptunor.com/assets/products/2026/inflatable-catamaran/catamaran-speed-470-01.avif', href: '/products/catamaran-speed-470' },
       { id: 'inflatable-kayak', label: 'Inflatable Kayaks', desc: 'Full drop-stitch and hybrid kayaks for touring and recreation.', image: 'https://neptunor.com/assets/products/2026/inflatable-kayak/kayak-tour-365-01.avif', href: '/products/kayak-tour-365' },
       { id: 'inflatable-raft', label: 'Inflatable Rafts', desc: 'Self-bailing whitewater rafts for outfitters and expeditions.', image: 'https://neptunor.com/assets/products/2026/inflatable-raft/raft-white-380-01.avif', href: '/products/raft-white-380' },
@@ -1664,11 +1638,11 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     sub: 'Cada categoría es una plataforma de fabricación: elige tu punto de partida y adaptamos el casco, los tubos, los gráficos y las especificaciones a tu programa.',
     viewLabel: 'Ver',
     items: [
-      { id: 'aluminum-rib', label: 'RIB de aluminio', desc: 'Cascos de aleación soldada para trabajo, patrulla y programas de tender.', image: 'https://neptunor.com/assets/products/2026/aluminum-rib/rib-alloy-360-01.avif', href: '/products/rib-alloy-360' },
-      { id: 'fiberglass-rib', label: 'RIB de fibra de vidrio', desc: 'Cascos profundos en V de PRFV de 3,8 a 6,4 m para distribuidores y chárter.', image: 'https://neptunor.com/assets/products/2026/fiberglass-rib/rib-glass-380-01.avif', href: '/products/rib-glass-380' },
-      { id: 'sport-console', label: 'Deportivas y consola', desc: 'RIB rápidos a consola para deportes náuticos y salidas costeras.', image: 'https://neptunor.com/assets/products/2026/sport-console/sport-wave-450-01.avif', href: '/products/sport-wave-450' },
-      { id: 'rescue-pro', label: 'Rescate y profesional', desc: 'Embarcaciones configuradas para misión de rescate, patrulla y buceo.', image: 'https://neptunor.com/assets/products/2026/rescue-pro/rescue-guard-470-01.avif', href: '/products/rescue-guard-470' },
-      { id: 'inflatable-dinghy', label: 'Neumáticas y tenders', desc: 'Inflables compactos para tenders de yate, campamento y utilidad ligera.', image: 'https://neptunor.com/assets/products/2026/inflatable-dinghy/airtender-270-01.avif', href: '/products/airtender-270' },
+      { id: 'aluminum-rib', label: 'RIB de aluminio', desc: 'Cascos de aleación soldada para trabajo, patrulla y programas de tender.', href: '/products/rib-alloy-360' },
+      { id: 'fiberglass-rib', label: 'RIB de fibra de vidrio', desc: 'Cascos profundos en V de PRFV de 3,8 a 6,4 m para distribuidores y chárter.', href: '/products/rib-glass-380' },
+      { id: 'sport-console', label: 'Deportivas y consola', desc: 'RIB rápidos a consola para deportes náuticos y salidas costeras.', href: '/products/sport-wave-450' },
+      { id: 'rescue-pro', label: 'Rescate y profesional', desc: 'Embarcaciones configuradas para misión de rescate, patrulla y buceo.', href: '/products/rescue-guard-470' },
+      { id: 'inflatable-dinghy', label: 'Neumáticas y tenders', desc: 'Inflables compactos para tenders de yate, campamento y utilidad ligera.', href: '/products/airtender-270' },
       { id: 'inflatable-catamaran', label: 'Catamaranes inflables', desc: 'Doble casco inflable para velocidad, pesca y misiones de rescate.', image: 'https://neptunor.com/assets/products/2026/inflatable-catamaran/catamaran-speed-470-01.avif', href: '/products/catamaran-speed-470' },
       { id: 'inflatable-kayak', label: 'Kayaks inflables', desc: 'Kayaks full drop-stitch e híbridos para touring y recreación.', image: 'https://neptunor.com/assets/products/2026/inflatable-kayak/kayak-tour-365-01.avif', href: '/products/kayak-tour-365' },
       { id: 'inflatable-raft', label: 'Balsas inflables', desc: 'Balsas de aguas bravas con drenaje automático para outfitters y expediciones.', image: 'https://neptunor.com/assets/products/2026/inflatable-raft/raft-white-380-01.avif', href: '/products/raft-white-380' },
@@ -2667,7 +2641,7 @@ export interface SeriesItem {
   title: string
   sku: string
   body: string
-  image: string
+  image?: string
   href: string
 }
 
@@ -2688,35 +2662,30 @@ export const series: Localized<SeriesContent> = {
         title: 'Aluminum Hull RIBs',
         sku: 'NRB-A360',
         body: 'Press-formed, welded marine-alloy hulls from 3.6 to 4.7 m — low maintenance, high payload and garage-friendly towing weights for work, patrol and tender duty.',
-        image: 'https://neptunor.com/assets/products/2026/aluminum-rib/rib-alloy-360-01.avif',
         href: '/products/rib-alloy-360',
       },
       {
         title: 'Fiberglass Hull RIBs',
         sku: 'NRB-G380',
         body: 'Deep-V GRP hulls from 3.8 to 6.4 m laminated in-house — a soft dry ride, sharp design lines and dealer-friendly price points.',
-        image: 'https://neptunor.com/assets/products/2026/fiberglass-rib/rib-glass-380-01.avif',
         href: '/products/rib-glass-380',
       },
       {
         title: 'Sport & Console Boats',
         sku: 'NRT-W450',
         body: 'Console sport boats tuned for watersports and fast coastal runs, with stepped decks, ski tow points and premium trim options.',
-        image: 'https://neptunor.com/assets/products/2026/sport-console/sport-wave-450-01.avif',
         href: '/products/sport-wave-450',
       },
       {
         title: 'Rescue & Professional Boats',
         sku: 'NRR-RG470',
         body: 'Mission-ready platforms for rescue, patrol and dive teams — reinforcement zones, mission racks and complete CE documentation for procurement files.',
-        image: 'https://neptunor.com/assets/products/2026/rescue-pro/rescue-guard-470-01.avif',
         href: '/products/rescue-guard-470',
       },
       {
         title: 'Inflatable Dinghies & Tenders',
         sku: 'NRD-T270',
         body: 'Compact, lightweight inflatables from 2.7 m — yacht tenders, campground runabouts and easy-stow utility craft that roll into a bag.',
-        image: 'https://neptunor.com/assets/products/2026/inflatable-dinghy/airtender-270-01.avif',
         href: '/products/airtender-270',
       },
     ],
@@ -2730,35 +2699,30 @@ export const series: Localized<SeriesContent> = {
         title: 'RIB de aluminio',
         sku: 'NRB-A360',
         body: 'Cascos de aleación marina conformados y soldados de 3,6 a 4,7 m — bajo mantenimiento, gran carga y pesos de remolque aptos para garaje en trabajo, patrulla y servicio de tender.',
-        image: 'https://neptunor.com/assets/products/2026/aluminum-rib/rib-alloy-360-01.avif',
         href: '/products/rib-alloy-360',
       },
       {
         title: 'RIB de fibra de vidrio',
         sku: 'NRB-G380',
         body: 'Cascos profundos en V de PRFV de 3,8 a 6,4 m laminados en casa — navegación seca y suave, líneas afiladas y precios amables para distribuidores.',
-        image: 'https://neptunor.com/assets/products/2026/fiberglass-rib/rib-glass-380-01.avif',
         href: '/products/rib-glass-380',
       },
       {
         title: 'Deportivas y consola',
         sku: 'NRT-W450',
         body: 'Embarcaciones deportivas a consola afinadas para deportes náuticos y salidas costeras rápidas, con popas escalonadas, remolques de esquí y acabados premium.',
-        image: 'https://neptunor.com/assets/products/2026/sport-console/sport-wave-450-01.avif',
         href: '/products/sport-wave-450',
       },
       {
         title: 'Embarcaciones de rescate y profesionales',
         sku: 'NRR-RG470',
         body: 'Plataformas listas para misión de rescate, patrulla y buceo — zonas reforzadas, bastidores de misión y documentación CE completa para expedientes de compra.',
-        image: 'https://neptunor.com/assets/products/2026/rescue-pro/rescue-guard-470-01.avif',
         href: '/products/rescue-guard-470',
       },
       {
         title: 'Neumáticas y tenders',
         sku: 'NRD-T270',
         body: 'Inflables compactos y ligeros desde 2,7 m — tenders de yate, neumáticas de campamento y utilidades fáciles de estibar que caben enrolladas en una bolsa.',
-        image: 'https://neptunor.com/assets/products/2026/inflatable-dinghy/airtender-270-01.avif',
         href: '/products/airtender-270',
       },
     ],
