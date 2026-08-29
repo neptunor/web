@@ -2,6 +2,7 @@ import React, { startTransition, useState, useMemo } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, products, productFilters, type Product } from '@/product/content'
+import { ResponsiveImg } from '@/components/ui/responsive-img'
 import { Reveal } from './reveal'
 
 /** Single catalog card: real product photo with sku/price chips, then brand-book details. */
@@ -16,11 +17,12 @@ function ProductCardInner({ product, priority = false }: { product: Product; pri
       <div className="marine-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">
       {product.image && (
       <div className="zoom-img relative aspect-[3/4] overflow-hidden border-b border-border-2 bg-bg-alt">
-        <img
+        <ResponsiveImg
           src={product.image}
           alt={product.name}
           width={600}
           height={800}
+          sizes="(min-width:1024px) 25vw, (min-width:768px) 33vw, (min-width:640px) 50vw, 100vw"
           loading={priority ? 'eager' : 'lazy'}
           fetchPriority={priority ? 'high' : 'auto'}
           decoding={priority ? 'auto' : 'async'}

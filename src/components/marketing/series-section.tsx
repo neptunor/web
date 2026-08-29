@@ -1,6 +1,7 @@
 import { MoveRight } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, series } from '@/product/content'
+import { ResponsiveImg } from '@/components/ui/responsive-img'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 
@@ -18,7 +19,7 @@ export function SeriesSection() {
             <a href={s.href} className="marine-card group block h-full overflow-hidden p-0">
               {s.image && (
                 <div className="zoom-img relative aspect-[4/3] overflow-hidden border-b border-border-2 bg-bg-alt">
-                  <img src={s.image} alt={s.title} width={800} height={600} loading="lazy" decoding="async" className="h-full w-full object-cover" />
+                  <ResponsiveImg src={s.image} alt={s.title} width={800} height={600} sizes="(min-width:768px) 50vw, 100vw" loading="lazy" decoding="async" className="h-full w-full object-cover" />
                   <span className="absolute left-3 top-3 rounded-full bg-card/90 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wider text-fg-3 backdrop-blur">
                     {s.sku}
                   </span>

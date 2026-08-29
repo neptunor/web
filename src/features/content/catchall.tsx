@@ -21,6 +21,7 @@ import { type Locale } from '@/features/i18n/locale'
 import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
+import { ResponsiveImg } from '@/components/ui/responsive-img'
 import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd, serviceLd, qcHowToLd } from '@/features/seo/jsonld'
 import { brandify } from './brand'
 import { SiteIndexProvider, type SiteIndexData } from './index-data'
@@ -403,12 +404,13 @@ export function ProductView({ product, related, origin, locale }: { product: Con
           <div className="flex flex-col gap-3">
             <div className="relative overflow-hidden rounded-2xl border border-border-2 bg-bg-alt">
               {gallery.map((img, i) => (
-                <img
+                <ResponsiveImg
                   key={img.url}
                   src={img.url}
                   alt={img.alt ?? product.title}
                   width={1200}
                   height={630}
+                  sizes="(min-width:1024px) 52vw, 100vw"
                   loading={i === 0 ? 'eager' : 'lazy'}
                   fetchPriority={i === 0 ? 'high' : 'auto'}
                   decoding={i === 0 ? 'auto' : 'async'}
@@ -583,7 +585,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   className="marine-card group flex flex-col overflow-hidden p-0"
                 >
                   {r.image && (
-                    <img src={r.image} alt={r.title} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full object-cover" />
+                    <ResponsiveImg src={r.image} alt={r.title} width={800} height={600} sizes="(min-width:768px) 33vw, 100vw" loading="lazy" decoding="async" className="aspect-[4/3] w-full object-cover" />
                   )}
                   <div className="flex flex-1 flex-col gap-1 p-4">
                     <p className="text-[13.5px] font-bold leading-snug">{r.title}</p>

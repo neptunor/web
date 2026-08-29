@@ -21,6 +21,9 @@ jobs:
       - run: pnpm typecheck
       - run: pnpm test
       - run: pnpm build
+      # Image pipeline sanity: validates sharp availability, source scan and
+      # manifest build without writing anything.
+      - run: node scripts/process-images.mjs --dry-run
       # First-load weight gate: main JS/CSS chunks must stay under their limits
       # (see scripts/check-bundle-size.mjs) — the only CI guard against silent
       # bundle regressions, since devDependencies rarely change chunk shape.

@@ -1,0 +1,1883 @@
+{
+  "version": 1,
+  "widths": [
+    320,
+    480,
+    720,
+    960,
+    1280
+  ],
+  "images": {
+    "2026/inflatable-catamaran/catamaran-speed-470-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-03-w320.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-03-w480.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-03-w720.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-03-w960.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-03-w1280.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-03.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/catamaran-speed-470-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-02-w320.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-02-w480.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-02-w720.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-02-w960.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-02-w1280.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-02.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/catamaran-speed-470-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-01-w320.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-01-w480.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-01-w720.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-01-w960.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-01-w1280.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-01.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/catamaran-speed-470-04.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-04-w320.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-04-w480.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-04-w720.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-04-w960.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-04-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-04-w1280.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-04-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-04.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/catamaran-speed-470-05.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-05-w320.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-05-w480.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-05-w720.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-05-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-05-w960.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-05-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-05-w1280.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-05-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-05.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/catamaran-speed-470-07.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-07-w320.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-07-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-07-w480.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-07-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-07-w720.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-07-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-07-w960.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-07-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-07-w1280.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-07-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-07.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/catamaran-speed-470-06.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-06-w320.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-06-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-06-w480.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-06-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-06-w720.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-06-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-06-w960.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-06-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-06-w1280.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-06-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-06.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/catamaran-speed-470-08.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-08-w320.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-08-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-08-w480.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-08-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-08-w720.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-08-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-08-w960.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-08-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-08-w1280.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-08-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-08.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/catamaran-speed-470-09.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-09-w320.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-09-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-09-w480.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-09-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-09-w720.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-09-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-09-w960.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-09-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-09-w1280.avif",
+          "webp": "2026/inflatable-catamaran/catamaran-speed-470-09-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/catamaran-speed-470-09.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/kaboat-fish-375-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-02-w320.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-02-w480.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-02-w720.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-02-w960.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-02-w1280.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-02.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/kaboat-fish-375-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-01-w320.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-01-w480.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-01-w720.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-01-w960.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-01-w1280.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-01.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/kaboat-fish-375-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-03-w320.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-03-w480.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-03-w720.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-03-w960.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-03-w1280.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-03.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/kaboat-fish-375-04.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-04-w320.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-04-w480.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-04-w720.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-04-w960.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-04-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-04-w1280.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-04-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-04.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/kaboat-fish-375-06.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-06-w320.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-06-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-06-w480.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-06-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-06-w720.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-06-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-06-w960.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-06-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-06-w1280.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-06-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-06.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/kaboat-fish-375-05.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-05-w320.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-05-w480.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-05-w720.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-05-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-05-w960.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-05-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-05-w1280.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-05-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-05.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/kaboat-fish-375-07.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-07-w320.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-07-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-07-w480.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-07-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-07-w720.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-07-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-07-w960.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-07-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-07-w1280.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-07-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-07.avif"
+        }
+      ]
+    },
+    "2026/inflatable-catamaran/kaboat-fish-375-08.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-08-w320.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-08-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-08-w480.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-08-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-08-w720.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-08-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-08-w960.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-08-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-08-w1280.avif",
+          "webp": "2026/inflatable-catamaran/kaboat-fish-375-08-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-catamaran/kaboat-fish-375-08.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-02-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-02-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-02-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-02-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-02-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-02.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-01-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-01-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-01-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-01-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-01-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-01.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-03-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-03-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-03-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-03-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-03-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-03.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-04.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-04-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-04-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-04-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-04-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-04-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-04-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-04-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-04.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-05.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-05-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-05-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-05-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-05-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-05-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-05-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-05-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-05-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-05.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-06.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-06-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-06-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-06-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-06-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-06-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-06-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-06-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-06-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-06-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-06-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-06.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-07.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-07-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-07-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-07-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-07-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-07-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-07-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-07-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-07-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-07-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-07-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-07.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-08.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-08-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-08-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-08-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-08-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-08-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-08-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-08-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-08-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-08-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-08-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-08.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-09.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-09-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-09-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-09-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-09-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-09-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-09-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-09-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-09-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-09-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-09-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-09.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-10.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-10-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-10-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-10-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-10-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-10-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-10-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-10-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-10-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-10-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-10-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-10.avif"
+        }
+      ]
+    },
+    "2026/inflatable-dinghy/sport-sib-330-11.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-11-w320.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-11-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-11-w480.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-11-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-11-w720.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-11-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-11-w960.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-11-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-11-w1280.avif",
+          "webp": "2026/inflatable-dinghy/sport-sib-330-11-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-dinghy/sport-sib-330-11.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-hybrid-335-01.avif": {
+      "intrinsic": 896,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-01-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-01-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-01-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-01-w720.webp"
+        },
+        {
+          "w": 896,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-01.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-hybrid-335-04.avif": {
+      "intrinsic": 896,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-04-w720.webp"
+        },
+        {
+          "w": 896,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-hybrid-335-02.avif": {
+      "intrinsic": 896,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-02-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-02-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-02-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-02-w720.webp"
+        },
+        {
+          "w": 896,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-02.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-hybrid-335-03.avif": {
+      "intrinsic": 896,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-03-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-03-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-03-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-03-w720.webp"
+        },
+        {
+          "w": 896,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-03.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-hybrid-335-05.avif": {
+      "intrinsic": 896,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-05-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-05-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-05-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-05-w720.webp"
+        },
+        {
+          "w": 896,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-05.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-hybrid-335-06.avif": {
+      "intrinsic": 896,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-06-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-06-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-06-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-06-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-06-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-06-w720.webp"
+        },
+        {
+          "w": 896,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-06.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-hybrid-335-07.avif": {
+      "intrinsic": 896,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-07-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-07-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-07-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-07-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-07-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-07-w720.webp"
+        },
+        {
+          "w": 896,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-07.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-hybrid-335-08.avif": {
+      "intrinsic": 896,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-08-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-08-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-08-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-08-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-08-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-08-w720.webp"
+        },
+        {
+          "w": 896,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-08.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-hybrid-335-09.avif": {
+      "intrinsic": 896,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-09-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-09-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-09-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-09-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-09-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-09-w720.webp"
+        },
+        {
+          "w": 896,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-09.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-tour-365-01.avif": {
+      "intrinsic": 1195,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-01-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-01-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-01-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-01-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-01-w960.webp"
+        },
+        {
+          "w": 1195,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-01.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-tour-365-03.avif": {
+      "intrinsic": 1195,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-03-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-03-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-03-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-03-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-03-w960.webp"
+        },
+        {
+          "w": 1195,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-03.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-tour-365-02.avif": {
+      "intrinsic": 1196,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-02-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-02-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-02-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-02-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-02-w960.webp"
+        },
+        {
+          "w": 1196,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-02.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-tour-365-04.avif": {
+      "intrinsic": 1195,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w960.webp"
+        },
+        {
+          "w": 1195,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-04.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-tour-365-05.avif": {
+      "intrinsic": 1195,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-05-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-05-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-05-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-05-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-05-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-05-w960.webp"
+        },
+        {
+          "w": 1195,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-05.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-tour-365-06.avif": {
+      "intrinsic": 1195,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-06-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-06-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-06-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-06-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-06-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-06-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-06-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-06-w960.webp"
+        },
+        {
+          "w": 1195,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-06.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-tour-365-07.avif": {
+      "intrinsic": 1195,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-07-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-07-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-07-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-07-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-07-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-07-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-07-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-07-w960.webp"
+        },
+        {
+          "w": 1195,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-07.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-tour-365-08.avif": {
+      "intrinsic": 1194,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-08-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-08-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-08-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-08-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-08-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-08-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-08-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-08-w960.webp"
+        },
+        {
+          "w": 1194,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-08.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-01-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-01-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-01-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-01-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-01-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-01.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-tour-365-09.avif": {
+      "intrinsic": 1196,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w960.webp"
+        },
+        {
+          "w": 1196,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-09.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-02-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-02-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-02-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-02-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-02-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-02.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-03-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-03-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-03-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-03-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-03-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-03.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-04.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-04-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-04-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-04-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-04-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-04-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-04-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-04-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-04.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-06.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-06-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-06-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-06-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-06-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-06-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-06-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-06-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-06-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-06-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-06-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-06.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-07.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-07-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-07-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-07-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-07-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-07-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-07-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-07-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-07-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-07-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-07-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-07.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-05.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-05-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-05-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-05-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-05-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-05-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-05-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-05-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-05-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-05.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-08.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-08-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-08-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-08-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-08-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-08-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-08-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-08-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-08-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-08-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-08-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-08.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-10.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-10-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-10-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-10-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-10-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-10-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-10-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-10-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-10-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-10-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-10-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-10.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-11.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-11-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-11-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-11-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-11-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-11-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-11-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-11-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-11-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-11-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-11-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-11.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-09.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-09-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-09-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-09-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-09-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-09-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-09-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-09-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-09-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-09-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-09-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-09.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-12.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-12-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-12-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-12-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-12-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-12-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-12-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-12-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-12-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-12-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-12-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-12.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-13.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-13-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-13-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-13-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-13-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-13-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-13-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-13-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-13-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-13-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-13-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-13.avif"
+        }
+      ]
+    }
+  }
+}
