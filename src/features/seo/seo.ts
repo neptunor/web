@@ -13,6 +13,7 @@ interface PublicPathEntry {
 export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/', lastmod: '2026-08-11' },
   { path: '/solutions', lastmod: '2026-06-20' },
+  { path: '/solutions/custom-boats', lastmod: '2026-06-01' },
   { path: '/products', lastmod: '2026-06-20' },
   { path: '/who-we-serve', lastmod: '2026-06-20' },
   { path: '/how-it-works', lastmod: '2026-08-07' },
@@ -99,17 +100,17 @@ export function buildRobots(origin: string): string {
   const aiGroups = aiAgents.map((agent) => `User-agent: ${agent}\nAllow: /`).join('\n\n')
   return [
     `# ${origin}/robots.txt`,
-    '# Last updated: 2026-08-07',
+    `# Last updated: 2026-08-29`,
     '',
     '# ---------------------------------------------------------------',
     '# Content signals',
     '# search   = yes  (allow search indexing)',
-    '# ai-input = yes  (allow grounding / RAG for AI answers 鈥?required for GEO)',
+    '# ai-input = yes  (allow grounding / RAG for AI answers — required for GEO)',
     '# ai-train = no   (do not use for model training)',
     '# ---------------------------------------------------------------',
     'Content-Signal: search=yes, ai-input=yes, ai-train=no, use=reference',
     '',
-    // Single wildcard group 鈥?private app surfaces and removed template pages
+    // Single wildcard group — private app surfaces and removed template pages
     // only; the whole marketing site is crawlable (incl. AI agents, each
     // allowed explicitly below so no edge/anti-bot rule can blanket-block
     // LLM crawlers).
@@ -156,7 +157,7 @@ type SingleLocalePath = string | SitemapEntry
 
 /** Which locale variants of PUBLIC_PATHS a sitemap file should carry: every
  *  bilingual pair (default), only the given locale, or none (detail-only files
- *  like products/news 鈥?they must not repeat the template URLs). */
+ *  like products/news — they must not repeat the template URLs). */
 export function buildSitemap(
   origin: string,
   singleLocalePaths: SingleLocalePath[] = [],
@@ -207,7 +208,7 @@ export function buildSitemapIndex(origin: string, files: string[]): string {
 export interface HeadLink {
   rel: string
   href: string
-  hreflang?: string // lowercase HTML attr 鈥?TanStack serializes head attrs verbatim
+  hreflang?: string // lowercase HTML attr — TanStack serializes head attrs verbatim
   as?: string
   type?: string
   fetchpriority?: string
@@ -258,7 +259,7 @@ export function localeHead(input: {
     { property: 'og:image:type', content: image.endsWith('.webp') ? 'image/webp' : 'image/jpeg' },
     {
       property: 'og:image:alt',
-      content: `${SITE_NAME} 鈥?${SITE_TAGLINE}`,
+      content: `${SITE_NAME} — ${SITE_TAGLINE}`,
     },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:site', content: '@neptunor' },
@@ -267,7 +268,7 @@ export function localeHead(input: {
     { name: 'twitter:image', content: image },
     {
       name: 'twitter:image:alt',
-      content: `${SITE_NAME} 鈥?${SITE_TAGLINE}`,
+      content: `${SITE_NAME} — ${SITE_TAGLINE}`,
     },
   ]
   return { meta, links }

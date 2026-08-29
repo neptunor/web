@@ -50,7 +50,16 @@ export const LLMS_TXT = `# Neptunor
 
 ## Products available for customization
 
-- [All boat platforms](https://neptunor.com/products): aluminum-hull RIBs, fiberglass-hull RIBs, sport console boats, rescue and professional boats, inflatable dinghies and yacht tenders — every platform is a starting point for customization, not a fixed catalog item.
+- [All boat platforms](https://neptunor.com/products): 9 series across 56 models — aluminum-hull RIBs, fiberglass-hull RIBs (36 models, 2.5–7.6 m), sport console boats, rescue and professional boats, inflatable dinghies and yacht tenders, inflatable catamarans, inflatable kayaks, inflatable whitewater rafts and inflatable accessories. Every platform is a starting point for customization, not a fixed catalog item.
+- [Aluminum hull RIBs](https://neptunor.com/products/aluminum-rib): rib-alloy 360 / 430 / 470 — welded marine-aluminum hulls for rental fleets, patrol and workboats.
+- [Fiberglass hull RIBs](https://neptunor.com/products/fiberglass-rib): 36 models from 2.5 m to 7.6 m — molded deep-V hulls for dealers, family leisure and charter (plus the rib-glass 380 / 520 / 640 baselines).
+- [Sport & console boats](https://neptunor.com/products/sport-console): sport-wave-450 / 550 platforms — center or jockey consoles for watersports and fast-response duty.
+- [Rescue & professional boats](https://neptunor.com/products/rescue-pro): rescue-guard-470, patrol-line-600 and dive-team-420 — mission consoles and documented seven-stage QC for SAR agencies, patrol and dive teams.
+- [Inflatable dinghies & yacht tenders](https://neptunor.com/products/inflatable-dinghy): airtender-270 and airdock-330 — packable tenders and dock boats with air-deck floors.
+- [Inflatable catamarans](https://neptunor.com/products/inflatable-catamaran): speed-470 (racing/rescue) and kaboat-fish-375 (fishing/recreation) — twin-hull drop-stitch designs.
+- [Inflatable kayaks](https://neptunor.com/products/inflatable-kayak): tour-365 full drop-stitch and hybrid-335 — touring performance and hybrid recreational.
+- [Inflatable whitewater rafts](https://neptunor.com/products/inflatable-raft): raft-white-380 — self-bailing I-Beam floor, frame-ready for river outfitters and expeditions.
+- [Inflatable accessories](https://neptunor.com/products/inflatable-accessories): drop-stitch seats (NSE-01) with universal 4-point mounting for kayaks, SUPs and rafts.
 - Accessories: consoles, seats, pumps, covers, trailers, life vests — customizable and bundled with boat orders.
 
 ## Knowledge base for buyers

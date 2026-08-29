@@ -1,5 +1,6 @@
 import { products } from '@/product/content'
 import { solutionPages, solutionPath } from '@/product/solution-pages'
+import { seriesPages } from '@/product/series-pages'
 import { projects } from '@/product/projects'
 import { knowledge } from '@/product/knowledge'
 import {
@@ -93,6 +94,14 @@ export function llmProductsIndex(origin: string): string {
   // entry to its page instead of the /products index.
   const lines = getContentProducts().map((p) => `- [${p.title}](${abs(origin, `/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
   return ['', '## Products', ...lines, ''].join('\n')
+}
+
+/** Index entries for the product-series pages (in /llms.txt). */
+export function llmSeriesIndex(origin: string): string {
+  const lines = seriesPages.en.map(
+    (s) => `- [${s.metaTitle}](${abs(origin, `/products/${s.slug}`)}): ${flat(s.metaDescription)}`,
+  )
+  return ['', '## Product Series', ...lines, ''].join('\n')
 }
 
 export function llmProductsFull(): string {

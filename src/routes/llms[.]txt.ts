@@ -4,6 +4,7 @@ import { LLMS_TXT } from '@/product/llms-content'
 import {
   llmsSiteIndex,
   llmProductsIndex,
+  llmSeriesIndex,
   llmSolutionsIndex,
   llmProjectsIndex,
   llmKnowledgeIndex,
@@ -20,6 +21,7 @@ const handler = () => {
     LLMS_TXT +
       llmsSiteIndex(origin) +
       llmProductsIndex(origin) +
+      llmSeriesIndex(origin) +
       llmSolutionsIndex(origin) +
       llmProjectsIndex(origin) +
       llmKnowledgeIndex(origin) +
