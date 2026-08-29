@@ -643,6 +643,7 @@ export const enProduct = {
       'inflatable-catamaran': 'Inflatable catamaran',
       'inflatable-kayak': 'Inflatable kayak',
       'inflatable-raft': 'Inflatable raft',
+      'inflatable-accessories': 'Inflatable accessories',
       accessories: 'Accessories / spare parts',
       multiple: 'Multiple product lines',
       unsure: 'Not sure yet',

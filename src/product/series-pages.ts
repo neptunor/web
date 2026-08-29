@@ -264,6 +264,33 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
       ],
     },
+    {
+      slug: 'inflatable-accessories',
+      navLabel: 'Inflatable Accessories',
+      metaTitle: 'Custom Inflatable Boat Accessories — Drop-Stitch Seats OEM | Neptunor',
+      metaDescription:
+        'Custom inflatable drop-stitch boat seats and accessories manufactured under your brand — universal 4-point mounting for kayaks, SUPs and rafts, retail packaging. Factory direct from Qingdao, China.',
+      kicker: 'Series · Inflatable Accessories',
+      h1: 'Custom Inflatable Accessories — Drop-Stitch Seats For Kayaks, SUPs & Rafts',
+      intro: [
+        'The highest-margin SKU next to every boat is the accessory that makes it comfortable: an inflatable seat that keeps crews on the water longer. Drop-stitch construction delivers wood-like rigidity at 5–10 psi, while a universal 4-point tie-down system with marine stainless snap hooks fits the D-ring decks of nearly every inflatable kayak, SUP and raft sold today.',
+        'We manufacture inflatable accessories under your brand through the same seven-stage QC gates and in-house retail packaging as the boat range — brand colors, webbing color, EVA texture, logo printing and cartons specified per program. The seat-drop-stitch platform (NSE-01) is stocked-ready and ships flat in a packable carry form.',
+      ],
+      faqs: [
+        {
+          q: 'How do drop-stitch seats compare with foam cushions?',
+          a: 'A foam cushion compresses and sags, letting hips sink and fatigue set in. A drop-stitch seat inflates to near-rigid pressure and stays solid ride after ride, and packs flat when deflated for compact shipping and storage.',
+        },
+        {
+          q: 'Which boats does the seat fit?',
+          a: 'The universal 4-point webbing and stainless snap hooks mount to the deck D-rings of the majority of inflatable kayaks and SUPs on the market, and to raft thwarts. No straps-loop or hook type is required — the tie-down adjusts to each deck layout.',
+        },
+        {
+          q: 'What customization is available?',
+          a: 'Brand colorways for sides and top texture, webbing color, logo printing on the EVA top and cartons, and retail packaging formats. Minimums start at pilot volumes, with standard batches from 90–100+ units per configuration.',
+        },
+      ],
+    },
   ],
   es: [
     {
@@ -499,6 +526,33 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         {
           q: '¿Cuál es el pedido mínimo para balsas inflables?',
           a: 'Las muestras salen en 10–15 días; la producción corre entre 30 y 45 días tras PO confirmado. Los lotes estándar parten de 90–100+ uds. por configuración, los pilotos de 20–50 uds.',
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-accessories',
+      navLabel: 'Accesorios para inflables',
+      metaTitle: 'Accesorios inflables personalizados — Asientos drop-stitch OEM | Neptunor',
+      metaDescription:
+        'Asientos y accesorios inflables drop-stitch personalizados bajo tu marca: fijación universal de 4 puntos para kayaks, SUPs y balsas, embalaje retail. Directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Accesorios para inflables',
+      h1: 'Accesorios inflables personalizados — Asientos drop-stitch para kayaks, SUPs y balsas',
+      intro: [
+        'El SKU de mayor margen junto a cada embarcación es el accesorio que la hace cómoda: un asiento inflable que mantiene a las tripulaciones más tiempo en el agua. La construcción drop-stitch ofrece rigidez similar a la madera a 5–10 psi, mientras que un sistema universal de fijación por 4 puntos con mosquetones de acero inoxidable marino se ancla a los anillos D de casi todos los kayaks, SUPs y balsas actuales.',
+        'Fabricamos accesorios inflables bajo tu marca a través de las mismas siete etapas de control de calidad y con embalaje retail interno que la gama de embarcaciones: colores de marca, color de las correas, textura EVA, impresión de logotipo y cajas según programa. La plataforma seat-drop-stitch (NSE-01) está lista y se envía plana en formato plegable.',
+      ],
+      faqs: [
+        {
+          q: '¿Cómo se comparan los asientos drop-stitch con los cojines de espuma?',
+          a: 'Un cojín de espuma se comprime y hunde, dejando que las caderas se hundan y aparezca la fatiga. Un asiento drop-stitch se infla hasta una presión casi rígida y permanece firme viaje tras viaje, y desinflado se pliega plano para envío y almacenamiento compactos.',
+        },
+        {
+          q: 'En qué embarcaciones encaja el asiento?',
+          a: 'Las correas universales de 4 puntos y los mosquetones de acero inoxidable se fijan a los anillos D de la mayoría de kayaks y SUPs del mercado, y a los bancos de balsas. La fijación se ajusta a cada distribución de cubierta.',
+        },
+        {
+          q: '¿Qué personalización está disponible?',
+          a: 'Colores de marca para laterales y textura superior, color de las correas, impresión de logotipo en la superficie EVA y cajas, y formatos de embalaje retail. Los mínimos parten de volúmenes piloto, con lotes estándar desde 90–100+ uds. por configuración.',
         },
       ],
     },

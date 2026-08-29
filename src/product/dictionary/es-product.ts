@@ -643,6 +643,7 @@ categoryOptions: {
       'inflatable-catamaran': 'Catamarán hinchable',
       'inflatable-kayak': 'Kayak hinchable',
       'inflatable-raft': 'Balsa hinchable',
+      'inflatable-accessories': 'Accesorios para hinchables',
       accessories: 'Accesorios / repuestos',
       multiple: 'Múltiples líneas de producto',
       unsure: 'Aún no lo sé',
