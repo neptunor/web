@@ -34,7 +34,7 @@ export const GUIDES: Guide[] = [
       },
       {
         title: 'Aluminum or Fiberglass Hull',
-        body: 'Aluminum hulls (welded marine-grade alloy, typically 3.6–4.7 m in standard ranges) win where boats take abuse: docks, trailers, beach landings. Fiberglass hulls (3.8–6.4 m) win where ride comfort, gelcoat finish and retail presentation sell the boat. Many operators run both side by side.',
+        body: 'Aluminum hulls (welded marine-grade alloy, typically 3.6–4.7 m in standard ranges) win where boats take abuse: docks, trailers, beach landings. Fiberglass hulls (2.5–7.6 m) win where ride comfort, gelcoat finish and retail presentation sell the boat. Many operators run both side by side.',
       },
       {
         title: 'Tube Fabric and Diameter',
@@ -54,7 +54,7 @@ export const GUIDES: Guide[] = [
       },
     ],
     faqs: [
-      { q: 'What RIB length fits most markets?', a: 'Most rental and dealer programs center on 3.6–4.7 m aluminum hulls and 3.8–5.2 m fiberglass hulls: big enough for real payloads, small enough for single-trailer handling and davit launch.' },
+      { q: 'What RIB length fits most markets?', a: 'Most rental and dealer programs center on 3.6–4.7 m aluminum hulls and 3.8–5.2 m fiberglass hulls: big enough for real payloads, small enough for single-trailer handling and davit launch. Above that, 5.5–7.6 m fiberglass console models cover charter, guest and crew programs.' },
       { q: 'Can one factory build both aluminum and fiberglass versions?', a: 'Yes — plants with separate metal and molding workshops produce both through the same tube-welding and QC pipeline, which keeps collar quality consistent across hull materials.' },
       { q: 'When should we freeze the specification?', a: 'Before sampling. The sample proves the frozen spec; changes discovered after approval restart both sample and production scheduling.' },
     ],
@@ -243,7 +243,7 @@ export const GUIDES_ES: Guide[] = [
       },
       {
         title: 'Casco de aluminio o de fibra',
-        body: 'Los cascos de aluminio (aleación naval soldada, típicamente 3,6–4,7 m en gamas estándar) ganan donde los botes sufren golpes: pantalanes, remolques, varadas en playa. Los de fibra (3,8–6,4 m) ganan donde la comodidad de navegación, el acabado de gelcoat y la presentación minorista venden el bote. Muchos operadores combinan ambos.',
+        body: 'Los cascos de aluminio (aleación naval soldada, típicamente 3,6–4,7 m en gamas estándar) ganan donde los botes sufren golpes: pantalanes, remolques, varadas en playa. Los de fibra (2,5–7,6 m) ganan donde la comodidad de navegación, el acabado de gelcoat y la presentación minorista venden el bote. Muchos operadores combinan ambos.',
       },
       {
         title: 'Tela y diámetro del tubo',

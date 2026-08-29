@@ -54,7 +54,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     },
     'fiberglass-rib': {
       bestFor: 'Distributors, dealers & retail boat ranges',
-      sizes: '3.8–6.4 m LOA · molded GRP hulls',
+      sizes: '2.5–7.6 m LOA · 34 models · molded GRP hulls',
       construction: 'Molded fiberglass hull + inflatable collar tubes',
       customization: 'Gelcoat color matching, upholstery, console, graphics & retail packaging',
       moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
@@ -259,7 +259,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     },
     'fiberglass-rib': {
       bestFor: 'Distribuidores, redes de venta y gamas náuticas minoristas',
-      sizes: '3,8–6,4 m de eslora · cascos GRP moldeados',
+      sizes: '2,5–7,6 m de eslora · 34 modelos · cascos GRP moldeados',
       construction: 'Casco de fibra de vidrio moldeado + collares de tubo inflable',
       customization: 'Igualación de gelcoat, tapicería, consola, gráficos y embalaje minorista',
       moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,

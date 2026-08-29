@@ -8,32 +8,2283 @@
     1280
   ],
   "images": {
-    "2026/inflatable-accessories/seat-drop-stitch-03.avif": {
-      "intrinsic": 1024,
+    "2026/fiberglass-rib/rib-300-01.avif": {
+      "intrinsic": 650,
       "variants": [
         {
           "w": 320,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-03-w320.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-03-w320.webp"
+          "avif": "2026/fiberglass-rib/rib-300-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-300-01-w320.webp"
         },
         {
           "w": 480,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-03-w480.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-03-w480.webp"
+          "avif": "2026/fiberglass-rib/rib-300-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-300-01-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-300-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-330b-01.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-330b-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-330b-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-330b-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-330b-01-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-330b-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-250-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-250-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-250-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-250-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-250-01-w480.webp"
         },
         {
           "w": 720,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-03-w720.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-03-w720.webp"
+          "avif": "2026/fiberglass-rib/rib-250-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-250-01-w720.webp"
         },
         {
           "w": 960,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-03-w960.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-03-w960.webp"
+          "avif": "2026/fiberglass-rib/rib-250-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-250-01-w960.webp"
         },
         {
-          "w": 1024,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-03.avif"
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-250-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-250-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-250-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-270-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-270-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-270-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-270-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-270-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-270-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-270-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-270-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-270-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-270-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-270-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-270-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-330a-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-330a-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-330a-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-330a-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-330a-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-330a-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-330a-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-330a-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-330a-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-330a-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-330a-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-330a-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-330c-01.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-330c-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-330c-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-330c-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-330c-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-330c-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-330c-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-330c-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-330c-01-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-330c-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-390a-02.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-390a-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-390a-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-02-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-390a-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-360b-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-360b-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-360b-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-360b-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-360b-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-360b-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-360b-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-360b-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-360b-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-360b-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-360b-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-360b-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-360a-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-360a-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-360a-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-360a-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-360a-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-360a-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-360a-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-360a-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-360a-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-360a-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-360a-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-360a-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-390a-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-390a-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-390a-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-390a-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-390a-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-390a-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-390a-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-390al-02.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-390al-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-390al-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-02-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-390al-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-390a-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-390a-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-390a-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-390a-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-390a-03-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-390a-03-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-390a-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-390a-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-390al-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-390al-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-390al-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-390al-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-390al-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-390al-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-390al-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-390b-01.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-390b-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-390b-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-390b-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-390b-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-390b-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-390b-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-390b-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-390b-01-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-390b-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-390al-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-390al-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-390al-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-390al-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-390al-03-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-390al-03-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-390al-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-390al-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-430a-01.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-430a-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-430a-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-430a-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-430a-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-430a-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-430a-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-430a-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-430a-01-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-430a-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-390b-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-390b-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-390b-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-390b-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-390b-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-390b-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-390b-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-390b-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-390b-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-390b-02-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-390b-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-390b-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-390bl-01.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-390bl-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-390bl-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-390bl-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-390bl-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-390bl-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-390bl-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-390bl-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-390bl-01-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-390bl-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-430c-01.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-430c-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-430c-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-430c-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-430c-01-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-430c-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-390bl-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-390bl-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-390bl-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-390bl-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-390bl-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-390bl-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-390bl-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-390bl-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-390bl-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-390bl-02-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-390bl-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-390bl-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-430b-01.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-430b-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-430b-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-430b-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-430b-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-430b-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-430b-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-430b-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-430b-01-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-430b-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-480a-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-480a-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-480a-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-480a-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-480a-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-480a-02-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-480a-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-480a-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-480a-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-480a-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-480a-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-480a-03-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-480a-03-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-480a-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-480a-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-480a-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-480a-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-480a-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-480a-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-480a-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-480a-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-480a-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-480b-01.avif": {
+      "intrinsic": 1440,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-480b-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-480b-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-480b-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-480b-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-480b-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-480b-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-480b-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-480b-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-480b-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-480b-01-w1280.webp"
+        },
+        {
+          "w": 1440,
+          "avif": "2026/fiberglass-rib/rib-480b-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-480c-01.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-480c-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-480c-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-480c-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-480c-01-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-480c-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-480c-02.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-480c-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-480c-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-480c-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-480c-02-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-480c-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-480d-01.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-480d-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-480d-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-480d-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-480d-01-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-480d-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520b-01.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520b-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520b-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520b-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520b-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-01-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-520b-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-500-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-500-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-500-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-500-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-500-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-500-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-500-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-500-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-500-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-500-02-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-500-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-500-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-500-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-500-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-500-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-500-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-500-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-500-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-500-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-500-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-500-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-500-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-500-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-500-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520b-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520b-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520b-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520b-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520b-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-520b-02-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-520b-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520b-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520b-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520b-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520b-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520b-03-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-520b-03-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-520b-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-520b-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520c-02.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520c-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520c-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520c-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520c-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520c-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520c-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520c-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520c-02-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-520c-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520c-01.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520c-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520c-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520c-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520c-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520c-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520c-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520c-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520c-01-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-520c-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520e-01.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520e-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520e-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520e-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520e-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-01-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-520e-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520e-02.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520e-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520e-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520e-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520e-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-02-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-520e-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520w-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520w-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520w-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520w-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520w-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-520w-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-520w-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520e-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520e-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520e-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520e-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520e-03-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-520e-03-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-520e-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-520e-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-550a-01.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-550a-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-550a-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-550a-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-550a-01-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-550a-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-550a-03.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-550a-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-550a-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-550a-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-550a-03-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-550a-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-550a-02.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-550a-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-550a-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-550a-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-550a-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-550a-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-550a-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-550a-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-550a-02-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-550a-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520w-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520w-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520w-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520w-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520w-03-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-520w-03-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-520w-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-520w-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-520w-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-520w-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-520w-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-520w-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-520w-02-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-520w-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-520w-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-550b-01.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-550b-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-550b-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-550b-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-550b-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-550b-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-550b-01-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-550b-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-550b-03.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-550b-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-550b-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-550b-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-550b-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-550b-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-550b-03-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-550b-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-550b-02.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-550b-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-550b-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-550b-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-550b-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-550b-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-550b-02-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-550b-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-580a-01.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-580a-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-580a-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-580a-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-580a-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-01-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-580a-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-580a-03.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-580a-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-580a-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-580a-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-580a-03-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-03-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-580a-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-580a-04.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-580a-04-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-580a-04-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-580a-04-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-580a-04-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-04-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-580a-04.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-580b-01.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-580b-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-580b-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-580b-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-580b-01-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-580b-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-580a-05.avif": {
+      "intrinsic": 1000,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-580a-05-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-580a-05-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-580a-05-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-05-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-580a-05-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-05-w960.webp"
+        },
+        {
+          "w": 1000,
+          "avif": "2026/fiberglass-rib/rib-580a-05.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-580a-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-580a-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-580a-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-580a-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-580a-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-580a-02-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-580a-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-580a-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-580c-01.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-580c-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-580c-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-580c-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-580c-01-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-580c-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-580b-02.avif": {
+      "intrinsic": 784,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-580b-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-580b-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-580b-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-580b-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-580b-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-580b-02-w720.webp"
+        },
+        {
+          "w": 784,
+          "avif": "2026/fiberglass-rib/rib-580b-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-580c-02.avif": {
+      "intrinsic": 650,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-580c-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-580c-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-580c-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-580c-02-w480.webp"
+        },
+        {
+          "w": 650,
+          "avif": "2026/fiberglass-rib/rib-580c-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-600-01.avif": {
+      "intrinsic": 869,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-600-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-600-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-600-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-600-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-600-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-600-01-w720.webp"
+        },
+        {
+          "w": 869,
+          "avif": "2026/fiberglass-rib/rib-600-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-600-03.avif": {
+      "intrinsic": 900,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-600-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-600-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-600-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-600-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-600-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-600-03-w720.webp"
+        },
+        {
+          "w": 900,
+          "avif": "2026/fiberglass-rib/rib-600-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-600-05.avif": {
+      "intrinsic": 864,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-600-05-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-600-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-600-05-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-600-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-600-05-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-600-05-w720.webp"
+        },
+        {
+          "w": 864,
+          "avif": "2026/fiberglass-rib/rib-600-05.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-600-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-600-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-600-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-600-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-600-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-600-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-600-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-600-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-600-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-600-02-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-600-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-600-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-680a-01.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-680a-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-680a-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-680a-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-01-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-680a-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-680a-02.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-680a-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-680a-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-680a-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-02-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-680a-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-680a-03.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-680a-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-680a-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-680a-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-03-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-680a-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-680a-04.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-680a-04-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-680a-04-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-680a-04-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-04-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-680a-04.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-680a-05.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-680a-05-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-680a-05-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-680a-05-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-680a-05-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-680a-05.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-680b-01.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-680b-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-680b-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-680b-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-01-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-680b-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-600-04.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-600-04-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-600-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-600-04-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-600-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-600-04-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-600-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-600-04-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-600-04-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-600-04-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-600-04-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-600-04.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-680b-02.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-680b-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-680b-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-680b-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-02-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-680b-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-680b-03.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-680b-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-680b-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-680b-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-03-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-680b-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-680b-05.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-680b-05-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-680b-05-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-680b-05-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-05-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-680b-05.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-680b-04.avif": {
+      "intrinsic": 800,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-680b-04-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-680b-04-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-680b-04-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-680b-04-w720.webp"
+        },
+        {
+          "w": 800,
+          "avif": "2026/fiberglass-rib/rib-680b-04.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-700-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-700-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-700-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-700-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-700-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-700-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-700-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-700-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-700-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-700-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-700-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-700-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-700-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-700-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-700-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-700-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-700-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-700-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-700-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-700-03-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-700-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-700-03-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-700-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-700-03.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-700-04.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-700-04-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-700-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-700-04-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-700-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-700-04-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-700-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-700-04-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-700-04-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-700-04-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-700-04-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-700-04.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-700-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-700-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-700-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-700-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-700-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-700-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-700-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-700-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-700-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-700-02-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-700-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-700-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-700-06.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-700-06-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-700-06-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-700-06-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-700-06-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-700-06-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-700-06-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-700-06-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-700-06-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-700-06-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-700-06-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-700-06.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-700-05.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-700-05-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-700-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-700-05-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-700-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-700-05-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-700-05-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-700-05-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-700-05-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-700-05-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-700-05-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-700-05.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-760-01.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-760-01-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-760-01-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-760-01-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-760-01-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-760-01-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-760-01-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-760-01-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-760-01-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-760-01-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-760-01-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-760-01.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-760-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-760-02-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-760-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-760-02-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-760-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-760-02-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-760-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-760-02-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-760-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-760-02-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-760-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-760-02.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-760-04.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-760-04-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-760-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-760-04-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-760-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-760-04-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-760-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-760-04-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-760-04-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-760-04-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-760-04-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-760-04.avif"
         }
       ]
     },
@@ -63,6 +2314,127 @@
         {
           "w": 1197,
           "avif": "2026/inflatable-accessories/seat-drop-stitch-01.avif"
+        }
+      ]
+    },
+    "2026/inflatable-accessories/seat-drop-stitch-02.avif": {
+      "intrinsic": 1197,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-02-w320.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-02-w480.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-02-w720.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-02-w960.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-02-w960.webp"
+        },
+        {
+          "w": 1197,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-02.avif"
+        }
+      ]
+    },
+    "2026/inflatable-accessories/seat-drop-stitch-03.avif": {
+      "intrinsic": 1024,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-03-w320.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-03-w480.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-03-w720.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-03-w960.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-03-w960.webp"
+        },
+        {
+          "w": 1024,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-03.avif"
+        }
+      ]
+    },
+    "2026/inflatable-accessories/seat-drop-stitch-04.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-04-w320.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-04-w480.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-04-w720.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-04-w960.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-04-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-04-w1280.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-04-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-04.avif"
+        }
+      ]
+    },
+    "2026/inflatable-accessories/seat-drop-stitch-05.avif": {
+      "intrinsic": 1024,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-05-w320.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-05-w480.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-05-w720.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-05-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-05-w960.avif",
+          "webp": "2026/inflatable-accessories/seat-drop-stitch-05-w960.webp"
+        },
+        {
+          "w": 1024,
+          "avif": "2026/inflatable-accessories/seat-drop-stitch-05.avif"
         }
       ]
     },
@@ -474,6 +2846,40 @@
         }
       ]
     },
+    "2026/fiberglass-rib/rib-760-05.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-760-05-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-760-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-760-05-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-760-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-760-05-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-760-05-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-760-05-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-760-05-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-760-05-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-760-05-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-760-05.avif"
+        }
+      ]
+    },
     "2026/inflatable-catamaran/kaboat-fish-375-04.avif": {
       "intrinsic": 1600,
       "variants": [
@@ -505,6 +2911,40 @@
         {
           "w": 1600,
           "avif": "2026/inflatable-catamaran/kaboat-fish-375-04.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-760-03.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-760-03-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-760-03-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-760-03-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-760-03-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-760-03-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-760-03-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-760-03-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-760-03-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-760-03-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-760-03-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-760-03.avif"
         }
       ]
     },
@@ -641,35 +3081,6 @@
         {
           "w": 1600,
           "avif": "2026/inflatable-catamaran/kaboat-fish-375-08.avif"
-        }
-      ]
-    },
-    "2026/inflatable-accessories/seat-drop-stitch-02.avif": {
-      "intrinsic": 1197,
-      "variants": [
-        {
-          "w": 320,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-02-w320.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-02-w320.webp"
-        },
-        {
-          "w": 480,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-02-w480.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-02-w480.webp"
-        },
-        {
-          "w": 720,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-02-w720.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-02-w720.webp"
-        },
-        {
-          "w": 960,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-02-w960.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-02-w960.webp"
-        },
-        {
-          "w": 1197,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-02.avif"
         }
       ]
     },
@@ -1119,30 +3530,6 @@
         }
       ]
     },
-    "2026/inflatable-kayak/kayak-hybrid-335-04.avif": {
-      "intrinsic": 896,
-      "variants": [
-        {
-          "w": 320,
-          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04-w320.avif",
-          "webp": "2026/inflatable-kayak/kayak-hybrid-335-04-w320.webp"
-        },
-        {
-          "w": 480,
-          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04-w480.avif",
-          "webp": "2026/inflatable-kayak/kayak-hybrid-335-04-w480.webp"
-        },
-        {
-          "w": 720,
-          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04-w720.avif",
-          "webp": "2026/inflatable-kayak/kayak-hybrid-335-04-w720.webp"
-        },
-        {
-          "w": 896,
-          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04.avif"
-        }
-      ]
-    },
     "2026/inflatable-kayak/kayak-hybrid-335-05.avif": {
       "intrinsic": 896,
       "variants": [
@@ -1164,6 +3551,30 @@
         {
           "w": 896,
           "avif": "2026/inflatable-kayak/kayak-hybrid-335-05.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-hybrid-335-04.avif": {
+      "intrinsic": 896,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-hybrid-335-04-w720.webp"
+        },
+        {
+          "w": 896,
+          "avif": "2026/inflatable-kayak/kayak-hybrid-335-04.avif"
         }
       ]
     },
@@ -1350,35 +3761,6 @@
         }
       ]
     },
-    "2026/inflatable-kayak/kayak-tour-365-04.avif": {
-      "intrinsic": 1195,
-      "variants": [
-        {
-          "w": 320,
-          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w320.avif",
-          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w320.webp"
-        },
-        {
-          "w": 480,
-          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w480.avif",
-          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w480.webp"
-        },
-        {
-          "w": 720,
-          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w720.avif",
-          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w720.webp"
-        },
-        {
-          "w": 960,
-          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w960.avif",
-          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w960.webp"
-        },
-        {
-          "w": 1195,
-          "avif": "2026/inflatable-kayak/kayak-tour-365-04.avif"
-        }
-      ]
-    },
     "2026/inflatable-kayak/kayak-tour-365-05.avif": {
       "intrinsic": 1195,
       "variants": [
@@ -1405,6 +3787,35 @@
         {
           "w": 1195,
           "avif": "2026/inflatable-kayak/kayak-tour-365-05.avif"
+        }
+      ]
+    },
+    "2026/inflatable-kayak/kayak-tour-365-04.avif": {
+      "intrinsic": 1195,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-04-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-04-w960.webp"
+        },
+        {
+          "w": 1195,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-04.avif"
         }
       ]
     },
@@ -1466,35 +3877,6 @@
         }
       ]
     },
-    "2026/inflatable-kayak/kayak-tour-365-09.avif": {
-      "intrinsic": 1196,
-      "variants": [
-        {
-          "w": 320,
-          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w320.avif",
-          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w320.webp"
-        },
-        {
-          "w": 480,
-          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w480.avif",
-          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w480.webp"
-        },
-        {
-          "w": 720,
-          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w720.avif",
-          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w720.webp"
-        },
-        {
-          "w": 960,
-          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w960.avif",
-          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w960.webp"
-        },
-        {
-          "w": 1196,
-          "avif": "2026/inflatable-kayak/kayak-tour-365-09.avif"
-        }
-      ]
-    },
     "2026/inflatable-kayak/kayak-tour-365-08.avif": {
       "intrinsic": 1194,
       "variants": [
@@ -1524,37 +3906,32 @@
         }
       ]
     },
-    "2026/inflatable-raft/raft-white-380-02.avif": {
-      "intrinsic": 1600,
+    "2026/inflatable-kayak/kayak-tour-365-09.avif": {
+      "intrinsic": 1196,
       "variants": [
         {
           "w": 320,
-          "avif": "2026/inflatable-raft/raft-white-380-02-w320.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-02-w320.webp"
+          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w320.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w320.webp"
         },
         {
           "w": 480,
-          "avif": "2026/inflatable-raft/raft-white-380-02-w480.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-02-w480.webp"
+          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w480.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w480.webp"
         },
         {
           "w": 720,
-          "avif": "2026/inflatable-raft/raft-white-380-02-w720.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-02-w720.webp"
+          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w720.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w720.webp"
         },
         {
           "w": 960,
-          "avif": "2026/inflatable-raft/raft-white-380-02-w960.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-02-w960.webp"
+          "avif": "2026/inflatable-kayak/kayak-tour-365-09-w960.avif",
+          "webp": "2026/inflatable-kayak/kayak-tour-365-09-w960.webp"
         },
         {
-          "w": 1280,
-          "avif": "2026/inflatable-raft/raft-white-380-02-w1280.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-02-w1280.webp"
-        },
-        {
-          "w": 1600,
-          "avif": "2026/inflatable-raft/raft-white-380-02.avif"
+          "w": 1196,
+          "avif": "2026/inflatable-kayak/kayak-tour-365-09.avif"
         }
       ]
     },
@@ -1589,6 +3966,40 @@
         {
           "w": 1600,
           "avif": "2026/inflatable-raft/raft-white-380-01.avif"
+        }
+      ]
+    },
+    "2026/inflatable-raft/raft-white-380-02.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-02-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-02-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-02-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-02-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-02-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-02-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-02-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-02-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-02-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-02-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-02.avif"
         }
       ]
     },
@@ -1660,6 +4071,74 @@
         }
       ]
     },
+    "2026/inflatable-raft/raft-white-380-05.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-05-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-05-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-05-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-05-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-05-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-05-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-05-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-05-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-05-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-05-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-05.avif"
+        }
+      ]
+    },
+    "2026/fiberglass-rib/rib-760-06.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/fiberglass-rib/rib-760-06-w320.avif",
+          "webp": "2026/fiberglass-rib/rib-760-06-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/fiberglass-rib/rib-760-06-w480.avif",
+          "webp": "2026/fiberglass-rib/rib-760-06-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/fiberglass-rib/rib-760-06-w720.avif",
+          "webp": "2026/fiberglass-rib/rib-760-06-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/fiberglass-rib/rib-760-06-w960.avif",
+          "webp": "2026/fiberglass-rib/rib-760-06-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/fiberglass-rib/rib-760-06-w1280.avif",
+          "webp": "2026/fiberglass-rib/rib-760-06-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/fiberglass-rib/rib-760-06.avif"
+        }
+      ]
+    },
     "2026/inflatable-raft/raft-white-380-06.avif": {
       "intrinsic": 1600,
       "variants": [
@@ -1691,40 +4170,6 @@
         {
           "w": 1600,
           "avif": "2026/inflatable-raft/raft-white-380-06.avif"
-        }
-      ]
-    },
-    "2026/inflatable-raft/raft-white-380-07.avif": {
-      "intrinsic": 1600,
-      "variants": [
-        {
-          "w": 320,
-          "avif": "2026/inflatable-raft/raft-white-380-07-w320.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-07-w320.webp"
-        },
-        {
-          "w": 480,
-          "avif": "2026/inflatable-raft/raft-white-380-07-w480.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-07-w480.webp"
-        },
-        {
-          "w": 720,
-          "avif": "2026/inflatable-raft/raft-white-380-07-w720.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-07-w720.webp"
-        },
-        {
-          "w": 960,
-          "avif": "2026/inflatable-raft/raft-white-380-07-w960.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-07-w960.webp"
-        },
-        {
-          "w": 1280,
-          "avif": "2026/inflatable-raft/raft-white-380-07-w1280.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-07-w1280.webp"
-        },
-        {
-          "w": 1600,
-          "avif": "2026/inflatable-raft/raft-white-380-07.avif"
         }
       ]
     },
@@ -1762,6 +4207,40 @@
         }
       ]
     },
+    "2026/inflatable-raft/raft-white-380-07.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-07-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-07-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-07-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-07-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-07-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-07-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-07-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-07-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-07-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-07-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-07.avif"
+        }
+      ]
+    },
     "2026/inflatable-raft/raft-white-380-09.avif": {
       "intrinsic": 1600,
       "variants": [
@@ -1793,40 +4272,6 @@
         {
           "w": 1600,
           "avif": "2026/inflatable-raft/raft-white-380-09.avif"
-        }
-      ]
-    },
-    "2026/inflatable-raft/raft-white-380-05.avif": {
-      "intrinsic": 1600,
-      "variants": [
-        {
-          "w": 320,
-          "avif": "2026/inflatable-raft/raft-white-380-05-w320.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-05-w320.webp"
-        },
-        {
-          "w": 480,
-          "avif": "2026/inflatable-raft/raft-white-380-05-w480.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-05-w480.webp"
-        },
-        {
-          "w": 720,
-          "avif": "2026/inflatable-raft/raft-white-380-05-w720.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-05-w720.webp"
-        },
-        {
-          "w": 960,
-          "avif": "2026/inflatable-raft/raft-white-380-05-w960.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-05-w960.webp"
-        },
-        {
-          "w": 1280,
-          "avif": "2026/inflatable-raft/raft-white-380-05-w1280.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-05-w1280.webp"
-        },
-        {
-          "w": 1600,
-          "avif": "2026/inflatable-raft/raft-white-380-05.avif"
         }
       ]
     },
@@ -1864,40 +4309,6 @@
         }
       ]
     },
-    "2026/inflatable-raft/raft-white-380-11.avif": {
-      "intrinsic": 1600,
-      "variants": [
-        {
-          "w": 320,
-          "avif": "2026/inflatable-raft/raft-white-380-11-w320.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-11-w320.webp"
-        },
-        {
-          "w": 480,
-          "avif": "2026/inflatable-raft/raft-white-380-11-w480.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-11-w480.webp"
-        },
-        {
-          "w": 720,
-          "avif": "2026/inflatable-raft/raft-white-380-11-w720.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-11-w720.webp"
-        },
-        {
-          "w": 960,
-          "avif": "2026/inflatable-raft/raft-white-380-11-w960.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-11-w960.webp"
-        },
-        {
-          "w": 1280,
-          "avif": "2026/inflatable-raft/raft-white-380-11-w1280.avif",
-          "webp": "2026/inflatable-raft/raft-white-380-11-w1280.webp"
-        },
-        {
-          "w": 1600,
-          "avif": "2026/inflatable-raft/raft-white-380-11.avif"
-        }
-      ]
-    },
     "2026/inflatable-raft/raft-white-380-12.avif": {
       "intrinsic": 1600,
       "variants": [
@@ -1932,6 +4343,40 @@
         }
       ]
     },
+    "2026/inflatable-raft/raft-white-380-11.avif": {
+      "intrinsic": 1600,
+      "variants": [
+        {
+          "w": 320,
+          "avif": "2026/inflatable-raft/raft-white-380-11-w320.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-11-w320.webp"
+        },
+        {
+          "w": 480,
+          "avif": "2026/inflatable-raft/raft-white-380-11-w480.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-11-w480.webp"
+        },
+        {
+          "w": 720,
+          "avif": "2026/inflatable-raft/raft-white-380-11-w720.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-11-w720.webp"
+        },
+        {
+          "w": 960,
+          "avif": "2026/inflatable-raft/raft-white-380-11-w960.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-11-w960.webp"
+        },
+        {
+          "w": 1280,
+          "avif": "2026/inflatable-raft/raft-white-380-11-w1280.avif",
+          "webp": "2026/inflatable-raft/raft-white-380-11-w1280.webp"
+        },
+        {
+          "w": 1600,
+          "avif": "2026/inflatable-raft/raft-white-380-11.avif"
+        }
+      ]
+    },
     "2026/inflatable-raft/raft-white-380-13.avif": {
       "intrinsic": 1600,
       "variants": [
@@ -1963,69 +4408,6 @@
         {
           "w": 1600,
           "avif": "2026/inflatable-raft/raft-white-380-13.avif"
-        }
-      ]
-    },
-    "2026/inflatable-accessories/seat-drop-stitch-05.avif": {
-      "intrinsic": 1024,
-      "variants": [
-        {
-          "w": 320,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-05-w320.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-05-w320.webp"
-        },
-        {
-          "w": 480,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-05-w480.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-05-w480.webp"
-        },
-        {
-          "w": 720,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-05-w720.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-05-w720.webp"
-        },
-        {
-          "w": 960,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-05-w960.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-05-w960.webp"
-        },
-        {
-          "w": 1024,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-05.avif"
-        }
-      ]
-    },
-    "2026/inflatable-accessories/seat-drop-stitch-04.avif": {
-      "intrinsic": 1600,
-      "variants": [
-        {
-          "w": 320,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-04-w320.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-04-w320.webp"
-        },
-        {
-          "w": 480,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-04-w480.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-04-w480.webp"
-        },
-        {
-          "w": 720,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-04-w720.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-04-w720.webp"
-        },
-        {
-          "w": 960,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-04-w960.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-04-w960.webp"
-        },
-        {
-          "w": 1280,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-04-w1280.avif",
-          "webp": "2026/inflatable-accessories/seat-drop-stitch-04-w1280.webp"
-        },
-        {
-          "w": 1600,
-          "avif": "2026/inflatable-accessories/seat-drop-stitch-04.avif"
         }
       ]
     }
