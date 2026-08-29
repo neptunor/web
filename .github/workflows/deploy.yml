@@ -118,7 +118,17 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx wrangler deploy
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if npx wrangler deploy; then
+              echo "::notice::wrangler deploy succeeded on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::wrangler deploy failed on attempt $attempt — Cloudflare API throttled (code 971) or transient API error; retrying in 75s"
+            sleep 75
+          done
+          echo "wrangler deploy failed after 5 attempts"
+          exit 1
       # 每次部署后把 GitHub Secrets 同步为 Worker secrets（单一数据源，无需手动
       # wrangler secret put）。GitHub 里未设置/为空的 key 自动跳过（不覆盖 Cloudflare
       # 已有值）；要"删除"某个密钥请先在 GitHub 清空它，再手动清理 Cloudflare 侧。
@@ -209,4 +219,13 @@ jobs:
             RESEND_AUDIENCE_ID: env.RESEND_AUDIENCE_ID,
             REINDEX_TOKEN: env.REINDEX_TOKEN
           } | with_entries(select(.value != null and .value != ""))' > /tmp/secrets.json
-          npx wrangler secret bulk /tmp/secrets.json --env production
+          for attempt in 1 2 3 4 5; do
+            if npx wrangler secret bulk /tmp/secrets.json --env production; then
+              echo "::notice::wrangler secret bulk succeeded on attempt $attempt"
+              exit 0
+            fi
+            echo "::warning::wrangler secret bulk failed on attempt $attempt — retrying in 75s"
+            sleep 75
+          done
+          echo "wrangler secret bulk failed after 5 attempts"
+          exit 1

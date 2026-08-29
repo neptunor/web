@@ -7,7 +7,12 @@
  *   public/assets/videos/*  -> site/videos/*
  *   public/downloads/*      -> site/downloads/*
  *   public/assets/quality/* -> site/quality/*
- *   public/assets/products/* -> site/products/*
+ *
+ * NOTE: product photos (public/assets/products/*) are deliberately NOT mirrored
+ * to R2. They are committed to git and served as Worker Static Assets at
+ * https://neptunor.com/assets/products/* (see responsive-manifest.json). Mirroring
+ * them here once made every CI deploy probe ~1,400 R2 keys and hit Cloudflare's
+ * API throttle (code 971) before wrangler deploy could run.
  *
  * The files are intentionally NOT committed to Git anymore (see .gitignore);
  * this script is the only way they reach production. Content that references
@@ -69,7 +74,6 @@ const TARGETS = [
   [join(SRC_DIR, 'assets/videos'), 'site/videos/'],
   [join(SRC_DIR, 'downloads'), 'site/downloads/'],
   [join(SRC_DIR, 'assets/quality'), 'site/quality/'],
-  [join(SRC_DIR, 'assets/products'), 'site/products/'],
 ]
 
 const CONTENT_TYPES = {
@@ -237,8 +241,8 @@ async function run() {
 
   const jobs = await collect(PREFIX)
   if (jobs.length === 0) {
-    console.error('No files found under public/assets/videos, public/downloads, public/assets/quality')
-    process.exit(1)
+    console.log('Nothing to upload (no source dirs present under public/).')
+    return
   }
   const totalBytes = (await Promise.all(jobs.map((j) => stat(j.localPath)))).reduce((n, s) => n + s.size, 0)
 
