@@ -64,17 +64,17 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Fiberglass Hull RIBs',
       metaTitle: 'Custom Fiberglass Hull RIBs — OEM Manufacturer | Neptunor',
       metaDescription:
-        'Custom fiberglass hull RIB boats manufactured under your brand — molded hulls from 2.5 m to 7.6 m across 34 models, gelcoat color matching, OEM/ODM volume from 90–100+ pcs. Factory direct from Qingdao, China.',
+        'Custom fiberglass hull RIB boats manufactured under your brand — molded hulls from 2.5 m to 7.6 m across 36 models, gelcoat color matching, OEM/ODM volume from 90–100+ pcs. Factory direct from Qingdao, China.',
       kicker: 'Series · Fiberglass Hull RIBs',
       h1: 'Custom Fiberglass Hull RIBs — Molded Hulls From 2.5 m To 7.6 m',
       intro: [
         'A fiberglass RIB trades some abuse tolerance for ride comfort and finish: molded hulls plane smoothly, cut through chop with a drier ride, and accept gelcoat colors and fine detailing that make a retail range stand out. They are the platform of choice for dealers, day-cruiser ranges and larger guest operations.',
-        'We mold fiberglass RIBs under your brand from 90–100+ pcs per configuration, with pilot runs from 20–50 pcs. The range spans 34 models from 2.5 m to 7.6 m — compact tenders (RIB 250–300), family and rental consoles (RIB 330–520), day and watersport cruisers (RIB 550–600) and offshore flagships for charter and crew duty (RIB 680–760), plus the rib-glass 380/520/640 baselines — gelcoat colors, decking, consoles and graphics specified per project.',
+        'We mold fiberglass RIBs under your brand from 90–100+ pcs per configuration, with pilot runs from 20–50 pcs. The range spans 36 models from 2.5 m to 7.6 m — compact tenders (RIB 250–300), family and rental consoles (RIB 330–520), day and watersport cruisers (RIB 550–600) and offshore flagships for charter and crew duty (RIB 680–760), plus the rib-glass 380/520/640 baselines — gelcoat colors, decking, consoles and graphics specified per project.',
       ],
       faqs: [
         {
           q: 'What can be customized on a fiberglass RIB?',
-          a: 'Across 34 models from 2.5 m to 7.6 m (plus the rib-glass 380/520/640 baselines), you specify gelcoat color matched to your sample or reference, deck layout and upholstery, console type, tube fabric and collar colors, graphics, seating and packaging. New tooling for a modified deck or console starts at 50–100+ pcs and adds 20–35 days.',
+          a: 'Across 36 models from 2.5 m to 7.6 m (plus the rib-glass 380/520/640 baselines), you specify gelcoat color matched to your sample or reference, deck layout and upholstery, console type, tube fabric and collar colors, graphics, seating and packaging. New tooling for a modified deck or console starts at 50–100+ pcs and adds 20–35 days.',
         },
         {
           q: 'What is the MOQ and lead time for fiberglass RIBs?',
@@ -329,17 +329,17 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'RIB de casco de fibra de vidrio',
       metaTitle: 'RIB de casco de fibra de vidrio personalizados — Fabricante OEM | Neptunor',
       metaDescription:
-        'Embarcaciones RIB de casco de fibra de vidrio personalizadas bajo tu marca: cascos moldeados de 2,5 m a 7,6 m en 34 modelos, igualación de color de gelcoat, volumen OEM/ODM desde 90–100+ uds.',
+        'Embarcaciones RIB de casco de fibra de vidrio personalizadas bajo tu marca: cascos moldeados de 2,5 m a 7,6 m en 36 modelos, igualación de color de gelcoat, volumen OEM/ODM desde 90–100+ uds.',
       kicker: 'Serie · RIB de casco de fibra de vidrio',
       h1: 'RIB de casco de fibra de vidrio personalizados: cascos moldeados de 2,5 m a 7,6 m',
       intro: [
         'Un RIB de fibra de vidrio cambia algo de tolerancia al abuso por confort de navegación y acabado: los cascos moldeados planean suaves, cortan la ola con una navegación más seca y admiten colores de gelcoat y detalles finos que hacen destacar una gama retail. Son la plataforma preferida para distribuidores, gamas de crucero costero y operaciones grandes de huéspedes.',
-        'Moldeamos RIB de fibra de vidrio bajo tu marca desde 90–100+ uds. por configuración, con pedidos piloto desde 20–50 uds. La gama abarca 34 modelos de 2,5 m a 7,6 m — auxiliares compactos (RIB 250–300), consolas familiares y de alquiler (RIB 330–520), cruceros de día y deportivos (RIB 550–600) y buques insignia offshore para chárter y tripulación (RIB 680–760), además de las líneas base rib-glass 380/520/640: colores de gelcoat, cubierta, consolas y gráficos por proyecto.',
+        'Moldeamos RIB de fibra de vidrio bajo tu marca desde 90–100+ uds. por configuración, con pedidos piloto desde 20–50 uds. La gama abarca 36 modelos de 2,5 m a 7,6 m — auxiliares compactos (RIB 250–300), consolas familiares y de alquiler (RIB 330–520), cruceros de día y deportivos (RIB 550–600) y buques insignia offshore para chárter y tripulación (RIB 680–760), además de las líneas base rib-glass 380/520/640: colores de gelcoat, cubierta, consolas y gráficos por proyecto.',
       ],
       faqs: [
         {
           q: '¿Qué se puede personalizar en un RIB de fibra de vidrio?',
-          a: 'En los 34 modelos de 2,5 m a 7,6 m (además de las líneas base rib-glass 380/520/640), se especifican el color de gelcoat igualado a tu muestra o referencia, la distribución de cubierta y tapicería, el tipo de consola, el tejido y color de los tubos, los gráficos, los asientos y el embalaje. El utillaje nuevo para cubierta o consola modificadas parte de 50–100+ uds. y añade 20–35 días.',
+          a: 'En los 36 modelos de 2,5 m a 7,6 m (además de las líneas base rib-glass 380/520/640), se especifican el color de gelcoat igualado a tu muestra o referencia, la distribución de cubierta y tapicería, el tipo de consola, el tejido y color de los tubos, los gráficos, los asientos y el embalaje. El utillaje nuevo para cubierta o consola modificadas parte de 50–100+ uds. y añade 20–35 días.',
         },
         {
           q: '¿Cuál es el pedido mínimo y el plazo de entrega de los RIB de fibra de vidrio?',

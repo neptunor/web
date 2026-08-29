@@ -2657,7 +2657,7 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     viewLabel: 'View',
     items: [
       { id: 'aluminum-rib', label: 'Aluminum Hull RIBs', desc: 'Welded alloy hulls for work duty, patrol and tender programs.', href: '/products/rib-alloy-360' },
-      { id: 'fiberglass-rib', label: 'Fiberglass Hull RIBs', desc: 'Fiberglass RIBs from 2.5 m to 7.6 m across 34 models — tenders, console cruisers and offshore flagships for dealers, retail ranges and charter fleets.', href: '/products/rib-glass-380' },
+      { id: 'fiberglass-rib', label: 'Fiberglass Hull RIBs', desc: 'Fiberglass RIBs from 2.5 m to 7.6 m across 36 models — tenders, console cruisers and offshore flagships for dealers, retail ranges and charter fleets.', href: '/products/rib-glass-380' },
       { id: 'sport-console', label: 'Sport & Console Boats', desc: 'Fast console RIBs for watersports and coastal day runs.', href: '/products/sport-wave-450' },
       { id: 'rescue-pro', label: 'Rescue & Professional', desc: 'Mission-configured boats for rescue, patrol and dive teams.', href: '/products/rescue-guard-470' },
       { id: 'inflatable-dinghy', label: 'Dinghies & Tenders', desc: 'Compact inflatables for yacht tenders, camping and light utility.', href: '/products/airtender-270' },
@@ -2674,7 +2674,7 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     viewLabel: 'Ver',
     items: [
       { id: 'aluminum-rib', label: 'RIB de aluminio', desc: 'Cascos de aleación soldada para trabajo, patrulla y programas de tender.', href: '/products/rib-alloy-360' },
-      { id: 'fiberglass-rib', label: 'RIB de fibra de vidrio', desc: 'RIB de fibra de vidrio de 2,5 m a 7,6 m en 34 modelos — auxiliares, cruceros a consola y buques insignia offshore para distribuidores, retail y chárter.', href: '/products/rib-glass-380' },
+      { id: 'fiberglass-rib', label: 'RIB de fibra de vidrio', desc: 'RIB de fibra de vidrio de 2,5 m a 7,6 m en 36 modelos — auxiliares, cruceros a consola y buques insignia offshore para distribuidores, retail y chárter.', href: '/products/rib-glass-380' },
       { id: 'sport-console', label: 'Deportivas y consola', desc: 'RIB rápidos a consola para deportes náuticos y salidas costeras.', href: '/products/sport-wave-450' },
       { id: 'rescue-pro', label: 'Rescate y profesional', desc: 'Embarcaciones configuradas para misión de rescate, patrulla y buceo.', href: '/products/rescue-guard-470' },
       { id: 'inflatable-dinghy', label: 'Neumáticas y tenders', desc: 'Inflables compactos para tenders de yate, campamento y utilidad ligera.', href: '/products/airtender-270' },
