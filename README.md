@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Neptunor</h1>
-  <p>Your custom RIB & inflatable boat development & manufacturing partner — 5 boat series, real OEM/ODM, bilingual (en/es) marketing site + 5-page solutions system, shipped edge-native on Cloudflare Workers.</p>
+  <p>Your custom RIB & inflatable boat development & manufacturing partner — 9 boat series / 56 models, real OEM/ODM, bilingual (en/es) marketing site + 5-page solutions system, shipped edge-native on Cloudflare Workers.</p>
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
     <a href="https://developers.cloudflare.com/workers/"><img src="https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare&logoColor=white" alt="Cloudflare Workers"></a>
@@ -224,14 +224,14 @@ This guide maps the **major architectural layers** of Neptunor to their source f
 
 | Architectural Layer | Core Concern | Primary File(s) | What It Controls |
 |---------------------|--------------|-----------------|------------------|
-| **Media & CDN** | Videos, PDFs, product/quality images | `public/assets/*` (git-ignored), `scripts/upload-site-assets.mjs` → R2 `neptunor-files-prod`, CDN `assets.neptunor.com/site/*` | All large binary assets; `.gitignore` prevents Git bloat; R2 key prefix controllable via `--prefix` |
+| **Media & CDN** | Product photos (committed static assets) + videos / PDFs / quality photos / context images (R2) | Product photos: `public/assets/products/*` **committed**, served at `/assets/products/*` as Worker static assets, responsive AVIF/WebP variants via `scripts/process-images.mjs` (sharp). Videos/PDFs/quality/context images: `scripts/upload-site-assets.mjs` → R2 `neptunor-files-prod`, CDN `assets.neptunor.com/site/*` | Product photos ship with every deploy (no runtime origin); large binaries stay out of Git; R2 key prefix controllable via `--prefix` |
 | **Site Config (Framework Abstract)** | Business facts & hero content as config | `src/features/site/site-config.ts` → reads `SITE_FACTS` from `facts.ts`, `HERO_CONTENT` from `content.ts`; `siteConfig.facts / siteConfig.hero` only-read | Framework派生站点的可配置常量层；原有 `FACTS` / `hero` 导出完全不变 |
 | **Routing & i18n** | Path-based bilingual routing (`{-$locale}`) | `src/routes/{-$locale}/` (file-based), `src/features/i18n/dictionaries/{en,es}.ts`, `src/features/seo/seo.ts` (`PUBLIC_PATHS`/`HREFLANG`/`OG_LOCALE`) | `/` = en, `/es` = es; dictionary must be structurally identical across languages |
 | **SEO & LLM Discovery** | Sitemap, robots, llms.txt, entity.json, RSS | `src/features/seo/seo.ts` (PUBLIC_PATHS, hreflang), `src/features/site/llm.ts`, `src/features/content/loader.ts` (`getGeoEntity`) | All LLM/SSEO endpoints generated from single source of truth |
 | **Auth & Admin** | better-auth, admin-only gates, roles | `src/features/auth/`, `src/features/admin/assert-admin.server.ts`, `ADMIN_EMAILS` env | Email/password auth, verification, password reset, OAuth; single source of admin truth |
 | **Data Stores** | D1, KV, R2 (+ Vectorize optional) | `src/db/`, `src/lib/cache-headers.ts`, `features/storage/`, `src/features/ai/` | SQLite auth + app tables; per-IP rate limits; blob storage; RAG index (optional) |
 | **AI Sales Assistant** | FAQ+corpus keyword search (free tier) / RAG Q&A (paid) | `src/features/ai/corpus.ts`, `src/features/ai/ai-chat.tsx`, Vectorize `neptunor-knowledge` | **Deploys on Workers free tier** with keyword-based search (matchFaq + matchCorpus); upgrade to Workers Paid ($5/month) for AI-powered RAG (embeddings + LLM generation). Chat shows "FAQ" or "AI" badge per answer. |
-| **Testing & CI** | 272 tests (45 files), typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with CDN purge + edge warm |
+| **Testing & CI** | 281 tests (46 files), typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with media prep, CDN purge + edge warm |
 
 --- 
 
@@ -245,8 +245,8 @@ Custom-built "Bright Ocean Studio" design language: Ocean White / Ocean Blue / A
 
 | Page | What it does |
 |------|--------------|
-| **Home** | Ocean hero ("Your RIB & inflatable boats, built to order"), a 6-item capability strip (OEM & ODM · Private Label · Sample Service · Design & Artwork · QC on every run · Worldwide export), who-we-serve scene cards, what-we-solve, a 6-step product development process, solutions pillars, why-us cards, the **5 boat series** table, a horizontal snap-scroll **Custom Boat Studio** walkthrough (hull material → tube fabric → console → colors & branding → packaging), brand-story gallery, FAQ (JSON-LD), CTA band |
-| **Products** | Full catalog of the **5 real series / 13 models** (SKUs, specs, prices, photos) with SKU + price badges — see the table below |
+| **Home** | Ocean hero ("Your RIB & inflatable boats, built to order"), a 6-item capability strip (OEM & ODM · Private Label · Sample Service · Design & Artwork · QC on every run · Worldwide export), who-we-serve scene cards, what-we-solve, a 6-step product development process, solutions pillars, why-us cards, the **9 boat series** table, a horizontal snap-scroll **Custom Boat Studio** walkthrough (hull material → tube fabric → console → colors & branding → packaging), brand-story gallery, FAQ (JSON-LD), CTA band |
+| **Products** | Full catalog of the **9 real series / 56 models** (SKUs, specs, prices, photos) with SKU + price badges — see the table below |
 | **Boat configurator** | Interactive configurator: pick hull/tube/console options and preview a live boat mockup — the "build your fleet" pitch for prospects |
 | **Solutions system** | A 5-page system under `/solutions` — `/solutions/custom-boats`, `/solutions/private-label-boats`, `/solutions/fleet-rental`, `/solutions/rescue-professional`, `/solutions/yacht-tender-dealers`. Every page follows one business logic (scenario → problems → solution → process → case study → FAQ) and ends in a **CTA temperature** — cold (Learn More), warm (Discuss Your Project), hot (Request Manufacturing Proposal) — so each audience gets a pitch matched to how ready they are |
 | **Who we serve** | Landing-oriented scene pages that funnel into the matching solution page |
@@ -257,15 +257,19 @@ Custom-built "Bright Ocean Studio" design language: Ocean White / Ocean Blue / A
 | **Neptunor brand content** | The full manufacturer site (English + Spanish): `/products/*`, `/technology/*`, `/research/*`, `/news/*`, `/projects/*`, `/oem-boat-moq`, `/guides`, `/faq` and more — served by a catch-all route from the bundled Neptunor content |
 | **Gallery / How it works / About / Contact** | Brand stories with real project photos, manufacturing timeline, company story, inquiry form |
 
-**The 5 boat series / 13 models** (data in `src/product/content.ts`, photos served from `assets.neptunor.com`, the site's own R2 CDN):
+**The 9 boat series / 56 models** (data in `src/product/content.ts` + `src/product/series-pages.ts`, photos committed under `public/assets/products/` and served as Worker static assets):
 
 | Series | Models | Position |
 |--------|--------|----------|
-| Aluminum RIB (Alloy) | Rib-Alloy 360 / 430 / 470 | Welded-marine-aluminum hulls — rental fleets, patrol, workboats |
-| Fiberglass RIB (Glass) | Rib-Glass 380 / 520 / 640 | Deep-V fiberglass hulls — family leisure, dive, yacht support |
-| Sport Console | Sport-Wave 450 / 550 | Center-console sport RIBs — watersports, fast response |
-| Rescue-Pro | Rescue-Guard 470, Patrol-Line 600, Dive-Team 420 | Professional rescue / patrol / dive operations |
-| Inflatable Dinghy | AirTender 270, AirDock 330 | Portable tenders & dock boats — yacht tender, camping, fishing |
+| Aluminum Hull RIBs | Rib-Alloy 360 / 430 / 470 | Welded-marine-aluminum hulls — rental fleets, patrol, workboats |
+| Fiberglass Hull RIBs | 36 models, 2.5–7.6 m (RIB 250–760, incl. Rib-Glass 380 / 520 / 640) | Molded deep-V hulls — dealers, family leisure, day charter |
+| Sport & Console | Sport-Wave 450 / 550 | Center/jockey-console sport RIBs — watersports, fast response |
+| Rescue & Professional | Rescue-Guard 470, Patrol-Line 600, Dive-Team 420 | Mission consoles, documented 7-stage QC — rescue / patrol / dive |
+| Inflatable Dinghies & Tenders | AirTender 270, AirDock 330 | Portable tenders & dock boats — yacht tender, camping, fishing |
+| Inflatable Catamarans | Speed 470, Kaboat-Fish 375 | Twin-hull drop-stitch — racing, fishing, rescue |
+| Inflatable Kayaks | Tour 365 (full drop-stitch), Hybrid 335 | Touring performance & hybrid recreational |
+| Inflatable Whitewater Rafts | Raft-White 380 | Self-bailing I-Beam floor — river outfitters, expedition |
+| Inflatable Accessories | Drop-Stitch Seat (NSE-01) | Universal 4-point seats for kayaks, SUPs & rafts |
 
 Every model is a manufacturing platform — length, tube fabric, console layout, colors and branding all adapt to your client's brand (MOQ tiers from single samples to volume production).
 
@@ -285,7 +289,7 @@ Every model is a manufacturing platform — length, tube fabric, console layout,
 | **Changelog** | An in-app `/changelog` page — MDX-driven, per-locale, with a `published` flag (410'd in production, template reference). |
 | **Feedback** | Signed-in users submit feedback + a "my feedback" list; an admin governance page drives status transitions and replies. Also the **reference for adding your own feature**: a vertical slice with ownership filtering, a pure function layer, both gate patterns, and dual-pool tests — see [feedback](src/content/docs/features/feedback.mdx). |
 | **i18n** | Path-based locale routing via TanStack's `{-$locale}` optional prefix — English at `/`, Español at `/es`. All marketing copy and UI strings translated. |
-| **SEO** | Per-locale sitemap with `hreflang` + canonical for the bilingual pages, plus single-locale entries for the English-only brand pages (news, products, technology, case studies, guides); OpenGraph tags (featured image is a real product photo from the site's R2 CDN), `robots.txt`, `noindex` on authenticated pages, and the 5 solution pages as keyword targets (legacy landing URLs 301 to them). Page meta is length-validated (`title ≤ 70`, `description 80–170`). |
+| **SEO** | Per-locale sitemap with `hreflang` + canonical for the bilingual pages, plus single-locale entries for the English-only brand pages (news, products, technology, case studies, guides); OpenGraph tags (featured image is a real product photo, served as a committed static asset), `robots.txt`, `noindex` on authenticated pages, and the 5 solution pages as keyword targets (legacy landing URLs 301 to them). Page meta is length-validated (`title ≤ 70`, `description 80–170`). |
 | **AI-ready** | **Runtime:** [`llms.txt`](/llms.txt) index and [`llms-full.txt`](/llms-full.txt) full corpus — docs **plus the product catalog, the 5 solution pages (incl. FAQ) and the Neptunor brand corpus**; [`entity.json`](/entity.json) schema.org Organization; [`rss.xml`](/rss.xml) news feed; `robots.txt` pointing to all of them. **Codebase:** [`AGENTS.md`](AGENTS.md) is the single source of truth for coding agents (auto-imported into [`CLAUDE.md`](CLAUDE.md)). |
 | **Admin** | `ADMIN_EMAILS` is the **single source of truth**; the DB `role` column is a cache, two-way-synced on every gated access (promote on first use, demote the moment an email leaves the list). Every admin surface — pages, server fns, CSV exports, and better-auth's own `/api/auth/admin/*` — shares one `assertAdmin()` gate that returns **404** for non-admins (the admin surface stays invisible). Roles are least-privilege (`ban` / `impersonate` / `delete` / `list` only). Searchable/paginated user table, stats dashboard, ban/impersonate/delete actions — all on real data. |
 | **Theme** | Dark-first design with a light/dark toggle persisted via cookie. |
@@ -303,7 +307,7 @@ Every model is a manufacturing platform — length, tube fabric, console layout,
 - **[Orama](https://orama.com)** full-text search (stopwords + tokenizers), **[Fumadocs](https://fumadocs.dev)** docs
 - **[Workers AI](https://developers.cloudflare.com/workers-ai/)** (bge-m3 embeddings + llama-3.2-3b) and **[Vectorize](https://developers.cloudflare.com/vectorize/)** (RAG knowledge index) — **optional**, uncomment in `wrangler.jsonc` to enable full RAG mode
 - **[Tailwind CSS v4](https://tailwindcss.com)**
-- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **272 tests green (45 files)**
+- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **281 tests green (46 files)**
 
 ## Prerequisites
 
@@ -443,9 +447,9 @@ scripts/
   demo.sql           Sample data seed (demo users + feedback)
 ```
 
-> **Product photos** are self-hosted on the site's R2 CDN (`assets.{SITE_DOMAIN}`). To swap assets, update the image URLs in `src/product/content.ts` and `src/product/asset-map.ts` (plus `PRODUCT_OG_IMAGE_FILENAME` in `brand-constants.ts`).
+> **Product photos** are committed under `public/assets/products/*` and served as **Worker static assets** (`https://neptunor.com/assets/products/*`) — no R2/CDN runtime dependency. `scripts/process-images.mjs` (sharp) pre-scales them to a responsive AVIF/WebP width ladder and writes `src/config/responsive-manifest.json` (consumed by `<ResponsiveImg>`); after adding photos run `pnpm assets:prepare` and commit the generated variants + manifest. To swap brand assets, update the image URLs in `src/product/content.ts` and `src/product/asset-map.ts` (plus `PRODUCT_OG_IMAGE_FILENAME` in `brand-constants.ts`).
 >
-> **Site media** are referenced via the R2 CDN, with source files in `public/assets/`. The deploy workflow keeps R2 in sync via `scripts/upload-site-assets.mjs --http --missing`.
+> **Site media** (videos, quality photos, download PDFs, context images) are referenced via the R2 CDN `assets.neptunor.com/site/*`. `public/downloads/` and `public/assets/quality/` are committed (small footprint, like product photos) so CI can prepare and upload them; `public/assets/videos/` and `public/assets/images/` are git-ignored. The deploy workflow keeps R2 in sync via `scripts/upload-site-assets.mjs --http --missing` (product photos are excluded — they ship as committed static assets).
 
 ## Environment variables
 
@@ -484,7 +488,7 @@ The repo ships four workflows:
 | Workflow | Triggers | What it does |
 |----------|----------|--------------|
 | `ci.yml` | every push | lint + typecheck + test + build (no secrets needed) |
-| `deploy.yml` | push to `main` | generates `wrangler.jsonc` from repo variables, builds with `CLOUDFLARE_ENV=production`, applies D1 migrations, deploys the Worker, uploads site assets to R2, **purges the CDN cache**, **warms the edge cache** (`/`, `/es`, product pages), and bulk-syncs GitHub secrets → Worker secrets |
+| `deploy.yml` | push to `main` | generates `wrangler.jsonc` from repo variables, **prepares media** (sharp responsive images + Ghostscript PDF compression, before build), builds with `CLOUDFLARE_ENV=production`, applies D1 migrations, ensures Vectorize indexes, uploads site media to R2 (product photos stay committed), deploys the Worker (**retried 5×75s on Cloudflare API throttling code 971**), **purges the CDN cache**, **warms the edge cache** (`/`, `/es`, product pages), and bulk-syncs GitHub secrets → Worker secrets (**also retried 5×75s**) |
 | `website-performance.yml` | manual | Lighthouse-style performance audit |
 | `cf-inspect.yml` | manual | Cloudflare diagnostics helper — dumps cache rules, zone settings and purge results to `cf-inspect.log` in the repo (keep the token's `Zone → Cache Purge` permission for the deploy pipeline's purge step) |
 

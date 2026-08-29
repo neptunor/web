@@ -150,3 +150,24 @@ test('every /assets/ link in site content resolves to a real file', () => {
     `content links pointing at missing asset files:\n${missing.map((b) => `${b.file}: ${b.link}`).join('\n')}`,
   ).toEqual([])
 })
+
+test('absolute media links use the R2 CDN, never the leftover static hosts', () => {
+  const LEGACY_HOST = 'https://neptunor.com/assets/'
+  const BAD_SUBDIRS = ['downloads/', 'quality/', 'videos/', 'images/']
+  const CDN_PREFIX = 'https://assets.neptunor.com/site/'
+  const violations: { file: string; link: string }[] = []
+  for (const file of walk(contentRoot)) {
+    const raw = readFileSyncSafe(file)
+    if (!raw) continue
+    for (const link of extractLinks(raw)) {
+      if (!link.startsWith(LEGACY_HOST)) continue
+      if (BAD_SUBDIRS.some((d) => link.startsWith(LEGACY_HOST + d))) {
+        violations.push({ file, link })
+      }
+    }
+  }
+  expect(
+    violations.map((v) => `${v.file}: ${v.link}`),
+    `site media must be referenced via the R2 CDN (${CDN_PREFIX}...) — the worker static host never contains downloads/quality/videos/images:\n${violations.map((v) => `${v.file}: ${v.link}`).join('\n')}`,
+  ).toEqual([])
+})

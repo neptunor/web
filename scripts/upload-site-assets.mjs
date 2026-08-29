@@ -7,6 +7,7 @@
  *   public/assets/videos/*  -> site/videos/*
  *   public/downloads/*      -> site/downloads/*
  *   public/assets/quality/* -> site/quality/*
+ *   public/assets/images/*  -> site/images/*
  *
  * NOTE: product photos (public/assets/products/*) are deliberately NOT mirrored
  * to R2. They are committed to git and served as Worker Static Assets at
@@ -14,9 +15,11 @@
  * them here once made every CI deploy probe ~1,400 R2 keys and hit Cloudflare's
  * API throttle (code 971) before wrangler deploy could run.
  *
- * The files are intentionally NOT committed to Git anymore (see .gitignore);
- * this script is the only way they reach production. Content that references
- * them uses hardcoded CDN links (https://assets.neptunor.com/site/...).
+ * downloads/ and assets/quality/ ARE committed to Git (small footprint, like
+ * product photos) so CI can prepare + upload them; videos/ and images/ may stay
+ * git-ignored. This script is what actually syncs them to R2 for production.
+ * Content that references them uses hardcoded CDN links
+ * (https://assets.neptunor.com/site/...).
  *
  * Zero dependencies (SigV4 signing via node:crypto + fetch).
  *
@@ -74,6 +77,7 @@ const TARGETS = [
   [join(SRC_DIR, 'assets/videos'), 'site/videos/'],
   [join(SRC_DIR, 'downloads'), 'site/downloads/'],
   [join(SRC_DIR, 'assets/quality'), 'site/quality/'],
+  [join(SRC_DIR, 'assets/images'), 'site/images/'],
 ]
 
 const CONTENT_TYPES = {
