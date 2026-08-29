@@ -23,7 +23,13 @@ export function InquiryDetailDrawer({ row, open, onOpenChange }: Props) {
   const { t } = useTranslation()
   if (!row) return null
 
-  const opt = (group: string, key: string) => (key ? t(`inquiry.${group}.${key}`) : '—')
+  const opt = (group: string, key: string) => {
+    if (!key) return '—'
+    const label = t(`inquiry.${group}.${key}`)
+    // Legacy rows may carry pre-taxonomy values (e.g. old SUP-era categories)
+    // whose dictionary key no longer exists — fall back to the raw value.
+    return label !== `inquiry.${group}.${key}` ? label : key
+  }
   const commaList = (group: string, v: string) =>
     v ? v.split(',').map((x) => x.trim()).filter(Boolean).map((x) => opt(group, x)).join(', ') : '—'
   // Recomputed from the stored fields — the scoring function is deterministic,

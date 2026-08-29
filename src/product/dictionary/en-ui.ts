@@ -227,7 +227,7 @@ export const enUi = {
       sub: 'How brands, resorts and operators launch and scale with our factory.',
       published: 'Published case studies',
       regionsServed: 'Market regions served',
-      boardWidth: 'Stable all-around hull design',
+      hullLength: 'Largest hull in production',
       factoryTested: 'Factory-tested before dispatch',
       intro: 'These case studies document how real brands, resorts, clubs and operators buy RIB boats, inflatable boats and professional craft from the {siteName} plant in Qingdao. Each one covers the use case, the boat family that fits it, and the operational considerations that matter when you build — or buy — a fleet.',
     },

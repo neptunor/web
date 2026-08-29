@@ -1719,13 +1719,13 @@ function StatsBand() {
   const { regionCount = 6, cases = [] } = useSiteIndex()
   const studyLabel = t('content.cases.published')
   const regionLabel = t('content.cases.regionsServed')
-  const widthLabel = t('content.cases.boardWidth')
+  const widthLabel = t('content.cases.hullLength')
   const testedLabel = t('content.cases.factoryTested')
   const intro = t('content.cases.intro', { siteName: SITE_NAME })
   const stats = [
     { value: String(cases.length), label: studyLabel },
     { value: String(regionCount), label: regionLabel },
-    { value: CASE_STUDY_STATS.boardWidth, label: widthLabel },
+    { value: CASE_STUDY_STATS.hullLength, label: widthLabel },
     { value: CASE_STUDY_STATS.factoryTested, label: testedLabel },
   ]
   return (

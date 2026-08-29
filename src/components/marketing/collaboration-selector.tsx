@@ -10,7 +10,7 @@ const MODE_ENTRIES = [
   {
     key: 'oem' as const,
     icon: FileCode,
-    buyerState: 'Already have drawings, specs or a reference board',
+    buyerState: 'Already have drawings, specs or a reference boat',
     ctaLabel: 'Build to Your Specification',
     href: '/factory/oem-capability',
   },
@@ -18,7 +18,7 @@ const MODE_ENTRIES = [
     key: 'odm' as const,
     icon: Lightbulb,
     buyerState: 'Have a product idea or market positioning',
-    ctaLabel: 'Develop a Board From Your Brief',
+    ctaLabel: 'Develop a Boat From Your Brief',
     href: '/odm-development',
   },
   {

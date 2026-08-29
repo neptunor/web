@@ -264,16 +264,14 @@ export function InquiryForm({
           <div className="field">
             <Label htmlFor="inq-category">{t('inquiry.category')} <span className="req">*</span></Label>
             <Select id="inq-category" name="category" defaultValue={prefill?.category ?? 'unsure'} autoComplete="off" onChange={() => clearFieldError('category')}>
-              <option value="all-around">{t('inquiry.categoryOptions.all-around')}</option>
-              <option value="race">{t('inquiry.categoryOptions.race')}</option>
-              <option value="surf">{t('inquiry.categoryOptions.surf')}</option>
-              <option value="touring">{t('inquiry.categoryOptions.touring')}</option>
-              <option value="yoga">{t('inquiry.categoryOptions.yoga')}</option>
-              <option value="whitewater">{t('inquiry.categoryOptions.whitewater')}</option>
-              <option value="fishing">{t('inquiry.categoryOptions.fishing')}</option>
-              <option value="kids">{t('inquiry.categoryOptions.kids')}</option>
-              <option value="multi">{t('inquiry.categoryOptions.multi')}</option>
-              <option value="hard">{t('inquiry.categoryOptions.hard')}</option>
+              <option value="aluminum-rib">{t('inquiry.categoryOptions.aluminum-rib')}</option>
+              <option value="fiberglass-rib">{t('inquiry.categoryOptions.fiberglass-rib')}</option>
+              <option value="sport-console">{t('inquiry.categoryOptions.sport-console')}</option>
+              <option value="rescue-pro">{t('inquiry.categoryOptions.rescue-pro')}</option>
+              <option value="inflatable-dinghy">{t('inquiry.categoryOptions.inflatable-dinghy')}</option>
+              <option value="inflatable-catamaran">{t('inquiry.categoryOptions.inflatable-catamaran')}</option>
+              <option value="inflatable-kayak">{t('inquiry.categoryOptions.inflatable-kayak')}</option>
+              <option value="inflatable-raft">{t('inquiry.categoryOptions.inflatable-raft')}</option>
               <option value="accessories">{t('inquiry.categoryOptions.accessories')}</option>
               <option value="multiple">{t('inquiry.categoryOptions.multiple')}</option>
               <option value="unsure">{t('inquiry.categoryOptions.unsure')}</option>

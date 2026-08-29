@@ -217,7 +217,7 @@ export const esUi = {
       sub: 'Cómo lanzan y escalan su marca las marcas, resorts y operadores con nuestra fábrica.',
       published: 'Casos de éxito publicados',
       regionsServed: 'Regiones de mercado atendidas',
-      boardWidth: 'Diseño de casco polivalente y estable',
+      hullLength: 'Mayor eslora en producción',
       factoryTested: 'Probadas en fábrica antes del envío',
       intro: 'Estos casos documentan cómo marcas, resorts, clubes y operadores reales compran embarcaciones RIB, hinchables y profesionales a la planta de {siteName} en Qingdao. Cada uno cubre el caso de uso, la familia de embarcaciones que le corresponde y las consideraciones operativas que importan al construir — o comprar — una flota.',
     },

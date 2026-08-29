@@ -23,12 +23,12 @@ function validInput(overrides: Partial<InquiryInput> = {}): InquiryInput {
     whatsapp: '+49 170 0000000',
     businessType: 'brand',
     quantity: 'q100-299',
-    category: 'all-around',
+    category: 'aluminum-rib',
     timeline: 't3-6mo',
     targetMarket: 'EU retailers',
     projectStage: 'reviewing',
     role: 'purchasing',
-    boardPlatform: '11′ × 32″',
+    boardPlatform: '3.8 m aluminum RIB',
     construction: 'premium',
     customization: 'logo,graphics',
     packaging: 'branded',
@@ -38,7 +38,7 @@ function validInput(overrides: Partial<InquiryInput> = {}): InquiryInput {
     budget: '€349–€449 retail',
     nda: 'no',
     consent: 'yes',
-    requirements: 'Need UV-resistant boards with custom graphics for our summer fleet.',
+    requirements: 'Need UV-resistant boats with custom graphics for our summer fleet.',
     ...overrides,
   }
 }
@@ -85,7 +85,7 @@ describe('clampInquiryInput', () => {
     const out = clampInquiryInput(validInput())
     expect(out.businessType).toBe('brand')
     expect(out.quantity).toBe('q100-299')
-    expect(out.category).toBe('all-around')
+    expect(out.category).toBe('aluminum-rib')
     expect(out.timeline).toBe('t3-6mo')
     expect(out.projectStage).toBe('reviewing')
     expect(out.role).toBe('purchasing')

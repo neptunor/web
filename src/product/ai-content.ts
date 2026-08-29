@@ -97,7 +97,7 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
 }
 
 export const CASE_STUDY_STATS = {
-  boardWidth: "8'6\"",
+  hullLength: '6.4 m',
   factoryTested: '100%',
 }
 
