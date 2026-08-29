@@ -4,7 +4,7 @@ import type { Localized } from './content'
 /**
  * Series-level platform pages (/products/{series}).
  *
- * Five product-series categories (aluminum hull RIBs → inflatable dinghies),
+ * Nine product-series categories (aluminum hull RIBs → inflatable accessories),
  * each targeting a buyer-facing long-tail query ("custom aluminum RIB
  * manufacturer", "inflatable dinghy OEM", …). The pages aggregate every
  * product of the series, add series-level B2B context (MOQ, lead time,

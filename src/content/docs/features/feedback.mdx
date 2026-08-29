@@ -153,7 +153,7 @@ beforeAll(async () => {
 3. 删侧边栏两个入口：`src/components/app/app-shell.tsx` 里 `active === 'feedback'` 和 `active === 'admin-feedback'` 的两处 `<Link>`。
 4. 删 `en.ts` / `es.ts` 里的 `feedback.*` 键组，以及 `admin` 组下 `feedbackAdmin`/`feedbackSub`/`adminNotePlaceholder` 等相关键。
 5. 从 `src/db/schema.ts` 移除 `feedback` 表的导出，生成一条 `DROP TABLE feedback` migration（**不要**改历史上已发布的建表 migration `0015_familiar_colonel_america.sql`——参考 `0016_bent_nova.sql` 就是 notes 表退役时新增的 `DROP TABLE notes`，同样的模式）。
-6. `scripts/seed.sql` 里去掉 `DELETE FROM feedback` / `INSERT INTO feedback` 那几行种子数据。
+6. `scripts/demo.sql` 里去掉 `DELETE FROM feedback` / `INSERT INTO feedback` 那几行种子数据。
 7. 删本文档页 `src/content/docs/features/feedback.mdx` 自身。
 8. 从 `src/content/docs/features/meta.json` 的 `pages` 数组移除 `"feedback"` 注册。
 

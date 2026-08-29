@@ -9,25 +9,9 @@
 /fonts/*.woff2
   Cache-Control: public, max-age=604800
 
-# 质量照片/视频/PDF：源文件仍随仓库提交，供工作流上传到 R2
-# （CDN: assets.neptunor.com/site/*）；旧路径保持可访问，缓存头不变。
-/assets/quality/*.jpg
-  Cache-Control: public, max-age=604800
-
-/assets/quality/*.webp
-  Cache-Control: public, max-age=604800
-
-/assets/quality/*.avif
-  Cache-Control: public, max-age=604800
-
+# 产品照片:已提交的 Worker 静态资源(/assets/products/*,见 responsive-manifest.json)。
 /assets/products/*
   Cache-Control: public, max-age=604800
 
 /assets/products/*/*
   Cache-Control: public, max-age=604800
-
-/assets/videos/*
-  Cache-Control: public, max-age=604800
-
-/downloads/*.pdf
-  Cache-Control: public, max-age=3600

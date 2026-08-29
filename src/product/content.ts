@@ -2657,7 +2657,7 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     viewLabel: 'View',
     items: [
       { id: 'aluminum-rib', label: 'Aluminum Hull RIBs', desc: 'Welded alloy hulls for work duty, patrol and tender programs.', href: '/products/rib-alloy-360' },
-      { id: 'fiberglass-rib', label: 'Fiberglass Hull RIBs', desc: 'Fiberglass RIBs from 2.5 m to 7.6 m across 36 models — tenders, console cruisers and offshore flagships for dealers, retail ranges and charter fleets.', href: '/products/rib-glass-380' },
+      { id: 'fiberglass-rib', label: 'Fiberglass Hull RIBs', desc: 'Fiberglass RIBs from 2.5 m to 7.6 m across 36 models — tenders, console cruisers and offshore flagships for dealers, retail ranges and charter fleets.', href: '/products/fiberglass-rib' },
       { id: 'sport-console', label: 'Sport & Console Boats', desc: 'Fast console RIBs for watersports and coastal day runs.', href: '/products/sport-wave-450' },
       { id: 'rescue-pro', label: 'Rescue & Professional', desc: 'Mission-configured boats for rescue, patrol and dive teams.', href: '/products/rescue-guard-470' },
       { id: 'inflatable-dinghy', label: 'Dinghies & Tenders', desc: 'Compact inflatables for yacht tenders, camping and light utility.', href: '/products/airtender-270' },
@@ -2674,7 +2674,7 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
     viewLabel: 'Ver',
     items: [
       { id: 'aluminum-rib', label: 'RIB de aluminio', desc: 'Cascos de aleación soldada para trabajo, patrulla y programas de tender.', href: '/products/rib-alloy-360' },
-      { id: 'fiberglass-rib', label: 'RIB de fibra de vidrio', desc: 'RIB de fibra de vidrio de 2,5 m a 7,6 m en 36 modelos — auxiliares, cruceros a consola y buques insignia offshore para distribuidores, retail y chárter.', href: '/products/rib-glass-380' },
+      { id: 'fiberglass-rib', label: 'RIB de fibra de vidrio', desc: 'RIB de fibra de vidrio de 2,5 m a 7,6 m en 36 modelos — auxiliares, cruceros a consola y buques insignia offshore para distribuidores, retail y chárter.', href: '/products/fiberglass-rib' },
       { id: 'sport-console', label: 'Deportivas y consola', desc: 'RIB rápidos a consola para deportes náuticos y salidas costeras.', href: '/products/sport-wave-450' },
       { id: 'rescue-pro', label: 'Rescate y profesional', desc: 'Embarcaciones configuradas para misión de rescate, patrulla y buceo.', href: '/products/rescue-guard-470' },
       { id: 'inflatable-dinghy', label: 'Neumáticas y tenders', desc: 'Inflables compactos para tenders de yate, campamento y utilidad ligera.', href: '/products/airtender-270' },
@@ -2718,7 +2718,7 @@ export const platforms: Localized<PlatformsContent> = {
       },
       {
         title: 'Fiberglass Hull RIBs',
-        body: 'GRP deep-V hulls from 3.8 to 6.4 m for dealer programs, charter and family recreation.',
+        body: 'GRP deep-V hulls from 2.5 to 7.6 m for dealer programs, charter and family recreation.',
         uses: ['Dealer programs', 'Charter operators', 'Family recreation'],
         cta: 'Request This Platform',
         href: '/contact',
@@ -2753,7 +2753,7 @@ export const platforms: Localized<PlatformsContent> = {
       },
       {
         title: 'RIB de fibra de vidrio',
-        body: 'Cascos profundos en V de PRFV de 3,8 a 6,4 m para programas de distribuidores, chárter y recreo familiar.',
+        body: 'Cascos profundos en V de PRFV de 2,5 a 7,6 m para programas de distribuidores, chárter y recreo familiar.',
         uses: ['Programas de distribuidor', 'Operadores de chárter', 'Recreo familiar'],
         cta: 'Solicita esta plataforma',
         href: '/contact',
@@ -3578,7 +3578,7 @@ export const catalogDownload: Localized<CatalogContent> = {
   en: {
     kicker: 'Product Catalog',
     title: 'Get the full catalog and MOQ sheet',
-    body: 'All five series and thirteen models with specs, MOQ tiers, sample timing and packaging — sent to your inbox by our sales team within one business day.',
+    body: 'All nine series — from compact dinghies to patrol-ready RIBs — with specs, MOQ tiers, sample timing and packaging, sent to your inbox by our sales team within one business day.',
     emailLabel: 'Work email',
     emailPlaceholder: 'you@yourcompany.com',
     submit: 'Request the Catalog',
@@ -3589,7 +3589,7 @@ export const catalogDownload: Localized<CatalogContent> = {
   es: {
     kicker: 'Catálogo de productos',
     title: 'Recibe el catálogo completo y la ficha de MOQ',
-    body: 'Las cinco series y los trece modelos con especificaciones, tramos de MOQ, tiempos de muestreo y embalaje — enviados a tu correo por nuestro equipo comercial en un día laborable.',
+    body: 'Las nueve series, de las auxiliares compactas a los RIB listos para patrulla, con especificaciones, tramos de MOQ, tiempos de muestreo y embalaje — enviados a tu correo por nuestro equipo comercial en un día laborable.',
     emailLabel: 'Correo de trabajo',
     emailPlaceholder: 'tu@tuempresa.com',
     submit: 'Solicitar el catálogo',
@@ -3692,7 +3692,7 @@ export const series: Localized<SeriesContent> = {
   en: {
     kicker: 'Signature Series',
     title: 'Five Platforms, One Factory',
-    sub: 'From 2.7 m tenders to 6.4 m patrol hulls — every series is a manufacturing platform ready for your private label.',
+    sub: 'From 2.7 m tenders to 7.6 m offshore hulls — every series is a manufacturing platform ready for your private label.',
     items: [
       {
         title: 'Aluminum Hull RIBs',
@@ -3703,8 +3703,8 @@ export const series: Localized<SeriesContent> = {
       {
         title: 'Fiberglass Hull RIBs',
         sku: 'NRB-G380',
-        body: 'Deep-V GRP hulls from 3.8 to 6.4 m laminated in-house — a soft dry ride, sharp design lines and dealer-friendly price points.',
-        href: '/products/rib-glass-380',
+        body: 'Deep-V GRP hulls from 2.5 to 7.6 m laminated in-house — a soft dry ride, sharp design lines and dealer-friendly price points.',
+        href: '/products/fiberglass-rib',
       },
       {
         title: 'Sport & Console Boats',
@@ -3729,7 +3729,7 @@ export const series: Localized<SeriesContent> = {
   es: {
     kicker: 'Serie insignia',
     title: 'Cinco plataformas, una fábrica',
-    sub: 'De tenders de 2,7 m a cascos de patrulla de 6,4 m — cada serie es una plataforma de fabricación lista para tu marca privada.',
+    sub: 'De tenders de 2,7 m a cascos offshore de 7,6 m — cada serie es una plataforma de fabricación lista para tu marca privada.',
     items: [
       {
         title: 'RIB de aluminio',
@@ -3740,8 +3740,8 @@ export const series: Localized<SeriesContent> = {
       {
         title: 'RIB de fibra de vidrio',
         sku: 'NRB-G380',
-        body: 'Cascos profundos en V de PRFV de 3,8 a 6,4 m laminados en casa — navegación seca y suave, líneas afiladas y precios amables para distribuidores.',
-        href: '/products/rib-glass-380',
+        body: 'Cascos profundos en V de PRFV de 2,5 a 7,6 m laminados en casa — navegación seca y suave, líneas afiladas y precios amables para distribuidores.',
+        href: '/products/fiberglass-rib',
       },
       {
         title: 'Deportivas y consola',

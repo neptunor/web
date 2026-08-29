@@ -22,7 +22,7 @@ title: "迁移与种子"
    pnpm db:migrate:prod
    ```
    (staging 环境用 `pnpm db:migrate:staging`。)
-3. **写入种子数据(仅本地)** —— 执行 `scripts/seed.sql`:
+3. **写入种子数据(仅本地)** —— 执行 `scripts/demo.sql`:
    ```bash
    pnpm db:seed:local
    ```
@@ -40,7 +40,7 @@ title: "迁移与种子"
 
 `drizzle/` 是 `migrations_dir` —— 里面的 `.sql` 会被 `wrangler d1 migrations apply`
 当作迁移在**远程**执行。种子是开发用的假数据,必须放在 migrations_dir **之外**
-(`scripts/seed.sql`),用 `wrangler d1 execute --file` 单独跑,才不会污染生产库。
+(`scripts/demo.sql`),用 `wrangler d1 execute --file` 单独跑,才不会污染生产库。
 
 ## 回滚策略
 
