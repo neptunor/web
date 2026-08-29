@@ -2,7 +2,7 @@ import React, { startTransition, useState, useMemo } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, products, productFilters, type Product } from '@/product/content'
-import { ResponsiveImg } from '@/components/ui/responsive-img'
+import { ProductArtwork } from '@/components/ui/product-artwork'
 import { Reveal } from './reveal'
 
 /** Single catalog card: real product photo with sku/price chips, then brand-book details. */
@@ -15,18 +15,21 @@ function ProductCardInner({ product, priority = false }: { product: Product; pri
       className="group block h-full text-current"
     >
       <div className="marine-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">
-      {product.image && (
       <div className="zoom-img relative aspect-[3/4] overflow-hidden border-b border-border-2 bg-bg-alt">
-        <ResponsiveImg
+        <ProductArtwork
           src={product.image}
-          alt={product.name}
+          hue={product.hue}
+          label={product.name}
+          sku={product.sku}
+          className="h-full w-full"
+          imgClassName="h-full w-full object-cover"
           width={600}
           height={800}
           sizes="(min-width:1024px) 25vw, (min-width:768px) 33vw, (min-width:640px) 50vw, 100vw"
           loading={priority ? 'eager' : 'lazy'}
           fetchPriority={priority ? 'high' : 'auto'}
           decoding={priority ? 'auto' : 'async'}
-          className="h-full w-full object-cover"
+          alt={product.name}
         />
         <div className="absolute left-3 top-3 flex items-center gap-2">
           <span className="rounded-full bg-card/90 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wider text-fg-3 backdrop-blur">
@@ -37,7 +40,6 @@ function ProductCardInner({ product, priority = false }: { product: Product; pri
           {t('marketing.oemOdmBadge')}
         </span>
       </div>
-      )}
       <div className="flex flex-1 flex-col p-6">
         <span className="pill self-start border-primary/25! bg-soft! text-primary!">{product.tagline}</span>
         <h3 className="mt-3.5 font-display text-[18px] font-bold">{product.name}</h3>

@@ -22,6 +22,7 @@ import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
 import { ResponsiveImg } from '@/components/ui/responsive-img'
+import { ProductArtwork } from '@/components/ui/product-artwork'
 import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd, serviceLd, qcHowToLd } from '@/features/seo/jsonld'
 import { brandify } from './brand'
 import { SiteIndexProvider, type SiteIndexData } from './index-data'
@@ -403,6 +404,13 @@ export function ProductView({ product, related, origin, locale }: { product: Con
         <div className="grid gap-8 lg:grid-cols-[1.1fr_1fr]">
           <div className="flex flex-col gap-3">
             <div className="relative overflow-hidden rounded-2xl border border-border-2 bg-bg-alt">
+              {gallery.length === 0 && (
+                <ProductArtwork
+                  label={product.title}
+                  sku={product.sku}
+                  className="aspect-[16/9] w-full"
+                />
+              )}
               {gallery.map((img, i) => (
                 <ResponsiveImg
                   key={img.url}
@@ -448,7 +456,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
             {product.description && <p className="mt-4 text-[15px] leading-relaxed text-fg-2">{brandify(product.description)}</p>}
             {product.tags && product.tags.length > 0 && (
               <div className="mt-4 flex flex-wrap gap-1.5">
-                {product.tags.map((t) => (
+                {[...new Set(product.tags)].map((t) => (
                   <span key={t} className="pill">{t}</span>
                 ))}
               </div>
@@ -584,8 +592,10 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   href={fl(`/products/${r.slug}`)}
                   className="marine-card group flex flex-col overflow-hidden p-0"
                 >
-                  {r.image && (
+                  {r.image ? (
                     <ResponsiveImg src={r.image} alt={r.title} width={800} height={600} sizes="(min-width:768px) 33vw, 100vw" loading="lazy" decoding="async" className="aspect-[4/3] w-full object-cover" />
+                  ) : (
+                    <ProductArtwork label={r.title} className="aspect-[4/3] w-full" />
                   )}
                   <div className="flex flex-1 flex-col gap-1 p-4">
                     <p className="text-[13.5px] font-bold leading-snug">{r.title}</p>

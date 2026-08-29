@@ -14,7 +14,7 @@ import { PageHero } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
 import { InquiryForm } from '@/features/inquiry/components/inquiry-form'
 import { ProductView } from '@/features/content/catchall'
-import { ResponsiveImg } from '@/components/ui/responsive-img'
+import { ProductArtwork } from '@/components/ui/product-artwork'
 
 export const Route = createLazyFileRoute('/{-$locale}/products/$series')({ component: SeriesPage })
 
@@ -155,7 +155,20 @@ function SeriesPage() {
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {items.map((p) => (
               <a key={p.slug} href={fl(`/products/${p.slug}`)} className="marine-card group flex flex-col gap-4 p-5 transition-transform hover:-translate-y-0.5">
-                <ResponsiveImg src={p.image} alt={p.name} width={800} height={600} sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw" loading="lazy" decoding="async" className="aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
+                <ProductArtwork
+                  src={p.image}
+                  hue={p.hue}
+                  label={p.name}
+                  sku={p.sku}
+                  className="aspect-[4/3] w-full overflow-hidden rounded-xl border border-border-2 bg-bg-alt"
+                  imgClassName="h-full w-full object-cover"
+                  width={800}
+                  height={600}
+                  sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw"
+                  loading="lazy"
+                  decoding="async"
+                  alt={p.name}
+                />
                 <div>
                   <div className="flex items-center justify-between gap-2">
                     <h3 className="font-display text-[17px] font-bold leading-snug">{p.name}</h3>

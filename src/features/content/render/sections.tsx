@@ -10,6 +10,7 @@ import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { assetUrl } from '../assets'
 import { ResponsiveImg } from '@/components/ui/responsive-img'
+import { ProductArtwork } from '@/components/ui/product-artwork'
 import type { ContentPage, ContentSectionDef } from '../types'
 
 /**
@@ -801,9 +802,19 @@ function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((p) => (
           <a key={p.slug} href={localize(`/products/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
-            {p.image && (
-              <ResponsiveImg src={p.image} alt={p.title} width={800} height={600} sizes="(min-width:1024px) 25vw, (min-width:640px) 50vw, 100vw" loading="lazy" decoding="async" className="aspect-[4/3] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
-            )}
+            <ProductArtwork
+              src={p.image}
+              label={p.title}
+              sku={p.sku}
+              className="relative aspect-[4/3] w-full overflow-hidden border-b border-border-2 bg-bg-alt"
+              imgClassName="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+              width={800}
+              height={600}
+              sizes="(min-width:1024px) 25vw, (min-width:640px) 50vw, 100vw"
+              loading="lazy"
+              decoding="async"
+              alt={p.title}
+            />
             <div className="flex flex-1 flex-col p-5">
               <span className="pill self-start border-primary/25! bg-soft! text-primary!">{p.sku}</span>
               <h3 className="mt-2.5 font-display text-[16px] font-bold">{p.title}</h3>
