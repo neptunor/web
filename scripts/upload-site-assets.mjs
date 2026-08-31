@@ -15,11 +15,11 @@
  * them here once made every CI deploy probe ~1,400 R2 keys and hit Cloudflare's
  * API throttle (code 971) before wrangler deploy could run.
  *
- * downloads/ and assets/quality/ ARE committed to Git (small footprint, like
- * product photos) so CI can prepare + upload them; videos/ and images/ may stay
- * git-ignored. This script is what actually syncs them to R2 for production.
- * Content that references them uses hardcoded CDN links
- * (https://assets.neptunor.com/site/...).
+ * All four source dirs (downloads/, assets/quality/, assets/images/,
+ * assets/videos/) ARE committed to Git so CI can prepare them (sharp /
+ * Ghostscript) and upload to R2. Product photos stay as Worker static assets.
+ * This script is what actually syncs them to R2 for production; content that
+ * references them uses hardcoded CDN links (https://assets.neptunor.com/site/...).
  *
  * Zero dependencies (SigV4 signing via node:crypto + fetch).
  *

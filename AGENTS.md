@@ -1,4 +1,4 @@
-# AGENTS.md
+﻿# AGENTS.md
 
 Guide for AI coding agents (Claude Code, Codex, etc.) working in this repo.
 
@@ -41,8 +41,8 @@ Framework code (`src/features/`, `src/routes/`, `src/components/`) never imports
 - **No mock, graceful degradation:** optional integrations (Resend, Turnstile, Sentry, analytics) switch off when their env keys are absent — keep that behavior.
 - **AI bindings are optional:** AI/Vectorize bindings are commented out by default in `wrangler.jsonc`. The assistant works in FAQ+corpus keyword search mode (matchFaq + matchCorpus) on the Workers free tier — no AI inference needed. Uncomment the `ai`/`vectorize` blocks and upgrade to Workers Paid ($5/month) for full RAG mode (embeddings + LLM generation). `worker-configuration.d.ts` has `Ai?` and `VectorizeIndex?` as optional.
 - **Routes:** after adding a route, run `pnpm build` before `pnpm typecheck` (the route tree is generated at build). Single-segment content routes use `contentSingleRoute()` (loader+head, no component — rendered by catch-all `$.tsx`).
-- **Tests:** Vitest — node pool (`*.node.test.ts`) for pure logic, workers pool (`*.workers.test.ts`) for D1; the workers pool does NOT auto-apply migrations (hand-create tables in `beforeAll`). 281 tests across 46 files.
-- **Media assets:** `public/assets/videos/` and `public/assets/images/` are git-ignored; `public/downloads/*.pdf` and `public/assets/quality/*` ARE committed (small footprint, mirroring product photos) so CI can prepare and upload them. All site media live in Cloudflare R2 CDN `assets.{SITE_DOMAIN}/site/*`; re-upload via `pnpm upload:site-assets`.
+- **Tests:** Vitest — node pool (`*.node.test.ts`) for pure logic, workers pool (`*.workers.test.ts`) for D1; the workers pool does NOT auto-apply migrations (hand-create tables in `beforeAll`). 282 tests across 46 files.
+- **Media assets:** all four site-media source dirs — `public/assets/videos/`, `public/assets/quality/`, `public/assets/images/`, `public/downloads/` — are committed to Git (like product photos); the deploy workflow prepares them (sharp/Ghostscript) and uploads to R2 `assets.{SITE_DOMAIN}/site/*`; re-upload locally via `pnpm upload:site-assets`.
 - **Responsive images:** product photos under `public/assets/products/` ARE committed. `scripts/process-images.mjs` (sharp) pre-scales them to a fixed width ladder in AVIF+WebP (free R2/static origins cannot resize on the fly) and writes `src/config/responsive-manifest.json`, consumed by `<ResponsiveImg>` (`src/components/ui/responsive-img.tsx`, fallback to plain `<img>` for non-product URLs). `scripts/compress-pdfs.mjs` (Ghostscript, AGPL) shrinks `public/downloads/*.pdf` before upload. Deploy CI runs both before `pnpm build`; after adding new product photos, run `pnpm assets:prepare` so variants exist for local dev/commits.
 
 ## Commands

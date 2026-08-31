@@ -52,8 +52,17 @@ const LIVE_ES = new Set([...LIVE].map((p) => (p === '/' ? '/es' : `/es${p}`)))
 function walk(dir: string): string[] {
   return readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
     const full = join(dir, e.name)
-    return e.isDirectory() ? walk(full) : e.name.endsWith('.md') || e.name.endsWith('.mdx') || e.name.endsWith('.yaml') ? [full] : []
+    return e.isDirectory()
+      ? walk(full)
+      : e.name.endsWith('.md') || e.name.endsWith('.mdx') || e.name.endsWith('.yaml')
+        ? [full]
+        : []
   })
+}
+
+/** walk content + the tsx routes that hardcode CDN media links (about / how-it-works videos). */
+function walkWithRoutes(): string[] {
+  return [...walk(contentRoot), ...walk(routesRoot).filter((f) => f.endsWith('.tsx'))]
 }
 
 function extractLinks(raw: string): string[] {
@@ -82,6 +91,14 @@ const LEGACY_HREFS: Record<string, string> = {
 
 const downloadsDir = resolve(process.cwd(), 'public/downloads')
 const assetsDir = resolve(process.cwd(), 'public/assets')
+
+/** Local source dir each R2 CDN site/* prefix maps to (kept in sync with upload-site-assets.mjs). */
+const CDN_SOURCE: Record<string, string> = {
+  downloads: downloadsDir,
+  quality: resolve(assetsDir, 'quality'),
+  images: resolve(assetsDir, 'images'),
+  videos: resolve(assetsDir, 'videos'),
+}
 
 interface BrokenLink {
   file: string
@@ -169,5 +186,40 @@ test('absolute media links use the R2 CDN, never the leftover static hosts', () 
   expect(
     violations.map((v) => `${v.file}: ${v.link}`),
     `site media must be referenced via the R2 CDN (${CDN_PREFIX}...) — the worker static host never contains downloads/quality/videos/images:\n${violations.map((v) => `${v.file}: ${v.link}`).join('\n')}`,
+  ).toEqual([])
+})
+
+test('every absolute CDN media link has a committed local source file', () => {
+  const missing: { file: string; link: string }[] = []
+  const CDN_PREFIX = 'https://assets.neptunor.com/site/'
+  const records = new Map<string, string>()
+  for (const file of walkWithRoutes()) {
+    const raw = readFileSyncSafe(file)
+    if (!raw) continue
+    for (const link of extractLinks(raw)) {
+      records.set(link, file)
+    }
+    for (const m of raw.matchAll(/\/site\/(downloads|quality|images|videos)\/[A-Za-z0-9_./-]+\.(pdf|avif|webp|mp4|jpg)/g)) {
+      records.set(`https://assets.neptunor.com${m[0]}`, file)
+    }
+  }
+  for (const [link, file] of records) {
+    const clean = link.split(/[?#]/)[0]
+    if (!clean.startsWith(CDN_PREFIX)) continue
+    const rest = clean.slice(CDN_PREFIX.length)
+    const slash = rest.indexOf('/')
+    if (slash === -1) continue
+    const prefix = rest.slice(0, slash)
+    const source = CDN_SOURCE[prefix]
+    if (!source) continue
+    if (!existsSync(join(source, rest.slice(slash + 1)))) {
+      missing.push({ file, link })
+    }
+  }
+  expect(
+    missing.map((m) => `${m.file}: ${m.link}`),
+    `CDN media links with no committed local source (CI upload would skip them → broken CDN objects):\n${missing
+      .map((m) => `${m.file}: ${m.link}`)
+      .join('\n')}`,
   ).toEqual([])
 })

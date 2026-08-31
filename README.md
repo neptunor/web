@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <h1>Neptunor</h1>
   <p>Your custom RIB & inflatable boat development & manufacturing partner — 9 boat series / 56 models, real OEM/ODM, bilingual (en/es) marketing site + 5-page solutions system, shipped edge-native on Cloudflare Workers.</p>
   <p>
@@ -231,7 +231,7 @@ This guide maps the **major architectural layers** of Neptunor to their source f
 | **Auth & Admin** | better-auth, admin-only gates, roles | `src/features/auth/`, `src/features/admin/assert-admin.server.ts`, `ADMIN_EMAILS` env | Email/password auth, verification, password reset, OAuth; single source of admin truth |
 | **Data Stores** | D1, KV, R2 (+ Vectorize optional) | `src/db/`, `src/lib/cache-headers.ts`, `features/storage/`, `src/features/ai/` | SQLite auth + app tables; per-IP rate limits; blob storage; RAG index (optional) |
 | **AI Sales Assistant** | FAQ+corpus keyword search (free tier) / RAG Q&A (paid) | `src/features/ai/corpus.ts`, `src/features/ai/ai-chat.tsx`, Vectorize `neptunor-knowledge` | **Deploys on Workers free tier** with keyword-based search (matchFaq + matchCorpus); upgrade to Workers Paid ($5/month) for AI-powered RAG (embeddings + LLM generation). Chat shows "FAQ" or "AI" badge per answer. |
-| **Testing & CI** | 281 tests (46 files), typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with media prep, CDN purge + edge warm |
+| **Testing & CI** | 282 tests (46 files), typecheck, build | `pnpm test`, `pnpm typecheck`, `pnpm build`; CI: `ci.yml`, `deploy.yml` | Full regression test suite; type-safe build; deploy pipeline with media prep, CDN purge + edge warm |
 
 --- 
 
@@ -307,7 +307,7 @@ Every model is a manufacturing platform — length, tube fabric, console layout,
 - **[Orama](https://orama.com)** full-text search (stopwords + tokenizers), **[Fumadocs](https://fumadocs.dev)** docs
 - **[Workers AI](https://developers.cloudflare.com/workers-ai/)** (bge-m3 embeddings + llama-3.2-3b) and **[Vectorize](https://developers.cloudflare.com/vectorize/)** (RAG knowledge index) — **optional**, uncomment in `wrangler.jsonc` to enable full RAG mode
 - **[Tailwind CSS v4](https://tailwindcss.com)**
-- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **281 tests green (46 files)**
+- **[Vitest](https://vitest.dev)** (Node unit tests + Workers/D1 integration tests via `@cloudflare/vitest-pool-workers`) — **282 tests green (46 files)**
 
 ## Prerequisites
 
@@ -449,7 +449,7 @@ scripts/
 
 > **Product photos** are committed under `public/assets/products/*` and served as **Worker static assets** (`https://neptunor.com/assets/products/*`) — no R2/CDN runtime dependency. `scripts/process-images.mjs` (sharp) pre-scales them to a responsive AVIF/WebP width ladder and writes `src/config/responsive-manifest.json` (consumed by `<ResponsiveImg>`); after adding photos run `pnpm assets:prepare` and commit the generated variants + manifest. To swap brand assets, update the image URLs in `src/product/content.ts` and `src/product/asset-map.ts` (plus `PRODUCT_OG_IMAGE_FILENAME` in `brand-constants.ts`).
 >
-> **Site media** (videos, quality photos, download PDFs, context images) are referenced via the R2 CDN `assets.neptunor.com/site/*`. `public/downloads/` and `public/assets/quality/` are committed (small footprint, like product photos) so CI can prepare and upload them; `public/assets/videos/` and `public/assets/images/` are git-ignored. The deploy workflow keeps R2 in sync via `scripts/upload-site-assets.mjs --http --missing` (product photos are excluded — they ship as committed static assets).
+> **Site media** (videos, quality photos, download PDFs, context images) are referenced via the R2 CDN `assets.neptunor.com/site/*`. All their source dirs — `public/assets/videos/`, `public/assets/quality/`, `public/assets/images/`, `public/downloads/` — are committed, so the deploy workflow can prepare them (sharp/Ghostscript) and upload via `scripts/upload-site-assets.mjs --http --missing` (product photos are excluded — they ship as committed static assets).
 
 ## Environment variables
 

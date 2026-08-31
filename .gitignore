@@ -38,9 +38,8 @@ playwright-report/
 .claude/
 
 # 大型业务媒体文件——由 Cloudflare R2 + CDN 提供。
-# downloads/quality 源文件体积可控,随仓库提交(与产品图一致),由 CI 上传 R2;
-# videos/images 仍为 git-ignored(体积大/图源待定),由 scripts/upload-site-assets.mjs 统一上传。
-public/assets/videos/
-public/assets/images/
+# downloads/quality/images/videos 源文件全部随仓库提交(与产品图一致),由 CI 准备(sharp/Ghostscript)后
+# 经 scripts/upload-site-assets.mjs --http --missing 上传到 R2(site/* 键)。
+# 无 git-ignored 媒体目录。
 
 dev-server-opt.err
