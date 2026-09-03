@@ -66,18 +66,18 @@ our_position:
     We do not just claim compliance — we provide the records. Here is our position on each of the eight audit areas:
 
     - **Quality management**: ISO 9001:2015 certified, audited annually by accredited third party. 7-stage inspection gate system with documented pass/fail criteria at every gate. CAPA log maintained and reviewed quarterly.
-    - **Production capacity**: 30,000+ boats annual capacity, 2,500+ monthly output. Production schedule available for review during factory visit. 4 production lines, 3 CNC machines, 5 RF welders.
+    - **Production capacity**: Up to 60,000 boats annually depending on product mix, with a planning summary of about 5,000 boats per month across four automated lines. Current utilization and the production schedule are available for review during a factory visit.
     - **Material traceability**: Batch-level traceability from incoming material to finished boat. PVC and drop-stitch supplier certificates on file. REACH and RoHS substance declarations available per batch.
     - **Pressure testing**: 0.35 bar hold test with auto-reject above 0.02 bar drop over 24 hours. Test logs available for every production batch. Structural and impact testing per construction type.
     - **Welding controls**: RF welding parameters logged per production run. Seam inspection at gate 3 with documented reject rates. CAPA initiated for reject rates above threshold.
     - **Social compliance**: BSCI audited. Working hours, wage and safety records available for inspection during factory visit.
     - **Documentation**: Batch production records, inspection logs per gate, certificates of conformity and packing lists with batch references shipped with every order. Warranty claim tracking system maintained.
-    - **Post-delivery support**: Warranty terms documented per contract. Average claim resolution under 14 business days. Spare parts available from stock. Post-delivery review offered for every first order.
+    - **Post-delivery support**: Warranty terms documented per contract. Claim handling, spare-parts availability and response targets are confirmed per contract and project scope. Post-delivery review offered for every first order.
 
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'SPECIFICATIONS VERIFIED'
-  body: 'All manufacturing and quality claims on this page are verified by our manufacturing engineering team at the Laixi, Qingdao factory. Certificates, QC inspection records, pressure and structural test reports, and batch traceability logs are available on request. Specifications last verified 2026-08.'
+  body: 'Manufacturing and quality claims on this page are reviewed by our manufacturing engineering team at the Laixi, Qingdao factory. Certificates, QC inspection records, pressure and structural test reports, and batch traceability logs are available on request. Specifications last reviewed 2026-09.'
 
 faqs:
   tagline: FAQ

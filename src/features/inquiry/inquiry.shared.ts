@@ -8,11 +8,6 @@ export type InquiryCategory =
   | 'sport-console'
   | 'rescue-pro'
   | 'inflatable-dinghy'
-  | 'inflatable-catamaran'
-  | 'inflatable-kayak'
-  | 'inflatable-raft'
-  | 'inflatable-accessories'
-  | 'accessories'
   | 'multiple'
   | 'unsure'
 export type InquiryTimeline = 'now' | 't1-3mo' | 't3-6mo' | 't6-12mo' | 't12mo+' | 'unsure'
@@ -31,7 +26,7 @@ export type InquiryTier = 'A' | 'B' | 'C'
 export const BUSINESS_TYPES: InquiryBusinessType[] = ['brand', 'retailer', 'distributor', 'resort', 'club', 'rental', 'corporate', 'other']
 export const QUANTITIES: InquiryQuantity[] = ['q1-9', 'q10-49', 'q50-99', 'q100-299', 'q300-499', 'q500', 'unsure']
 export const CATEGORIES: InquiryCategory[] = [
-  'aluminum-rib', 'fiberglass-rib', 'sport-console', 'rescue-pro', 'inflatable-dinghy', 'inflatable-catamaran', 'inflatable-kayak', 'inflatable-raft', 'inflatable-accessories', 'accessories', 'multiple', 'unsure',
+  'aluminum-rib', 'fiberglass-rib', 'sport-console', 'rescue-pro', 'inflatable-dinghy', 'multiple', 'unsure',
 ]
 export const TIMELINES: InquiryTimeline[] = ['now', 't1-3mo', 't3-6mo', 't6-12mo', 't12mo+', 'unsure']
 export const PROJECT_STAGES: InquiryProjectStage[] = ['ready', 'reviewing', 'developing', 'sampling', 'future']

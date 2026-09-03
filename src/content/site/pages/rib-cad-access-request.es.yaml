@@ -1,0 +1,132 @@
+meta:
+  title: 'Solicitud de acceso y descarga CAD RIB — Planos para compradores cualificados | Neptunor'
+  description: 'Solicita planos GA, CAD 2D, modelos exteriores 3D o archivos técnicos controlados para un proyecto RIB o inflable mediante una revisión B2B estructurada.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'descarga CAD RIB'
+    - 'solicitud acceso CAD RIB'
+    - 'archivo DWG DXF STEP RIB'
+    - 'plano GA embarcación inflable'
+
+hero:
+  tagline: 'Recursos CAD controlados'
+  title: 'Solicita el archivo CAD RIB adecuado para tu proyecto'
+  subtitle: 'La información pública sirve para la selección inicial. Los CAD editables, las interfaces y los archivos detallados se entregan según finalidad, identidad del comprador y confidencialidad.'
+  actions:
+    - variant: primary
+      text: Solicitar acceso CAD
+      href: /es/contact#cad-review
+    - text: Revisar guía de planificación GA
+      href: /es/resources/rib-ga-cad-planning
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'Empieza con un PDF GA público o un resumen de dimensiones al comparar plataformas. Si necesitas DXF/DWG para una tarea concreta, envía modelo, finalidad, mercado, empresa y fase del proyecto. Los modelos exteriores STEP/IGES, las interfaces y la ingeniería detallada pueden requerir brief, NDA o aprobación técnica. Neptunor no publica como descarga abierta estructuras del casco, patrones de tubos, moldes, rutas de utillaje, BOM ni cálculos.'
+  verified: '2026-09'
+
+access_levels:
+  tagline: 'Tres niveles de acceso'
+  title: 'Relaciona el valor del archivo con la fase del proyecto'
+  subtitle: 'Este enfoque facilita la investigación inicial y protege diseños de clientes y propiedad intelectual de fabricación.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Archivos públicos de planificación'
+      desc: 'Previsualizaciones PDF GA, dimensiones principales, distribuciones básicas y resúmenes de transporte para comparar plataformas y planificar.'
+    - icon: Q
+      icon_bg: green
+      title: 'CAD 2D cualificado'
+      desc: 'Distribuciones DXF o DWG seleccionadas para marina, remolque, contenedor, equipo o tender después de revisar empresa y contexto.'
+    - icon: I
+      icon_bg: purple
+      title: 'Archivos de integración'
+      desc: 'Interfaces de equipos, planos eléctricos o de combustible y modelos exteriores 3D cuando configuración y uso técnico están claros.'
+    - icon: N
+      icon_bg: orange
+      title: 'Datos bajo NDA'
+      desc: 'Interfaces detalladas, arte propio, distribuciones específicas y archivos de proyecto se comparten bajo el acuerdo de confidencialidad.'
+    - icon: E
+      icon_bg: blue
+      title: 'Aprobación de ingeniería'
+      desc: 'Planos estructurales, información de laminado o soldadura, cálculos y datos críticos requieren revisión de proyecto e ingeniería.'
+    - icon: R
+      icon_bg: green
+      title: 'Sin archivos de fabricación abiertos'
+      desc: 'Patrones de tubos, datos de moldes, rutas CNC, BOM de producción y archivos de replicación no son descargas públicas.'
+
+request_fields:
+  tagline: 'Qué incluir'
+  title: 'Da contexto suficiente para aprobar un archivo útil'
+  subtitle: 'Una solicitud breve suele bastar. No envíes diseños confidenciales hasta acordar NDA o revisión de proyecto.'
+  features:
+    - icon: M
+      icon_bg: blue
+      title: 'Modelo o plataforma'
+      desc: 'Indica modelo, eslora aproximada, construcción del casco o plataforma que estás comparando.'
+    - icon: U
+      icon_bg: green
+      title: 'Uso previsto'
+      desc: 'Explica si es para marina, garaje, remolque, contenedor, encaje de tender, integración, licitación, showroom u otra tarea.'
+    - icon: B
+      icon_bg: purple
+      title: 'Identidad empresarial'
+      desc: 'Facilita empresa, función, país o mercado objetivo y fase para enrutar la solicitud.'
+    - icon: F
+      icon_bg: orange
+      title: 'Formato solicitado'
+      desc: 'Indica si necesitas PDF, DXF, DWG, STEP, IGES u otro formato y si basta una alternativa no editable.'
+    - icon: C
+      icon_bg: blue
+      title: 'Configuración necesaria'
+      desc: 'Identifica consola, asientos, motor, equipo, embalaje o variantes de cubierta que afecten al plano.'
+    - icon: T
+      icon_bg: green
+      title: 'Nivel de confidencialidad'
+      desc: 'Indica si incluye arte propio, interfaces confidenciales, licitación o integración que requiera NDA.'
+
+review_steps:
+  tagline: 'Proceso de entrega controlada'
+  title: 'Cómo pasa una solicitud CAD del formulario al archivo'
+  subtitle: 'La revisión ayuda a compradores legítimos sin tratar cada descarga anónima como un proyecto listo para ventas.'
+  steps:
+    - step: '01'
+      title: 'Envía una solicitud breve'
+      desc: 'Usa el formulario y selecciona acceso CAD o revisión de ingeniería. Incluye empresa, modelo, uso, mercado, formato y calendario.'
+    - step: '02'
+      title: 'Recibe una respuesta de planificación'
+      desc: 'El equipo determina si un GA público, resumen de dimensiones u otro archivo de bajo riesgo ya resuelve la necesidad.'
+    - step: '03'
+      title: 'Confirma comprador y contexto'
+      desc: 'Para CAD editable o integración, se revisan identidad, finalidad, configuración, fase y uso autorizado.'
+    - step: '04'
+      title: 'Firma un NDA cuando corresponda'
+      desc: 'Arte, interfaces y datos técnicos confidenciales solo se comparten después de acordar la confidencialidad.'
+    - step: '05'
+      title: 'Libera una revisión controlada'
+      desc: 'El archivo se entrega con modelo, revisión, fecha, uso autorizado y limitaciones. Las revisiones sustituidas no deben seguir circulando.'
+
+red_flags:
+  tagline: 'Recordatorios de control'
+  title: 'Un archivo CAD no equivale automáticamente a aprobación de producción'
+  items:
+    - q: '¿Se puede usar un GA de la web para construir o modificar la embarcación?'
+      a: 'No. El GA público sirve para planificación salvo aprobación expresa. Dimensiones e interfaces de producción proceden de la especificación controlada.'
+    - q: '¿Por qué se solicita correo empresarial o perfil de empresa?'
+      a: 'El CAD editable puede revelar información de clientes o fabricación. Identidad y finalidad permiten enrutar trabajo legítimo y reducir redistribución sin control.'
+    - q: '¿Puede solicitarse un archivo sin revelar diseños confidenciales?'
+      a: 'Sí. Empieza por modelo, tarea, mercado y formato. Comparte arte o especificaciones propias solo después de acordar el canal de confidencialidad.'
+    - q: '¿Qué debe aparecer en el cajetín o aviso?'
+      a: 'Modelo, número, revisión, fecha, unidades, estado, uso permitido, copyright o marca y limitación de no construcción, certificación, replicación o utillaje cuando aplique.'
+    - q: '¿Los archivos STEP e IGES están siempre disponibles?'
+      a: 'No. Depende de modelo, configuración, finalidad, identidad, fase y confidencialidad. Solicita el nivel mínimo que resuelva la tarea.'
+
+cta:
+  title: '¿Necesitas CAD controlado para un proyecto real?'
+  subtitle: 'Indica qué estás planificando, qué RIB o inflable revisas y el nivel de archivo. Enrutaremos la solicitud al contacto técnico adecuado.'
+  actions:
+    - variant: primary
+      text: Solicitar acceso CAD
+      href: /es/contact#cad-review
+    - text: Revisar preparación del RFQ
+      href: /es/resources/rib-rfq-qualification

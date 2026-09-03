@@ -1,0 +1,102 @@
+meta:
+  title: 'Guía para solicitar distribución RIB — Información que debe preparar el comprador | Neptunor'
+  description: 'Qué deben preparar distribuidores y concesionarios para solicitar un programa de suministro de RIB o embarcaciones inflables: empresa, mercado, ventas, cantidades, servicio y cumplimiento.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'solicitud distribuidor RIB'
+    - 'programa concesionario embarcaciones inflables'
+    - 'calificación mayorista RIB'
+    - 'requisitos distribuidor embarcaciones'
+
+hero:
+  tagline: 'Programas para distribuidores y concesionarios'
+  title: 'Qué preparar antes de solicitar la distribución de RIB'
+  subtitle: 'Guía práctica de calificación para distribuidores, importadores y concesionarios que evalúan un programa de suministro directo de fábrica de RIB o embarcaciones inflables.'
+  actions:
+    - variant: primary
+      text: Hablar sobre un programa de distribución
+      href: /es/contact#project-brief
+    - text: Revisar los programas para socios
+      href: /partners
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'Una solicitud útil explica a qué clientes sirve tu empresa, qué mercado y canales cubres, qué categorías de RIB o embarcaciones inflables necesitas, tus expectativas de primer pedido y volumen anual, el calendario de lanzamiento, tu capacidad de servicio o garantía y los requisitos documentales o territoriales de tu mercado. Las condiciones comerciales, el territorio, el MOQ, el plazo y el soporte se confirman tras revisar el programa concreto.'
+  verified: '2026-09'
+
+application_fields:
+  tagline: 'Elementos esenciales de la solicitud'
+  title: 'La información que ayuda a una fábrica a evaluar una colaboración'
+  subtitle: 'La primera conversación no necesita datos confidenciales de clientes. Basta con un perfil claro de empresa y mercado.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Perfil de empresa'
+      desc: 'Nombre legal o comercial, sitio web, país de operación, años en el sector náutico, contactos relevantes y función de la persona solicitante.'
+    - icon: M
+      icon_bg: green
+      title: 'Mercado objetivo'
+      desc: 'Países o regiones, tipos de clientes, canales, demanda estacional y aplicación recreativa, comercial, de flota o profesional.'
+    - icon: P
+      icon_bg: purple
+      title: 'Enfoque de producto'
+      desc: 'Plataformas RIB o inflables, esloras y construcción preferidas, requisitos de consola o cubierta, alcance del equipo y dirección de marca privada.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Plan de cantidades'
+      desc: 'Primer pedido previsto, volumen anual si se conoce, necesidad de muestras, reposiciones y cualquier fecha límite de temporada.'
+    - icon: S
+      icon_bg: blue
+      title: 'Capacidad comercial y de servicio'
+      desc: 'Presencia física u online, instalación o puesta en servicio, contactos locales, gestión de repuestos y proceso de reclamación de garantía.'
+    - icon: D
+      icon_bg: green
+      title: 'Documentos y soporte'
+      desc: 'Catálogo, especificaciones, manuales en el idioma del mercado, archivos de cumplimiento, inspecciones, formación de producto o materiales comerciales.'
+
+qualification_steps:
+  tagline: 'Revisión de la colaboración'
+  title: 'Un proceso transparente desde la solicitud hasta el plan de suministro'
+  subtitle: 'El objetivo es adaptar el programa al mercado, no prometer exclusividad o precios antes de revisar los hechos.'
+  steps:
+    - step: '01'
+      title: 'Envía el perfil de empresa y mercado'
+      desc: 'Comparte empresa, países objetivo, segmentos de clientes, canales de venta y categorías de embarcaciones que quieres desarrollar o distribuir.'
+    - step: '02'
+      title: 'Revisa el encaje de producto y cumplimiento'
+      desc: 'Compara plataformas RIB o inflables candidatas con el mercado, el uso previsto, la documentación, el etiquetado y las necesidades de servicio.'
+    - step: '03'
+      title: 'Confirma la vía de muestra y cantidad'
+      desc: 'Define si el siguiente paso es una muestra, un pedido piloto sobre plataforma existente, una configuración de marca privada o un suministro recurrente.'
+    - step: '04'
+      title: 'Acuerda los límites comerciales'
+      desc: 'Pon por escrito MOQ, territorio, base de precios, pago, Incoterms, previsiones, garantía y responsabilidades de soporte.'
+    - step: '05'
+      title: 'Configura reposición y servicio'
+      desc: 'Fija la especificación, el embalaje y los documentos aprobados, y define cómo se gestionan reposiciones, repuestos, reclamaciones, acciones correctivas y cambios.'
+
+review_questions:
+  tagline: 'Preguntas que deben resolverse pronto'
+  title: 'No dejes estas condiciones de colaboración solo de palabra'
+  items:
+    - q: '¿La exclusividad territorial es automática?'
+      a: 'No. La exclusividad territorial, de canal o de producto debe basarse en un alcance escrito, cobertura, previsión o compromisos de compra y condiciones de revisión acordadas.'
+    - q: '¿Quién gestiona la garantía y el servicio local?'
+      a: 'Define responsabilidades de fábrica, distribuidor y concesionario para diagnóstico, repuestos, mano de obra, transporte, evidencias y comunicación con el cliente.'
+    - q: '¿Qué documentos apoyarán las ventas en mi mercado?'
+      a: 'Solicita una lista específica de modelo y configuración. Manuales, etiquetas, declaraciones, resúmenes de ensayos e idiomas deben confirmarse para el mercado de destino.'
+    - q: '¿Puedo empezar con una muestra o cantidad piloto?'
+      a: 'La vía de muestra o piloto puede estar disponible según plataforma y configuración. Confirma cantidad, plazo, crédito de muestra, embalaje y criterios de aprobación en el presupuesto.'
+    - q: '¿Cómo se mantiene la consistencia de los pedidos repetidos?'
+      a: 'Usa una muestra, especificación, arte y BOM aprobados, con revisiones y control de cambios vinculados a cada lote.'
+
+cta:
+  title: '¿Listo para hablar de un programa de distribución?'
+  subtitle: 'Envía tu mercado, perfil de cliente, enfoque de producto y cantidad prevista. Identificaremos la siguiente revisión para tu programa RIB o inflable.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión de socio
+      href: /es/contact#project-brief
+    - text: Revisar la evidencia de fábrica
+      href: /proof-center

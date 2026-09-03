@@ -1,0 +1,114 @@
+meta:
+  title: 'RIB GA & CAD Planning Guide — What Buyers Should Request | Neptunor'
+  description: 'Understand which RIB and inflatable boat GA drawings, dimensions, layouts and CAD files are useful for procurement and project planning, and which engineering files should remain controlled.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB GA drawing'
+    - 'RIB CAD planning files'
+    - 'inflatable boat general arrangement'
+    - 'RIB dimensions drawing'
+
+hero:
+  tagline: 'GA & CAD Planning'
+  title: 'Which RIB CAD Files Should a Factory Share?'
+  subtitle: 'A buyer-focused guide to planning-level drawings, project screening and controlled engineering-file access for RIB and inflatable boat programs.'
+  actions:
+    - variant: primary
+      text: Request a CAD planning review
+      href: /contact#project-brief
+    - text: Browse boat platforms
+      href: /products
+
+answer:
+  label: 'Quick answer'
+  text: 'A factory should normally make low-risk planning information easy to review: model identity, revision, principal dimensions, GA layout, equipment positions, transport or packing data and clear use limitations. Editable DXF/DWG/STEP files, structural drawings, tube patterns, mould data, detailed interfaces, BOMs and calculations may contain manufacturing IP or project-confidential information, so access should follow buyer identity, project stage and NDA or engineering approval.'
+  verified: '2026-09'
+
+public_files:
+  tagline: 'Planning-level information'
+  title: 'Useful files for early procurement and space planning'
+  subtitle: 'These files help a buyer decide whether to proceed without exposing the information needed to reproduce the boat.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: GA
+      icon_bg: blue
+      title: 'General Arrangement PDF'
+      desc: 'Top, side and plan views showing the principal layout, model identity, revision, units and planning limitations.'
+    - icon: DIM
+      icon_bg: green
+      title: 'Dimension summary'
+      desc: 'Overall length, beam, tube diameter, weight range and key clearances, subject to the confirmed configuration.'
+    - icon: DECK
+      icon_bg: purple
+      title: 'Deck and equipment layout'
+      desc: 'Planning positions for console, seating, engine, tank, lifting or towing points and agreed equipment options.'
+    - icon: PACK
+      icon_bg: orange
+      title: 'Transport and packing data'
+      desc: 'Packed dimensions, estimated weight, crate or carton approach and information useful for freight, storage and site planning.'
+
+controlled_files:
+  tagline: 'Controlled engineering information'
+  title: 'Files that should be reviewed as part of a real project'
+  subtitle: 'The goal is not to block serious buyers; it is to release the right level of information without exposing another customer’s design or the factory’s core manufacturing IP.'
+  features:
+    - icon: DXF
+      icon_bg: blue
+      title: 'Editable 2D CAD'
+      desc: 'DXF or DWG layouts can support engineering coordination, but should carry revision, copyright, intended-use and non-construction notices.'
+    - icon: 3D
+      icon_bg: green
+      title: '3D exterior models'
+      desc: 'STEP, IGES or other 3D files may be appropriate for a verified project, showroom, marina or integration workflow after scope review.'
+    - icon: INT
+      icon_bg: purple
+      title: 'Installation interfaces'
+      desc: 'Equipment, electrical, fuel, steering and mounting interfaces should match the final configuration and should not be assumed from a generic platform.'
+    - icon: IP
+      icon_bg: orange
+      title: 'Manufacturing engineering'
+      desc: 'Structural drawings, tube patterns, mould files, tooling paths, laminate schedules, BOMs and calculations require NDA and project or engineering approval.'
+
+review_steps:
+  tagline: 'Before requesting editable files'
+  title: 'Give the factory enough context to release the right drawing'
+  subtitle: 'A concise project brief protects both the buyer’s workflow and the manufacturer’s IP.'
+  steps:
+    - step: '01'
+      title: 'Name the model or planning target'
+      desc: 'State the platform, approximate length, hull construction, intended use and whether you are comparing existing boats or developing a new configuration.'
+    - step: '02'
+      title: 'Explain the engineering use'
+      desc: 'Tell the factory whether the drawing is for a marina, garage, trailer, container, equipment integration, tender fit, tender document, showroom or another defined task.'
+    - step: '03'
+      title: 'Identify the buyer and market'
+      desc: 'Provide company, role, country or target market and project stage. This helps separate early planning from a live engineering integration or procurement project.'
+    - step: '04'
+      title: 'Request an NDA when needed'
+      desc: 'Use an NDA before sharing proprietary artwork, competitor references, detailed specifications or files that could reveal your product strategy.'
+    - step: '05'
+      title: 'Confirm file controls'
+      desc: 'Agree revision, permitted use, watermark or copyright notice, file expiry or replacement process and whether the file is for planning only or approved engineering coordination.'
+
+faqs:
+  tagline: 'Buyer FAQ'
+  title: 'Questions about RIB GA and CAD files'
+  items:
+    - q: 'Can I get a GA drawing before submitting an RFQ?'
+      a: 'Planning-level product information can support early selection. The exact drawing, revision and configuration should be confirmed with the factory before it is used for procurement, construction or certification.'
+    - q: 'Why are some CAD files not publicly downloadable?'
+      a: 'Editable files and detailed engineering data can expose manufacturing IP, customer-specific design or safety-critical interfaces. Controlled release protects both parties while still supporting legitimate project work.'
+    - q: 'Can I use a website drawing as a production drawing?'
+      a: 'No. Public or preliminary GA material should state its revision and limitations. Final dimensions, equipment, weights and compliance status must come from the confirmed order specification and applicable project documents.'
+    - q: 'What should a good GA title block contain?'
+      a: 'At minimum: manufacturer or brand, model, drawing name and number, revision, date, units, scale where relevant, status and a clear statement such as “Not for construction, certification, replication or tooling” when appropriate.'
+
+cta:
+  title: 'Need a GA or CAD file for a real project?'
+  subtitle: 'Send the model, intended engineering use and target market. We will recommend the appropriate planning or controlled file level.'
+  actions:
+    - variant: primary
+      text: Request CAD planning support
+      href: /contact#project-brief
+    - text: Start an OEM project
+      href: /oem-manufacturing

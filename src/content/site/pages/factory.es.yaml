@@ -14,7 +14,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Fábrica certificada de embarcaciones hinchables en Qingdao, China: ISO 9001, ISO 6185, BSCI, CE, REACH y RoHS. Planta de 18.000 m² con 4 talleres especializados, más de 300 trabajadores y más de 60.000+ embarcaciones producidas al año (5.000 embarcaciones/mes en 4 líneas automatizadas). Cada embarcación se prueba a presión a 0,35 bar durante 24 horas, supera una lista de control de montaje de 120 puntos y conserva una trazabilidad de materiales de 10 años.'
+  text: 'Fábrica de RIB y embarcaciones hinchables en Qingdao, China: el alcance documentado de ISO 9001, ISO 6185, BSCI, CE, REACH y RoHS se revisa según el modelo, la configuración y el mercado. La planta de 18.000 m² cuenta con 4 talleres especializados y más de 300 trabajadores; la capacidad es de hasta 60.000 embarcaciones al año según la mezcla de productos. Las embarcaciones aplicables se prueban a 0,35 bar durante 24 horas, se revisan con una lista de montaje de 120 puntos y se vinculan a registros de trazabilidad del proyecto.'
   verified: '2026-08'
 
 intro:
@@ -22,14 +22,14 @@ intro:
   - Al integrar diseño, ingeniería, creación de prototipos, fabricación y ensayos bajo un mismo techo, eliminamos las ineficiencias de la fabricación por contrato y mantenemos el control directo de la calidad de construcción, la selección de materiales y los plazos de entrega. Cada embarcación que sale de nuestro taller está construido por nuestra gente, con nuestro equipo y según nuestros estándares.
 
 stats:
-  - value: 18,000 m2
+  - value: 18.000 m²
     label: Superficie de fabricación
   - value: 300+
     label: Trabajadores cualificados
-  - value: 60,000+
-    label: embarcaciones producidas al año
+  - value: Hasta 60.000
+    label: Embarcaciones producidas al año
   - value: ISO 9001
-    label: Calidad certificada
+    label: Sistema de calidad
 
 intelligence_tagline: Inteligencia de fábrica
 intelligence_title: Explora nuestras capacidades de fabricación
@@ -38,13 +38,13 @@ intelligence_cards:
   - title: Capacidad de producción
     icon: C
     icon_bg: blue
-    desc: 'Instalación de 18.000 m² que produce más de 60.000+ embarcación/año en las líneas de embarcaciones de embarcación y equipos de seguridad. 300+ trabajadores, 2 turnos.'
+    desc: 'Instalación de 18.000 m² para producir RIB y embarcaciones hinchables, con capacidad de hasta 60.000 embarcaciones al año según la mezcla de productos. Más de 300 trabajadores, 2 turnos.'
     metrics:
       - label: MOQ
         value: 'embarcación: muestra 1–2 / piloto 20–50 / volumen 90–100+'
       - label: Plazo de entrega
         value: '30–45 días'
-    link: /es/randdcenter
+    link: /es/factory/capacity
     link_label: Detalles completos de capacidad →
   - title: Laboratorio de calidad y ensayos
     icon: Q
@@ -54,7 +54,7 @@ intelligence_cards:
       - label: Equipo de laboratorio
         value: 'Máquina de tracción, cámara térmica, tanque de fugas'
       - label: Estándares
-        value: 'ISO 9001, CE, AS 1799'
+        value: 'ISO 9001, ISO 6185; CE según modelo y proyecto'
     link: /es/factory/quality-lab
     link_label: Procedimientos y equipo del laboratorio →
   - title: Capacidad OEM/ODM
@@ -65,7 +65,7 @@ intelligence_cards:
       - label: Certificaciones
         value: 'ISO 9001, BSCI, CE, REACH'
       - label: Mercados de exportación
-        value: 'Más de 50 países'
+        value: 'Más de 40 países'
     link: /es/oem-manufacturing
     link_label: Servicios OEM completos →
   - title: Estándares de inspección de calidad
@@ -146,7 +146,7 @@ equipment_section:
   tagline: Equipo
   title: Equipo de fabricación principal
   view_full: Ver la lista completa de equipos →
-  view_full_link: /es/randdcenter
+  view_full_link: /es/factory/equipment
   items:
     - name: Máquina de corte de PVC automática
       spec: Control CNC, precisión de 0,1 mm
@@ -199,7 +199,7 @@ faq_section:
   title: Preguntas frecuentes B2B y OEM
   questions:
     - q: ¿Cuál es la cantidad mínima de pedido (MOQ) para embarcaciones neumáticas OEM?
-      a: 'El MOQ se confirma según la configuración del proyecto, no con un número fijo — casco y utillaje, colores y PVC, arte, empaque y accesorios. La producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m, el co-branding de lotes pequeños parte de 5–10 unidades, y cada proyecto pasa por las etapas de muestra (1–2 unidades) y piloto (20–50 unidades). Consulta nuestra Guía de MOQ y Branding Flexible para la lógica de cálculo completa.'
+      a: 'El MOQ se confirma según la configuración del proyecto, no con un número fijo — casco y utillaje, colores y PVC, arte, empaque y accesorios. La producción de volumen estándar se planifica habitualmente desde 90–100+ unidades por configuración aprobada, el co-branding de lotes pequeños parte de 5–10 unidades, y cada proyecto pasa por las etapas de muestra (1–2 unidades) y piloto (20–50 unidades). Consulta nuestra Guía de MOQ y Branding Flexible para la lógica de cálculo completa.'
     - q: ¿Mantiene Neptunor la certificación BSCI?
       a: Sí. Nuestra fábrica mantiene una certificación válida de cumplimiento social BSCI (informe de auditoría disponible bajo petición). También tenemos ISO 9001 para gestión de calidad. La certificación CE aplica a modelos destinados al mercado de la UE; el alcance se confirma por proyecto. La documentación de cumplimiento REACH y RoHS se entrega con cada pedido OEM.
     - q: ¿Cuál es el plazo de entrega típico de un pedido OEM?
@@ -207,7 +207,7 @@ faq_section:
     - q: ¿Gestionáis la documentación de exportación?
       a: Sí. Nuestro equipo gestiona internamente la documentación de exportación y el despacho de aduanas, y suministramos a más de 40 países en los mercados de la UE, EE. UU., Australia y Asia.
 
-b2b_moq: 'MOQ confirmado por configuración del proyecto: muestra 1–2, piloto 20–50, volumen 90–100+ (por rollo de 150 m); co-branding de lotes pequeños desde 5–10 unidades.'
+b2b_moq: 'MOQ confirmado por configuración del proyecto: muestra 1–2, piloto 20–50, volumen 90–100+ por configuración aprobada; co-branding de lotes pequeños desde 5–10 unidades.'
 
 production_flow:
   tagline: Flujo de producción
@@ -290,7 +290,7 @@ material_traceability:
   description: A cada lote de materia prima se le asigna un número de lote único en nuestro sistema ERP. Desde la llegada hasta la producción y el producto terminado, la lista de materiales de cada embarcación se vincula al lote original del proveedor. Esto permite la trazabilidad ascendente completa ante cualquier consulta de calidad o cumplimiento.
   system: ERP a medida (sistema interno de Neptunor Marine Co., Ltd.) + etiquetas físicas de lote en cada orden de trabajo
   coverage: 'El 100% de los materiales de producción: PVC, Hypalon, tejido drop-stitch, adhesivos, válvulas, herrajes, embalaje'
-  records_retained: 10 años (según el requisito CE 2013/53/EU)
+  records_retained: 10 años (según la política documentada de conservación y los requisitos aplicables)
   suppliers:
     - material: PVC de grado marino
       source: Proveedores chinos y coreanos
@@ -313,8 +313,8 @@ qc_dashboard:
     - value: 100%
       label: Unidades sometidas a ensayo de presión
       detail: Cada embarcación, cada cámara, cada lote
-    - value: '<5%'
-      label: Caída de presión máxima permitida
+    - value: '>0,02 bar'
+      label: Umbral de rechazo por caída de presión
       detail: En 24 h a 0,35 bar
     - value: AQL 2.5
       label: Umbral de defectos mayores

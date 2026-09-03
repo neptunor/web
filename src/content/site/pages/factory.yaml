@@ -14,7 +14,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Certified inflatable boat factory in Qingdao, China: ISO 9001, ISO 6185, BSCI, CE, REACH and RoHS. 18,000 m² plant across 4 specialized workshops, 300+ workers, 60,000++ boats produced annually (5,000 boats/month on 4 automated lines). Every boat is pressure-tested at 0.35 bar for 24 hours, passes a 120-point assembly checklist, and carries 10-year material traceability.'
+  text: 'RIB and inflatable boat factory in Qingdao, China: documented ISO 9001, ISO 6185, BSCI, CE, REACH and RoHS scope reviewed by model, configuration and market. The 18,000 m² plant has 4 specialized workshops and 300+ workers; capacity is up to 60,000 boats annually depending on product mix. Applicable boats are pressure-tested at 0.35 bar for 24 hours, checked against a 120-point assembly checklist and linked to project traceability records.'
   verified: '2026-08'
 
 intro:
@@ -26,7 +26,7 @@ stats:
     label: Manufacturing floor
   - value: 300+
     label: Skilled workers
-  - value: 60,000+
+  - value: Up to 60,000
     label: boats produced annually
   - value: ISO 9001
     label: Quality certified
@@ -38,7 +38,7 @@ intelligence_cards:
   - title: Production Capacity
     icon: C
     icon_bg: blue
-    desc: '18,000 m² facility producing 60,000++ boats/yr across boat and safety equipment lines. 300+ workers, 2 shifts.'
+    desc: '18,000 m² facility for RIB and inflatable boat production, with capacity up to 60,000 boats/yr depending on product mix. 300+ workers, 2 shifts.'
     metrics:
       - label: MOQ
         value: 'boat: sample 1–2 / pilot 20–50 / volume 90–100+'
@@ -54,7 +54,7 @@ intelligence_cards:
       - label: Lab Equipment
         value: 'Tensile tester, temp chamber, leak tank'
       - label: Standards
-        value: 'ISO 9001, CE, AS 1799'
+        value: 'ISO 9001, ISO 6185; CE according to model and project'
     link: /factory/quality-lab
     link_label: 'Lab procedures & equipment →'
   - title: OEM/ODM Capability
@@ -199,7 +199,7 @@ faq_section:
   title: B2B & OEM Frequently Asked Questions
   questions:
     - q: What is the minimum order quantity (MOQ) for OEM inflatable boats?
-      a: 'MOQ is confirmed by project configuration rather than a fixed number — hull and tooling, colorways and PVC, artwork, packaging and accessories. Standard volume production runs 90–100+ units per batch from a full 150 m fabric roll, small-batch co-branding starts at 5–10 units, and every project moves through sample (1–2 units) and pilot (20–50 units) stages. See our MOQ & Flexible Branding Guide for the full calculation logic.'
+      a: 'MOQ is confirmed by project configuration rather than a fixed number — hull and tooling, colorways and PVC, artwork, packaging and accessories. Standard volume production is commonly planned from 90–100+ units per approved configuration, while small-batch co-branding starts at 5–10 units, and every project moves through sample (1–2 units) and pilot (20–50 units) stages. See our MOQ & Flexible Branding Guide for the full calculation logic.'
     - q: Does Neptunor hold BSCI certification?
       a: Yes. Our factory maintains valid BSCI social compliance certification (audit report available on request). We also hold ISO 9001 for quality management. CE certification applies to models destined for EU markets; scope is confirmed per project. REACH and RoHS compliance documentation is provided with every OEM order.
     - q: What is the typical lead time for an OEM order?
@@ -207,7 +207,7 @@ faq_section:
     - q: Do you handle export documentation?
       a: Yes. Our team manages export documentation and customs clearance in-house, and we supply to 40+ countries across EU, US, AU, and Asia markets.
 
-b2b_moq: 'MOQ confirmed by project configuration: sample 1–2, pilot 20–50, volume 90–100+ (per 150 m roll); small-batch co-branding from 5–10 units.'
+b2b_moq: 'MOQ confirmed by project configuration: sample 1–2, pilot 20–50, standard volume 90–100+ per approved configuration; small-batch co-branding from 5–10 units.'
 
 production_flow:
   tagline: Production Flow
@@ -290,7 +290,7 @@ material_traceability:
   description: Every batch of raw material is assigned a unique lot number in our ERP system. From arrival through production to the finished product, each boat's bill of materials links back to the original supplier batch. This enables full upstream traceability for any quality or compliance inquiry.
   system: Custom ERP (Neptunor Marine Co., Ltd. internal system) + physical batch tags on each work order
   coverage: 100% of production materials —PVC, Hypalon, drop-stitch fabric, adhesives, valves, hardware, packaging
-  records_retained: 10 years (per CE 2013/53/EU requirement)
+  records_retained: 10 years (per documented retention policy and applicable requirements)
   suppliers:
     - material: Marine-grade PVC
       source: Chinese and Korean suppliers
@@ -313,8 +313,8 @@ qc_dashboard:
     - value: 100%
       label: Units pressure-tested
       detail: Every boat, every chamber, every batch
-    - value: '<5%'
-      label: Max allowable pressure drop
+    - value: '>0.02 bar'
+      label: Pressure-drop rejection threshold
       detail: Over 24h at 0.35 bar
     - value: AQL 2.5
       label: Major defect threshold

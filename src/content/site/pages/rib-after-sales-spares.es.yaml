@@ -1,0 +1,130 @@
+meta:
+  title: 'Guía de posventa y repuestos para RIB | Neptunor'
+  description: 'Planifica garantía, repuestos, registros de reparación y soporte para RIB y embarcaciones inflables destinadas a flotas, distribuidores y operadores comerciales.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'repuestos RIB'
+    - 'soporte posventa embarcación inflable'
+    - 'planificación garantía RIB'
+    - 'repuestos para flotas náuticas'
+
+hero:
+  tagline: 'Planificación posventa'
+  title: 'Mantén cada RIB y embarcación inflable en servicio'
+  subtitle: 'Guía práctica de paquetes de repuestos, registros de garantía, soporte de reparación y controles de reposición para distribuidores, flotas y operadores profesionales.'
+  actions:
+    - variant: primary
+      text: Planificar un paquete de servicio
+      href: /es/contact#project-brief
+    - text: Revisar la trazabilidad de producción
+      href: /es/resources/rib-traceability-evidence
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'Un plan posventa fiable vincula la configuración entregada con su número de serie, los registros de materiales e inspección, los repuestos recomendados, el procedimiento de reclamación y la base de reposición. Neptunor puede revisar un paquete de servicio específico para programas de RIB y embarcaciones inflables; el alcance de garantía, los plazos de respuesta, la disponibilidad de repuestos y las condiciones comerciales se confirman en el contrato de pedido.'
+  verified: '2026-09'
+
+service_groups:
+  tagline: 'Qué planificar antes del envío'
+  title: 'La posventa forma parte de la especificación de la embarcación'
+  subtitle: 'Acuerda la base de servicio antes de que salga el primer contenedor para que distribuidores y operadores sepan qué puede sustituirse, repararse y reponerse.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Repuestos según modelo'
+      desc: 'Construye la lista contra el modelo y la BOM aprobados: válvulas, parches y adhesivo, tramos de tubo o perfil de roce, componentes del suelo, bombas, remos y herrajes de consola cuando correspondan.'
+    - icon: T
+      icon_bg: green
+      title: 'Registros por número de serie'
+      desc: 'Solicita la referencia de serie o identificación, la especificación aprobada, los lotes de materiales, los resultados de inspección y el registro de embalaje necesarios para investigar una reclamación o seleccionar un repuesto.'
+    - icon: W
+      icon_bg: purple
+      title: 'Alcance de garantía por escrito'
+      desc: 'Define defectos de fabricación cubiertos, exclusiones, plazos de notificación, evidencias, reparaciones o sustituciones y las condiciones distintas que puedan aplicarse al uso comercial o de alquiler.'
+    - icon: R
+      icon_bg: orange
+      title: 'Flujo de reparación'
+      desc: 'Acuerda quién realiza la primera inspección, qué fotos o vídeos se requieren, cómo se registra la decisión técnica y cuándo corresponde un kit de reparación, un repuesto o una revisión de fábrica.'
+    - icon: P
+      icon_bg: blue
+      title: 'Planificación de reposición'
+      desc: 'Define un stock inicial de servicio y un punto de reposición según el tamaño de la flota, la intensidad de uso, la estacionalidad, el almacenamiento y las piezas que pueden dejar una embarcación fuera de servicio.'
+    - icon: C
+      icon_bg: green
+      title: 'Control de cambios'
+      desc: 'Mantén los repuestos compatibles con la base de producción aprobada. Registra las revisiones de válvulas, herrajes, gráficos, manuales y embalaje antes de liberar un pedido repetido.'
+
+spares_matrix:
+  tagline: 'Estructura sugerida del paquete de servicio'
+  title: 'Ajusta el paquete de piezas a la operación'
+  subtitle: 'La lista final depende del modelo, la construcción, el equipamiento y el ciclo de uso. Usa estos grupos como lista de revisión para la cotización, no como un paquete universal incluido.'
+  headers:
+    group: Grupo de piezas
+    examples: Ejemplos habituales
+    planning: Pregunta de planificación
+  rows:
+    - group: 'Servicio de inflado y tubos'
+      examples: 'Núcleos o válvulas completas, herramientas compatibles, parches y adhesivo de PVC o CSM, e instrucciones de reparación'
+      planning: '¿Puede el equipo local identificar el tejido y completar una reparación controlada?'
+    - group: 'Casco y protección'
+      examples: 'Tramos de perfil de roce, asas, tapones de drenaje, herrajes de izado y fijaciones específicas del modelo'
+      planning: '¿Qué piezas se pueden sustituir localmente y cuáles requieren revisión de fábrica?'
+    - group: 'Suelo y cubierta'
+      examples: 'Paneles air-deck, listones, herrajes de suelo, asientos, remos y bombas cuando figuren en la BOM aprobada'
+      planning: '¿Están registradas las dimensiones y conexiones para una reposición posterior?'
+    - group: 'Consola y equipamiento'
+      examples: 'Herrajes de dirección o consola, interruptores, cubiertas y componentes instalados'
+      planning: '¿Están identificados por separado los artículos de terceros con su propia vía de garantía?'
+    - group: 'Documentación'
+      examples: 'Revisión del manual, guía de reparación, diagrama de piezas, registro de serie y formulario de reclamación'
+      planning: '¿Recibirán el distribuidor u operador el idioma y la revisión correctos?'
+
+workflow:
+  tagline: 'Flujo de reclamación recomendado'
+  title: 'Un registro claro acelera la decisión de garantía'
+  steps:
+    - step: '01'
+      title: 'Identificar la embarcación'
+      desc: 'Registra el modelo, la referencia de serie o WIN/HIN, la fecha de entrega, la configuración y el entorno de uso.'
+    - step: '02'
+      title: 'Documentar el estado'
+      desc: 'Aporta fotos o vídeo claros, el componente afectado, el historial de uso y cualquier reparación provisional intentada.'
+    - step: '03'
+      title: 'Comprobar la base aprobada'
+      desc: 'Compara la configuración entregada con la especificación, la BOM, la revisión del manual y el registro de inspección previa al envío.'
+    - step: '04'
+      title: 'Elegir la solución'
+      desc: 'Acuerda si el problema requiere reparación local, repuesto, reproceso en fábrica, sustitución de la embarcación u otra solución contractual.'
+    - step: '05'
+      title: 'Cerrar y aprender'
+      desc: 'Registra la causa raíz, la pieza utilizada, la acción correctiva y la guía de servicio actualizada para evitar el mismo fallo en pedidos repetidos.'
+
+buyer_questions:
+  tagline: 'Preguntas para tu cotización'
+  title: 'Confirma estos puntos antes de aprobar el paquete de servicio'
+  items:
+    - q: '¿Qué repuestos pueden suministrarse con el primer pedido?'
+      a: 'Solicita una lista específica del modelo con descripciones, compatibilidad, embalaje, precios y confirmación de si las piezas viajan con el pedido de embarcaciones o por separado.'
+    - q: '¿Qué componentes fabrica Neptunor y cuáles son de terceros?'
+      a: 'Separa tubo, casco, válvula, consola, dirección, bomba y componentes relacionados con el motor para que cada garantía y vía de servicio sea clara.'
+    - q: '¿Qué evidencias se necesitan para una reclamación de garantía?'
+      a: 'Confirma el plazo de notificación, la referencia de serie, fotos o vídeo, información de uso, acceso para inspección y cualquier responsabilidad de devolución o transporte.'
+    - q: '¿Pueden los repuestos coincidir con una base de producción anterior?'
+      a: 'Solicita que la fábrica conserve la BOM, el plano o la revisión de pieza aprobados y que registre cualquier cambio aprobado antes de enviar un repuesto.'
+    - q: '¿Cómo debe prepararse una flota para la temporada alta?'
+      a: 'Revisa las reclamaciones de la temporada anterior, repón consumibles de uso frecuente y reserva pronto capacidad técnica o de producción; la respuesta y el plazo reales se confirman por proyecto.'
+    - q: '¿Cómo apoyamos una reposición sin recalificar toda la embarcación?'
+      a: 'Usa la muestra, la especificación, el arte, la BOM y la lista del paquete de servicio aprobados como base de reposición, revisando y aprobando expresamente cualquier cambio.'
+
+cta:
+  title: 'Añade soporte posventa a tu programa de RIB'
+  subtitle: 'Envía tu mezcla de modelos, tamaño de flota, mercado objetivo y expectativas de servicio. Neptunor ayudará a definir un paquete práctico de repuestos y documentación para tu proyecto.'
+  actions:
+    - variant: primary
+      text: Hablar sobre soporte de servicio
+      href: /es/contact#project-brief
+    - text: Revisar la guía de garantía
+      href: /es/warranty
+    - text: Revisar evidencias de trazabilidad
+      href: /es/resources/rib-traceability-evidence

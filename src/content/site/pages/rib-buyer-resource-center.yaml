@@ -1,0 +1,148 @@
+meta:
+  title: 'RIB Buyer Resource Center — Compliance, CAD, Factory Audits & RFQ | Neptunor'
+  description: 'Practical RIB and inflatable boat buying resources: EU RCD documentation, factory audits, GA and CAD planning, traceability, safety manuals and RFQ preparation.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB buyer resources'
+    - 'RIB factory audit checklist'
+    - 'RIB CAD GA drawing'
+    - 'RIB EU RCD documentation'
+    - 'inflatable boat RFQ'
+
+hero:
+  tagline: 'B2B Buyer Resources'
+  title: 'RIB & Inflatable Boat Buyer Resource Center'
+  subtitle: 'Practical guidance for brands, distributors, fleet operators and project buyers evaluating a RIB or inflatable boat manufacturing program.'
+  actions:
+    - variant: primary
+      text: Prepare an RFQ
+      href: /contact#project-brief
+    - text: Verify the factory and quality system
+      href: /proof-center
+
+answer:
+  label: 'Quick answer'
+  text: 'A strong RIB sourcing brief connects five things: the intended use and target market, the boat configuration and GA dimensions, the applicable compliance path, the factory quality and traceability records, and the quantity and delivery plan. Neptunor can review these inputs for RIB and inflatable boat projects; compliance documents, test scope, lead time and MOQ are confirmed by model, configuration and destination market.'
+  verified: '2026-09'
+
+resource_groups:
+  tagline: 'Choose a buyer task'
+  title: 'Resources organized around the decisions you need to make'
+  subtitle: 'Use the public information for early planning. Request model-specific or editable technical files after the project scope and buyer identity are confirmed.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'EU RCD & CE documentation'
+      desc: 'Understand the difference between CE marking, the EU Declaration of Conformity, the technical file, the builder’s plate, the WIN/HIN and the owner’s manual. The applicable route depends on intended use, length, design category, configuration and market.'
+      href: /resources/rib-compliance-documentation
+    - icon: A
+      icon_bg: green
+      title: 'Factory audit preparation'
+      desc: 'Audit the quality system, real production capacity, incoming materials, welding and assembly controls, pressure testing, social compliance, document control and post-delivery support.'
+      href: /factory-audit-checklist
+    - icon: G
+      icon_bg: purple
+      title: 'GA drawings & CAD planning'
+      desc: 'Use planning-level GA, dimensions, deck layout and transport information for preliminary selection, marina or garage planning, fleet layouts and tender documents. Production drawings and editable engineering files remain controlled project materials.'
+      href: /resources/rib-ga-cad-planning
+    - icon: R
+      icon_bg: orange
+      title: 'RFQ qualification'
+      desc: 'Prepare the product category, target quantity, sales market, intended use, compliance needs, packaging, launch window and reference files that help engineering return a useful feasibility review.'
+      href: /resources/rib-rfq-qualification
+    - icon: CAD
+      icon_bg: purple
+      title: 'Controlled CAD access'
+      desc: 'Request planning-level GA, qualified DXF/DWG, 3D exterior or project engineering files with the right review, revision and confidentiality controls.'
+      href: /resources/rib-cad-access-request
+    - icon: T
+      icon_bg: blue
+      title: 'Traceability & production records'
+      desc: 'Ask how material batches, approved specifications, serial numbers, inspection gates, non-conforming products and corrective actions are connected from incoming material to shipment.'
+      href: /resources/rib-traceability-evidence
+    - icon: M
+      icon_bg: green
+      title: 'Tube materials & testing'
+      desc: 'Compare PVC and CSM/Hypalon by climate, use intensity, joining process, repair model and the evidence available for the finished RIB or inflatable boat.'
+      href: /resources/rib-tube-material-testing
+    - icon: D
+      icon_bg: orange
+      title: 'Distributor application'
+      desc: 'Prepare your company profile, target market, product focus, quantity plan, service capability and documentation requirements for a factory-direct supply review.'
+      href: /resources/rib-distributor-application
+    - icon: E
+      icon_bg: purple
+      title: 'Export packing & container loading'
+      desc: 'Define protection, packed dimensions, markings, loading controls and shipment evidence before a RIB or inflatable boat order leaves the factory.'
+      href: /resources/rib-export-packing
+    - icon: W
+      icon_bg: orange
+      title: 'WIN/HIN & EN ISO 10087'
+      desc: 'Review watercraft identity, permanent and concealed markings, identifier format and consistency across the builder’s plate, manual, declaration and production records.'
+      href: /resources/rib-win-hin-iso-10087
+    - icon: I
+      icon_bg: blue
+      title: 'Manufacturer identification code'
+      desc: 'Separate the factory, private-label brand, legal manufacturer and EU importer roles before approving the identification code and market documentation.'
+      href: /resources/rib-manufacturer-identification-code
+    - icon: S
+      icon_bg: green
+      title: 'After-sales & spare parts'
+      desc: 'Plan warranty scope, model-matched service parts, repair records, replenishment triggers and change control for fleet, dealer and commercial programs.'
+      href: /resources/rib-after-sales-spares
+
+review_checklist:
+  tagline: 'Project review checklist'
+  title: 'What to send before asking for a model-specific proposal'
+  subtitle: 'A complete brief reduces avoidable clarification cycles without requiring you to disclose confidential design information at the first contact.'
+  steps:
+    - step: '01'
+      title: 'Define the boat and its job'
+      desc: 'State RIB or inflatable boat, target length, hull construction, passenger or payload requirement, propulsion assumptions and intended use such as tender, fleet, patrol, rescue or commercial operation.'
+    - step: '02'
+      title: 'Define the market and compliance need'
+      desc: 'Name the destination market and whether the project is recreational, commercial, government or another regulated application. The final compliance path is reviewed per configuration; do not rely on a generic global certification claim.'
+    - step: '03'
+      title: 'Share planning-level layout information'
+      desc: 'A reference model, GA drawing, deck layout, equipment position, packaging requirement or target dimensions is enough for an initial review. Ask for an NDA before sending proprietary drawings, artwork or detailed engineering files.'
+    - step: '04'
+      title: 'Set quantity and timing expectations'
+      desc: 'Provide first-order quantity, annual volume if known, sample requirement, target launch or delivery window and preferred Incoterm. MOQ and lead time are confirmed after specification review.'
+    - step: '05'
+      title: 'Agree the evidence package'
+      desc: 'Request the relevant specification, test summary, document list, inspection plan and traceability outputs for the approved model rather than an unrelated certificate bundle.'
+
+file_access:
+  tagline: 'Controlled technical information'
+  title: 'Public planning files first; project files when the scope is clear'
+  body: 'Public PDF summaries and planning-level GA drawings help buyers compare dimensions and layouts. Editable DXF/DWG/STEP files, detailed interfaces, structural drawings, mould data, tube patterns, BOMs and complete compliance files may contain manufacturing IP or customer-specific information. Access is therefore reviewed by project stage, target use and confidentiality requirements. Ask for the appropriate file level in your RFQ.'
+
+buyer_questions:
+  tagline: 'Questions worth asking a factory'
+  title: 'Use the same questions at the website, factory visit and quotation stage'
+  items:
+    - q: 'Are you the actual manufacturer of the RIB or inflatable boat?'
+      a: 'Confirm the legal entity, physical production location, key in-house processes, engineering and quality contacts, and which processes—if any—are subcontracted.'
+    - q: 'Which compliance documents apply to my exact model?'
+      a: 'Ask for a model- and configuration-specific document list. CE/RCD applicability, design category, conformity-assessment route and supporting standards must be confirmed for the actual intended use and market.'
+    - q: 'Can the factory trace a delivered boat back to its records?'
+      a: 'Ask how the approved specification, material batches, serial or identification numbers, inspection results, non-conformance records and packing checks are linked.'
+    - q: 'What is included in the quotation and what is optional?'
+      a: 'Request a line-item scope covering hull, tubes, console, seating, propulsion assumptions, equipment, packaging, documentation, inspection, tooling, Incoterms and any excluded items.'
+    - q: 'What happens after a sample is approved?'
+      a: 'The approved sample, technical specification, artwork and BOM should become the controlled production baseline, with changes recorded and re-approved before release.'
+    - q: 'How can I arrange a factory audit or live video review?'
+      a: 'Request a structured agenda covering production, QC, materials, test equipment, records, document control and shipment preparation. Neptunor supports factory visits and remote project reviews by arrangement.'
+
+cta:
+  title: 'Turn your resource review into a project brief'
+  subtitle: 'Send the boat type, target market, quantity and timeline. Neptunor will identify the next technical and commercial questions for your RIB or inflatable boat program.'
+  actions:
+    - variant: primary
+      text: Submit an RFQ
+      href: /contact#project-brief
+    - text: Review OEM onboarding
+      href: /oem-onboarding-guide
+    - text: Review compliance guidance
+      href: /inflatable-boat-certification

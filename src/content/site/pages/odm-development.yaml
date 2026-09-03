@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'ODM development starts from your brief, not your drawings: hull design (length, beam, bow rise, volume), material structure and graphics are engineered in-house, validated by prototype samples in 10–15 days, and produced at standard volume MOQ of 90–100 units per 150 m roll batch (pilot from 20–50 units). Production runs 30–45 days after confirmed PO and deposit; custom mould tooling adds 20–35 days. CE, ISO 9001, BSCI, REACH and RoHS documentation ships with every order.'
+  text: 'ODM development starts from your brief, not your drawings: hull design (length, beam, bow rise, volume), material structure and graphics are engineered in-house, validated by prototype samples in 10–15 days, and produced at a standard volume MOQ commonly planned from 90–100 units per approved configuration (pilot from 20–50 units). Production runs 30–45 days after confirmed PO and deposit; custom mould tooling adds 20–35 days. CE, ISO 9001, BSCI, REACH and RoHS documentation ships with every order.'
   verified: '2026-08'
 
 features:
@@ -45,7 +45,7 @@ features:
       description: 'Mould ownership or buyout clauses written into the contract — your design stays yours, and tooling is kept for reorders.'
       icon: 'tabler:lock'
     - title: From Prototype to Container
-      description: 'A validated ODM design moves straight to standard-volume production: 90–100+ units per 150 m roll batch, 30–45 days after confirmed PO.'
+      description: 'A validated ODM design moves straight to standard-volume production: 90–100+ units per approved configuration, 30–45 days after confirmed PO.'
       icon: 'tabler:package'
 
 customization:
@@ -73,7 +73,7 @@ faq_section:
     - q: How long does it take to develop a new boat?
       a: 'Prototype samples ship in 10–15 days. A new hull with custom mould tooling adds 20–35 days of engineering before samples. Production runs 30–45 days after PO and deposit.'
     - q: What is the MOQ for an ODM boat?
-      a: 'Standard volume production runs 90–100 units per 150 m fabric roll batch; pilot runs start at 20–50 units on existing platforms. Small-batch co-branding starts at 5–10 units — see our MOQ & Flexible Branding Guide for the full calculation.'
+      a: 'Standard volume production is commonly planned from 90–100 units per approved configuration; pilot runs start at 20–50 units on existing platforms. Small-batch co-branding starts at 5–10 units — see our MOQ & Flexible Branding Guide for the full calculation.'
     - q: Who owns the design and mould?
       a: 'Your brief, design and tooling are protected by NDA, brand licensing terms and mould ownership or buyout clauses written into the contract. Tooling is kept for your brand and transferable.'
     - q: Can you develop a specific shape (tenders, fishing, rescue, workboats)?
@@ -120,7 +120,7 @@ process:
       title: Production & Delivery
       period: 30–45 days
       items:
-        - 'Standard-volume batches run 90–100+ units per 150 m roll, pilot runs from 20–50 units.'
+        - 'Standard-volume batches are commonly planned from 90–100+ units per approved configuration, with pilots from 20–50 units.'
         - 'Export packing, FOB/CIF/DDP shipping to 40+ countries and reorder support included.'
 
 geo:

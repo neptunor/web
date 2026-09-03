@@ -24,7 +24,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Sí — puedes lanzar una marca de embarcación hinchable con un pedido de prueba de bajo MOQ. El punto de entrada es escalonado, no de todo o nada: pide primero 1–2 muestras (listas en 10–15 días) para congelar tu casco, gráficos y empaque; luego haz un pedido de prueba de 20–50 embarcaciones (producción en 30–45 días) para validar la rotación real; y finalmente escala a series de volumen estándar de 90–100+ embarcaciones por rollo de tela drop-stitch de 150 m cuando el formato esté probado. El co-branding de lotes pequeños parte desde tan solo 5–10 unidades para operadores que quieren embarcaciones con su marca sin ninguna etapa de desarrollo. Tu primer contenedor llega solo cuando los datos dicen que debe llegar.'
+  text: 'Sí — puedes lanzar una marca de embarcaciones con un pedido de prueba de bajo MOQ. El punto de entrada es escalonado, no de todo o nada: pide primero 1–2 muestras (listas en 10–15 días) para congelar tu casco, gráficos y empaque; luego haz un pedido de prueba de 20–50 embarcaciones (producción en 30–45 días) para validar la rotación real; y finalmente escala a series de volumen estándar de 90–100+ embarcaciones por configuración aprobada cuando el formato esté probado. El co-branding de lotes pequeños parte desde 5–10 unidades en plataformas existentes seleccionadas. Tu primer contenedor llega solo cuando los datos dicen que debe llegar.'
   verified: '2026-08'
 
 trial_included:
@@ -80,7 +80,7 @@ trial_steps:
       desc: 'La puerta importante está en tu mercado, no en nuestra fábrica: los arrendatarios y clientes confirman el formato de la embarcación, los gráficos y el precio antes de que escales.'
     - step: 'Puerta 6'
       title: 'Escala a Series de Volumen (90–100+ Embarcaciones)'
-      desc: 'Cuando el formato está probado, las series estándar de rollos de 150 m ofrecen máxima eficiencia de producción, empaque con marca y precios de volumen. Un programa de contenedor es la meta, no el requisito.'
+      desc: 'Cuando el formato está probado, las series de volumen por configuración aprobada ofrecen una planificación más eficiente, empaque con marca y precios de volumen. Un programa de contenedor es la meta, no el requisito.'
 
 trial_budget:
   tagline: Rangos de Presupuesto de Referencia
@@ -97,9 +97,9 @@ trial_budget:
     - stage: 'Pedido de prueba / piloto (20–50 embarcaciones)'
       price: 'USD 180–260'
       notes: 'Plataformas de casco existentes, materiales estándar y empaque simplificado. La ruta de lanzamiento estándar de bajo MOQ.'
-    - stage: 'Volumen estándar (90–100+ embarcaciones por rollo de 150 m)'
+    - stage: 'Volumen estándar (90–100+ embarcaciones por configuración aprobada)'
       price: 'USD 150–220'
-      notes: 'Rollos de tela completos de 150 m, opciones de PVC Pantone personalizado, empaque con marca y precios de volumen.'
+      notes: 'Opciones de PVC con color Pantone, empaque con marca y precios de volumen; la configuración aprobada determina el consumo de material.'
     - stage: 'Casco a medida y utillaje (complemento)'
       price: 'Cotizado por proyecto'
       notes: 'Un casco a medida añade 20–35 días de desarrollo de molde dentro del calendario general; el utillaje se detalla y cotiza una única vez.'
@@ -139,7 +139,7 @@ scale_path:
       desc: 'Colores, gráficos, empaque y mezcla de accesorios se ajustan a la respuesta real del mercado. El arte y el BOM se congelan para el seguimiento.'
     - step: 'Fase 3'
       title: 'Serie de Volumen (90–100+ Embarcaciones)'
-      desc: 'Series estándar de rollos de 150 m con máxima eficiencia de producción, empaque retail con marca y precios de volumen — con los créditos de muestra ya aplicados.'
+      desc: 'Series de volumen por configuración aprobada con planificación eficiente, empaque retail con marca y precios de volumen — con los créditos de muestra ya aplicados.'
     - step: 'Fase 4'
       title: 'Programas de Contenedor'
       desc: 'Programas de 300+ embarcaciones con envíos escalonados, materiales Pantone personalizados y el pipeline de desarrollo completo — la misma fábrica, ahora a plena escala.'

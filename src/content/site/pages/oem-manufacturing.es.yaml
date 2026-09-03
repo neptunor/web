@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'La producción OEM parte de tu especificación. El MOQ se confirma por configuración del proyecto y no es un número fijo: la producción de volumen estándar corre de 90–100 unidades por lote a partir de un rollo de drop-stitch de 150 m, los lotes piloto parten de 20–50 unidades sobre plataformas existentes y cada proyecto pasa por una muestra (1–2 unidades) antes del volumen. Las muestras salen en 10–15 días; la producción corre en 30–45 días tras confirmar el pedido y el depósito, más 15–20 días cuando se requiere utillaje nuevo.'
+  text: 'La producción OEM parte de tu especificación. El MOQ se confirma por configuración del proyecto y no es un número fijo: la producción de volumen estándar se planifica normalmente desde 90–100 unidades por configuración aprobada, los lotes piloto parten de 20–50 unidades sobre plataformas existentes y cada proyecto pasa por una muestra (1–2 unidades) antes del volumen. Las muestras salen en 10–15 días; la producción corre en 30–45 días tras confirmar el pedido y el depósito, más 15–20 días cuando se requiere utillaje nuevo.'
   verified: '2026-08'
 
 features:
@@ -36,10 +36,10 @@ features:
       description: 'Se produce y aprueba una muestra física antes de cualquier tirada, normalmente en 10–15 días, con pruebas en el agua para formas nuevas.'
       icon: 'tabler:tools'
     - title: Producción a escala de contenedor
-      description: 'Lotes de volumen estándar de 90–100 unidades por diseño (un rollo completo de 150 m), pilotos desde 20–50 uds. y 30–45 días de plazo tras confirmar el pedido.'
+      description: 'Lotes de volumen estándar de 90–100 unidades por configuración aprobada, con pilotos desde 20–50 uds. y 30–45 días de plazo tras confirmar el pedido.'
       icon: 'tabler:package'
-    - title: Certificación CE
-      description: 'CE, ISO 9001, BSCI, REACH y RoHS — documentación de cumplimiento preparada para cada mercado al que exportas.'
+    - title: Cumplimiento según el mercado
+      description: 'La documentación CE, ISO 9001, BSCI, REACH y RoHS se revisa según el modelo, la configuración y el mercado de destino.'
       icon: 'tabler:certificate'
     - title: Inspección y trazabilidad
       description: 'Prueba de retención de presión de 24 horas a 0.35 bar con auto-rechazo por encima de 0.02 bar de caída, lista de comprobación de 120 puntos y trazabilidad ERP de 10 años.'
@@ -70,7 +70,7 @@ faq_section:
     - q: '¿Cómo inicio un proyecto OEM con mi propio diseño?'
       a: 'Envía tus planos, una embarcación de referencia o una especificación escrita. Nuestra revisión de ingeniería confirma la fabricabilidad y devuelve un presupuesto en un día laborable — es nuestro compromiso estándar, y se firma un NDA antes de cualquier intercambio de archivos cuando sea necesario.'
     - q: '¿Cuál es el MOQ para un embarcación OEM hinchable?'
-      a: 'El MOQ se confirma por configuración del proyecto — casco y utillaje, colores y PVC, arte, embalaje y accesorios. La producción de volumen estándar corre de 90–100 unidades por lote (un rollo de drop-stitch de 150 m), y los pilotos parten de 20–50 unidades sobre plataformas existentes. Consulta la lógica completa en nuestra Guía de MOQ y branding flexible.'
+      a: 'El MOQ se confirma por configuración del proyecto — casco y utillaje, colores y PVC, arte, embalaje y accesorios. La producción de volumen estándar se planifica normalmente desde 90–100 unidades por configuración aprobada, y los pilotos parten de 20–50 unidades sobre plataformas existentes. Consulta la lógica completa en nuestra Guía de MOQ y branding flexible.'
     - q: '¿Cuál es el plazo típico de un pedido OEM?'
       a: 'La producción corre en 30–45 días desde el pedido confirmado y el depósito. El desarrollo de moldes a medida añade 20–35 días de utillaje. Las muestras de prototipo suelen enviarse en 10–15 días.'
     - q: '¿Podéis fabricar solo a partir de mis planos?'
@@ -123,7 +123,7 @@ process:
       period: 30–45 días
       items:
         - 'La producción corre bajo control de calidad multipunto — material entrante, proceso e inspección final.'
-        - 'Desde pedidos piloto (20–50 unidades) sobre plataformas existentes hasta lotes completos de 150 m (90–100+ unidades) para volumen estándar.'
+        - 'Desde pedidos piloto (20–50 unidades) sobre plataformas existentes hasta producciones estándar de 90–100+ unidades por configuración aprobada.'
     - phase: '07'
       title: Embalaje y envío
       period: 1 día + tránsito

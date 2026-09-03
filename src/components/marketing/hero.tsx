@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Download, Video } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, hero } from '@/product/content'
@@ -47,18 +47,24 @@ export function Hero() {
 
           <div className="mt-9 flex flex-wrap items-center gap-3">
             <a
-              href={fl('/start-boat-project')}
+              href={fl('/contact#project-brief')}
               className="sun-grad inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.75)] transition-transform hover:-translate-y-0.5"
             >
               {c.ctaPrimary} <ArrowRight size={17} />
             </a>
             <a
-              href={fl('/proof-center')}
-              className="glass-btn inline-flex h-[48px] items-center px-8 text-[15px] font-semibold"
+              href="#b2b-catalog"
+              className="glass-btn inline-flex h-[48px] items-center gap-2 px-8 text-[15px] font-semibold"
             >
-              {c.ctaSecondary}
+              <Download size={16} /> {c.ctaSecondary}
             </a>
           </div>
+          <a
+            href={fl('/contact#factory-tour')}
+            className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-bold text-white/85 transition-colors hover:text-white hover:underline"
+          >
+            <Video size={15} /> {c.ctaTertiary} <ArrowRight size={14} />
+          </a>
           <p className="mt-3 text-[12px] font-medium tracking-wide text-white/75">{c.ctaMicro}</p>
 
           <dl className="mt-10 grid max-w-xl grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/15 bg-white/10 backdrop-blur-sm sm:grid-cols-4">

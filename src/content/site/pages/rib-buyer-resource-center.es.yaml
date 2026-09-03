@@ -1,0 +1,148 @@
+meta:
+  title: 'Centro de recursos para compradores de RIB — Cumplimiento, CAD, auditorías y RFQ | Neptunor'
+  description: 'Recursos prácticos para comprar RIB y embarcaciones inflables: documentación RCD europea, auditorías de fábrica, planos GA y CAD, trazabilidad, manuales de seguridad y preparación del RFQ.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'recursos para compradores de RIB'
+    - 'auditoría de fábrica RIB'
+    - 'plano GA CAD RIB'
+    - 'documentación RCD europea RIB'
+    - 'RFQ embarcación inflable'
+
+hero:
+  tagline: 'Recursos para compradores B2B'
+  title: 'Centro de recursos para compradores de RIB e inflables'
+  subtitle: 'Orientación práctica para marcas, distribuidores, operadores de flota y compradores de proyectos que evalúan un programa de fabricación de RIB o embarcaciones inflables.'
+  actions:
+    - variant: primary
+      text: Preparar un RFQ
+      href: /contact#project-brief
+    - text: Verificar la fábrica y el sistema de calidad
+      href: /proof-center
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'Un buen brief de compra de RIB conecta cinco elementos: el uso previsto y el mercado objetivo, la configuración y las dimensiones GA, la vía de cumplimiento aplicable, los registros de calidad y trazabilidad de la fábrica, y el plan de cantidad y entrega. Neptunor puede revisar estos datos para proyectos de RIB y embarcaciones inflables; los documentos de cumplimiento, el alcance de ensayos, el plazo y el MOQ se confirman según el modelo, la configuración y el mercado de destino.'
+  verified: '2026-09'
+
+resource_groups:
+  tagline: 'Elige una tarea de compra'
+  title: 'Recursos organizados según las decisiones que necesitas tomar'
+  subtitle: 'Usa la información pública para la planificación inicial. Solicita archivos técnicos específicos del modelo o editables cuando se hayan confirmado el alcance del proyecto y la identidad del comprador.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Documentación CE y RCD europea'
+      desc: 'Comprende la diferencia entre el marcado CE, la Declaración UE de Conformidad, el expediente técnico, la placa del constructor, el WIN/HIN y el manual del propietario. La vía aplicable depende del uso previsto, la eslora, la categoría de diseño, la configuración y el mercado.'
+      href: /resources/rib-compliance-documentation
+    - icon: A
+      icon_bg: green
+      title: 'Preparación de la auditoría de fábrica'
+      desc: 'Audita el sistema de calidad, la capacidad real de producción, los materiales de entrada, los controles de soldadura y montaje, los ensayos de presión, el cumplimiento social, el control documental y el soporte posventa.'
+      href: /factory-audit-checklist
+    - icon: G
+      icon_bg: purple
+      title: 'Planificación con planos GA y CAD'
+      desc: 'Usa planos GA de planificación, dimensiones, distribución de cubierta e información de transporte para la selección inicial, la planificación de marinas o garajes, las flotas y los documentos de licitación. Los planos de producción y archivos editables siguen siendo materiales de proyecto controlados.'
+      href: /resources/rib-ga-cad-planning
+    - icon: R
+      icon_bg: orange
+      title: 'Calificación del RFQ'
+      desc: 'Prepara la categoría, cantidad objetivo, mercado de venta, uso previsto, necesidades de cumplimiento, embalaje, calendario de lanzamiento y archivos de referencia que ayuden a ingeniería a realizar una revisión de viabilidad útil.'
+      href: /es/resources/rib-rfq-qualification
+    - icon: CAD
+      icon_bg: purple
+      title: 'Acceso CAD controlado'
+      desc: 'Solicita GA de planificación, DXF/DWG cualificado, modelos exteriores 3D o archivos técnicos de proyecto con revisión, versión y confidencialidad adecuadas.'
+      href: /es/resources/rib-cad-access-request
+    - icon: T
+      icon_bg: blue
+      title: 'Trazabilidad y registros de producción'
+      desc: 'Pregunta cómo se conectan los lotes de materiales, las especificaciones aprobadas, los números de serie, las etapas de inspección, los productos no conformes y las acciones correctivas desde la entrada de material hasta el envío.'
+      href: /es/resources/rib-traceability-evidence
+    - icon: M
+      icon_bg: green
+      title: 'Materiales y ensayos de tubos'
+      desc: 'Compara PVC y CSM/Hypalon según clima, intensidad de uso, proceso de unión, modelo de reparación y evidencia disponible para el RIB o la embarcación inflable terminada.'
+      href: /es/resources/rib-tube-material-testing
+    - icon: D
+      icon_bg: orange
+      title: 'Solicitud de distribución'
+      desc: 'Prepara el perfil de tu empresa, mercado objetivo, enfoque de producto, plan de cantidades, capacidad de servicio y requisitos documentales para una revisión de suministro directo de fábrica.'
+      href: /es/resources/rib-distributor-application
+    - icon: E
+      icon_bg: purple
+      title: 'Embalaje de exportación y carga'
+      desc: 'Define protección, dimensiones embaladas, marcas, controles de carga y evidencias del envío antes de que un pedido de RIB o embarcaciones inflables salga de fábrica.'
+      href: /es/resources/rib-export-packing
+    - icon: W
+      icon_bg: orange
+      title: 'WIN/HIN y EN ISO 10087'
+      desc: 'Revisa la identidad, los marcados permanentes y ocultos, el formato y la coherencia entre placa del constructor, manual, declaración y registros de producción.'
+      href: /es/resources/rib-win-hin-iso-10087
+    - icon: I
+      icon_bg: blue
+      title: 'Código de identificación del fabricante'
+      desc: 'Separa los roles de fábrica, marca privada, fabricante legal e importador UE antes de aprobar el código y la documentación de mercado.'
+      href: /es/resources/rib-manufacturer-identification-code
+    - icon: S
+      icon_bg: green
+      title: 'Posventa y repuestos'
+      desc: 'Planifica el alcance de la garantía, los repuestos según modelo, los registros de reparación, los puntos de reposición y el control de cambios para programas de flota, distribución y uso comercial.'
+      href: /es/resources/rib-after-sales-spares
+
+review_checklist:
+  tagline: 'Lista de revisión del proyecto'
+  title: 'Qué enviar antes de solicitar una propuesta específica de modelo'
+  subtitle: 'Un brief completo reduce ciclos de aclaración evitables sin obligarte a revelar diseños confidenciales en el primer contacto.'
+  steps:
+    - step: '01'
+      title: 'Define la embarcación y su función'
+      desc: 'Indica RIB o embarcación inflable, eslora objetivo, construcción del casco, pasajeros o carga útil, supuestos de propulsión y uso previsto, como tender, flota, patrulla, rescate u operación comercial.'
+    - step: '02'
+      title: 'Define el mercado y la necesidad de cumplimiento'
+      desc: 'Indica el mercado de destino y si el proyecto es recreativo, comercial, gubernamental u otra aplicación regulada. La vía final de cumplimiento se revisa según la configuración; no dependas de una afirmación genérica de certificación global.'
+    - step: '03'
+      title: 'Comparte información de distribución para planificación'
+      desc: 'Un modelo de referencia, plano GA, distribución de cubierta, posición del equipo, requisito de embalaje o dimensión objetivo basta para una primera revisión. Solicita un NDA antes de enviar planos, arte o archivos técnicos propios.'
+    - step: '04'
+      title: 'Establece cantidad y expectativas de calendario'
+      desc: 'Indica la cantidad del primer pedido, el volumen anual si se conoce, la necesidad de muestras, la ventana de lanzamiento o entrega y el Incoterm preferido. El MOQ y el plazo se confirman después de revisar la especificación.'
+    - step: '05'
+      title: 'Acordar el paquete de evidencias'
+      desc: 'Solicita la especificación relevante, el resumen de ensayos, la lista documental, el plan de inspección y los resultados de trazabilidad del modelo aprobado, no un paquete genérico de certificados.'
+
+file_access:
+  tagline: 'Información técnica controlada'
+  title: 'Primero archivos públicos de planificación; después archivos de proyecto'
+  body: 'Los resúmenes PDF públicos y los planos GA de planificación ayudan a comparar dimensiones y distribuciones. Los archivos editables DXF/DWG/STEP, las interfaces detalladas, los planos estructurales, los datos de moldes, los patrones de tubos, las BOM y los expedientes completos de cumplimiento pueden contener propiedad intelectual de fabricación o información específica del cliente. Por eso el acceso se revisa según la etapa, el uso previsto y las necesidades de confidencialidad. Solicita el nivel de archivo adecuado en tu RFQ.'
+
+buyer_questions:
+  tagline: 'Preguntas que conviene hacer a una fábrica'
+  title: 'Usa las mismas preguntas en la web, la visita a fábrica y la fase de presupuesto'
+  items:
+    - q: '¿Sois el fabricante real del RIB o de la embarcación inflable?'
+      a: 'Confirma la entidad legal, la ubicación física de producción, los procesos clave realizados internamente, los contactos de ingeniería y calidad y qué procesos, si los hay, se subcontratan.'
+    - q: '¿Qué documentos de cumplimiento corresponden a mi modelo exacto?'
+      a: 'Solicita una lista documental específica del modelo y la configuración. La aplicabilidad CE/RCD, la categoría de diseño, la vía de evaluación de conformidad y las normas de apoyo deben confirmarse para el uso previsto y el mercado reales.'
+    - q: '¿Puede la fábrica relacionar una embarcación entregada con sus registros?'
+      a: 'Pregunta cómo se vinculan la especificación aprobada, los lotes de materiales, los números de serie o identificación, los resultados de inspección, los registros de no conformidad y los controles de embalaje.'
+    - q: '¿Qué incluye el presupuesto y qué es opcional?'
+      a: 'Solicita un alcance desglosado que cubra casco, tubos, consola, asientos, supuestos de propulsión, equipamiento, embalaje, documentación, inspección, utillaje, Incoterms y cualquier elemento excluido.'
+    - q: '¿Qué ocurre después de aprobar una muestra?'
+      a: 'La muestra aprobada, la especificación técnica, el arte y la BOM deben convertirse en la base de producción controlada, con los cambios registrados y aprobados de nuevo antes de la liberación.'
+    - q: '¿Cómo puedo organizar una auditoría o revisión de vídeo en directo?'
+      a: 'Solicita un programa estructurado que cubra producción, calidad, materiales, equipos de ensayo, registros, control documental y preparación del envío. Neptunor organiza visitas y revisiones remotas de proyectos por acuerdo.'
+
+cta:
+  title: 'Convierte tu revisión en un brief de proyecto'
+  subtitle: 'Envía el tipo de embarcación, mercado objetivo, cantidad y calendario. Neptunor identificará las siguientes preguntas técnicas y comerciales para tu programa de RIB o embarcación inflable.'
+  actions:
+    - variant: primary
+      text: Enviar un RFQ
+      href: /contact#project-brief
+    - text: Revisar el onboarding OEM
+      href: /oem-onboarding-guide
+    - text: Revisar la guía de cumplimiento
+      href: /inflatable-boat-certification

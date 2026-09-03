@@ -1,0 +1,130 @@
+meta:
+  title: 'RIB After-Sales & Spare Parts Planning Guide | Neptunor'
+  description: 'Plan warranty, spare parts, repair records and service support for RIB boats and inflatable boats supplied to fleets, dealers and commercial operators.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB spare parts'
+    - 'inflatable boat after-sales support'
+    - 'RIB warranty planning'
+    - 'boat fleet service parts'
+
+hero:
+  tagline: 'After-Sales Planning'
+  title: 'Keep Every RIB and Inflatable Boat in Service'
+  subtitle: 'A practical guide to spare-parts packages, warranty records, repair support and reorder controls for distributors, fleets and professional operators.'
+  actions:
+    - variant: primary
+      text: Plan a Service Package
+      href: /contact#project-brief
+    - text: Review production traceability
+      href: /resources/rib-traceability-evidence
+
+answer:
+  label: 'Quick answer'
+  text: 'A dependable after-sales plan links the delivered boat configuration to its serial number, material and inspection records, recommended spares, claim procedure and reorder baseline. Neptunor can review a model-specific service package for RIB and inflatable boat programs; warranty scope, response windows, spare-part availability and commercial terms are confirmed in the order contract.'
+  verified: '2026-09'
+
+service_groups:
+  tagline: 'What to plan before shipment'
+  title: 'After-sales is part of the boat specification'
+  subtitle: 'Agree the service baseline before the first container leaves the factory so dealers and operators know what can be replaced, repaired and reordered.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Model-Matched Spares'
+      desc: 'Build a parts list against the approved model and BOM: valves, repair patches and adhesive, tube or rubbing-strake sections, floor components, pumps, oars and console hardware where fitted.'
+    - icon: T
+      icon_bg: green
+      title: 'Serial-Level Records'
+      desc: 'Request the serial or identification reference, approved specification, material batches, inspection outputs and packing record needed to investigate a claim or match a replacement component.'
+    - icon: W
+      icon_bg: purple
+      title: 'Written Warranty Scope'
+      desc: 'Define covered manufacturing defects, exclusions, notification windows, evidence requirements, repair or replacement remedies and the separate terms that may apply to commercial or rental use.'
+    - icon: R
+      icon_bg: orange
+      title: 'Repair Workflow'
+      desc: 'Agree who performs first inspection, which photos or videos are required, how a technical decision is recorded and when a repair kit, replacement part or factory review is appropriate.'
+    - icon: P
+      icon_bg: blue
+      title: 'Replenishment Planning'
+      desc: 'Set a small initial service stock and a reorder trigger based on fleet size, operating intensity, seasonality, storage conditions and the parts most likely to stop a boat from operating.'
+    - icon: C
+      icon_bg: green
+      title: 'Change Control'
+      desc: 'Keep replacement parts compatible with the approved production baseline. Record revisions to valves, fittings, graphics, manuals and packaging before a repeat order is released.'
+
+spares_matrix:
+  tagline: 'Suggested service-pack structure'
+  title: 'Match the parts pack to the operation'
+  subtitle: 'The final list depends on the model, construction, equipment and duty cycle. Use these groups as a quotation checklist, not as a universal included package.'
+  headers:
+    group: Part group
+    examples: Typical examples
+    planning: Buyer planning question
+  rows:
+    - group: 'Inflation and tube service'
+      examples: 'Valve cores or complete valves, compatible tools, PVC or CSM patches, approved adhesive and repair instructions'
+      planning: 'Can the local service team identify the fabric and complete a controlled repair?'
+    - group: 'Hull and protection'
+      examples: 'Rubbing-strake sections, handles, drain plugs, lifting hardware and model-specific fasteners'
+      planning: 'Which parts are replaceable locally and which require factory review?'
+    - group: 'Floor and deck'
+      examples: 'Air-deck panels, slats, floor fittings, seats, oars and pumps where included in the approved BOM'
+      planning: 'Are dimensions and connection points recorded for repeat replacement?'
+    - group: 'Console and equipment'
+      examples: 'Steering or console hardware, switches, covers and fitted equipment components'
+      planning: 'Are third-party items identified separately with their own warranty route?'
+    - group: 'Documentation'
+      examples: 'Owner manual revision, repair guide, parts diagram, serial record and claim form'
+      planning: 'Will the dealer or operator receive the correct language and revision?'
+
+workflow:
+  tagline: 'Recommended claim workflow'
+  title: 'A clear record makes a warranty decision faster'
+  steps:
+    - step: '01'
+      title: 'Identify the boat'
+      desc: 'Record the model, serial or WIN/HIN reference, delivery date, configuration and operating environment.'
+    - step: '02'
+      title: 'Document the condition'
+      desc: 'Provide clear photos or video, the affected component, operating history and any temporary repair already attempted.'
+    - step: '03'
+      title: 'Check the approved baseline'
+      desc: 'Compare the delivered configuration with the approved specification, BOM, manual revision and pre-shipment inspection record.'
+    - step: '04'
+      title: 'Choose the remedy'
+      desc: 'Agree whether the issue requires local repair, a replacement part, factory rework, replacement of the boat or another contractual remedy.'
+    - step: '05'
+      title: 'Close and learn'
+      desc: 'Record the root cause, part used, corrective action and updated service guidance so repeat orders avoid the same failure mode.'
+
+buyer_questions:
+  tagline: 'Questions for your quotation'
+  title: 'Confirm these points before approving the service package'
+  items:
+    - q: 'Which spare parts can be supplied with the first order?'
+      a: 'Ask for a model-specific list with part descriptions, compatibility, packaging, pricing and whether parts ship with the boat order or separately.'
+    - q: 'Which components are made by Neptunor and which are third-party?'
+      a: 'Separate tube, hull, valve, console, steering, pump and engine-related components so each warranty and service route is clear.'
+    - q: 'What evidence is needed for a warranty claim?'
+      a: 'Confirm the notification window, serial reference, photos or video, operating information, inspection access and any return or freight responsibility.'
+    - q: 'Can replacement parts be matched to a previous production baseline?'
+      a: 'Ask the factory to retain the approved BOM, drawing or part revision and to record any approved change before shipping a replacement.'
+    - q: 'How should a fleet prepare for peak season?'
+      a: 'Review the prior season claims, replenish high-use consumables and book technical or production capacity early; actual response and production timing are confirmed by project.'
+    - q: 'How do we support a reorder without re-qualifying the whole boat?'
+      a: 'Use the approved sample, specification, artwork, BOM and service-pack list as the reorder baseline, with any change explicitly reviewed and approved.'
+
+cta:
+  title: 'Add after-sales support to your RIB program'
+  subtitle: 'Send your model mix, fleet size, target market and service expectations. Neptunor will help define a practical spare-parts and documentation package for your project.'
+  actions:
+    - variant: primary
+      text: Discuss Service Support
+      href: /contact#project-brief
+    - text: Review warranty guidance
+      href: /warranty
+    - text: Review traceability evidence
+      href: /resources/rib-traceability-evidence

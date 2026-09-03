@@ -59,6 +59,7 @@ import { Route as Char123LocaleChar125GalleryRouteImport } from './routes/{-$loc
 import { Route as Char123LocaleChar125CustomizerRouteImport } from './routes/{-$locale}/customizer'
 import { Route as Char123LocaleChar125ContactRouteImport } from './routes/{-$locale}/contact'
 import { Route as Char123LocaleChar125ChangelogRouteImport } from './routes/{-$locale}/changelog'
+import { Route as LlmsMdSplatRouteImport } from './routes/llms-md/$'
 import { Route as DocsSplatRouteImport } from './routes/docs/$'
 import { Route as DocsMdSplatRouteImport } from './routes/docs-md/$'
 import { Route as ApiSearchRouteImport } from './routes/api/search'
@@ -391,6 +392,11 @@ const Char123LocaleChar125ChangelogRoute =
   } as any).lazy(() =>
     import('./routes/{-$locale}/changelog.lazy').then((d) => d.Route),
   )
+const LlmsMdSplatRoute = LlmsMdSplatRouteImport.update({
+  id: '/llms-md/$',
+  path: '/llms-md/$',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DocsSplatRoute = DocsSplatRouteImport.update({
   id: '/docs/$',
   path: '/docs/$',
@@ -666,6 +672,7 @@ export interface FileRoutesByFullPath {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
+  '/llms-md/$': typeof LlmsMdSplatRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
@@ -755,6 +762,7 @@ export interface FileRoutesByTo {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
+  '/llms-md/$': typeof LlmsMdSplatRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
@@ -846,6 +854,7 @@ export interface FileRoutesById {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
+  '/llms-md/$': typeof LlmsMdSplatRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
@@ -939,6 +948,7 @@ export interface FileRouteTypes {
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
+    | '/llms-md/$'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
     | '/{-$locale}/customizer'
@@ -1028,6 +1038,7 @@ export interface FileRouteTypes {
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
+    | '/llms-md/$'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
     | '/{-$locale}/customizer'
@@ -1118,6 +1129,7 @@ export interface FileRouteTypes {
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
+    | '/llms-md/$'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
     | '/{-$locale}/customizer'
@@ -1209,6 +1221,7 @@ export interface RootRouteChildren {
   ApiSearchRoute: typeof ApiSearchRoute
   DocsMdSplatRoute: typeof DocsMdSplatRoute
   DocsSplatRoute: typeof DocsSplatRoute
+  LlmsMdSplatRoute: typeof LlmsMdSplatRoute
   ApiAuthSplatRoute: typeof ApiAuthSplatRoute
   ApiAvatarsSplatRoute: typeof ApiAvatarsSplatRoute
   ApiInquiryLogoSplatRoute: typeof ApiInquiryLogoSplatRoute
@@ -1565,6 +1578,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/{-$locale}/changelog'
       preLoaderRoute: typeof Char123LocaleChar125ChangelogRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/llms-md/$': {
+      id: '/llms-md/$'
+      path: '/llms-md/$'
+      fullPath: '/llms-md/$'
+      preLoaderRoute: typeof LlmsMdSplatRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/docs/$': {
       id: '/docs/$'
@@ -2029,6 +2049,7 @@ const rootRouteChildren: RootRouteChildren = {
   ApiSearchRoute: ApiSearchRoute,
   DocsMdSplatRoute: DocsMdSplatRoute,
   DocsSplatRoute: DocsSplatRoute,
+  LlmsMdSplatRoute: LlmsMdSplatRoute,
   ApiAuthSplatRoute: ApiAuthSplatRoute,
   ApiAvatarsSplatRoute: ApiAvatarsSplatRoute,
   ApiInquiryLogoSplatRoute: ApiInquiryLogoSplatRoute,

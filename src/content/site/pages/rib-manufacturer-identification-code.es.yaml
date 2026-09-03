@@ -1,0 +1,115 @@
+meta:
+  title: 'Guía del código de identificación del fabricante RIB — Responsabilidad en el mercado UE | Neptunor'
+  description: 'Qué deben verificar los compradores de RIB y embarcaciones inflables sobre el código del fabricante, la identidad responsable y la documentación para el mercado europeo.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'código fabricante RIB'
+    - 'MIC RIB UE'
+    - 'código fabricante WIN RIB'
+    - 'identidad fabricante RIB Europa'
+
+hero:
+  tagline: 'Identidad del fabricante y responsabilidad de mercado'
+  title: 'Cómo verificar el código del fabricante de un RIB para la UE'
+  subtitle: 'Guía prudente para revisar el identificador usado en la identidad de la embarcación y la responsabilidad legal detrás del RIB, sus marcados y documentos.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión documental de mercado
+      href: /es/contact#project-brief
+    - text: Revisar el marcado WIN/HIN
+      href: /es/resources/rib-win-hin-iso-10087
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'El código de identificación del fabricante forma parte del sistema de identidad de la embarcación; no es un “número CE” genérico ni demuestra por sí solo que un barco cumpla. Antes de marcar o documentar un RIB destinado a la UE, el proyecto debe confirmar el fabricante legal responsable, el identificador asignado o aceptado para ese fabricante, la relación entre marca y fábrica, la vía RCD aplicable, la composición WIN/HIN o CIN, la placa del constructor, la Declaración UE de Conformidad y las responsabilidades del importador u otro operador económico en la UE. El código y su uso deben confirmarse con la autoridad o profesional de cumplimiento responsable del mercado y proyecto reales.'
+  verified: '2026-09'
+
+responsibility_layers:
+  tagline: 'Mapa de responsabilidades'
+  title: 'Separa los roles de fábrica, marca, fabricante e importador'
+  subtitle: 'Los proyectos de marca privada suelen involucrar varias partes. Define por escrito identidad y documentos antes de marcar la producción.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: F
+      icon_bg: blue
+      title: 'Fábrica real'
+      desc: 'Identifica la entidad legal que controla diseño, registros de producción, inspecciones y ubicación física de fabricación.'
+    - icon: B
+      icon_bg: green
+      title: 'Marca o marca privada'
+      desc: 'Confirma si el propietario de la marca introduce la embarcación terminada con su nombre o marca y qué obligaciones de fabricante se derivan.'
+    - icon: C
+      icon_bg: purple
+      title: 'Identificador del fabricante'
+      desc: 'Verifica cómo se asigna, registra y utiliza el identificador dentro del número de embarcación y los documentos de cumplimiento.'
+    - icon: I
+      icon_bg: orange
+      title: 'Importador u operador UE'
+      desc: 'Define el importador u operador económico en la UE, sus datos de contacto y la conservación documental cuando corresponda.'
+    - icon: D
+      icon_bg: blue
+      title: 'Declaración y placa'
+      desc: 'Asegura que responsable, identidad del producto, categoría de diseño, número de identificación y declaración coincidan.'
+    - icon: R
+      icon_bg: green
+      title: 'Conservación de registros'
+      desc: 'Acuerda quién conserva registros técnicos, productivos, declarativos, identificativos y de envío y cómo se recupera la evidencia.'
+
+review_steps:
+  tagline: 'Secuencia de revisión'
+  title: 'Verifica el código mediante la cadena documental del proyecto'
+  subtitle: 'No trates un código impreso en un correo o imagen de certificado como prueba independiente de responsabilidad.'
+  steps:
+    - step: '01'
+      title: 'Define el papel en el mercado final'
+      desc: 'Confirma si es una embarcación recreativa completa, parcialmente terminada u otro tipo de proyecto y quién la introduce en el mercado UE y bajo qué nombre.'
+    - step: '02'
+      title: 'Verifica la entidad legal'
+      desc: 'Relaciona nombre y dirección del fabricante legal y su vínculo de marca con contrato, placa, EU DoC, expediente técnico y registros del importador.'
+    - step: '03'
+      title: 'Confirma autoridad y formato'
+      desc: 'Pregunta al responsable de cumplimiento o autoridad pertinente cómo se asigna el identificador y cómo debe aparecer en el formato WIN/HIN o CIN aplicable.'
+    - step: '04'
+      title: 'Relaciona referencias físicas y digitales'
+      desc: 'Compara código y número resultante en embarcación, marcado oculto o duplicado, placa, manual, declaración, inspección y expediente de envío.'
+    - step: '05'
+      title: 'Documenta cambios y límites de marca privada'
+      desc: 'Registra cambios de marca, fabricante responsable, ensamblador final, importador, modelo o configuración. Reevalúa documentos y marcados afectados.'
+
+red_flags:
+  tagline: 'Señales de alerta'
+  title: 'Afirmaciones que requieren confirmación documental'
+  items:
+    - q: '«Nuestro MIC es nuestro certificado CE».'
+      a: 'El identificador apoya la identidad del producto; no es una evaluación de conformidad, certificado ni aprobación universal.'
+    - q: '«El código de la fábrica china es automáticamente el de la marca».'
+      a: 'Confirma fabricante legal y parte que introduce la embarcación en el mercado. La responsabilidad de marca privada debe definirse para el proyecto real.'
+    - q: '«Un código puede copiarse para todas las marcas cliente».'
+      a: 'Pregunta cómo se controlan identificadores, marcas, modelos y responsables. No dupliques referencias entre programas distintos.'
+    - q: '«El importador no necesita el paquete documental».'
+      a: 'Las obligaciones del operador económico UE pueden incluir comprobar marcado y documentos y facilitar registros. Confirma las obligaciones reales.'
+    - q: '«El código es válido para siempre sin revisión».'
+      a: 'Entidades, normas, reglas de mercado y roles de marca privada pueden cambiar. Mantén bajo revisión el código y su base documental.'
+
+faqs:
+  tagline: 'Preguntas del comprador'
+  title: 'Preguntas sobre códigos de identificación del fabricante RIB'
+  items:
+    - q: '¿Un MIC es igual que un número IMO o de registro de empresa?'
+      a: 'No. Son identificadores de sistemas y fines distintos. El código del fabricante no debe sustituirse por número IMO, aduanero, de bandera o registro corporativo.'
+    - q: '¿Quién debe confirmar el código para un proyecto UE?'
+      a: 'El fabricante responsable y el profesional cualificado de cumplimiento deben confirmar la base de identidad y marcado con la autoridad o vía de organismo notificado cuando sea necesario.'
+    - q: '¿El cliente de marca privada se convierte automáticamente en fabricante?'
+      a: 'No automáticamente. Depende de cómo se introduce la embarcación, qué nombre o marca aparece y de las responsabilidades contractuales y regulatorias aplicables.'
+    - q: '¿Qué debe incluir una solicitud de revisión del comprador?'
+      a: 'Aporta modelo, eslora, uso previsto, mercado, estado completo o parcial, acuerdo de marca, entidad legal de fábrica y muestra de marcado o documento.'
+
+cta:
+  title: '¿Necesitas confirmar la identidad del fabricante de una embarcación para la UE?'
+  subtitle: 'Envía modelo, mercado, acuerdo de marca y muestra documental o de marcado. Mapearemos las preguntas que requieren confirmación profesional.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión documental de mercado
+      href: /es/contact#project-brief
+    - text: Revisar documentación de cumplimiento
+      href: /es/resources/rib-compliance-documentation

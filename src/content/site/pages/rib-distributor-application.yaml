@@ -1,0 +1,102 @@
+meta:
+  title: 'RIB Distributor Application Guide — Information Buyers Should Prepare | Neptunor'
+  description: 'What distributors and dealers should prepare when applying for an RIB or inflatable boat supply program: company profile, target market, sales plan, quantities, service capability and compliance needs.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB distributor application'
+    - 'inflatable boat dealer program'
+    - 'RIB wholesale qualification'
+    - 'boat distributor requirements'
+
+hero:
+  tagline: 'Distributor & Dealer Programs'
+  title: 'What to Prepare Before Applying for RIB Distribution'
+  subtitle: 'A practical qualification guide for distributors, importers and dealers evaluating a factory-direct RIB or inflatable boat supply program.'
+  actions:
+    - variant: primary
+      text: Discuss a distribution program
+      href: /contact#project-brief
+    - text: Review partner programs
+      href: /partners
+
+answer:
+  label: 'Quick answer'
+  text: 'A useful distributor application explains who your company serves, which market and channels you cover, which RIB or inflatable boat categories you need, your first-order and annual volume expectations, your launch timing, your service or warranty capability, and the documentation or territory requirements for your market. Commercial terms, territory, MOQ, lead time and support are confirmed after reviewing the specific program.'
+  verified: '2026-09'
+
+application_fields:
+  tagline: 'Application essentials'
+  title: 'The information that helps a factory assess a partnership'
+  subtitle: 'The first conversation does not need confidential customer data. A clear company and market profile is enough to begin.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Company profile'
+      desc: 'Legal or trading name, website, operating country, years in the marine market, relevant team contacts and the role of the person applying.'
+    - icon: M
+      icon_bg: green
+      title: 'Target market'
+      desc: 'Countries or regions, customer types, sales channels, seasonal demand and the intended recreational, commercial, fleet or professional application.'
+    - icon: P
+      icon_bg: purple
+      title: 'Product focus'
+      desc: 'RIB or inflatable boat platforms, preferred lengths and construction, console or deck requirements, equipment scope and brand or private-label direction.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Quantity plan'
+      desc: 'Expected first order, annual volume if known, sample requirements, repeat-order assumptions and any launch-season deadline.'
+    - icon: S
+      icon_bg: blue
+      title: 'Sales and service capability'
+      desc: 'Showroom or online presence, installation or commissioning capability, local service contacts, spare-parts handling and warranty-claim process.'
+    - icon: D
+      icon_bg: green
+      title: 'Documents and support'
+      desc: 'Required catalogue, specifications, market-language manuals, compliance files, inspection arrangements, product training or marketing materials.'
+
+qualification_steps:
+  tagline: 'Partnership review'
+  title: 'A transparent path from application to supply plan'
+  subtitle: 'The purpose is to match the program to the market—not to promise exclusivity or pricing before the facts are reviewed.'
+  steps:
+    - step: '01'
+      title: 'Submit the company and market profile'
+      desc: 'Share your company, target countries, customer segments, sales channels and the boat categories you want to develop or distribute.'
+    - step: '02'
+      title: 'Review product and compliance fit'
+      desc: 'Compare candidate RIB or inflatable boat platforms with your market, intended use, documentation, labeling and service requirements.'
+    - step: '03'
+      title: 'Confirm sample and quantity path'
+      desc: 'Define whether the next step is a sample, an existing-platform pilot order, a private-label configuration or a larger recurring supply program.'
+    - step: '04'
+      title: 'Agree commercial boundaries'
+      desc: 'Put MOQ, territory, pricing basis, payment, Incoterms, forecast assumptions, warranty process and support responsibilities in writing.'
+    - step: '05'
+      title: 'Set up reorder and service controls'
+      desc: 'Freeze the approved specification, packaging and documentation, then define how reorders, spare parts, complaints, corrective actions and changes are handled.'
+
+review_questions:
+  tagline: 'Questions to settle early'
+  title: 'Do not leave these partnership assumptions verbal'
+  items:
+    - q: 'Is territory exclusivity automatic?'
+      a: 'No. Any territory, channel or product exclusivity should be based on written scope, market coverage, forecast or purchase commitments and agreed review conditions.'
+    - q: 'Who handles local warranty and service?'
+      a: 'Define the factory, distributor and dealer responsibilities for diagnosis, parts, labor, shipping, evidence and customer communication before the first shipment.'
+    - q: 'Which documents will support sales in my market?'
+      a: 'Request a model- and configuration-specific document list. Manuals, labels, declarations, test summaries and language requirements should be confirmed for the destination market.'
+    - q: 'Can I start with a sample or pilot quantity?'
+      a: 'A sample or pilot path may be available depending on the platform and configuration. Confirm quantity, timing, sample credit, packaging and approval criteria in the quotation.'
+    - q: 'How are repeat orders kept consistent?'
+      a: 'Use an approved sample, controlled specification, artwork and BOM, with revision and change-control records linked to each production run.'
+
+cta:
+  title: 'Ready to discuss a distribution program?'
+  subtitle: 'Send your market, customer profile, product focus and expected quantity. We will identify the right next review for your RIB or inflatable boat program.'
+  actions:
+    - variant: primary
+      text: Apply for a partner review
+      href: /contact#project-brief
+    - text: Review factory evidence
+      href: /proof-center

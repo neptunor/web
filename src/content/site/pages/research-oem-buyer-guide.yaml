@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Minimum order quantity is confirmed by project configuration rather than a fixed number: sample development (1–2 units) validates the build, pilot orders (20–50 units) test the market on existing platforms, standard volume production runs 90–100+ units per batch from a full 150 m fabric roll, and small-batch co-branding starts at 5–10 units. Samples ship in 10–15 days; bulk production runs 30–45 days after confirmed PO and deposit, plus 15–20 days when new tooling is required.'
+  text: 'Minimum order quantity is confirmed by project configuration rather than a fixed number: sample development (1–2 units) validates the build, pilot orders (20–50 units) test the market on existing platforms, standard volume production runs 90–100+ units per approved configuration, and small-batch co-branding starts at 5–10 units. Samples ship in 10–15 days; bulk production runs 30–45 days after confirmed PO and deposit, plus 20–35 days when new tooling is required.'
   verified: '2026-08'
 
 content_html: |
@@ -77,7 +77,7 @@ content_html: |
       <tr><td class="p-3 border font-medium">Full custom mould / private label</td><td class="p-3 border">Confirmed by project config</td><td class="p-3 border">Adds 15 – 20 days for tooling</td></tr>
     </tbody>
   </table>
-  <p>Sample, pilot and volume production quantities are different: sample development (1–2 units) validates the build, pilot orders (20–50 units) test the market on existing platforms, and standard volume production runs 90–100+ units per batch from a full 150 m fabric roll — with volume pricing tiers as order size increases. Get the MOQ calculation, lead time, and payment terms for your specific boat in writing before you commit to a supplier.</p>
+  <p>Sample, pilot and volume production quantities are different: sample development (1–2 units) validates the build, pilot orders (20–50 units) test the market on existing platforms, and standard volume production runs 90–100+ units per approved configuration, with volume pricing tiers as order size increases. Get the MOQ calculation, lead time, and payment terms for your specific boat in writing before you commit to a supplier.</p>
 
   <h2>5. Logistics and Shipping</h2>
   <p>Common Incoterms: <strong>FOB</strong> (Factory delivers to departure port – most common), <strong>EXW</strong> (Buyer arranges all shipping from factory door), <strong>CIF</strong> (Factory pays freight and insurance to destination port).</p>

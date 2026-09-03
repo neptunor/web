@@ -1,0 +1,103 @@
+meta:
+  title: 'Guía de embalaje de exportación y carga de contenedores RIB | Neptunor'
+  description: 'Qué deben especificar los compradores de RIB y embarcaciones inflables para embalaje de exportación, cajas de madera, carga de contenedores, marcas, listas y evidencias.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'embalaje exportación RIB'
+    - 'caja madera RIB'
+    - 'carga contenedor embarcación inflable'
+    - 'plan envío RIB'
+
+hero:
+  tagline: 'Embalaje de exportación y logística'
+  title: 'Cómo especificar el embalaje y la carga de un RIB'
+  subtitle: 'Guía práctica para proteger RIB y embarcaciones inflables durante la manipulación de exportación y mantener claros el alcance, las marcas, las dimensiones y los registros del envío.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión de embalaje
+      href: /es/contact#project-brief
+    - text: Revisar MOQ y plazo
+      href: /oem-boat-moq
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'Un plan fiable de embalaje de exportación define la configuración de la embarcación y el equipo, los puntos de protección, la construcción de la caja o cartón, el método de izado y amarre, las dimensiones y pesos embalados, las marcas y códigos, las referencias de la lista de embalaje, los criterios de inspección y las evidencias de carga. El método final depende de la eslora, el casco y los tubos, el equipo, la ruta, la manipulación y el Incoterm acordado.'
+  verified: '2026-09'
+
+packing_options:
+  tagline: 'Opciones de embalaje'
+  title: 'Separa protección, manipulación y marcado comercial'
+  subtitle: 'La mejor especificación de embalaje es un documento controlado del proyecto, no una suposición escondida en el precio unitario.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Caja o jaula de madera'
+      desc: 'Usa una caja, jaula o plataforma de exportación adecuada para casco, consola, tubos y puntos de izado. Confirma tratamiento, dimensiones, acceso y límites de manipulación.'
+    - icon: P
+      icon_bg: green
+      title: 'Protección interior'
+      desc: 'Define la protección de gelcoat, tubos, válvulas, consolas, barandillas, pantallas, asientos, interfaces del motor y otros puntos de contacto.'
+    - icon: T
+      icon_bg: purple
+      title: 'Amarre e izado'
+      desc: 'Identifica los puntos aprobados de izado, bloqueo y amarre. No utilices asas, D-rings o accesorios de tubos sin capacidad estructural para funciones no previstas.'
+    - icon: D
+      icon_bg: orange
+      title: 'Dimensiones y pesos'
+      desc: 'Registra largo, ancho, alto, peso bruto y neto, cantidad de cajas y configuración. Estos datos apoyan flete, almacén y decisiones de contenedor.'
+    - icon: M
+      icon_bg: blue
+      title: 'Marcas y etiquetas'
+      desc: 'Fija SKU, modelo, referencia de serie o lote, número de caja, cantidad, marcas de manipulación, país, código de barras y arte del cliente antes de liberar el embalaje.'
+    - icon: E
+      icon_bg: green
+      title: 'Evidencias de carga'
+      desc: 'Conserva controles de embalaje, fotos o vídeo, número de contenedor, precinto, lista de embalaje y aprobación de liberación vinculados al lote.'
+
+loading_steps:
+  tagline: 'Secuencia de control del envío'
+  title: 'Qué debe ocurrir antes de que el contenedor salga de fábrica'
+  subtitle: 'Cada paso debe poder relacionarse con el alcance aprobado y la revisión documental vigente.'
+  steps:
+    - step: '01'
+      title: 'Congela la especificación de embalaje'
+      desc: 'Confirma configuración, equipo, tipo de embalaje, protección interior, marcas, códigos, documentos lingüísticos y dimensiones antes de iniciar el embalaje de producción.'
+    - step: '02'
+      title: 'Comprueba el kit embalado contra la BOM'
+      desc: 'Verifica embarcación, consola o equipo, válvulas, artículos suministrados, manuales, materiales de reparación y repuestos contra la BOM aprobada.'
+    - step: '03'
+      title: 'Registra dimensiones y marcas'
+      desc: 'Comprueba cantidad de paquetes, peso bruto y neto, modelo, SKU, referencias de serie o lote, números de caja, marcas de envío y legibilidad del código.'
+    - step: '04'
+      title: 'Inspecciona el contenedor'
+      desc: 'Registra identificación y estado, limpieza, sequedad, suelo y paredes, restricciones de carga y necesidades de control de humedad.'
+    - step: '05'
+      title: 'Carga, asegura y documenta'
+      desc: 'Sigue el plan aprobado, protege las superficies de contacto, asegura cada paquete y conserva fotos, vídeo, lista, precinto y registros de liberación.'
+    - step: '06'
+      title: 'Libera el expediente del envío'
+      desc: 'Relaciona inspección final, embalaje, carga y documentos comerciales y de cumplimiento con el pedido y lote antes de entregar al transitario.'
+
+faqs:
+  tagline: 'Preguntas del comprador'
+  title: 'Preguntas sobre embalaje de exportación RIB'
+  items:
+    - q: '¿Siempre hace falta una caja de madera?'
+      a: 'No necesariamente. El método correcto depende de la embarcación, equipo, ruta, manipulación y requisitos del comprador. Debe proteger el producto y documentarse antes del envío.'
+    - q: '¿Qué datos de embalaje deben aparecer en el presupuesto?'
+      a: 'Solicita tipo de embalaje, protección incluida, cantidad de paquetes, dimensiones y pesos, marcas, inspección, supuestos de carga, Incoterm y trabajos excluidos.'
+    - q: '¿Cómo verifico que el contenedor se cargó correctamente?'
+      a: 'Solicita plan o checklist de carga y fotos o vídeo del estado, protección, sujeción, marcas, contenedor, precinto y conciliación con la lista de embalaje.'
+    - q: '¿Se pueden copiar las dimensiones de un modelo estándar?'
+      a: 'Solo si la embarcación, equipo y configuración de embalaje son idénticos. Consolas, asientos, remolques, cajas o cargas mixtas pueden cambiar dimensiones y pesos.'
+
+cta:
+  title: '¿Necesitas un plan de embalaje listo para el envío?'
+  subtitle: 'Envía modelos, equipo, cantidad, destino y requisitos de manipulación. Identificaremos los detalles de embalaje y carga que deben confirmarse.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión de embalaje
+      href: /es/contact#project-brief
+    - text: Revisar controles de calidad de fábrica
+      href: /quality

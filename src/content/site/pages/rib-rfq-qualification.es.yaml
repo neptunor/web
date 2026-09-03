@@ -1,0 +1,113 @@
+meta:
+  title: 'Guía para preparar un RFQ de RIB — Cómo crear un brief de fabricación útil | Neptunor'
+  description: 'Prepara un RFQ de RIB o embarcación inflable con alcance, mercado, cantidad, uso, cumplimiento, embalaje, calendario y archivos que la fábrica necesita para revisar la viabilidad.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'plantilla RFQ RIB'
+    - 'RFQ embarcación inflable'
+    - 'requisitos consulta OEM RIB'
+    - 'brief de presupuesto fábrica de embarcaciones'
+
+hero:
+  tagline: 'Preparación del RFQ'
+  title: 'Cómo redactar un RFQ de RIB que una fábrica pueda revisar'
+  subtitle: 'Un brief conciso proporciona a ingeniería y ventas el contexto necesario para recomendar una plataforma viable, una vía documental, un plan de cantidades y el siguiente paso.'
+  actions:
+    - variant: primary
+      text: Enviar tu brief de proyecto
+      href: /es/contact#project-brief
+    - text: Revisar el onboarding OEM
+      href: /oem-onboarding-guide
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'Un RFQ de RIB útil indica qué embarcación es, quién la usará o venderá, dónde se comercializará, cuántas unidades se esperan, qué debe personalizarse, qué documentos o ensayos se necesitan, cuándo se requieren muestras o entrega y qué archivos de referencia existen. El MOQ, el precio, el plazo y el alcance de cumplimiento exactos deben confirmarse después de revisar el modelo y la configuración, no adivinarse a partir de un catálogo genérico.'
+  verified: '2026-09'
+
+brief_fields:
+  tagline: 'Elementos esenciales del RFQ'
+  title: 'La información que cambia la viabilidad y la orientación del presupuesto'
+  subtitle: 'En la primera fase basta una estimación. El objetivo es dar a la fábrica una hipótesis de proyecto clara que pueda comprobar.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Producto y uso'
+      desc: 'RIB o embarcación inflable, eslora objetivo, construcción del casco, pasajeros o carga, supuestos de propulsión y uso como tender, flota, patrulla, rescate u operación comercial.'
+    - icon: M
+      icon_bg: green
+      title: 'Mercado y responsabilidad'
+      desc: 'Mercado de destino, canal de venta, aplicación recreativa o regulada, responsabilidad de marca privada y cualquier acuerdo de importación o montaje final.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Cantidad y calendario'
+      desc: 'Necesidad de muestra, rango del primer pedido, volumen anual si se conoce, ventana de lanzamiento o entrega y supuestos de envío o Incoterm.'
+    - icon: C
+      icon_bg: orange
+      title: 'Alcance de personalización'
+      desc: 'Casco, tubos, materiales, consola, asientos, equipo, colores, gráficos, logo, embalaje, manuales, utillaje y otros cambios de una plataforma probada.'
+    - icon: D
+      icon_bg: blue
+      title: 'Documentos y ensayos'
+      desc: 'Preguntas de cumplimiento del mercado, lista documental, etiquetado, resúmenes de ensayos, inspección por terceros o requisitos de auditoría del comprador.'
+    - icon: F
+      icon_bg: green
+      title: 'Archivos de referencia'
+      desc: 'Embarcación de referencia, GA, fotos, ficha técnica, arte o borrador de embalaje. Solicita un NDA antes de compartir información no pública.'
+
+qualification_flow:
+  tagline: 'Qué ocurre después del envío'
+  title: 'Un RFQ cualificado se convierte en un expediente revisable'
+  subtitle: 'La fábrica debe poder explicar qué se conoce, qué debe confirmarse y qué ocurre a continuación.'
+  steps:
+    - step: '01'
+      title: 'Revisión de encaje y alcance'
+      desc: 'El equipo confirma si la solicitud corresponde a una plataforma RIB o inflable existente, una plataforma configurada o un nuevo programa de ingeniería.'
+    - step: '02'
+      title: 'Aclaraciones y confidencialidad'
+      desc: 'Se identifican dimensiones, condiciones de uso, normas del mercado, embalaje o permisos de archivo que falten. Se puede hablar de un NDA antes de compartir información confidencial.'
+    - step: '03'
+      title: 'Opciones viables'
+      desc: 'Ingeniería y ventas identifican opciones de construcción, distribución, equipo y documentación, separando claramente los supuestos de las especificaciones confirmadas.'
+    - step: '04'
+      title: 'Orientación comercial'
+      desc: 'El proyecto recibe una orientación de MOQ y plazo basada en su alcance. Muestras, utillaje, inspección, embalaje y elementos excluidos se separan en lugar de ocultarse en una sola cifra.'
+    - step: '05'
+      title: 'Siguiente puerta controlada'
+      desc: 'El siguiente paso puede ser una muestra, revisión de especificación, visita virtual a fábrica, revisión CAD, revisión de cumplimiento o presupuesto formal, según la preparación del proyecto.'
+
+avoid:
+  tagline: 'Evita RFQ débiles'
+  title: 'Cuatro entradas habituales que generan presupuestos deficientes'
+  items:
+    - title: '«Envíame tu mejor precio»'
+      desc: 'Sin modelo, cantidad, configuración y mercado, el precio difícilmente describirá la embarcación que necesitas.'
+    - title: '«Totalmente personalizado» sin límites'
+      desc: 'Separa los cambios de una plataforma existente del casco, consola, molde, materiales, equipo y trabajo de cumplimiento nuevos.'
+    - title: 'Sin mercado de destino'
+      desc: 'La documentación, el etiquetado, el uso previsto y la responsabilidad pueden cambiar según el país y la aplicación.'
+    - title: 'Adjuntos sin control'
+      desc: 'Etiqueta los archivos de referencia por revisión y confidencialidad. No trates un plano preliminar como base final de producción o certificación.'
+
+faqs:
+  tagline: 'Preguntas del comprador'
+  title: 'Preguntas sobre la preparación de un RFQ'
+  items:
+    - q: '¿Necesito todas las especificaciones antes de contactar con la fábrica?'
+      a: 'No. Un rango objetivo basta para una primera revisión de viabilidad. Indica qué está confirmado, qué prefieres y qué quieres que recomiende la fábrica.'
+    - q: '¿Debo incluir una embarcación de la competencia en el brief?'
+      a: 'Una referencia puede aclarar tamaño, distribución o posición de mercado, pero distingue la observación de una petición de copia. Comparte solo material que puedas utilizar y solicita un NDA para la información confidencial.'
+    - q: '¿Por qué importa tan pronto el mercado de destino?'
+      a: 'El mercado puede afectar el uso previsto, la documentación, el etiquetado, el idioma, la inspección, la responsabilidad del importador y la conversación de cumplimiento aplicable.'
+    - q: '¿Cuándo debo solicitar una muestra?'
+      a: 'Solicítala cuando la plataforma candidata y la configuración principal estén suficientemente definidas para que la aprobación sea significativa. Después, la muestra aprobada debe vincularse a la especificación y al arte controlados antes de producir.'
+
+cta:
+  title: '¿Listo para enviar un RFQ mejor?'
+  subtitle: 'Comparte el tipo de embarcación, mercado objetivo, rango de cantidad y calendario. Te ayudaremos a identificar las siguientes preguntas técnicas y comerciales.'
+  actions:
+    - variant: primary
+      text: Enviar un RFQ
+      href: /es/contact#project-brief
+    - text: Ver el proceso de onboarding de siete puertas
+      href: /oem-onboarding-guide

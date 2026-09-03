@@ -14,10 +14,10 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'MOQ is confirmed by project configuration rather than a fixed number: every project moves through sample (1–2 units) and pilot (20–50 units) stages, with standard volume production running 90–100+ units per batch from a full 150 m fabric roll. Samples are ready in 10–15 days; standard production runs 30–45 days after confirmed PO and deposit.'
+  text: 'MOQ is confirmed by project configuration rather than a fixed number: every project moves through sample (1–2 units) and pilot (20–50 units) stages, with standard volume production running 90–100+ units per approved configuration, subject to material and packaging requirements. Samples are ready in 10–15 days; standard production runs 30–45 days after confirmed PO and deposit.'
   verified: '2026-08'
 
-intro: Neptunor offers comprehensive OEM and ODM services for brands, distributors, and government agencies worldwide. With 10+ years of export experience and a 18,000 m² ISO 9001 & BSCI certified factory, we handle everything from product design and mold development to full-scale production, packaging, and export management.
+intro: Neptunor offers comprehensive OEM and ODM services for brands, distributors, and government agencies worldwide. With 10+ years of export experience and an 18,000 m² factory operating under documented quality and social-compliance programs, we handle everything from product design and mold development to full-scale production, packaging, and export management.
 
 highlight:
   - value: 10+
@@ -46,7 +46,7 @@ services:
 moq_table:
   - product: Inflatable boat Boats
     standard_moq: 'Sample 1–2 | Pilot 20–50'
-    custom_moq: 'Volume 90–100+ (per 150 m roll)'
+    custom_moq: 'Volume 90–100+ per approved configuration'
     lead_time: 30–45 days
 
 why_us:
@@ -55,9 +55,9 @@ why_us:
   - title: Dual Certification
     description: ISO 9001 quality management and BSCI social compliance certification. Factory audit reports available upon request.
   - title: CE Compliance
-    description: CE certification applies to models destined for EU markets (scope confirmed per project). Custom models can be CE certified through our established process.
+    description: CE certification applies to models destined for EU markets (scope confirmed per project). CE documentation and conformity assessment are reviewed per model, configuration and destination market.
   - title: Project-Specific MOQ
-    description: 'MOQ is confirmed by your project configuration — small-batch co-branding starts at 5–10 units, standard volume runs 90–100+ units per batch. We help emerging brands launch without overcommitting inventory.'
+    description: 'MOQ is confirmed by your project configuration — small-batch co-branding starts at 5–10 units, standard volume runs 90–100+ units per approved configuration. We help emerging brands launch without overcommitting inventory.'
 
 cta:
   title: 'Put Your Own Brand on a Proven Boat'

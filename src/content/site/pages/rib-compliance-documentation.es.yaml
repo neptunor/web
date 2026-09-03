@@ -1,0 +1,115 @@
+meta:
+  title: 'Guía de documentación de cumplimiento RIB — RCD, CE y expediente técnico | Neptunor'
+  description: 'Cómo revisar la documentación de cumplimiento de RIB y embarcaciones inflables: definición del modelo, alcance RCD, expediente técnico, ensayos, placa del constructor, WIN/HIN, manual y Declaración UE de Conformidad.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'documentación de cumplimiento RIB'
+    - 'expediente técnico RCD RIB'
+    - 'lista de documentos CE RIB'
+    - 'Declaración UE de Conformidad RIB'
+
+hero:
+  tagline: 'Documentación de cumplimiento'
+  title: 'Cómo revisar un paquete de cumplimiento para un RIB'
+  subtitle: 'Guía práctica para importadores, marcas, distribuidores y compradores de proyectos que revisan documentación RCD/CE para una configuración específica de RIB o embarcación inflable.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión documental del modelo
+      href: /es/contact#project-brief
+    - text: Abrir la guía de certificación
+      href: /inflatable-boat-certification
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'Un paquete de cumplimiento RIB creíble debe estar vinculado a un modelo, una configuración, un uso previsto y un mercado de destino definidos. Normalmente conecta la definición del producto, planos y cálculos, requisitos y normas aplicables, evidencias de ensayo, registros de componentes, controles de producción, información de placa del constructor y WIN/HIN, manual del propietario y Declaración UE de Conformidad cuando aplica la vía RCD. Un logotipo CE genérico o un certificado ajeno no es suficiente.'
+  verified: '2026-09'
+
+document_layers:
+  tagline: 'La cadena documental'
+  title: 'Seis capas que el comprador debe ver conectadas'
+  subtitle: 'El contenido exacto depende de la eslora, el uso previsto, la categoría de diseño, la propulsión, la configuración final y el mercado. Usa esto como marco de revisión, no como sustituto de un organismo notificado o una evaluación legal.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: '1'
+      icon_bg: blue
+      title: 'Definición del producto'
+      desc: 'Modelo, variante, eslora, manga, peso, número máximo de personas, carga recomendada, supuestos de propulsión, uso previsto y categoría de diseño.'
+    - icon: '2'
+      icon_bg: green
+      title: 'Diseño e ingeniería'
+      desc: 'Planos GA, configuración del casco y tubos, estructura, sistemas, posiciones de equipos, materiales, cálculos y revisiones controladas.'
+    - icon: '3'
+      icon_bg: purple
+      title: 'Requisitos y normas'
+      desc: 'Vía regulatoria aplicable, módulo de evaluación de conformidad, normas utilizadas, desviaciones o soluciones técnicas alternativas y responsables.'
+    - icon: '4'
+      icon_bg: orange
+      title: 'Ensayos y validación'
+      desc: 'Evidencias relevantes de flotabilidad, estabilidad, carga, presión, estructura, sistemas y componentes vinculadas al modelo y configuración reales.'
+    - icon: '5'
+      icon_bg: blue
+      title: 'Consistencia de producción'
+      desc: 'Inspección de entrada, controles de proceso, inspección final, trazabilidad por serie o lote, control de cambios y registros de no conformidad.'
+    - icon: '6'
+      icon_bg: green
+      title: 'Documentos de entrega'
+      desc: 'Placa del constructor, información WIN/HIN o CIN, etiquetas de seguridad, manual del propietario y Declaración UE de Conformidad cuando corresponda.'
+
+review_steps:
+  tagline: 'Secuencia de revisión del comprador'
+  title: 'Revisa el paquete en el mismo orden en que se crea el riesgo'
+  subtitle: 'Empieza por el alcance y la identidad. Después evalúa certificados y ensayos.'
+  steps:
+    - step: '01'
+      title: 'Confirma el alcance legal y del producto'
+      desc: 'Identifica al fabricante, la responsabilidad de la marca o marca privada, el ensamblador final si es distinto, el uso previsto, la eslora y el mercado de destino. Las embarcaciones recreativas, comerciales, gubernamentales y parcialmente terminadas pueden tener obligaciones diferentes.'
+    - step: '02'
+      title: 'Relaciona cada documento con el modelo'
+      desc: 'Comprueba el código del modelo, la revisión de configuración, los materiales del casco y los tubos, los supuestos de propulsión, la categoría de diseño y las fechas. No aceptes un certificado que solo nombre una familia amplia si la configuración enviada es diferente.'
+    - step: '03'
+      title: 'Comprueba el conjunto de identificación física'
+      desc: 'Confirma que la placa del constructor, el modelo, el número máximo de personas, la carga máxima recomendada, la categoría de diseño y los datos WIN/HIN coincidan con el expediente técnico, el manual y la embarcación entregada.'
+    - step: '04'
+      title: 'Revisa la producción y el control de cambios'
+      desc: 'Pregunta cómo se controlan las muestras aprobadas, las BOM, los materiales, los números de serie, los resultados de inspección y los cambios de diseño para que la producción siga la configuración evaluada.'
+    - step: '05'
+      title: 'Solicita el nivel de evidencia adecuado'
+      desc: 'Los resúmenes públicos pueden demostrar capacidad. Las listas documentales específicas, los resúmenes de ensayos y los archivos controlados deben compartirse según la identidad del comprador, la fase del proyecto, la confidencialidad y la vía de evaluación aplicable.'
+
+red_flags:
+  tagline: 'Señales de alerta'
+  title: 'Frases que deben provocar una pregunta de seguimiento'
+  items:
+    - q: '«Todos los productos tienen certificación CE global».'
+      a: 'Pregunta qué modelos, configuraciones, mercados y requisitos aplicables están cubiertos. El marcado CE no sustituye una evaluación y declaración específicas del modelo.'
+    - q: '«El mismo certificado cubre todas las embarcaciones».'
+      a: 'Pregunta cómo se evalúan y controlan las variantes, materiales, motores, distribuciones y cambios de equipamiento.'
+    - q: '«El certificado está disponible, pero el fabricante no está claro».'
+      a: 'Verifica la entidad legal, la ubicación física de fabricación, la relación de marca y la parte que firma la declaración de conformidad.'
+    - q: '«La placa del constructor y el manual se completarán después del envío».'
+      a: 'Pregunta cómo se aprueban la configuración final, la identificación, la información de seguridad y los requisitos de idioma antes de la entrega.'
+    - q: '«Solo proporcionamos un logotipo CE».'
+      a: 'Solicita la lista documental aplicable, el estado de la declaración, el resumen de ensayos y el proceso de revisión de la evidencia técnica controlada.'
+
+faqs:
+  tagline: 'Preguntas del comprador'
+  title: 'Preguntas sobre los expedientes de cumplimiento RIB'
+  items:
+    - q: '¿Todos los RIB utilizan la misma vía CE?'
+      a: 'No. La vía aplicable depende de factores como el uso previsto, la eslora, la categoría de diseño, la configuración, las normas utilizadas y el mercado de destino. Confirma la vía para el proyecto real.'
+    - q: '¿Debe el comprador recibir el expediente técnico completo?'
+      a: 'Normalmente el expediente técnico completo es un registro controlado del fabricante o de la parte responsable. El comprador puede solicitar la lista documental aplicable, declaraciones específicas del modelo, resúmenes de ensayos y evidencias controladas adecuadas al proyecto y a la confidencialidad.'
+    - q: '¿Qué se debe comprobar en la Declaración UE de Conformidad?'
+      a: 'Comprueba el fabricante responsable, la identificación del producto, la legislación o directiva aplicable, las normas o base técnica, la autoridad firmante y la relación con la configuración entregada. Consulta a un especialista para las cuestiones legales.'
+    - q: '¿Puede un comprador de marca privada utilizar el certificado de la fábrica sin revisarlo?'
+      a: 'No automáticamente. El contrato debe definir quién es el fabricante responsable, qué nombre aparece en la embarcación y los documentos, qué configuración está cubierta y quién controla las actualizaciones u obligaciones específicas del mercado.'
+
+cta:
+  title: '¿Necesitas la lista documental de tu proyecto?'
+  subtitle: 'Envía el modelo, la configuración, el uso previsto y el mercado de destino. Identificaremos las preguntas técnicas y de cumplimiento que deben confirmarse.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión documental
+      href: /es/contact#project-brief
+    - text: Revisar la evidencia de fábrica
+      href: /proof-center

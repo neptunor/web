@@ -1,0 +1,113 @@
+meta:
+  title: 'RIB RFQ Preparation Guide — Build a Better Boat Manufacturing Brief | Neptunor'
+  description: 'Prepare a higher-quality RIB or inflatable boat RFQ with the product scope, target market, quantity, use case, compliance, packaging, timeline and files a factory needs for feasibility review.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB RFQ template'
+    - 'inflatable boat RFQ'
+    - 'RIB OEM inquiry requirements'
+    - 'boat factory quotation brief'
+
+hero:
+  tagline: 'RFQ Preparation'
+  title: 'How to Write a RIB RFQ a Factory Can Actually Review'
+  subtitle: 'A concise project brief gives engineering and sales enough context to recommend a feasible platform, documentation path, quantity plan and next step.'
+  actions:
+    - variant: primary
+      text: Submit your project brief
+      href: /contact#project-brief
+    - text: Review OEM onboarding
+      href: /oem-onboarding-guide
+
+answer:
+  label: 'Quick answer'
+  text: 'A useful RIB RFQ states what the boat is, who will use or sell it, where it will be marketed, how many units are expected, what must be customized, which documents or tests are needed, when samples or delivery are required, and what reference files are available. Exact MOQ, price, lead time and compliance scope should be confirmed after the model and configuration are reviewed—not guessed from a generic catalogue.'
+  verified: '2026-09'
+
+brief_fields:
+  tagline: 'RFQ essentials'
+  title: 'The information that changes feasibility and quotation direction'
+  subtitle: 'An estimate is acceptable at the first stage. The purpose is to give the factory a clear project hypothesis to test.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Product and use'
+      desc: 'RIB or inflatable boat, target length, hull construction, passenger or payload need, propulsion assumptions and intended use such as tender, fleet, patrol, rescue or commercial operation.'
+    - icon: M
+      icon_bg: green
+      title: 'Market and responsibility'
+      desc: 'Destination market, sales channel, recreational or regulated application, private-label responsibility and any importer or final-assembly arrangement.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Quantity and timing'
+      desc: 'Sample need, first order range, annual volume if known, target launch or delivery window and preferred shipping or Incoterm assumptions.'
+    - icon: C
+      icon_bg: orange
+      title: 'Customization scope'
+      desc: 'Hull, tubes, materials, console, seating, equipment, colors, graphics, logo, packaging, manuals, tooling and other changes from a proven platform.'
+    - icon: D
+      icon_bg: blue
+      title: 'Documents and testing'
+      desc: 'Target-market compliance questions, document list, labeling, test summaries, third-party inspection or buyer-audit requirements.'
+    - icon: F
+      icon_bg: green
+      title: 'Reference files'
+      desc: 'Reference boat, GA, photos, technical sheet, artwork or packaging draft. Request an NDA before sharing information that is not public.'
+
+qualification_flow:
+  tagline: 'What happens after submission'
+  title: 'A qualified RFQ becomes a reviewable project record'
+  subtitle: 'The factory should be able to explain what is known, what needs confirmation and what happens next.'
+  steps:
+    - step: '01'
+      title: 'Fit and scope review'
+      desc: 'The team confirms whether the request is for an existing RIB or inflatable boat platform, a configured platform, or a new engineering program.'
+    - step: '02'
+      title: 'Clarification and confidentiality'
+      desc: 'Missing dimensions, use conditions, market rules, packaging or file permissions are identified. An NDA can be discussed before confidential exchange.'
+    - step: '03'
+      title: 'Feasible options'
+      desc: 'Engineering and sales identify candidate construction, layout, equipment and documentation paths, with assumptions clearly separated from confirmed specifications.'
+    - step: '04'
+      title: 'Commercial direction'
+      desc: 'The project receives a scope-based MOQ and lead-time direction. Samples, tooling, inspection, packaging and excluded items are separated rather than hidden in one number.'
+    - step: '05'
+      title: 'Next controlled gate'
+      desc: 'The next step may be a sample, specification review, factory video tour, CAD review, compliance review or formal quotation, depending on project readiness.'
+
+avoid:
+  tagline: 'Avoid weak RFQs'
+  title: 'Four common inputs that create poor quotations'
+  items:
+    - title: '“Send your best price”'
+      desc: 'Without model, quantity, configuration and market, a price is unlikely to describe the boat you actually need.'
+    - title: 'Unbounded “fully custom”'
+      desc: 'Separate changes to an existing platform from new hull, console, mould, materials, equipment and compliance work.'
+    - title: 'No destination market'
+      desc: 'Documentation, labeling, intended use and responsibility can change with the country and application.'
+    - title: 'Uncontrolled attachments'
+      desc: 'Label reference files by revision and confidentiality. Do not treat a preliminary drawing as a final production or certification baseline.'
+
+faqs:
+  tagline: 'Buyer FAQ'
+  title: 'Questions about preparing an RFQ'
+  items:
+    - q: 'Do I need every specification before contacting the factory?'
+      a: 'No. A target range is enough for an initial feasibility review. State what is confirmed, what is preferred and what you want the factory to recommend.'
+    - q: 'Should I include a competitor boat in the brief?'
+      a: 'A reference can clarify size, layout or market position, but distinguish observation from a request to copy. Share only material you are permitted to use and request an NDA for confidential information.'
+    - q: 'Why does the target market matter so early?'
+      a: 'The market can affect intended use, documentation, labeling, language, inspection, importer responsibility and the applicable compliance discussion.'
+    - q: 'When should I request a sample?'
+      a: 'Request a sample when the candidate platform and key configuration are sufficiently defined to make approval meaningful. The approved sample should then be linked to the controlled specification and artwork before production.'
+
+cta:
+  title: 'Ready to send a better RFQ?'
+  subtitle: 'Share the boat type, target market, quantity range and timing. We will help identify the next technical and commercial questions.'
+  actions:
+    - variant: primary
+      text: Submit an RFQ
+      href: /contact#project-brief
+    - text: See the seven-gate onboarding process
+      href: /oem-onboarding-guide

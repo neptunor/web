@@ -1,0 +1,132 @@
+meta:
+  title: 'RIB CAD Download & Access Request — Planning Files for Qualified Buyers | Neptunor'
+  description: 'Request planning-level GA, 2D CAD, 3D exterior or controlled engineering files for a RIB or inflatable boat project through a structured B2B review.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB CAD download'
+    - 'RIB CAD access request'
+    - 'RIB DWG DXF STEP file'
+    - 'inflatable boat GA drawing'
+
+hero:
+  tagline: 'Controlled CAD Resources'
+  title: 'Request the Right RIB CAD File for Your Project'
+  subtitle: 'Public planning information is available for early selection. Editable CAD, integration interfaces and detailed engineering files are released according to project purpose, buyer identity and confidentiality requirements.'
+  actions:
+    - variant: primary
+      text: Request CAD access
+      href: /contact#cad-review
+    - text: Review GA planning guidance
+      href: /resources/rib-ga-cad-planning
+
+answer:
+  label: 'Quick answer'
+  text: 'Start with a public PDF GA or dimension summary when you are comparing platforms. If you need DXF/DWG for a defined planning or integration task, submit the model, intended use, target market, company and project stage for review. STEP/IGES exterior models, detailed interfaces and manufacturing engineering files may require a project brief, NDA or engineering approval. Neptunor does not publish editable hull structure, tube patterns, mould files, tooling paths, BOMs or calculations as open downloads.'
+  verified: '2026-09'
+
+access_levels:
+  tagline: 'Three access levels'
+  title: 'Match the file value to the project stage'
+  subtitle: 'This approach keeps early research easy while protecting customer designs and manufacturing IP.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Public planning files'
+      desc: 'PDF GA previews, principal dimensions, basic layouts and transport summaries for platform comparison, site planning and early procurement.'
+    - icon: Q
+      icon_bg: green
+      title: 'Qualified 2D CAD'
+      desc: 'Selected DXF or DWG layouts for a defined marina, trailer, container, equipment or tender-planning task after company and project context are reviewed.'
+    - icon: I
+      icon_bg: purple
+      title: 'Project integration files'
+      desc: 'Equipment interfaces, electrical or fuel layouts and 3D exterior models released when the configuration and engineering use are clear.'
+    - icon: N
+      icon_bg: orange
+      title: 'NDA-controlled data'
+      desc: 'Detailed interfaces, proprietary artwork, customer-specific layouts and project files shared under the agreed confidentiality arrangement.'
+    - icon: E
+      icon_bg: blue
+      title: 'Engineering approval'
+      desc: 'Structural drawings, laminate or welding information, calculations and other safety-critical data require project and engineering review.'
+    - icon: R
+      icon_bg: green
+      title: 'No open manufacturing files'
+      desc: 'Tube patterns, mould data, CNC paths, production BOMs and replication-level files are not public downloads.'
+
+request_fields:
+  tagline: 'What to include'
+  title: 'Give the team enough context to approve a useful file'
+  subtitle: 'A short request is usually enough. Do not send confidential design files until an NDA or project review is in place.'
+  features:
+    - icon: M
+      icon_bg: blue
+      title: 'Model or target platform'
+      desc: 'Name the RIB or inflatable boat model, approximate length, hull construction or the platform you are comparing.'
+    - icon: U
+      icon_bg: green
+      title: 'Intended use'
+      desc: 'Explain whether the file supports a marina, garage, trailer, container, tender fit, equipment integration, tender document, showroom or another defined task.'
+    - icon: B
+      icon_bg: purple
+      title: 'Business identity'
+      desc: 'Provide company, role, country or target market and project stage so the request can be routed appropriately.'
+    - icon: F
+      icon_bg: orange
+      title: 'Requested format'
+      desc: 'State whether you need PDF, DXF, DWG, STEP, IGES or another format and whether a non-editable alternative is sufficient.'
+    - icon: C
+      icon_bg: blue
+      title: 'Configuration needed'
+      desc: 'Identify console, seating, engine, equipment, packaging or deck options that affect the drawing or dimensions.'
+    - icon: T
+      icon_bg: green
+      title: 'Confidentiality level'
+      desc: 'Tell us whether the request involves your own artwork, proprietary interfaces, a tender or a live integration project requiring an NDA.'
+
+review_steps:
+  tagline: 'Controlled release process'
+  title: 'How a CAD request moves from form to file'
+  subtitle: 'The review is designed to help legitimate buyers without treating every anonymous download as a sales-ready project.'
+  steps:
+    - step: '01'
+      title: 'Submit a short CAD request'
+      desc: 'Use the project form and select CAD access or engineering review. Include company, model, intended use, market, format and timing.'
+    - step: '02'
+      title: 'Receive a planning-level response'
+      desc: 'The team identifies whether a public GA, dimension summary or another low-risk file already answers the requirement.'
+    - step: '03'
+      title: 'Confirm buyer and project context'
+      desc: 'For editable or integration files, the team reviews the business identity, use, configuration, project stage and permitted purpose.'
+    - step: '04'
+      title: 'Sign an NDA when appropriate'
+      desc: 'Confidential artwork, project interfaces and detailed engineering information are shared only after the agreed confidentiality terms are in place.'
+    - step: '05'
+      title: 'Release a controlled revision'
+      desc: 'The file is issued with model, revision, date, permitted use and limitation notices. Replaced revisions should not remain in active project circulation.'
+
+red_flags:
+  tagline: 'File-control reminders'
+  title: 'A CAD file is not automatically a production approval'
+  items:
+    - q: 'Can a website GA be used to build or modify the boat?'
+      a: 'No. Public GA material is for planning unless the factory explicitly approves another use. Production dimensions and interfaces come from the controlled project specification.'
+    - q: 'Why is a business email or company profile requested?'
+      a: 'Editable CAD can expose customer or manufacturing information. Basic identity and purpose help route legitimate project work and reduce uncontrolled redistribution.'
+    - q: 'Can a buyer request a file without revealing confidential designs?'
+      a: 'Yes. Start with the model, task, market and format. Share proprietary artwork or detailed specifications only after the confidentiality path is agreed.'
+    - q: 'What should appear in the title block or file notice?'
+      a: 'Model, drawing number, revision, date, units, status, permitted use, copyright or watermark and any “not for construction, certification, replication or tooling” limitation that applies.'
+    - q: 'Are STEP and IGES files always available?'
+      a: 'No. Availability depends on model, configuration, intended use, buyer identity, project stage and confidentiality. Request the lowest file level that solves the task.'
+
+cta:
+  title: 'Need a controlled CAD file for a real boat project?'
+  subtitle: 'Tell us what you are planning, which RIB or inflatable boat you are reviewing and the file level you need. We will route the request to the right project or engineering contact.'
+  actions:
+    - variant: primary
+      text: Request CAD access
+      href: /contact#cad-review
+    - text: Review the RFQ preparation guide
+      href: /resources/rib-rfq-qualification

@@ -30,12 +30,12 @@ export function siteLd(): Record<string, unknown>[] {
       },
       brand: { '@type': 'Brand', name: BRAND_PARENT_BRAND },
       numberOfEmployees: { '@type': 'QuantitativeValue', value: '300+' },
-      hasCredential: [
-        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'ISO 9001' },
-        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'BSCI' },
-        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'CE' },
-        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'REACH / RoHS' },
-      ],
+      hasCredential: FACTS.certifications.map((credential) => ({
+        '@type': 'EducationalOccupationalCredential',
+        credentialCategory: 'certification or compliance documentation',
+        name: credential.name,
+        description: `${credential.scope}; applies to ${credential.appliesTo}. Certificate scope is confirmed by model, configuration and market.`,
+      })),
       knowsAbout: [
         'RIB boat manufacturing',
         'inflatable boat factory',
@@ -153,13 +153,12 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
     employeeCount: FACTS.workers,
     numberOfEmployees: { '@type': 'QuantitativeValue', value: FACTS.workers },
     areaServed: FACTS.exportCountries,
-    isicV4: '3012',
-    hasCredential: CERTIFICATION_NAMES.map((c) => ({
+    hasCredential: FACTS.certifications.map((credential) => ({
       '@type': 'EducationalOccupationalCredential',
-      credentialCategory: 'certification',
-      name: c,
+      credentialCategory: 'certification or compliance documentation',
+      name: credential.name,
+      description: `${credential.scope}; applies to ${credential.appliesTo}. Certificate scope is confirmed by model, configuration and market.`,
     })),
-    certification: CERTIFICATION_NAMES,
     foundingDate: '2012',
   }
 }
@@ -176,10 +175,10 @@ export function brandHeritageLd(): Record<string, unknown> {
     historyHighlights: [
       { '@type': 'Event', name: 'Founding', startDate: '2012', description: `Founded in Qingdao \u2014 over a decade of inflatable boat manufacturing experience.` },
       { '@type': 'Event', name: 'Plant operations', description: `${FACTS.warehouseM2} marine plant with ${FACTS.workshops} and ${FACTS.productionLines} in Qingdao, China.` },
-      { '@type': 'Event', name: 'Certification', description: `Certified ${CERTIFICATION_NAMES.join(', ')} \u2014 manufacturing quality, safety and social compliance.` },
+      { '@type': 'Event', name: 'Certification and compliance', description: `Maintains ${CERTIFICATION_NAMES.join(', ')} documentation for applicable facility, material and boat-model scopes; exact certificate scope is confirmed by project. \u2014 manufacturing quality, safety and social compliance.` },
       { '@type': 'Event', name: 'Global exports', description: `Supplies boat OEM/ODM partners in ${FACTS.exportCountries} countries worldwide.` },
     ],
-    certifications: CERTIFICATION_NAMES,
+    certifications: FACTS.certifications.map(({ name, scope, appliesTo }) => ({ name, scope, appliesTo })),
     manufacturingExperience: {
       yearsInOperation: 'Since 2012',
       annualCapacity: FACTS.annualCapacity,
@@ -246,10 +245,10 @@ export function enhancedFaqLd(): Record<string, unknown> {
     },
     {
       q: 'What warranty do you provide on bulk orders?',
-      a: 'A 5-year limited warranty covers primary tube and collar fabric, seams, hull and transom structural integrity, inflation valves and factory-installed accessories; commercial/rental use carries a 1-year warranty. Warranty terms are written into each order contract.',
+      a: 'Warranty scope, duration and claim procedures are agreed per project in the quotation, purchase order and supply contract. Terms cover manufacturing defects and exclude use-related damage; commercial, rental or instructional use may affect coverage. The signed contract governs all warranty obligations.',
       category: 'Warranty',
       priority: 5,
-      keywords: ['warranty', '5 year warranty', 'after-sales', 'claim'],
+      keywords: ['warranty', 'after-sales', 'claim', 'defect coverage'],
     },
     {
       q: 'Do you ship worldwide?',
@@ -281,17 +280,9 @@ export function enhancedFaqLd(): Record<string, unknown> {
 export function warrantyReturnsLd(): Record<string, unknown> {
   return {
     '@type': 'WarrantyPromise',
-    durationOfWarranty: { '@type': 'QuantitativeValue', value: 5, unitCode: 'ANN' },
-    warrantyScope: 'Defects in materials and workmanship',
+    warrantyScope: 'Manufacturing defects in materials and workmanship',
     description:
-      '5-year limited warranty on primary tube and collar fabric, seams, hull and transom structural integrity, inflation valves and factory-installed accessories. Commercial, rental or instructional use reduces coverage to 1 year.',
-    coverage: [
-      { '@type': 'Thing', name: 'Primary tube & collar fabric', warranty: '5 years' },
-      { '@type': 'Thing', name: 'Seams & welds', warranty: '5 years' },
-      { '@type': 'Thing', name: 'Hull and transom structural integrity', warranty: '5 years' },
-      { '@type': 'Thing', name: 'Inflation valves & factory-installed accessories', warranty: '5 years' },
-      { '@type': 'Thing', name: 'Commercial / rental / instructional use', warranty: '1 year' },
-    ],
+      'Warranty scope, duration and claim procedures are agreed per project in the quotation, purchase order and supply contract. Terms cover manufacturing defects and exclude use-related damage. Commercial, rental or instructional use may affect coverage. The signed contract governs all warranty obligations.',
     claimProcess: {
       '@type': 'HowTo',
       name: 'Warranty claim',
@@ -382,7 +373,7 @@ export function qcHowToLd(): Record<string, unknown> {
       { '@type': 'HowToStep', position: 4, name: 'Pressure & Airtightness Testing', text: 'Every collar chamber held at 0.35 bar for 24 hours. Auto-reject above 0.02 bar pressure drop. Test logs retained per batch.' },
       { '@type': 'HowToStep', position: 5, name: 'Console & Accessory Installation', text: 'Console alignment, transom reinforcement, valve function, lifting points, cleats and all fittings checked against frozen BOM specification.' },
       { '@type': 'HowToStep', position: 6, name: 'Graphic & Branding QC', text: 'Hull livery, logo placement and color accuracy verified against approved artwork. Brand application inspected per client specification.' },
-      { '@type': 'HowToStep', position: 7, name: 'Final Packaging & Documentation', text: 'Export crating, compliance documentation (CE, ISO 6185, ISO 9001, BSCI, REACH, RoHS), certificates of conformity and batch traceability records verified before shipment.' },
+      { '@type': 'HowToStep', position: 7, name: 'Final Packaging & Documentation', text: 'Export crating, the applicable compliance-document set, certificates of conformity and batch traceability records are verified against the approved model and project before shipment.' },
     ],
   }
 }

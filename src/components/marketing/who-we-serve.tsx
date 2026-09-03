@@ -17,7 +17,7 @@ export function WhoWeServe() {
       <div className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
         <SectionHead kicker={c.kicker} title={c.title} sub={c.sub} />
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          {c.segments.map((seg, i) => {
+          {c.segments.slice(0, 4).map((seg, i) => {
             const Icon = ICONS[i % ICONS.length]
             return (
               <Reveal key={seg.slug} delay={i * 80}>

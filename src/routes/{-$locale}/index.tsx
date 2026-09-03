@@ -11,6 +11,7 @@ import { SITE_NAME } from '@/config'
 import { MarketingShell } from '@/components/marketing/shell'
 import { Hero } from '@/components/marketing/hero'
 
+const TrustBar = lazy(() => import('@/components/marketing/trust-bar').then((m) => ({ default: m.TrustBar })))
 const CollaborationSelector = lazy(() => import('@/components/marketing/collaboration-selector').then((m) => ({ default: m.CollaborationSelector })))
 const PlantCapability = lazy(() => import('@/components/marketing/plant-capability').then((m) => ({ default: m.PlantCapability })))
 const QualitySteps = lazy(() => import('@/components/marketing/quality-steps').then((m) => ({ default: m.QualitySteps })))
@@ -20,9 +21,13 @@ const WhoWeServe = lazy(() => import('@/components/marketing/who-we-serve').then
 const ProjectsShowcase = lazy(() => import('@/components/marketing/projects-showcase').then((m) => ({ default: m.ProjectsShowcase })))
 const FaqSection = lazy(() => import('@/components/marketing/faq').then((m) => ({ default: m.FaqSection })))
 const CtaBand = lazy(() => import('@/components/marketing/cta').then((m) => ({ default: m.CtaBand })))
+const CatalogDownload = lazy(() => import('@/components/marketing/catalog-download').then((m) => ({ default: m.CatalogDownload })))
 
 export const Route = createFileRoute('/{-$locale}/')({
-  loader: async () => ({ origin: await getOrigin() }),
+  loader: async () => {
+    const [origin, turnstileSiteKey] = await Promise.all([getOrigin(), import('@/features/auth/middleware').then((m) => m.getTurnstileSiteKey())])
+    return { origin, turnstileSiteKey }
+  },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
     const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
@@ -43,17 +48,21 @@ export const Route = createFileRoute('/{-$locale}/')({
 function Home() {
   const { locale, t } = useTranslation()
 
+  const { turnstileSiteKey } = Route.useLoaderData()
+
   return (
     <MarketingShell>
       <Hero />
-      <Suspense fallback={null}><CollaborationSelector /></Suspense>
+      <Suspense fallback={null}><TrustBar /></Suspense>
       <Suspense fallback={null}><WhoWeServe /></Suspense>
+      <Suspense fallback={null}><CollaborationSelector /></Suspense>
       <Suspense fallback={null}><CommercialTerms /></Suspense>
       <Suspense fallback={null}><PlantCapability /></Suspense>
       <Suspense fallback={null}><QualitySteps /></Suspense>
-      <Suspense fallback={null}><HowItWorks /></Suspense>
       <Suspense fallback={null}><ProjectsShowcase /></Suspense>
+      <Suspense fallback={null}><HowItWorks /></Suspense>
       <Suspense fallback={null}><FaqSection data={homeFaq} /></Suspense>
+      <Suspense fallback={null}><CatalogDownload turnstileSiteKey={turnstileSiteKey} /></Suspense>
       <Suspense fallback={null}><CtaBand /></Suspense>
       <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }])} />
       <JsonLd data={faqLd(pick(homeFaq, locale).items, locale)} />

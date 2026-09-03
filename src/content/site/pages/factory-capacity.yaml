@@ -1,6 +1,6 @@
 meta:
   title: 'Production Capacity — 18,000 m² Factory | {SITE}'
-  description: 'Neptunor factory capacity: 18,000 m² facility producing 60,000++ boats per year with room to scale. Large-scale OEM/ODM inflatable boat manufacturing.'
+  description: 'Neptunor factory capacity: 18,000 m² facility producing up to 60,000 boats per year with room to scale. Large-scale OEM/ODM inflatable boat manufacturing.'
   dateModified: '2026-08-07'
   keywords:
     - 'boat production capacity'
@@ -10,22 +10,22 @@ meta:
 hero:
   tagline: Production Capacity
   title: Manufacturing Capacity & Annual Output
-  subtitle: 18,000 m² facility producing 60,000++ boats per year with room to scale
+  subtitle: 18,000 m² facility producing up to 60,000 boats per year with room to scale
 
 answer:
   label: 'Straight answer'
-  text: 'Factory capacity: 18,000 m² across four specialized workshops, 60,000++ boats per year, 300+ workers on two shifts, exporting to 40+ countries. MOQ is confirmed by project configuration — sample (1–2 units), pilot (20–50 units) and standard volume (90–100+ units per 150 m roll); see our MOQ & Flexible Branding Guide for the full logic. Lead time 30–45 days, samples 10–15 days.'
+  text: 'Factory capacity: 18,000 m² across four specialized workshops, up to 60,000 boats per year, 300+ workers on two shifts, exporting to 40+ countries. MOQ is confirmed by project configuration — sample (1–2 units), pilot (20–50 units) and standard volume (90–100+ units per approved configuration); see our MOQ & Flexible Branding Guide for the full logic. Lead time 30–45 days, samples 10–15 days.'
   verified: '2026-08'
 
-intro: Neptunor operates one of the largest dedicated inflatable boat manufacturing facilities in Qingdao, China. Our 18,000 m² factory is organized into four specialized workshops operating in parallel, giving us the capacity to produce over 60,000+ boats annually across boat and safety equipment lines.
+intro: Neptunor operates one of the largest dedicated inflatable boat manufacturing facilities in Qingdao, China. Our 18,000 m² factory is organized into four specialized workshops operating in parallel, giving us capacity for up to 60,000 boats annually, depending on product mix.
 
 highlights:
   - value: 18,000 m²
     label: Total manufacturing floor
     detail: Across 4 specialized workshops
-  - value: 60,000++
+  - value: Up to 60,000
     label: Boats produced annually
-    detail: boats and safety gear
+    detail: RIB and inflatable boats
   - value: 300+
     label: Skilled workforce
     detail: 25+ engineers, 2 shifts/day
@@ -41,20 +41,17 @@ highlights:
 
 workshops:
   - title: boat Boat Production
-    description: '4 automated assembly lines for inflatable boats with a combined output of about 5,000 boats per month. Digital printing and screen printing stations run concurrently. Annual boat capacity: 60,000++ boats.'
-    output: '60,000++ boats/year'
+    description: '4 automated assembly lines for inflatable boats with a combined output of about 5,000 boats per month. Digital printing and screen printing stations run concurrently. Annual boat capacity: up to 60,000 boats, depending on product mix.'
+    output: 'Up to 60,000 boats/year'
   - title: boat Boat Production
     description: 'Expanded production capacity for boats utilizing additional assembly lines. Drop-stitch core bonding, digital printing, and assembly stations run concurrently.'
     output: 'Expanded boat capacity'
-  - title: boat Boat & Accessory
-    description: 'Multi-purpose production lines for boats and accessories. Hot-air welding stations, RF dielectric presses, and assembly workstations are reconfigured based on order mix. Annual capacity: 5,000+ units.'
-    output: '5,000+ units/year'
-  - title: Safety Equipment
-    description: 'Separate clean-room production area for life vests and safety equipment. Dedicated sewing, foam insertion, and testing stations. Annual life vest capacity: 50,000+ units.'
-    output: '50,000+ life vests/year'
+  - title: boat Boat Assembly & Packing
+    description: 'Flexible production and packing areas support RIB and inflatable boat orders. Welding, assembly, inspection and export-packing stations are scheduled according to the approved order mix.'
+    output: 'Scheduled by product mix'
 
 oem_capacity:
-  moq: 'boat: sample 1–2 | pilot 20–50 | volume 90–100+ (per 150 m roll)'
+  moq: 'boat: sample 1–2 | pilot 20–50 | volume 90–100+ per approved configuration'
   lead_time: 'Standard 30–45 days. Sample 10–15 days. Rush available.'
   payment: 'T/T 30% deposit + 70% balance. L/C, Western Union accepted.'
 

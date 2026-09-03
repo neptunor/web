@@ -1,6 +1,6 @@
 meta:
   title: 'How CE Certification Works for Inflatable Boats'
-  description: 'How CE certification works for RIB boats and inflatable boats: directives (2013/53/EU RCD, PPE 2016/425), testing, notified bodies and technical files.'
+  description: 'How CE conformity work is reviewed for RIB boats and inflatable boats under the EU Recreational Craft Directive, including testing, notified bodies and technical files.'
   author: 'Neptunor'
   datePublished: '2026-08-04'
   dateModified: '2026-08-07'
@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Inflatable boats fall under the EU Recreational Craft Directive 2013/53/EU when above 2.5 m hull length, or the General Product Safety Directive when smaller. Certification costs roughly 13,000&ndash;31,000 EUR and 8&ndash;14 weeks for a first product: technical file, type testing by a notified body, factory audit, then a Declaration of Conformity.'
+  text: 'For an EU-bound RIB or inflatable boat, the applicable conformity route depends on hull length, intended use, design category and final configuration. The project normally requires a technical file, applicable testing, conformity assessment where required and an EU Declaration of Conformity; scope, timing and cost must be confirmed with the responsible manufacturer and conformity-assessment body.'
   verified: '2026-08'
 
 content_html: |
@@ -25,10 +25,7 @@ content_html: |
   <h3>Recreational Craft Directive (2013/53/EU)</h3>
   <p>The primary directive for most RIB boats and inflatable boats. It applies to recreational craft from 2.5 m to 24 m hull length, partially completed boats (for OEM supply), and personal watercraft.</p>
 
-  <h3>Personal Protective Equipment Regulation (2016/425)</h3>
-  <p>Life jackets, buoyancy aids, and safety equipment supplied with watercraft must meet PPE Regulation requirements, including type examination (Module B) by a notified body and production quality assurance (Module D or E).</p>
-
-  <h2>The Certification Process</h2>
+    <h2>The Certification Process</h2>
   <ol>
     <li>Product classification: Determine craft design category (A – D per ISO 8666)</li>
     <li>Applicable standards: EN ISO 6185 (Parts 1 – 4), EU Recreational Craft Directive 2013/53/EU (HIN), EN ISO 14945 (builder's plate)</li>
@@ -59,7 +56,7 @@ content_html: |
   </table>
 
   <h2>What This Means for Buyers</h2>
-  <p>When purchasing CE-certified inflatable boats, always verify the CE marking is on the builder's plate, a valid DoC exists, the Notified Body number is listed, and the owner's manual includes safety instructions in your local language. All Neptunor products carry CE certification with full traceability to notified body audit reports.</p>
+  <p>When purchasing an EU-bound RIB or inflatable boat, verify that the CE marking, applicable conformity documents, builder’s plate, WIN/HIN and owner’s manual all match the exact model and configuration. Request the relevant document list and confirm its scope for the destination market rather than relying on a universal certification statement.</p>
   <p>Certification is part of every production run at our Qingdao plant — see the <a href="/factory">factory quality &amp; testing workflow</a> and how we support <a href="/oem-manufacturing">CE compliance for OEM/private label partners</a>.</p>
 
 cta:

@@ -1,0 +1,103 @@
+meta:
+  title: 'RIB Export Packing & Container Loading Guide | Neptunor'
+  description: 'What RIB and inflatable boat buyers should specify for export packing, wooden crates, container loading, markings, packing lists and shipment evidence.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB export packing'
+    - 'RIB wooden crate packaging'
+    - 'inflatable boat container loading'
+    - 'RIB shipping plan'
+
+hero:
+  tagline: 'Export Packing & Logistics'
+  title: 'How to Specify RIB Packing and Container Loading'
+  subtitle: 'A practical buyer guide to protecting RIBs and inflatable boats in export handling while keeping packing scope, markings, dimensions and shipment records clear.'
+  actions:
+    - variant: primary
+      text: Request a packing review
+      href: /contact#project-brief
+    - text: Review MOQ and lead time
+      href: /oem-boat-moq
+
+answer:
+  label: 'Quick answer'
+  text: 'A reliable export-packing plan defines the boat and equipment configuration, protection points, crate or carton construction, lifting and tie-down method, packed dimensions and weights, marking and barcode requirements, packing-list references, inspection criteria and container-loading evidence. The final method depends on boat size, hull and tube configuration, equipment, route, handling conditions and the agreed Incoterm.'
+  verified: '2026-09'
+
+packing_options:
+  tagline: 'Packing choices'
+  title: 'Separate protection, handling and commercial marking requirements'
+  subtitle: 'The best packing specification is a controlled project document, not an assumption hidden inside a unit price.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Wooden crate or cage'
+      desc: 'Use a suitable export crate, cage or skid approach for the hull, console, tube set and lifting points. Confirm treatment, dimensions, access and handling limits for the route.'
+    - icon: P
+      icon_bg: green
+      title: 'Internal protection'
+      desc: 'Define protection for gelcoat, tubes, valves, consoles, rails, screens, seats, engine interfaces and other contact points during packing and unloading.'
+    - icon: T
+      icon_bg: purple
+      title: 'Tie-down and lifting'
+      desc: 'Identify approved lifting, blocking and tie-down points. Do not use non-load-bearing handles, D-rings or tube fittings for purposes they were not designed to carry.'
+    - icon: D
+      icon_bg: orange
+      title: 'Dimensions and weights'
+      desc: 'Record packed length, width, height, gross and net weight, crate count and configuration. These values support freight quotations, warehouse planning and container decisions.'
+    - icon: M
+      icon_bg: blue
+      title: 'Markings and labels'
+      desc: 'Lock SKU, model, serial or batch reference, carton number, quantity, handling marks, country information, barcode and customer artwork before packing release.'
+    - icon: E
+      icon_bg: green
+      title: 'Evidence at loading'
+      desc: 'Retain packing checks, photographs or video, container number, seal number, packing list and release approval linked to the production batch.'
+
+loading_steps:
+  tagline: 'Shipment-control sequence'
+  title: 'What should happen before the container leaves the factory'
+  subtitle: 'Each step should be traceable to the approved order scope and current document revision.'
+  steps:
+    - step: '01'
+      title: 'Freeze the packing specification'
+      desc: 'Confirm the boat configuration, equipment set, packaging type, internal protection, markings, barcode, language documents and packed dimensions before production packing begins.'
+    - step: '02'
+      title: 'Check the packed kit against the BOM'
+      desc: 'Verify the boat, console or equipment, valves, accessories supplied with the order, manuals, repair materials and spare-parts set against the customer-approved BOM.'
+    - step: '03'
+      title: 'Record dimensions and markings'
+      desc: 'Check package count, gross and net weight, model, SKU, serial or batch references, carton numbers, shipping marks and barcode readability.'
+    - step: '04'
+      title: 'Inspect the container condition'
+      desc: 'Record container identification and condition, cleanliness, dryness, floor and wall condition, loading restrictions and any moisture-control requirements.'
+    - step: '05'
+      title: 'Load, secure and document'
+      desc: 'Follow the approved loading plan, protect contact surfaces, secure each package for handling and retain photographs, video, packing list, seal and release records.'
+    - step: '06'
+      title: 'Release the shipment dossier'
+      desc: 'Connect the final inspection, packing, loading, commercial and compliance documents to the order and batch before handover to the forwarder.'
+
+faqs:
+  tagline: 'Buyer FAQ'
+  title: 'Questions about RIB export packing'
+  items:
+    - q: 'Is a wooden crate always required?'
+      a: 'Not necessarily. The correct method depends on the boat, equipment, route, handling and buyer requirements. The agreed packing method should protect the product and be documented before shipment.'
+    - q: 'What packing data should be in the quotation?'
+      a: 'Ask for the packaging type, included protection, package count, packed dimensions, estimated weights, markings, inspection scope, loading assumptions, Incoterm and any excluded packing work.'
+    - q: 'How do I verify the container was loaded correctly?'
+      a: 'Request a loading plan or checklist plus photographs or video showing package condition, protection, securing, markings, container number, seal and packing-list reconciliation.'
+    - q: 'Can packed dimensions be copied from a standard model?'
+      a: 'Only if the final boat, equipment and packing configuration are identical. Custom consoles, seats, trailers, crates or mixed-SKU loading can change the shipment dimensions and weights.'
+
+cta:
+  title: 'Need a shipment-ready packing plan?'
+  subtitle: 'Send the boat models, equipment scope, quantity, destination and handling requirements. We will identify the packing and loading details to confirm.'
+  actions:
+    - variant: primary
+      text: Request a packing review
+      href: /contact#project-brief
+    - text: Review factory quality controls
+      href: /quality

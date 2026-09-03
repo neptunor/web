@@ -36,7 +36,7 @@ describe('withMarketingCache', () => {
   })
 
   it('caches crawler files (robots/sitemap/llms) for 1h with stale-while-revalidate', () => {
-    for (const path of ['/robots.txt', '/llms.txt', '/sitemap.xml', '/sitemap-pages.xml', '/sitemap-products.xml']) {
+    for (const path of ['/robots.txt', '/llms.txt', '/llms-full.txt', '/sitemap.xml', '/sitemap-pages.xml', '/sitemap-products.xml']) {
       const r = withMarketingCache(new Request(`https://x.test${path}`), GET(path, 'application/xml'))
       expect(r.headers.get('cache-control')).toBe('public, max-age=3600, stale-while-revalidate=86400')
     }

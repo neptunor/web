@@ -1,0 +1,114 @@
+meta:
+  title: 'Guía de ensayos de materiales de tubos RIB — PVC, CSM/Hypalon y adhesivos | Neptunor'
+  description: 'Qué deben preguntar los compradores sobre tubos PVC y CSM/Hypalon, certificados de tejido, ensayos de costuras y adhesión, UV, retención de aire y trazabilidad.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'ensayos materiales tubos RIB'
+    - 'PVC frente a CSM Hypalon RIB'
+    - 'informe ensayo tejido RIB'
+    - 'ensayo costuras embarcación inflable'
+
+hero:
+  tagline: 'Materiales y ensayos de tubos'
+  title: 'Cómo revisar la evidencia de tubos PVC y CSM/Hypalon'
+  subtitle: 'Guía para compradores sobre especificaciones, certificados, controles de costuras y adhesivos, ensayos ambientales y trazabilidad de lotes para tubos de RIB y embarcaciones inflables.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión de materiales
+      href: /es/contact#project-brief
+    - text: Comparar opciones de construcción
+      href: /research/pvc-vs-hypalon
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'La evidencia del material del tubo debe identificar el sistema de tejido real, referencia del proveedor o material, construcción y uso previsto, y conectar fichas técnicas o certificados de lote con inspección de entrada, controles de soldadura o unión, resultados de costura o adhesión, ensayos de retención de aire y el registro de la embarcación terminada. PVC y CSM/Hypalon deben compararse según clima, intensidad de uso, reparación y servicio del proyecto, no mediante una afirmación universal sin respaldo.'
+  verified: '2026-09'
+
+material_evidence:
+  tagline: 'Capas de evidencia'
+  title: 'Qué debe preguntar el comprador sobre el sistema de tubos'
+  subtitle: 'Los ensayos relevantes dependen del material, la construcción, el método de unión, el clima, el uso y los requisitos del destino.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: T
+      icon_bg: blue
+      title: 'Ficha técnica'
+      desc: 'Construcción del tejido, sistema de recubrimiento o elastómero, espesor o gramaje, color, uso previsto, almacenamiento y rendimiento declarado.'
+    - icon: B
+      icon_bg: green
+      title: 'Lote y control de entrada'
+      desc: 'Referencia, lote, registro de entrega, controles visuales y dimensionales, revisión del certificado y estado de liberación antes de producción.'
+    - icon: W
+      icon_bg: purple
+      title: 'Proceso de soldadura o unión'
+      desc: 'Preparación, equipos o parámetros, controles del operario, curado o tiempo de unión y criterios de inspección del método elegido.'
+    - icon: A
+      icon_bg: orange
+      title: 'Evidencia de costura y adhesión'
+      desc: 'Ensayos de resistencia o adhesión, continuidad visual, criterios de reparación y reinspección para la construcción real.'
+    - icon: U
+      icon_bg: blue
+      title: 'UV y ambiente'
+      desc: 'Cuando corresponda, revisa envejecimiento, UV, temperatura, químicos o abrasión adecuados al clima y ciclo de operación.'
+    - icon: P
+      icon_bg: green
+      title: 'Retención de aire y ensayo final'
+      desc: 'Relaciona controles de material y unión con presión de cámaras, duración, criterio de caída de presión y liberación de la embarcación.'
+
+review_steps:
+  tagline: 'Secuencia del comprador'
+  title: 'Evalúa el material como parte de la embarcación terminada, no como un simple logotipo'
+  subtitle: 'Un certificado de material por sí solo no demuestra que el conjunto de tubos entregado se unió y ensayó correctamente.'
+  steps:
+    - step: '01'
+      title: 'Define uso y clima'
+      desc: 'Indica si será tender, flota, alquiler, rescate, patrulla, uso comercial o recreativo, además de clima, UV, almacenamiento y servicio.'
+    - step: '02'
+      title: 'Identifica material y construcción'
+      desc: 'Confirma sistema PVC o tipo CSM/Hypalon, referencia, espesor o gramaje, diseño de tubos, cámaras y si las costuras se sueldan, pegan o combinan.'
+    - step: '03'
+      title: 'Comprueba entrada y unión'
+      desc: 'Pregunta cómo se liberan lotes y cómo se registran soldadura, preparación superficial, adhesivo, curado, presión, temperatura y controles del operario.'
+    - step: '04'
+      title: 'Revisa evidencia de rendimiento'
+      desc: 'Solicita evidencia de material, costura, adhesión, retención de aire, dimensiones, UV o ambiente vinculada al modelo y configuración reales.'
+    - step: '05'
+      title: 'Confirma mantenimiento y reparación'
+      desc: 'El manual y el plan de servicio deben indicar inspección, presión, almacenamiento, limpieza, compatibilidad de reparación y límites de modificación.'
+
+comparison:
+  tagline: 'Cómo explicar materiales con claridad'
+  title: 'Compara PVC y CSM/Hypalon según criterios de decisión'
+  subtitle: 'Evita presentar un material como universalmente superior. La elección correcta depende del requisito total.'
+  items:
+    - title: 'Clima y exposición UV'
+      desc: 'Solicita evidencia y mantenimiento adecuados al clima y almacenamiento previstos.'
+    - title: 'Intensidad y abrasión'
+      desc: 'Flotas, alquiler, rescate y manipulación frecuente pueden cambiar la construcción, refuerzos e inspección necesarios.'
+    - title: 'Unión y reparación'
+      desc: 'El material debe coincidir con el proceso de unión, reparación, formación, repuestos y red de servicio.'
+    - title: 'Coste y ciclo de vida'
+      desc: 'Compara compra, mantenimiento, paradas, reparación y sustitución, no solo el coste unitario del tejido.'
+
+faqs:
+  tagline: 'Preguntas del comprador'
+  title: 'Preguntas sobre ensayos de materiales de tubos RIB'
+  items:
+    - q: '¿Un certificado de material demuestra que todo el tubo cumple?'
+      a: 'No. Apoya el registro del material, pero el tubo terminado depende también del diseño, la unión, la mano de obra, la presión y otros ensayos y documentos aplicables.'
+    - q: '¿CSM/Hypalon es siempre mejor que PVC?'
+      a: 'No de forma universal. Compara clima, intensidad, construcción, reparación, presupuesto y requisitos. La fábrica debe recomendar una configuración con evidencias y condiciones.'
+    - q: '¿Qué debe ser trazable hasta la embarcación?'
+      a: 'Como mínimo, referencia o lote, liberación de entrada, proceso de unión, inspección y registro de retención de aire o ensayo final deben poder recuperarse.'
+    - q: '¿Qué debe recibir el comprador tras la aprobación?'
+      a: 'Acuerda descripción de material específica, lista de certificados o declaraciones aplicables, resumen de ensayos, mantenimiento y reparación y registros disponibles según la confidencialidad.'
+
+cta:
+  title: '¿Necesitas elegir el material de tubos para tu proyecto?'
+  subtitle: 'Envía clima, intensidad de uso, mercado objetivo y servicio. Identificaremos las preguntas de material y evidencia que deben confirmarse.'
+  actions:
+    - variant: primary
+      text: Solicitar orientación de materiales
+      href: /es/contact#project-brief
+    - text: Revisar documentación de cumplimiento
+      href: /resources/rib-compliance-documentation

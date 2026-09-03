@@ -47,7 +47,7 @@ export function CatalogDownload({ turnstileSiteKey }: { turnstileSiteKey: string
   }
 
   return (
-    <section className="border-t border-border bg-bg-alt">
+    <section id="b2b-catalog" className="scroll-mt-24 border-t border-border bg-bg-alt">
       <div className="mx-auto grid max-w-7xl items-center gap-8 px-5 py-16 md:grid-cols-2 md:px-8 lg:px-10 md:py-20">
         <div>
           <p className="text-[12px] font-bold uppercase tracking-widest text-primary">{c.kicker}</p>

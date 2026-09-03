@@ -44,6 +44,7 @@ const BREADCRUMB_PARENTS: Record<string, { name: string; path: string }> = {
   '/research': { name: 'Knowledge', path: '/knowledge' },
   '/solutions': { name: 'Solutions', path: '/solutions' },
   '/oem': { name: 'OEM Manufacturing', path: '/oem-manufacturing' },
+  '/resources': { name: 'Resources', path: '/resources/rib-buyer-resource-center' },
   '/about': { name: 'About', path: '/about' },
 }
 
@@ -660,8 +661,8 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
   const pool: { q: string; a: string }[] = locale !== 'en'
     ? [
         {
-          q: '¿Cuál es el pedido mínimo para personalizar esta tabla?',
-          a: `El MOQ de volumen es de ${MOQ_SHORT.standardRun} por rollo de 150 m para la producción estándar, con pilotos desde ${MOQ_SHORT.trialStandard} y ${MOQ_SHORT.customMould} para un molde a medida.`,
+          q: '¿Cuál es el pedido mínimo para personalizar esta embarcación?',
+          a: `El MOQ de volumen es de ${MOQ_SHORT.standardRun} por configuración aprobada, con pilotos desde ${MOQ_SHORT.trialStandard} y ${MOQ_SHORT.customMould} para un molde a medida.`,
         },
         {
           q: '¿Cuánto tardan las muestras y la producción?',
@@ -669,17 +670,17 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
         },
         {
           q: '¿Puedo cambiar los colores, el arte y el logo?',
-          a: 'Sí — gráficos, colores, EVA, logotipo, embalaje y accesorios se personalizan en cada plataforma. Comparte tu logo y te haremos una prueba visual antes de la producción.',
+          a: 'Sí — gráficos, colores, logotipo, embalaje y el equipamiento acordado se personalizan en cada plataforma. Comparte tu logo y te haremos una prueba visual antes de la producción.',
         },
         {
           q: '¿Cómo se controla la calidad antes del envío?',
-          a: `Cada tabla pasa por una lista de verificación de ${FACTS.assemblyChecklist} y una prueba de presión de ${FACTS.pressureTest} antes de empaquetar; las piezas que superen una caída de presión mayor al 5% se rechazan automáticamente.`,
+          a: `Cada embarcación pasa por una lista de verificación de ${FACTS.assemblyChecklist} y una prueba de presión de ${FACTS.pressureTest} antes de empaquetar; las unidades que superen el límite de caída de presión especificado se rechazan automáticamente.`,
         },
       ]
     : [
         {
-          q: 'What is the minimum order to customize this board?',
-          a: `MOQ is ${MOQ_SHORT.standardRun} per 150 m roll for standard volume production, with pilot runs from ${MOQ_SHORT.trialStandard} and ${MOQ_SHORT.customMould} for a custom mould.`,
+          q: 'What is the minimum order to customize this boat?',
+          a: `MOQ is ${MOQ_SHORT.standardRun} per approved configuration for standard volume production, with pilot runs from ${MOQ_SHORT.trialStandard} and ${MOQ_SHORT.customMould} for a custom mould.`,
         },
         {
           q: 'How long do samples and production take?',
@@ -687,11 +688,11 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
         },
         {
           q: 'Can I change colors, artwork and the logo?',
-          a: 'Yes — graphics, colors, EVA traction, logo, packaging and accessories are all customizable on every platform. Share your logo and we produce a visual proof before production.',
+          a: 'Yes — graphics, colors, logo, packaging and the agreed boat equipment are customizable on every platform. Share your logo and we produce a visual proof before production.',
         },
         {
           q: 'How is quality controlled before shipment?',
-          a: `Every board passes a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest} pressure test before packing; units exceeding a 5% pressure drop are auto-rejected.`,
+          a: `Every boat passes a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest} pressure test before packing; units exceeding the specified pressure-drop limit are auto-rejected.`,
         },
       ]
   return [...specific, ...pool]

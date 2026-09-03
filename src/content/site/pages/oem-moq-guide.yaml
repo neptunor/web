@@ -1,6 +1,6 @@
 meta:
   title: 'boat MOQ Guide: Flexible Branding & Minimum Order Quantities'
-  description: 'How inflatable boat MOQ is calculated: 150 m fabric rolls yield 90–100 boats, co-branding from 5–10 units and transparent mould fees.'
+  description: 'How RIB and inflatable boat MOQ is calculated by model, material, configuration, co-branding scope and transparent tooling fees.'
   dateModified: '2026-08-14'
   keywords:
     - 'boat MOQ'
@@ -13,25 +13,25 @@ meta:
 hero:
   tagline: 'Transparent & Project-Specific'
   title: 'Flexible Branding & Manufacturing MOQ Guide'
-  subtitle: 'Understand the drop-stitch raw material physics that govern boat production runs — and how our low-barrier co-branding program works for rental operators, clubs, resorts and growing water sports brands. Engineered and operated by Neptunor Marine Co., Ltd.'
+  subtitle: 'Understand the material, configuration and setup factors that govern boat production runs — and how our low-barrier co-branding program works for rental operators, clubs, resorts and growing water sports brands. Engineered and operated by Neptunor Marine Co., Ltd.'
 
 answer:
   label: 'Straight answer'
-  text: 'MOQ is not a one-size-fits-all number. Every MOQ is confirmed by project configuration: hull shape and tooling, colorways and PVC, artwork complexity, packaging and accessory mix. Full-custom volume production runs 90–100 units per batch from a standard 150 m drop-stitch fabric roll; small-batch co-branding starts from 5–10 units; and every project is split into three distinct stages — sample development (1–2 units), pilot order (20–50 units) and volume production (90–100+ units). We confirm the exact calculation for your SKU mix before quotation — no vague "low MOQ" promises, no hidden compromises.'
+  text: 'MOQ is not a one-size-fits-all number. Every MOQ is confirmed by project configuration: hull shape and tooling, colorways and PVC, artwork complexity, packaging and accessory mix. Full-custom volume production is commonly planned from 90–100 units per approved configuration; small-batch co-branding starts from 5–10 units; and every project is split into three distinct stages — sample development (1–2 units), pilot order (20–50 units) and volume production (90–100+ units). We confirm the exact calculation for your SKU mix before quotation — no vague "low MOQ" promises, no hidden compromises.'
   verified: '2026-08'
 
 moq_principle:
   tagline: The Engineering Logic
-  title: 'Why Standard Volume MOQ Is 90–100 Units: Raw Material Roll Physics'
+  title: 'Why Standard Volume MOQ Is 90–100 Units: Configuration and Material Planning'
   subtitle: 'Production run sizes are not arbitrary numbers set by a sales team — they are determined by raw drop-stitch fabric roll lengths and line changeover physics.'
   body: |
-    **The 150-meter raw fabric baseline.** High-tensile woven drop-stitch fabric is produced and coated on continuous master rolls. The standard single-batch industrial roll length is 150 meters of continuous material.
+    **The material planning baseline.** High-tenacity tube and floor materials are purchased and cut according to the approved configuration, colorway, construction and nesting plan. The applicable batch size is confirmed during quotation.
 
-    **The yield calculation (90 to 100 boats).** For a standard tender or all-purpose boat hull (3.2 m to 3.5 m), a full 150 m master roll yields approximately 90 to 100 finished boats.
+    **The configuration calculation.** A standard volume tier is commonly planned from 90–100 boats per approved configuration, but actual quantity depends on boat length, tube diameter, material batch, packaging and order mix.
 
-    **Zero fabric splice policy.** Full fabric rolls ensure complete structural continuity — no transverse high-risk fabric splicing, and uniform fiber tension across the boat's top and bottom surfaces.
+    **Controlled material continuity.** The production plan specifies approved material construction and joining methods for the boat; any special material or splice requirement is reviewed during engineering approval.
 
-    **Thermal and adhesive calibration.** Automated high-frequency hot-air welding and marine adhesive laminating lines require 2 hours of pre-heating, temperature profiling and pressure calibration. A full 90–100 unit batch amortizes these fixed setup costs, delivering the lowest possible per-unit cost.
+    **Setup and changeover planning.** Welding, printing, adhesive and packaging stations require setup and verification. The approved quantity and configuration determine how those fixed activities are allocated in the quotation.
 
 moq_tiers:
   tagline: Two Routes to Your Brand
@@ -41,7 +41,7 @@ moq_tiers:
     - icon: P
       icon_bg: blue
       title: 'Full-Custom Volume OEM — 90–100 Units per Batch'
-      desc: 'Determined by the standard 150 m roll length of high-grade raw drop-stitch fabric to ensure optimal material utilization and structural consistency. · 100% full customization: exclusive hull shape and custom Pantone colorways · Full-surface digital or silk-screen artwork coverage · Custom branded retail packaging, printed cartons and branded accessories · Maximum cost efficiency and economies of scale'
+      desc: 'Planned from the approved configuration and material requirements to maintain consistent construction and practical production efficiency. · 100% full customization: exclusive hull shape and custom Pantone colorways · Full-surface digital or silk-screen artwork coverage · Custom branded retail packaging, printed cartons and branded accessories · Maximum cost efficiency and economies of scale'
       link: '/contact#custom-oem'
       link_label: 'Inquire for Volume OEM'
     - icon: B
@@ -83,7 +83,7 @@ moq_stages:
       desc: 'Pre-season commercial testing and regional market validation using existing hull platforms, stock materials and simplified packaging to minimize setup friction.'
     - step: '03'
       title: 'Volume Production (90–100+ units)'
-      desc: 'Confirmed after frozen BOM, finalized artwork, custom packaging and scheduled delivery plans — full 150 m fabric rolls, custom Pantone fabrics, bespoke packaging, volume discounts and full-chain batch traceability.'
+      desc: 'Confirmed after frozen BOM, finalized artwork, custom packaging and scheduled delivery plans — approved material batches, custom Pantone fabrics, bespoke packaging, volume discounts and full-chain batch traceability.'
 
 moq_factors:
   tagline: What Drives Your MOQ
@@ -115,7 +115,7 @@ moq_downloads:
     - icon: G
       icon_bg: blue
       title: 'Flexible Branding & MOQ Guide (PDF)'
-      desc: 'Official B2B guide (Part I, DOC-MOQ-EXP-2026-EN, released 14 Aug 2026): the engineering logic behind 150 m fabric roll yields (90–100 boats), the co-branding program from 5–10 units, transparent screen-printing fees and the three production stages.'
+      desc: 'Official B2B guide (Part I, DOC-MOQ-EXP-2026-EN, released 14 Aug 2026): the engineering logic behind configuration-specific material yields and MOQ tiers, the co-branding program from 5–10 units, transparent screen-printing fees and the three production stages.'
       link: 'https://assets.neptunor.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Download Guide (PDF)'
     - icon: P
@@ -136,7 +136,7 @@ moq_faqs:
     - q: 'Why does custom retail packaging have an independent MOQ?'
       a: 'Custom flexographic or offset carton printing presses require a minimum production setup of 500+ units. We offer a Hybrid Packaging Storage Solution: we produce the 500 custom-printed cartons, store the surplus in our clean warehouse, and release them across your scheduled boat shipments — so a smaller boat order can still ship in fully branded retail packaging.'
     - q: 'Why is the standard volume MOQ 90–100 units?'
-      a: 'Standard volume MOQ follows the raw material: a 150 m master roll of high-grade drop-stitch fabric yields approximately 90–100 finished boats for a standard tender or all-purpose hull. Running full rolls eliminates fabric splicing, keeps fiber tension uniform, and amortizes the 2-hour welding and lamination line calibration — delivering the lowest possible per-unit cost.'
+      a: 'Standard volume MOQ follows the raw material: material planning for a standard tender or all-purpose hull commonly supports a 90–100 unit volume tier per approved configuration. The exact quantity depends on construction, material batch, order mix, packaging and line setup.'
     - q: 'Does a higher quantity reduce unit cost?'
       a: 'In most projects, yes. Higher quantities improve material yield, distribute fixed production line setup overhead across more boats, and reduce per-unit packaging costs.'
     - q: 'Do co-branding mould fees apply again on re-orders?'

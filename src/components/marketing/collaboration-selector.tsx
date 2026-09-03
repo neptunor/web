@@ -10,30 +10,22 @@ const MODE_ENTRIES = [
   {
     key: 'oem' as const,
     icon: FileCode,
-    buyerState: 'Already have drawings, specs or a reference boat',
-    ctaLabel: 'Build to Your Specification',
-    href: '/factory/oem-capability',
+    href: '/contact#custom-oem',
   },
   {
     key: 'odm' as const,
     icon: Lightbulb,
-    buyerState: 'Have a product idea or market positioning',
-    ctaLabel: 'Develop a Boat From Your Brief',
-    href: '/odm-development',
+    href: '/contact#custom-oem',
   },
   {
     key: 'privateLabel' as const,
     icon: Tag,
-    buyerState: 'Need to launch a proven product fast, branded',
-    ctaLabel: 'Launch on a Proven Platform',
-    href: '/solutions/private-label-boats',
+    href: '/contact#cobranding',
   },
   {
     key: 'commercial' as const,
     icon: Ship,
-    buyerState: 'Procuring rental, school or resort equipment',
-    ctaLabel: 'Build a Commercial Boat Fleet',
-    href: '/solutions/fleet-rental',
+    href: '/contact#production-availability',
   },
 ]
 
@@ -55,14 +47,14 @@ export function CollaborationSelector() {
                 <span className="icon-tile mb-4 bg-aqua/10! text-primary!">
                   <Icon size={20} />
                 </span>
-                <h3 className="font-display text-[16px] font-bold leading-snug text-primary">{data.short}</h3>
-                <p className="mt-2 text-[12px] font-semibold uppercase tracking-wide text-fg-3">{mode.buyerState}</p>
+                <h3 className="font-display text-[16px] font-bold leading-snug text-primary">{c.items[i]?.title ?? data.short}</h3>
+                <p className="mt-2 text-[12px] font-semibold uppercase tracking-wide text-fg-3">{c.items[i]?.buyerState ?? data.bestFor}</p>
                 <p className="mt-3 flex-1 text-[13px] leading-relaxed text-fg-2">{c.items[i]?.body ?? data.full}</p>
                 <a
                   href={fl(mode.href)}
                   className="mt-5 inline-flex items-center gap-1.5 text-[13px] font-bold text-primary transition-colors hover:text-sun"
                 >
-                  {mode.ctaLabel} <ArrowRight size={14} />
+                  {c.items[i]?.ctaLabel ?? data.short} <ArrowRight size={14} />
                 </a>
               </div>
             </Reveal>

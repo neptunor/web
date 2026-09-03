@@ -1,6 +1,6 @@
 meta:
   title: 'Guía de MOQ para embarcación: Branding Flexible y Cantidades Mínimas de Pedido'
-  description: 'Cómo se calcula el MOQ de embarcaciones hinchables: rollos drop-stitch de 150 m que rinden 90–100 embarcaciones y co-branding desde menos de 20 unidades.'
+  description: 'Cómo se calcula el MOQ de embarcaciones hinchables según el modelo, la configuración, los materiales, el co-branding y el utillaje.'
   dateModified: '2026-08-14'
   keywords:
     - 'MOQ embarcación'
@@ -17,21 +17,21 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'El MOQ no es un número único para todos. Cada MOQ se confirma según la configuración del proyecto: forma y molde del casco, colores y PVC, complejidad del arte, empaque y mezcla de accesorios. La producción de volumen totalmente personalizada corre en lotes de 90–100 unidades por rollo estándar de tela drop-stitch de 150 m; el co-branding de lotes pequeños parte de menos de 20 unidades; y cada proyecto se divide en tres etapas distintas — desarrollo de muestras (1–2 unidades), pedido piloto (20–50 unidades) y producción de volumen (90–100+ unidades). Confirmamos el cálculo exacto para tu mezcla de SKU antes de cotizar — sin promesas vagas de "MOQ bajo", sin compromisos ocultos.'
+  text: 'El MOQ no es un número único para todos. Cada MOQ se confirma según la configuración del proyecto: forma y molde del casco, colores y PVC, complejidad del arte, empaque y mezcla de accesorios. La producción de volumen totalmente personalizada se planifica habitualmente desde 90–100 unidades por configuración aprobada; el co-branding de lotes pequeños parte de menos de 20 unidades; y cada proyecto se divide en tres etapas distintas — desarrollo de muestras (1–2 unidades), pedido piloto (20–50 unidades) y producción de volumen (90–100+ unidades). Confirmamos el cálculo exacto para tu mezcla de SKU antes de cotizar — sin promesas vagas de "MOQ bajo", sin compromisos ocultos.'
   verified: '2026-08'
 
 moq_principle:
   tagline: La Lógica de Ingeniería
-  title: 'Por Qué el MOQ de Volumen Estándar Es de 90–100 Unidades: Física del Rollo de Materia Prima'
+  title: 'Por Qué el MOQ de Volumen Estándar Se Basa en la Configuración y los Materiales'
   subtitle: 'Los tamaños de las series de producción no son números arbitrarios fijados por un equipo comercial — los determinan las longitudes de los rollos de tela drop-stitch y la física del cambio de línea.'
   body: |
-    **La base de 150 metros de tela cruda.** La tela drop-stitch tejida de alta tensión se produce y recubre en rollos maestros continuos. La longitud estándar de rollo industrial por lote es de 150 metros de material continuo.
+    **La base de planificación de materiales.** La tela drop-stitch tejida de alta tensión se produce y recubre en rollos maestros continuos. La longitud y el rendimiento de cada lote se confirman según el material, el modelo y el plan de anidado aprobados.
 
-    **El cálculo de rendimiento (90 a 100 embarcaciones).** Para un casco de crucero o polivalente estándar (de 3,2 m a 3,5 m), un rollo maestro completo de 150 m rinde aproximadamente de 90 a 100 embarcaciones terminadas.
+    **El cálculo de rendimiento por configuración.** Para un casco de crucero o polivalente estándar (de 3,2 m a 3,5 m), el rendimiento se calcula según la eslora, el diámetro de los tubos, la construcción, el lote de material y la disposición de corte.
 
-    **Política de cero empalmes de tela.** Los rollos completos garantizan continuidad estructural total — sin empalmes transversales de alto riesgo y con tensión uniforme de las fibras en las superficies superior e inferior de la embarcación.
+    **Política de cero empalmes de tela.** La continuidad del material y cualquier requisito de unión se revisan durante la aprobación de ingeniería; no se debe asumir un rendimiento o una configuración universal.
 
-    **Calibración térmica y de adhesivo.** Las líneas automatizadas de soldadura por aire caliente de alta frecuencia y de laminación con adhesivo marino requieren 2 horas de precalentamiento, perfilado de temperatura y calibración de presión. Un lote completo de 90–100 unidades amortiza estos costos fijos de preparación, logrando el menor costo unitario posible.
+    **Calibración térmica y de adhesivo.** Las líneas automatizadas de soldadura por aire caliente de alta frecuencia y de laminación con adhesivo marino requieren preparación, perfilado de temperatura y calibración de presión según la línea y el material. Un lote completo de 90–100 unidades amortiza estos costos fijos de preparación, logrando el menor costo unitario posible.
 
 moq_tiers:
   tagline: Dos Rutas Hacia Tu Marca
@@ -41,7 +41,7 @@ moq_tiers:
     - icon: P
       icon_bg: blue
       title: 'OEM de Volumen Totalmente Personalizado — 90–100 Unidades por Lote'
-      desc: 'Determinado por la longitud estándar de 150 m del rollo de tela drop-stitch de alta calidad para garantizar la utilización óptima del material y la consistencia estructural. · Personalización 100% total: forma exclusiva del casco y colores Pantone a medida · Cobertura de arte digital o serigrafía en superficie completa · Empaque minorista personalizado, cajas impresas y accesorios con tu marca · Máxima eficiencia de costos y economías de escala'
+      desc: 'Determinado por la configuración aprobada y los requisitos de material para mantener un uso eficiente y una construcción consistente. · Personalización 100% total: forma exclusiva del casco y colores Pantone a medida · Cobertura de arte digital o serigrafía en superficie completa · Empaque minorista personalizado, cajas impresas y accesorios con tu marca · Máxima eficiencia de costos y economías de escala'
       link: '/es/contact#custom-oem'
       link_label: 'Consultar por OEM de Volumen'
     - icon: B
@@ -83,7 +83,7 @@ moq_stages:
       desc: 'Pruebas comerciales de pretemporada y validación de mercado regional usando plataformas de casco existentes, materiales de stock y empaque simplificado para minimizar la fricción de preparación.'
     - step: '03'
       title: 'Producción de Volumen (90–100+ unidades)'
-      desc: 'Confirmada tras la BOM congelada, el arte finalizado, el empaque personalizado y los planes de entrega programados — rollos completos de 150 m, telas Pantone a medida, empaque exclusivo, descuentos por volumen y trazabilidad completa de lote.'
+      desc: 'Confirmada tras la BOM congelada, el arte finalizado, el empaque personalizado y los planes de entrega programados — lotes de material aprobados y telas Pantone a medida, empaque exclusivo, descuentos por volumen y trazabilidad completa de lote.'
 
 moq_factors:
   tagline: Qué Define Tu MOQ
@@ -115,7 +115,7 @@ moq_downloads:
     - icon: G
       icon_bg: blue
       title: 'Guía de Branding Flexible y MOQ (PDF)'
-      desc: 'Guía B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN, publicada el 14 ago 2026): la lógica de ingeniería detrás del rendimiento de los rollos drop-stitch de 150 m (90–100 embarcaciones), el programa de co-branding de menos de 20 unidades, las tarifas de serigrafía transparentes y las tres etapas de producción.'
+      desc: 'Guía B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN, publicada el 14 ago 2026): la lógica de ingeniería detrás del rendimiento específico de cada configuración y sus niveles de MOQ, el programa de co-branding de menos de 20 unidades, las tarifas de serigrafía transparentes y las tres etapas de producción.'
       link: 'https://assets.neptunor.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Descargar Guía (PDF)'
     - icon: P
@@ -136,7 +136,7 @@ moq_faqs:
     - q: '¿Por qué el empaque minorista personalizado tiene un MOQ independiente?'
       a: 'Las imprentas flexográficas u offset de cajas personalizadas requieren una preparación mínima de más de 500 unidades. Ofrecemos una Solución de Almacenamiento de Empaque Híbrido: producimos las 500 cajas impresas, almacenamos el excedente en nuestro almacén limpio y las liberamos en lotes a través de tus envíos programados — así un pedido menor también puede enviarse con empaque minorista totalmente personalizado.'
     - q: '¿Por qué el MOQ estándar de volumen es de 90–100 unidades?'
-      a: 'El MOQ de volumen estándar sigue a la materia prima: un rollo maestro de 150 m de tela drop-stitch de alta calidad rinde aproximadamente 90–100 embarcaciones terminadas para un casco de crucero o polivalente estándar. Correr rollos completos elimina empalmes de tela, mantiene uniforme la tensión de las fibras y amortiza las 2 horas de calibración de las líneas de soldadura y laminación — logrando el menor costo unitario posible.'
+      a: 'El MOQ de volumen estándar sigue a la materia prima: la planificación de materiales para una configuración aprobada suele respaldar un nivel de volumen de 90–100 unidades. La cantidad exacta depende de la construcción, el lote de material, la mezcla de pedidos, el embalaje y la preparación de línea.'
     - q: '¿Una cantidad mayor reduce el costo unitario?'
       a: 'En la mayoría de los proyectos, sí. Las cantidades mayores mejoran el rendimiento del material, distribuyen los costos fijos de preparación de la línea entre más embarcaciones y reducen los costos unitarios de empaque.'
     - q: '¿Las tarifas de molde del co-branding se aplican de nuevo en los re-pedidos?'

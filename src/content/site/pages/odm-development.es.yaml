@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'El desarrollo ODM parte de tu brief, no de tus planos: el diseño del casco (largo, manga, arrufo de proa, volumen), la estructura del material y la gráfica se ingenian en casa, se validan con muestras de prototipo en 10–15 días y se producen con un MOQ de volumen estándar de 90–100 unidades por lote de rollo de 150 m (pilotos desde 20–50 unidades). La producción corre en 30–45 días tras confirmar el pedido y el depósito; el utillaje de molde a medida añade 20–35 días. Con cada pedido se envía documentación CE, ISO 9001, BSCI, REACH y RoHS.'
+  text: 'El desarrollo ODM parte de tu brief, no de tus planos: el diseño del casco (largo, manga, arrufo de proa, volumen), la estructura del material y la gráfica se ingenian en casa, se validan con muestras de prototipo en 10–15 días y se producen con un MOQ de volumen estándar normalmente planificado desde 90–100 unidades por configuración aprobada (pilotos desde 20–50 unidades). La producción corre en 30–45 días tras confirmar el pedido y el depósito; el utillaje de molde a medida añade 20–35 días. Con cada pedido se envía documentación CE, ISO 9001, BSCI, REACH y RoHS.'
   verified: '2026-08'
 
 features:
@@ -45,7 +45,7 @@ features:
       description: 'Cláusulas de propiedad o compra del molde escritas en el contrato — tu diseño sigue siendo tuyo y el utillaje se conserva para reordenes.'
       icon: 'tabler:lock'
     - title: Del prototipo al contenedor
-      description: 'Un diseño ODM validado pasa directo a producción de volumen estándar: 90–100+ unidades por lote de rollo de 150 m, en 30–45 días tras confirmar el pedido.'
+      description: 'Un diseño ODM validado pasa directo a producción de volumen estándar: 90–100+ unidades por configuración aprobada, en 30–45 días tras confirmar el pedido.'
       icon: 'tabler:package'
 
 customization:
@@ -73,7 +73,7 @@ faq_section:
     - q: '¿Cuánto tarda el desarrollo de una embarcación nueva?'
       a: 'Las muestras de prototipo salen en 10–15 días. Un casco nuevo con utillaje de molde a medida añade 20–35 días de ingeniería antes de las muestras. La producción corre en 30–45 días tras el pedido y el depósito.'
     - q: '¿Cuál es el MOQ de una embarcación ODM?'
-      a: 'La producción de volumen estándar corre de 90–100 unidades por lote de rollo de drop-stitch de 150 m; los pilotos parten de 20–50 unidades sobre plataformas existentes. El co-branding de lotes pequeños parte de menos de 20 unidades — consulta nuestra Guía de MOQ y branding flexible para el cálculo completo.'
+      a: 'La producción de volumen estándar se planifica normalmente desde 90–100 unidades por configuración aprobada; los pilotos parten de 20–50 unidades sobre plataformas existentes. El co-branding de lotes pequeños parte de menos de 20 unidades — consulta nuestra Guía de MOQ y branding flexible para el cálculo completo.'
     - q: '¿Quién es el dueño del diseño y del molde?'
       a: 'Tu brief, tu diseño y el utillaje están protegidos por NDA, términos de licencia de marca y cláusulas de propiedad o compra del molde escritas en el contrato. El utillaje se conserva para tu marca y es transferible.'
     - q: '¿Podéis desarrollar una forma específica (travesía, pesca, rescate, trabajo)?'
@@ -120,7 +120,7 @@ process:
       title: Producción y entrega
       period: 30–45 días
       items:
-        - 'Los lotes de volumen estándar corren de 90–100+ unidades por rollo de 150 m; los pilotos desde 20–50 unidades.'
+        - 'Los lotes de volumen estándar se planifican normalmente desde 90–100+ unidades por configuración aprobada; los pilotos desde 20–50 unidades.'
         - 'Embalaje de exportación, envío FOB/CIF/DDP a más de 40 países y soporte de reordenes incluidos.'
 
 geo:

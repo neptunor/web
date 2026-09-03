@@ -85,8 +85,8 @@ export function Footer() {
         <FooterCol title={t('sup.footer.colSolutions')}>
           <a className="foot-link" href={fl('/solutions/private-label-boats')}>{t('sup.footer.privateLabel')}</a>
           <a className="foot-link" href={fl('/solutions/fleet-rental')}>{t('sup.footer.resortSolutions')}</a>
-          <a className="foot-link" href={fl('/solutions/custom-boats')}>{t('sup.footer.clubSup')}</a>
-          <a className="foot-link" href={fl('/solutions/rescue-professional')}>{t('sup.footer.schoolSup')}</a>
+          <a className="foot-link" href={fl('/solutions/custom-boats')}>{t('sup.footer.customBoatPrograms')}</a>
+          <a className="foot-link" href={fl('/solutions/rescue-professional')}>{t('sup.footer.rescueProfessional')}</a>
           <a className="foot-link" href={fl('/solutions/yacht-tender-dealers')}>{t('sup.nav.industriesDropdown.distributors')}</a>
           <a className="foot-link" href={fl('/solutions/fleet-rental')}>{t('sup.nav.industriesDropdown.rental')}</a>
           <a className="foot-link" href={fl('/b2b-solutions-matrix')}>{t('sup.footer.b2bMatrix')}</a>
@@ -97,10 +97,12 @@ export function Footer() {
         {/* Resources */}
         <FooterCol title={t('sup.footer.colResources')}>
           <a className="foot-link" href={fl('/knowledge')}>{t('sup.nav.guides')}</a>
+          <a className="foot-link" href={fl('/resources/rib-buyer-resource-center')}>{t('sup.nav.resourcesDropdown.buyerResourceCenter')}</a>
+          <a className="foot-link" href={fl('/resources/rib-cad-access-request')}>{t('sup.nav.resourcesDropdown.cadAccessGuide')}</a>
+          <a className="foot-link" href={fl('/resources/rib-after-sales-spares')}>{t('sup.nav.resourcesDropdown.afterSalesGuide')}</a>
           <a className="foot-link" href={fl('/faq')}>{t('sup.footer.faq')}</a>
           <a className="foot-link" href={fl('/oem-onboarding-guide')}>{t('sup.nav.resourcesDropdown.onboarding')}</a>
           <a className="foot-link" href={fl('/oem-moq-guide')}>{t('sup.nav.resourcesDropdown.moqGuide')}</a>
-          <a className="foot-link" href={fl('/faq')}>{t('sup.footer.whatIsSup')}</a>
           <a className="foot-link" href={fl('/oem-boat-moq')}>{t('sup.nav.resourcesDropdown.sizeGuide')}</a>
           <a className="foot-link" href={fl('/news')}>{t('sup.footer.news')}</a>
         </FooterCol>

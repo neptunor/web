@@ -1,0 +1,100 @@
+meta:
+  title: 'RIB Production Traceability Evidence — From Material Batch to Delivered Boat | Neptunor'
+  description: 'How RIB and inflatable boat factories can show buyers a controlled traceability chain linking approved specifications, materials, inspections, serial numbers, packing and shipment records.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB production traceability'
+    - 'RIB single boat traceability pack'
+    - 'inflatable boat QC records'
+    - 'RIB factory quality evidence'
+
+hero:
+  tagline: 'Traceability & Quality Evidence'
+  title: 'How Buyers Should Review a RIB Traceability Pack'
+  subtitle: 'A practical framework for connecting the approved design, materials, inspection gates, individual boat identity and shipment records without exposing unrelated customer or manufacturing IP.'
+  actions:
+    - variant: primary
+      text: Request a traceability evidence review
+      href: /contact#project-brief
+    - text: Review the quality system
+      href: /quality
+
+answer:
+  label: 'Quick answer'
+  text: 'A useful RIB traceability pack should connect the approved model and configuration to the material lots, production date, inspection results, serial or WIN/HIN reference where applicable, non-conformance and corrective-action records, final packing check and shipment release. A master technical file can prove the design basis; a boat-level record should show that the delivered boat was built against that controlled basis.'
+  verified: '2026-09'
+
+record_layers:
+  tagline: 'Evidence chain'
+  title: 'The records a buyer should expect to connect'
+  subtitle: 'The exact record names vary by project and market. The important point is continuity, ownership, revision control and retrieval.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Approved specification'
+      desc: 'Model, configuration revision, dimensions, materials, equipment, artwork, packaging and applicable market assumptions.'
+    - icon: B
+      icon_bg: green
+      title: 'Material batch records'
+      desc: 'PVC or CSM fabric, aluminum, fiberglass, resin, adhesives, valves, hardware and other controlled inputs linked to incoming inspection.'
+    - icon: P
+      icon_bg: purple
+      title: 'Process records'
+      desc: 'Hull fabrication, tube welding or bonding, lamination, assembly, torque, installation and in-process inspection records.'
+    - icon: T
+      icon_bg: orange
+      title: 'Test records'
+      desc: 'Pressure, air-retention, dimensional, load, structural or other relevant results with method, date, acceptance criteria and inspector.'
+    - icon: N
+      icon_bg: blue
+      title: 'Non-conformance records'
+      desc: 'Held items, root-cause review, approved rework or replacement, corrective action and independent re-inspection before release.'
+    - icon: R
+      icon_bg: green
+      title: 'Release and shipment'
+      desc: 'Final inspection, serial or batch mapping, packing-list check, container or shipment references and release authorization.'
+
+traceability_flow:
+  tagline: 'Buyer verification sequence'
+  title: 'Follow one delivered boat through the system'
+  subtitle: 'A live sample or anonymized dossier is more useful than a generic statement that records exist.'
+  steps:
+    - step: '01'
+      title: 'Start with the boat identity'
+      desc: 'Select a model, order, serial number or controlled anonymized example. Confirm how the factory identifies the individual boat and its production batch.'
+    - step: '02'
+      title: 'Trace back to the approved baseline'
+      desc: 'Match the boat to the current specification, approved sample, BOM, artwork, packaging and configuration revision used for production release.'
+    - step: '03'
+      title: 'Trace inputs and operations'
+      desc: 'Follow the relevant material lots, suppliers or certificates, process records, operator or line records and inspection points connected to the build.'
+    - step: '04'
+      title: 'Review tests and exceptions'
+      desc: 'Check test method, conditions, result, acceptance threshold and any non-conformance, rework, replacement or concession record.'
+    - step: '05'
+      title: 'Match final release to shipment'
+      desc: 'Confirm the final inspection, serial or batch mapping, packing check, carton or container references and release approval are consistent.'
+
+faqs:
+  tagline: 'Buyer FAQ'
+  title: 'Questions about RIB traceability evidence'
+  items:
+    - q: 'Does traceability require sharing every supplier name and internal record?'
+      a: 'No. Buyers can review relevant evidence or anonymized samples while confidential supplier, formula, design and customer information remains controlled. The goal is to demonstrate linkage and retrieval.'
+    - q: 'What is the difference between a master file and a boat-level pack?'
+      a: 'The master file describes the design and compliance basis for a model or type. The boat-level pack shows how a particular delivered boat or batch was built, inspected, released and packed against that basis.'
+    - q: 'How should reworked boats appear in the records?'
+      a: 'The affected boat should remain identifiable, with the non-conformance, approved rework or replacement instruction, re-inspection result and release decision recorded. Rework should not erase the original history.'
+    - q: 'Can a buyer request a sample dossier before ordering?'
+      a: 'A factory may provide an anonymized or redacted example and explain the fields available for an actual project. The final record set is agreed by order scope, market and confidentiality requirements.'
+
+cta:
+  title: 'Want to verify the evidence chain before ordering?'
+  subtitle: 'Tell us the boat platform, market and audit level you need. We can outline the appropriate traceability and quality records for review.'
+  actions:
+    - variant: primary
+      text: Request an evidence review
+      href: /contact#project-brief
+    - text: Review factory audit questions
+      href: /factory-audit-checklist

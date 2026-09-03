@@ -14,10 +14,10 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'El MOQ se confirma según la configuración del proyecto, no con un número fijo: cada proyecto pasa por las etapas de muestra (1–2 unidades) y piloto (20–50 unidades), con una producción de volumen estándar de 90–100+ unidades por lote a partir de un rollo completo de drop-stitch de 150 m. Las muestras están listas en 10–15 días; la producción estándar se realiza en 30–45 días tras la confirmación del PO y el depósito.'
+  text: 'El MOQ se confirma según la configuración del proyecto, no con un número fijo: cada proyecto pasa por las etapas de muestra (1–2 unidades) y piloto (20–50 unidades), con una producción de volumen estándar de 90–100+ unidades por configuración aprobada, sujeta a los requisitos de material y embalaje. Las muestras están listas en 10–15 días; la producción estándar se realiza en 30–45 días tras la confirmación del PO y el depósito.'
   verified: '2026-08'
 
-intro: Neptunor ofrece servicios OEM y ODM integrales para marcas, distribuidores y agencias gubernamentales de todo el mundo. Con más de 10 años de experiencia en exportación y una fábrica de 18.000 m² certificada ISO 9001 y BSCI, nos encargamos de todo, desde el diseño del producto y el desarrollo de moldes hasta la producción a gran escala, el embalaje y la gestión de exportación.
+intro: Neptunor ofrece servicios OEM y ODM integrales para marcas, distribuidores y agencias gubernamentales de todo el mundo. Con más de 10 años de experiencia en exportación y una fábrica de 18.000 m² con programas documentados de calidad y cumplimiento social, nos encargamos de todo, desde el diseño del producto y el desarrollo de moldes hasta la producción a gran escala, el embalaje y la gestión de exportación.
 
 highlight:
   - value: 10+
@@ -46,7 +46,7 @@ services:
 moq_table:
   - product: Embarcaciones de embarcaciones hinchables
     standard_moq: 'Muestra 1–2 | Piloto 20–50'
-    custom_moq: 'Volumen 90–100+ (por rollo de 150 m)'
+    custom_moq: 'Volumen 90–100+ por configuración aprobada'
     lead_time: 30–45 días
 
 why_us:
@@ -55,9 +55,9 @@ why_us:
   - title: Doble certificación
     description: Gestión de calidad ISO 9001 y certificación de cumplimiento social BSCI. Informes de auditoría de fábrica disponibles bajo petición.
   - title: Cumplimiento CE
-    description: Todos los modelos estándar cuentan con certificación CE 2013/53/EU. Los modelos personalizados pueden obtener la certificación CE mediante nuestro proceso establecido.
+    description: La documentación CE y la evaluación de conformidad se revisan según el modelo, la configuración y el mercado de destino.
   - title: MOQ específico por proyecto
-    description: 'El MOQ se confirma según la configuración de tu proyecto: el co-branding de lotes pequeños parte de menos de 20 unidades y el volumen estándar corre en lotes de 90–100+ unidades. Ayudamos a las marcas emergentes a lanzarse sin comprometer inventario en exceso.'
+    description: 'El MOQ se confirma según la configuración de tu proyecto: el co-branding de lotes pequeños parte de menos de 20 unidades y el volumen estándar corre en configuraciones aprobadas de 90–100+ unidades. Ayudamos a las marcas emergentes a lanzarse sin comprometer inventario en exceso.'
 
 cta:
   title: 'Pon tu propia marca en una embarcación probada'

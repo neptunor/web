@@ -205,6 +205,14 @@ function mdxBodyOf(glob: Record<string, string>, slug: string): string {
   return key ? parseFrontmatter(glob[key]).body : ''
 }
 
+const SUPPORTED_PRODUCT_CATEGORIES = new Set([
+  'aluminum-rib',
+  'fiberglass-rib',
+  'sport-console',
+  'rescue-pro',
+  'inflatable-dinghy',
+])
+
 function productOf(slug: string, d: Record<string, unknown>, body: string): ContentProduct {
   const rec = { ...(d as object) } as Record<string, unknown>
   if (typeof rec.image === 'string') rec.image = assetUrl(rec.image)
@@ -218,7 +226,7 @@ function productOf(slug: string, d: Record<string, unknown>, body: string): Cont
 }
 
 const PRODUCTS: ContentProduct[] = Object.entries(PRODUCT_DATA)
-  .filter(([slug]) => !slug.endsWith('.es'))
+  .filter(([slug, data]) => !slug.endsWith('.es') && SUPPORTED_PRODUCT_CATEGORIES.has(String((data as Record<string, unknown>).category ?? '')))
   .map(([slug, d]) => productOf(slug, d as Record<string, unknown>, mdxBodyOf(productGlob, slug)))
   .sort((a, b) => a.title.localeCompare(b.title))
 

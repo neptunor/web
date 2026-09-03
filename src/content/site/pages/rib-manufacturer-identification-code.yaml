@@ -1,0 +1,115 @@
+meta:
+  title: 'RIB Manufacturer Identification Code (MIC) Guide — EU Market Responsibility | Neptunor'
+  description: 'What RIB and inflatable boat buyers should verify about the manufacturer identification code, responsible manufacturer identity and EU market documentation.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB manufacturer identification code'
+    - 'RIB MIC EU'
+    - 'RIB manufacturer code WIN'
+    - 'EU RIB manufacturer identity'
+
+hero:
+  tagline: 'Manufacturer Identity & Market Responsibility'
+  title: 'How to Verify the Manufacturer Identification Code for an EU-Bound RIB'
+  subtitle: 'A cautious buyer guide to the manufacturer identifier used in watercraft identification and the legal responsibility behind the boat, marking and documents.'
+  actions:
+    - variant: primary
+      text: Request a market-document review
+      href: /contact#project-brief
+    - text: Review WIN/HIN marking
+      href: /resources/rib-win-hin-iso-10087
+
+answer:
+  label: 'Quick answer'
+  text: 'A manufacturer identification code is part of the watercraft identity system; it is not a generic “CE number” and does not by itself prove that a boat is compliant. Before an EU-bound RIB is marked or documented, the project should confirm the responsible legal manufacturer, the identifier assigned or accepted for that manufacturer, the relationship between the brand and factory, the applicable RCD route, the WIN/HIN or CIN construction, the builder’s plate, the EU Declaration of Conformity and the importer or other EU economic operator responsibilities. The code and its use must be confirmed with the responsible authority or compliance professional for the actual market and project.'
+  verified: '2026-09'
+
+responsibility_layers:
+  tagline: 'Responsibility map'
+  title: 'Separate the factory, brand, manufacturer and importer roles'
+  subtitle: 'Private-label projects often involve several parties. Put the identity and document responsibilities in writing before production marking.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: F
+      icon_bg: blue
+      title: 'Actual factory'
+      desc: 'Identify the legal entity that controls design, production records, inspections and the physical boat manufacturing location.'
+    - icon: B
+      icon_bg: green
+      title: 'Brand or private-label party'
+      desc: 'Confirm whether the brand owner places the finished craft on the market under its own name or trademark and what manufacturer obligations follow.'
+    - icon: C
+      icon_bg: purple
+      title: 'Manufacturer identifier'
+      desc: 'Verify how the manufacturer identifier is assigned, recorded and used in the watercraft number and related compliance documents.'
+    - icon: I
+      icon_bg: orange
+      title: 'EU importer or operator'
+      desc: 'Define the EU-based importer or other economic operator, contact information and document-retention responsibilities where applicable.'
+    - icon: D
+      icon_bg: blue
+      title: 'Declaration and plate'
+      desc: 'Make sure the responsible party, product identity, design category, identification number and declaration references agree across the delivery set.'
+    - icon: R
+      icon_bg: green
+      title: 'Record retention'
+      desc: 'Agree who retains technical, production, declaration, identification and shipment records and how an authority or buyer can request the relevant evidence.'
+
+review_steps:
+  tagline: 'Buyer review sequence'
+  title: 'Verify the code through the project document chain'
+  subtitle: 'Do not treat a code printed in an email or certificate image as independent proof of manufacturer responsibility.'
+  steps:
+    - step: '01'
+      title: 'Define the final market role'
+      desc: 'Confirm whether the craft is a complete recreational boat, partly completed craft or another project type, and identify who places it on the EU market under which name.'
+    - step: '02'
+      title: 'Verify the legal entity'
+      desc: 'Match the legal manufacturer name, address and brand relationship to contracts, the builder’s plate, EU DoC, technical documentation and importer records.'
+    - step: '03'
+      title: 'Confirm identifier authority and format'
+      desc: 'Ask the responsible compliance party or relevant authority how the manufacturer identifier is assigned and how it must appear within the applicable WIN/HIN or CIN format.'
+    - step: '04'
+      title: 'Match all physical and digital references'
+      desc: 'Compare the code and resulting watercraft number on the boat, concealed or duplicate marking where applicable, builder’s plate, manual, declaration, inspection record and shipment dossier.'
+    - step: '05'
+      title: 'Document changes and private-label boundaries'
+      desc: 'Record any change of brand, responsible manufacturer, final assembler, importer, model or configuration. Reassess the affected documents and markings instead of reusing an old code or declaration.'
+
+red_flags:
+  tagline: 'Red flags'
+  title: 'Claims that require documentary confirmation'
+  items:
+    - q: '“Our MIC is our CE certificate.”'
+      a: 'A manufacturer identifier supports product identity; it is not a conformity assessment, certificate or universal approval.'
+    - q: '“The Chinese factory code is automatically the brand owner’s code.”'
+      a: 'Confirm the legal manufacturer and the party placing the craft on the market. Private-label responsibility must be defined for the actual project.'
+    - q: '“One code can be copied to every customer brand.”'
+      a: 'Ask how identifiers, brands, models and responsible parties are controlled. Do not duplicate identity references across unrelated programs.'
+    - q: '“The importer does not need the document set.”'
+      a: 'EU economic-operator obligations can include checking marking and documentation and making records available. Confirm the actual duties for the product and route.'
+    - q: '“The code is valid forever without review.”'
+      a: 'Identity arrangements, legal entities, standards, market rules and private-label roles can change. Keep the code and document basis under review.'
+
+faqs:
+  tagline: 'Buyer FAQ'
+  title: 'Questions about RIB manufacturer identification codes'
+  items:
+    - q: 'Is a MIC the same as an IMO number or company registration number?'
+      a: 'No. These identifiers serve different systems and purposes. The manufacturer code used in watercraft identification should not be substituted with an IMO, customs, flag-state or corporate registration number.'
+    - q: 'Who should confirm the code for an EU project?'
+      a: 'The responsible manufacturer and the project’s qualified compliance professional should confirm the applicable identity and marking basis with the relevant authority or notified-body route where needed.'
+    - q: 'Does a private-label customer automatically become the manufacturer?'
+      a: 'Not automatically. The legal role depends on how the finished craft is placed on the market, whose name or trademark appears and the applicable contractual and regulatory responsibilities.'
+    - q: 'What should be included in a buyer’s review request?'
+      a: 'Provide the boat model, length, intended use, target market, complete or partly completed status, brand arrangement, factory legal entity and proposed marking or document sample.'
+
+cta:
+  title: 'Need to confirm manufacturer identity for an EU-bound boat?'
+  subtitle: 'Send the model, target market, brand arrangement and current document or marking sample. We will map the identity questions that need professional confirmation.'
+  actions:
+    - variant: primary
+      text: Request a market-document review
+      href: /contact#project-brief
+    - text: Review compliance documentation
+      href: /resources/rib-compliance-documentation

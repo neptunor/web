@@ -7,8 +7,7 @@
     "Aluminum-hull RIBs",
     "Fiberglass-hull RIBs",
     "Yacht tenders",
-    "Rescue boats",
-    "Marine accessories"
+    "Rescue boats"
   ],
   "manufacturing_location": "Qingdao, China",
   "facility_size": "18,000 m²",
@@ -17,7 +16,7 @@
   "markets": "40+ countries",
   "business_model": ["OEM", "ODM", "Private Label", "Fleet supply", "Custom manufacturing"],
   "founded": 2012,
-  "certifications": ["CE (RCD 2013/53/EU)", "ISO 6185", "ISO 9001", "BSCI", "REACH"],
+  "certifications": ["CE (RCD 2013/53/EU)", "ISO 6185", "ISO 9001", "BSCI", "REACH", "RoHS"],
   "expertise": [
     "Marine-grade PVC fabrication",
     "Hypalon/CSM rubber processing",

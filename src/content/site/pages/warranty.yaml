@@ -1,111 +1,75 @@
 meta:
-  title: 'Inflatable boat Warranty — 5-Year Limited | {SITE}'
-  description: 'Neptunor warranty and after-sales support for inflatable boats and accessories. Our 5-year quality commitment for partners and customers.'
+  title: 'RIB & Inflatable Boat Warranty and After-Sales Support | {SITE}'
+  description: 'B2B warranty and after-sales planning for RIB boats and inflatable boats, including claim records, spare parts and service responsibilities.'
+  dateModified: '2026-09-03'
   keywords:
-    - 'boat warranty'
-    - 'boat guarantee'
+    - 'RIB warranty'
     - 'inflatable boat warranty'
-    - 'after-sales support'
-label: 'Warranty'
-headline: 'Inflatable boat Warranty & After-Sales Support'
-subtitle: 'Neptunor stands behind the quality of every inflatable boat we manufacture. This Limited Warranty sets forth the terms and coverage for your Neptunor product.'
+    - 'boat after-sales support'
+    - 'RIB spare parts'
+label: 'Warranty & After-Sales'
+headline: 'RIB & Inflatable Boat Warranty and After-Sales Support'
+subtitle: 'Warranty scope, claim evidence and spare-parts arrangements are agreed for the delivered model, configuration, market and use case.'
 seo:
-  headline: 'Neptunor Inflatable boat Warranty — 5-Year Limited Warranty | Neptunor'
-  description: 'Neptunor offers a 5-year limited warranty on primary tube fabric, seams, and drop-stitch core structural integrity. Also covering inflation valves and factory-installed accessories. Full terms and conditions for Neptunor inflatable boat warranty.'
-  datePublished: '2024-01-01'
-  dateModified: '2026-06-01'
+  headline: 'RIB & Inflatable Boat Warranty and After-Sales Support | Neptunor'
+  description: 'Understand how Neptunor structures B2B warranty, defect claims, spare parts and service support for RIB boats and inflatable boats.'
+  datePublished: '2026-09-03'
+  dateModified: '2026-09-03'
 body: |
   <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
-    This Limited Warranty applies to new Neptunor branded inflatable marine products purchased directly from Neptunor or from an authorized Neptunor dealer or retailer. The effective date is the verifiable date of original retail purchase.
+    Neptunor supplies RIB boats and inflatable boats to brands, distributors, fleets and professional operators. This page is a planning summary, not a substitute for the warranty and after-sales terms written into the quotation, purchase order and supply contract for your project.
   </p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
-    <h2 class="text-xl font-bold mb-3">Warranty Coverage & Duration</h2>
+    <h2 class="text-xl font-bold mb-3">What is agreed for each project</h2>
     <div class="grid md:grid-cols-2 gap-4">
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
-        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Years</h3>
-        <p class="text-sm text-gray-600 mt-1">Primary tube fabric integrity (CSM/PVC)</p>
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">Scope</h3>
+        <p class="text-sm text-gray-600 mt-1">Covered components, manufacturing defects, exclusions and any third-party equipment boundary.</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
-        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Years</h3>
-        <p class="text-sm text-gray-600 mt-1">Fiberglass hull structural integrity</p>
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">Duration</h3>
+        <p class="text-sm text-gray-600 mt-1">The warranty period is confirmed by model, destination market, contract and intended use.</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
-        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Years</h3>
-        <p class="text-sm text-gray-600 mt-1">Inflatable tube seam air-holding capability</p>
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">Evidence</h3>
+        <p class="text-sm text-gray-600 mt-1">Serial or WIN/HIN reference, delivery details, photos or video and operating information required for review.</p>
       </div>
       <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
-        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Years</h3>
-        <p class="text-sm text-gray-600 mt-1">Inflation valve functionality</p>
-      </div>
-      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
-        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 Year</h3>
-        <p class="text-sm text-gray-600 mt-1">Factory-installed accessories and auxiliary fittings</p>
-      </div>
-      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
-        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 Year*</h3>
-        <p class="text-sm text-gray-600 mt-1">Commercial, rental, or fleet use —all components</p>
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">Remedy</h3>
+        <p class="text-sm text-gray-600 mt-1">Repair, replacement part, rework, replacement boat, credit or another contractual remedy as applicable.</p>
       </div>
     </div>
-    <p class="text-xs text-gray-500 mt-4">*Commercial, governmental, charter, rental, or instructional use reduces warranty to 1 year. Racing or competition use voids warranty entirely.</p>
   </div>
 
-  <h2>What Is Covered</h2>
-  <h3>Primary Tube Fabric (5 Years)</h3>
-  <p>Neptunor warrants the principal tube fabric against porosity deterioration that substantially compromises the product's ability to maintain operational inflation. This applies to CSM (Hypalon) coated fabric and all other tube fabric materials used in manufacture.</p>
+  <h2>Typical manufacturing-defect categories</h2>
+  <p>Depending on the approved configuration and contract, the review may cover defects in tube seams, valves, hull fabrication, bonding, factory-installed fittings or other workmanship. It does not automatically cover punctures, impact, abrasion, misuse, incorrect inflation, unauthorized modification, unsuitable storage, normal wear or damage caused after delivery.</p>
+  <p>Aluminum hulls, fiberglass hulls, PVC tubes, CSM/Hypalon tubes, air-deck panels, consoles and third-party components may have different service boundaries. The approved specification and contract control which components are covered.</p>
 
-  <h3>Fiberglass Hull Structural Integrity (5 Years)</h3>
-  <p>For products with a fiberglass-reinforced plastic (FRP) hull, the fundamental composite structure is warranted against structural failure due to defects in materials or workmanship.</p>
+  <h2>Commercial and fleet use</h2>
+  <p>Rental, resort, charter, rescue, patrol, instructional and other high-cycle use must be disclosed during quotation. Commercial duty cycles, operating environment, maintenance arrangements and local service capability may affect warranty scope, inspection requirements and spare-parts planning. Do not apply a private-recreation warranty assumption to a commercial fleet.</p>
 
-  <h3>Inflatable Tube Seam Air-Holding Capability (5 Years)</h3>
-  <p>The seams of inflatable tubes, where joined during manufacture, are warranted against manufacturing defects that result in substantial air leakage through the seam. Periodic inspection and maintenance of appropriate inflation pressures are conditions of coverage.</p>
+  <h2>Recommended claim process</h2>
+  <ol>
+    <li><strong>Identify the boat:</strong> provide the model, serial or WIN/HIN reference, order number and delivery date.</li>
+    <li><strong>Describe the issue:</strong> include the affected component, operating history, environment and when the issue was discovered.</li>
+    <li><strong>Attach evidence:</strong> send clear photos or video and preserve the affected part where practical.</li>
+    <li><strong>Allow technical review:</strong> Neptunor compares the report with the approved specification, BOM, inspection records and traceability data.</li>
+    <li><strong>Agree the remedy:</strong> repair, replacement, rework or another remedy is recorded before work begins.</li>
+  </ol>
 
-  <h3>Inflation Valve Functionality (5 Years)</h3>
-  <p>Air inflation valves originally installed by Neptunor are warranted against manufacturing defects in materials or workmanship that prevent the valve from holding air as designed.</p>
+  <h2>Spare-parts planning</h2>
+  <p>Fleet and dealer programs can plan model-matched service parts with the original order or through later replenishment. Depending on the boat, a service package may include compatible valves, PVC or CSM repair materials, adhesive, tube or rubbing-strake sections, floor components, pumps, oars, drain plugs, covers and console hardware. The final list, compatibility and availability are confirmed per model and BOM.</p>
+  <p>For a practical checklist, see the <a href="/resources/rib-after-sales-spares" class="text-sky-600 underline">RIB after-sales and spare-parts guide</a> and the <a href="/resources/rib-traceability-evidence" class="text-sky-600 underline">traceability evidence guide</a>.</p>
 
-  <h3>Factory-Installed Accessories (1 Year)</h3>
-  <p>Components and fittings manufactured by Neptunor and originally installed at the factory are warranted against defects in material and workmanship for one year. This excludes third-party items, which are covered only by their respective manufacturer warranties.</p>
+  <h2>Records and change control</h2>
+  <p>Keep the approved sample, technical specification, artwork, BOM, manual revision, serial references and service-pack list together. If a valve, fitting, fabric, console component or manual changes, record and approve the revision before releasing a repeat order or replacement part.</p>
+  <p>Neptunor’s documented production process includes serial-linked inspection and material records for the retention period stated in the project documentation. These records support warranty review and replacement-part matching; they do not replace the written contract.</p>
 
-  <h2>What Is Not Covered</h2>
-  <ul>
-    <li>Cosmetic flaws including discoloration, staining, fading, chalking, or any alteration in appearance</li>
-    <li>Punctures, cuts, tears, rips, or other physical damage</li>
-    <li>Crazing, cracking, abrasion, scuffing, or deterioration from friction or contact</li>
-    <li>Degradation from UV light exposure, weathering, or atmospheric conditions</li>
-    <li>Damage from contact with fuels, solvents, acids, alkalis, or chemicals</li>
-    <li>Damage from negligence, improper use, abuse, accident, or normal wear and tear</li>
-    <li>Gelcoat or paint surface issues (blistering, crazing, discoloration, fading)</li>
-    <li>Damage from impact, stress, improper support, or trailering</li>
-    <li>Damage from improper inflation/deflation or use of non-approved inflation devices</li>
-    <li>Third-party equipment, components, or systems (covered by their respective manufacturers)</li>
-  </ul>
-
-  <h2>Manufacturer's Obligation & Remedy</h2>
-  <p>Neptunor's sole and exclusive obligation is the repair or replacement, at Neptunor's option, of any component determined to be defective in materials or workmanship and covered under this warranty. Repairs or replacements are performed by Neptunor or its designated authorized service facility. Components repaired or replaced are warranted only for the unexpired portion of the original warranty period.</p>
-
-  <h2>Conditions of Warranty</h2>
-  <ul>
-    <li><strong>Registration:</strong> The product must be properly registered as mandated in the warranty terms.</li>
-    <li><strong>Maintenance:</strong> The product must be maintained in accordance with Neptunor's published guidelines, including periodic inspection and maintenance of appropriate inflation pressures.</li>
-    <li><strong>Cooperation:</strong> The purchaser must fully and promptly cooperate with Neptunor in all matters pertaining to warranty claims.</li>
-    <li><strong>Original Purchaser:</strong> This warranty is extended exclusively to the original end-user purchaser and is not transferable.</li>
-  </ul>
-
-  <h2>Commercial Use</h2>
-  <p>If the product is used for commercial, governmental, non-profit, charter, rental, instructional, or any purpose other than private recreational use, the warranty period for all components is reduced to one (1) year from the original date of retail purchase. Use in racing, speed or endurance competition immediately and irrevocably voids the warranty entirely.</p>
-
-  <h2>How to Make a Warranty Claim</h2>
-  <p>Contact Neptunor or your authorized dealer with proof of purchase and a detailed description of the issue. Neptunor will review the claim and provide instructions for inspection and service.</p>
-  <p>For warranty service inquiries, please contact us through our <a href="/contact" class="text-sky-600 underline">contact page</a> with your order number and product details.</p>
-
-  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
-    <h2 class="text-xl font-bold mb-3">Backed by a Documented Quality System</h2>
-    <p class="text-sm text-gray-600 dark:text-gray-400">Every boat is tested before packing — <a href="/factory/quality-inspection" class="text-sky-600 underline">7-stage inspection gates</a> record results per serial number, and batches keep 10-year ERP traceability. Warranty claims are adjudicated against these batch records, not guesswork. See the <a href="/quality" class="text-sky-600 underline">full quality system</a> and download the actual <a href="https://assets.neptunor.com/site/downloads/NEPTUNOR_MARINE_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">final inspection reports</a>.</p>
-  </div>
-
-  <h2>Third-Party Items</h2>
-  <p>Equipment, components, or systems manufactured by third parties (even if installed by Neptunor) are covered exclusively by any warranty offered by their respective manufacturer. Neptunor expressly disclaims any warranty responsibility for such third-party items.</p>
+  <h2>How to request support</h2>
+  <p>Contact Neptunor or your commercial account contact with the order number, model, serial or WIN/HIN reference and a concise description of the issue. For a new fleet or dealer program, include the model mix, estimated annual quantity, operating conditions, target market and desired spare-parts package.</p>
+  <p>Use the <a href="/contact" class="text-sky-600 underline">B2B inquiry form</a> for a new service-support review.</p>
 
   <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
-    This warranty statement is a summary of the complete Neptunor Manufacturer's Limited Warranty. The full legal warranty document governs all warranty terms and conditions. Specifications subject to change without notice. Neptunor is the manufacturing division of Neptunor Marine Co., Ltd..
+    This page is a general commercial summary. The signed quotation, purchase order, supply agreement and warranty terms for the applicable project govern. Specifications and service arrangements are subject to change after written review.
   </p>

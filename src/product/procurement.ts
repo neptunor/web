@@ -27,7 +27,7 @@ export interface ProcurementProfile {
   keyQuestions: string[]
 }
 
-export const procurementProfiles: Localized<Record<string, ProcurementProfile>> = {
+const allProcurementProfiles: Localized<Record<string, ProcurementProfile>> = {
   en: {
     'aluminum-rib': {
       bestFor: 'Rental fleets, marinas & resort operations',
@@ -438,6 +438,14 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       ],
     },
   },
+}
+
+const SUPPORTED_PROCUREMENT_SERIES = new Set(['aluminum-rib', 'fiberglass-rib', 'sport-console', 'rescue-pro', 'inflatable-dinghy'])
+
+/** Public procurement profiles contain only Neptunor's supported boat series. */
+export const procurementProfiles: Localized<Record<string, ProcurementProfile>> = {
+  en: Object.fromEntries(Object.entries(allProcurementProfiles.en).filter(([slug]) => SUPPORTED_PROCUREMENT_SERIES.has(slug))),
+  es: Object.fromEntries(Object.entries(allProcurementProfiles.es).filter(([slug]) => SUPPORTED_PROCUREMENT_SERIES.has(slug))),
 }
 
 /** Common commercial rows (MOQ / samples / pricing) for every category page. */

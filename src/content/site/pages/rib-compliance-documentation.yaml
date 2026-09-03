@@ -1,0 +1,115 @@
+meta:
+  title: 'RIB Compliance Documentation Guide — RCD, CE & Technical Files | Neptunor'
+  description: 'How buyers should review RIB and inflatable boat compliance documentation: model definition, RCD scope, technical files, testing, builder’s plate, WIN/HIN, owner’s manual and EU Declaration of Conformity.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB compliance documentation'
+    - 'RIB RCD technical file'
+    - 'RIB CE document checklist'
+    - 'EU Declaration of Conformity RIB'
+
+hero:
+  tagline: 'Compliance Documentation'
+  title: 'How to Review a RIB Compliance Document Package'
+  subtitle: 'A practical guide for importers, brands, distributors and project buyers reviewing RCD/CE documentation for a specific RIB or inflatable boat configuration.'
+  actions:
+    - variant: primary
+      text: Request a model-specific document review
+      href: /contact#project-brief
+    - text: Open the certification overview
+      href: /inflatable-boat-certification
+
+answer:
+  label: 'Quick answer'
+  text: 'A credible RIB compliance package is tied to a defined model, configuration, intended use and destination market. It normally connects the product definition, drawings and calculations, applicable requirements and standards, test evidence, component records, production-control records, builder’s plate and WIN/HIN information, owner’s manual and EU Declaration of Conformity where the RCD route applies. A generic CE logo or unrelated certificate is not enough.'
+  verified: '2026-09'
+
+document_layers:
+  tagline: 'The document chain'
+  title: 'Six layers buyers should expect to see connected'
+  subtitle: 'The exact contents depend on length, intended use, design category, propulsion, final configuration and market. Use this as a review framework, not as a substitute for a notified body or legal assessment.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: '1'
+      icon_bg: blue
+      title: 'Product definition'
+      desc: 'Model, variant, hull length, beam, weight, maximum persons, recommended load, propulsion assumptions, intended use and design category.'
+    - icon: '2'
+      icon_bg: green
+      title: 'Design and engineering'
+      desc: 'GA drawings, hull and tube configuration, structure, systems, equipment positions, materials, calculations and controlled revisions.'
+    - icon: '3'
+      icon_bg: purple
+      title: 'Requirements and standards'
+      desc: 'Applicable regulatory route, conformity-assessment module, standards used, deviations or alternative technical solutions and the responsible parties.'
+    - icon: '4'
+      icon_bg: orange
+      title: 'Testing and validation'
+      desc: 'Relevant buoyancy, stability, load, pressure, structural, system and component evidence linked to the actual model and configuration.'
+    - icon: '5'
+      icon_bg: blue
+      title: 'Production consistency'
+      desc: 'Incoming inspection, process controls, final inspection, serial or batch traceability, change control and non-conforming-product records.'
+    - icon: '6'
+      icon_bg: green
+      title: 'Delivery documents'
+      desc: 'Builder’s plate, WIN/HIN or CIN information, safety labels, owner’s manual and EU Declaration of Conformity where applicable.'
+
+review_steps:
+  tagline: 'Buyer review sequence'
+  title: 'Review the package in the same order the risk is created'
+  subtitle: 'Start with scope and identity. Only then assess certificates and test reports.'
+  steps:
+    - step: '01'
+      title: 'Confirm the legal and product scope'
+      desc: 'Identify the manufacturer, brand or private-label responsibility, the final assembler if different, the intended use, hull length and destination market. Recreational, commercial, government and partly completed craft may follow different obligations.'
+    - step: '02'
+      title: 'Match every document to the model'
+      desc: 'Check model code, configuration revision, hull and tube materials, propulsion assumptions, design category and dates. Do not accept a certificate that only names a broad product family when the shipped configuration differs.'
+    - step: '03'
+      title: 'Check the physical identification set'
+      desc: 'Confirm that the builder’s plate, model information, maximum persons, maximum recommended load, design category and WIN/HIN details agree with the technical file, manual and delivered boat.'
+    - step: '04'
+      title: 'Review production and change control'
+      desc: 'Ask how approved samples, BOMs, materials, serial numbers, inspection results and design changes are controlled so that production remains consistent with the assessed configuration.'
+    - step: '05'
+      title: 'Request the right evidence level'
+      desc: 'Public summaries can establish capability. Model-specific document lists, test summaries and controlled files should be shared according to buyer identity, project stage, confidentiality and the applicable assessment route.'
+
+red_flags:
+  tagline: 'Red flags to avoid'
+  title: 'Language that should trigger a follow-up question'
+  items:
+    - q: '“All products are globally CE certified.”'
+      a: 'Ask which exact models, configurations, markets and applicable requirements are covered. CE marking is not a substitute for a model-specific conformity assessment and declaration.'
+    - q: '“The same certificate covers every boat.”'
+      a: 'Ask how variants, materials, engines, layouts and equipment changes are assessed and controlled.'
+    - q: '“The certificate is available, but the manufacturer is unclear.”'
+      a: 'Verify the legal entity, physical manufacturing location, brand relationship and the party signing the conformity declaration.'
+    - q: '“The builder’s plate and manual will be completed after shipment.”'
+      a: 'Ask how the final configuration, identification, safety information and destination-language requirements are approved before delivery.'
+    - q: '“We only provide a CE logo.”'
+      a: 'Request the applicable document list, declaration status, test summary and the process for reviewing controlled technical evidence.'
+
+faqs:
+  tagline: 'Buyer FAQ'
+  title: 'Questions about RIB compliance files'
+  items:
+    - q: 'Does every RIB use the same CE route?'
+      a: 'No. The applicable route depends on factors such as intended use, hull length, design category, configuration, standards used and destination market. Confirm the route for the actual project.'
+    - q: 'Should a buyer receive the complete technical file?'
+      a: 'Usually the complete technical file is a controlled manufacturer or responsible-party record. A buyer can request the applicable document list, model-specific declarations, relevant test summaries and controlled evidence appropriate to the project and confidentiality level.'
+    - q: 'What should be checked on the EU Declaration of Conformity?'
+      a: 'Check the responsible manufacturer, product identification, applicable legislation or directive, standards or other technical basis, signature authority and relationship to the exact delivered configuration. Have specialist counsel review legal questions.'
+    - q: 'Can a private-label buyer use the factory’s certificate without review?'
+      a: 'Not automatically. The contract should define who is the responsible manufacturer, whose name appears on the boat and documents, what configuration is covered and who controls updates or market-specific obligations.'
+
+cta:
+  title: 'Need the document list for your boat project?'
+  subtitle: 'Send the model, configuration, intended use and destination market. We will identify the compliance and technical questions that need confirmation.'
+  actions:
+    - variant: primary
+      text: Request a document review
+      href: /contact#project-brief
+    - text: Review factory evidence
+      href: /proof-center

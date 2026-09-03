@@ -4,9 +4,9 @@ import type { Localized } from './content'
 /**
  * Series-level platform pages (/products/{series}).
  *
- * Nine product-series categories (aluminum hull RIBs → inflatable accessories),
- * each targeting a buyer-facing long-tail query ("custom aluminum RIB
- * manufacturer", "inflatable dinghy OEM", …). The pages aggregate every
+ * Five supported boat-series categories (aluminum hull RIBs → inflatable
+ * dinghies), each targeting a buyer-facing long-tail query ("custom aluminum
+ * RIB manufacturer", "inflatable dinghy OEM", …). The pages aggregate every
  * product of the series, add series-level B2B context (MOQ, lead time,
  * customization) and funnel to /contact with the series prefilled.
  *
@@ -26,7 +26,7 @@ export interface SeriesPageData {
   faqs: { q: string; a: string }[]
 }
 
-export const seriesPages: Localized<SeriesPageData[]> = {
+const allSeriesPages: Localized<SeriesPageData[]> = {
   en: [
     {
       slug: 'aluminum-rib',
@@ -557,6 +557,13 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+}
+
+const SUPPORTED_SERIES = new Set(['aluminum-rib', 'fiberglass-rib', 'sport-console', 'rescue-pro', 'inflatable-dinghy'])
+
+export const seriesPages: Localized<SeriesPageData[]> = {
+  en: allSeriesPages.en.filter((s) => SUPPORTED_SERIES.has(s.slug)),
+  es: allSeriesPages.es.filter((s) => SUPPORTED_SERIES.has(s.slug)),
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

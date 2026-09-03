@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'La cantidad mínima de pedido se confirma según la configuración del proyecto, no con un número fijo: el desarrollo de muestra (1–2 unidades) valida el producto, los pedidos piloto (20–50 unidades) prueban el mercado sobre plataformas existentes, la producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m, y el co-branding de lotes pequeños parte de menos de 20 unidades. Las muestras se envían en 10–15 días; la producción en serie tarda 30–45 días tras la confirmación de la orden de compra y el depósito, más 15–20 días cuando se requiere utillaje nuevo.'
+  text: 'La cantidad mínima de pedido se confirma según la configuración del proyecto, no con un número fijo: el desarrollo de muestra (1–2 unidades) valida el producto, los pedidos piloto (20–50 unidades) prueban el mercado sobre plataformas existentes, la producción de volumen estándar corre en lotes de 90–100+ unidades por configuración aprobada, y el co-branding de lotes pequeños parte de 5–10 unidades en plataformas existentes seleccionadas. Las muestras se envían en 10–15 días; la producción en serie tarda 30–45 días tras la confirmación de la orden de compra y el depósito, más 20–35 días cuando se requiere utillaje nuevo.'
   verified: '2026-08'
 
 content_html: |
@@ -77,7 +77,7 @@ content_html: |
       <tr><td class="p-3 border font-medium">Molde totalmente personalizado / marca blanca</td><td class="p-3 border">Confirmado por configuración</td><td class="p-3 border">Añade 15 – 20 días para el utillaje</td></tr>
     </tbody>
   </table>
-  <p>Las cantidades de muestra, piloto y producción de volumen son diferentes: el desarrollo de muestra (1–2 unidades) valida el producto, los pedidos piloto (20–50 unidades) prueban el mercado sobre plataformas existentes, y la producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m — con tramos de precios por volumen a medida que aumenta el tamaño del pedido. Consigue por escrito el cálculo de MOQ, el plazo de entrega y las condiciones de pago para tu embarcación concreta antes de comprometerte con un proveedor.</p>
+  <p>Las cantidades de muestra, piloto y producción de volumen son diferentes: el desarrollo de muestra (1–2 unidades) valida el producto, los pedidos piloto (20–50 unidades) prueban el mercado sobre plataformas existentes, y la producción de volumen estándar corre en lotes de 90–100+ unidades por configuración aprobada, con tramos de precios por volumen a medida que aumenta el tamaño del pedido. Consigue por escrito el cálculo de MOQ, el plazo de entrega y las condiciones de pago para tu embarcación concreta antes de comprometerte con un proveedor.</p>
 
   <h2>5. Logística y envío</h2>
   <p>Incoterms habituales: <strong>FOB</strong> (la fábrica entrega en el puerto de salida: el más común), <strong>EXW</strong> (el comprador gestiona todo el envío desde la puerta de la fábrica), <strong>CIF</strong> (la fábrica paga el flete y el seguro hasta el puerto de destino).</p>

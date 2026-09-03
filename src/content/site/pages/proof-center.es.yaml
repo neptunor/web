@@ -18,7 +18,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'La cadena afirmación-evidencia es: cada afirmación de este sitio está respaldada por un registro, un certificado, una máquina, un documento o un registro de prueba — y cada uno de ellos puede revisarse. Neptunor es la división de desarrollo y fabricación de embarcación de Neptunor, la división de fabricación de Neptunor Marine Co., Ltd. (registrada en Qingdao desde 2012). La planta de 18,000 m² cuenta con gestión de calidad ISO 9001:2015, cumplimiento ISO 6185, documentación de conformidad CE, cumplimiento social BSCI (informe de auditoría bajo petición) y documentación de materiales REACH/RoHS por pedido. Cada cámara hinchable se prueba a 0.35 bar durante 24 horas con auto-rechazo por encima de 0.02 bar de caída, y los registros de lote se conservan con trazabilidad ERP de 10 años. La documentación se publica o se comparte, y la fábrica misma está abierta a auditorías.'
+  text: 'La cadena afirmación-evidencia es: cada afirmación de este sitio está respaldada por un registro, un certificado, una máquina, un documento o un registro de prueba — y cada uno de ellos puede revisarse. Neptunor es la división de desarrollo y fabricación de embarcación de Neptunor, la división de fabricación de Neptunor Marine Co., Ltd. (registrada en Qingdao desde 2012). La planta de 18.000 m² opera bajo un sistema de gestión de calidad ISO 9001:2015; la documentación ISO 6185, CE, BSCI y REACH/RoHS se revisa según el modelo, la configuración y el alcance del pedido aplicables. Cada cámara hinchable se prueba a 0.35 bar durante 24 horas con auto-rechazo por encima de 0.02 bar de caída, y los registros de lote se conservan con trazabilidad ERP de 10 años. La documentación se publica o se comparte, y la fábrica misma está abierta a auditorías.'
   verified: '2026-08'
 
 entities:
@@ -52,10 +52,10 @@ proof_stats:
   - value: '300+'
     label: 'Trabajadores en planta'
     detail: '25+ ingenieros en I+D, materiales y calidad'
-  - value: '60,000++'
+  - value: 'Hasta 60.000'
     label: 'Embarcaciones al año'
     detail: '~5.000 embarcaciones/mes en 4 líneas automatizadas'
-  - value: '50+'
+  - value: '40+'
     label: 'Países atendidos'
     detail: 'Europa, América, APAC, Oriente Medio'
   - value: '7 etapas'

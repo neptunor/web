@@ -27,7 +27,7 @@ trust_stats:
   - value: '300+'
     label: Trabajadores en planta
     detail: 25+ ingenieros en I+D, materiales y QC
-  - value: '60.000++'
+  - value: 'hasta 60.000'
     label: Embarcaciones producidas al año
     detail: 5.000 embarcaciones/mes en 4 líneas automatizadas
   - value: '4 horas'
@@ -108,7 +108,7 @@ trust_faqs:
     - q: '¿Mi marca estará a salvo — diseño, moldes y mercado?'
       a: 'Sí. Tu marca, diseños y utillaje quedan protegidos por NDA, términos de licencia de marca y cláusulas de titularidad o compra del molde escritas en el contrato. El utillaje se conserva para la marca y es transferible. Los términos de territorio y exclusividad se acuerdan por escrito antes de la producción.'
     - q: '¿Cuál es vuestro MOQ real?'
-      a: 'El MOQ es específico de cada proyecto y se explica en nuestra guía de MOQ: muestras de 1–2 unidades, co-branding desde 5–10 unidades, lotes piloto de 20–50 unidades y volumen estándar de 90–100+ unidades por rollo de 150 m (unas 180–220 embarcaciones). Los diseños con molde a medida se producen en el tramo de volumen. El cálculo se confirma antes de cotizar — sin números "MOQ bajo" vagos.'
+      a: 'El MOQ es específico de cada proyecto y se explica en nuestra guía de MOQ: muestras de 1–2 unidades, co-branding desde 5–10 unidades, lotes piloto de 20–50 unidades y volumen estándar de 90–100+ unidades por configuración aprobada, sujeto a los requisitos de material y embalaje. Los diseños con molde a medida se producen en el tramo de volumen. El cálculo se confirma antes de cotizar — sin números "MOQ bajo" vagos.'
     - q: '¿Qué pasa si la producción se retrasa?'
       a: 'El plazo de entrega se confirma después de revisar especificación, arte y embalaje — nunca se promete de antemano. El contrato cubre la programación, la notificación de retrasos y la vía de resolución, y la revisión trimestral de negocio hace seguimiento del cumplimiento de entregas frente al calendario acordado.'
     - q: '¿Quién firma los documentos del contrato por vuestra parte?'
@@ -139,7 +139,7 @@ trust_downloads:
     - icon: P
       icon_bg: green
       title: 'Guía de Branding Flexible y MOQ (PDF)'
-      desc: 'Guía B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN): la lógica de ingeniería detrás de los rendimientos del rollo de 150 m (90–100 embarcaciones), co-branding desde 5–10 unidades, lotes piloto de 20–50 unidades y las tres etapas de producción.'
+      desc: 'Guía B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN): la lógica de ingeniería detrás del rendimiento específico de cada configuración y sus niveles de MOQ, co-branding desde 5–10 unidades, lotes piloto de 20–50 unidades y las tres etapas de producción.'
       link: 'https://assets.neptunor.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Descargar guía de MOQ (PDF)'
     - icon: Q

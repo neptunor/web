@@ -20,11 +20,6 @@
     "authority": "EU REACH Regulation",
     "validity": "Current"
   },
-  "uscg_approval": {
-    "scope": "US Coast Guard approved manufacturing",
-    "authority": "United States Coast Guard",
-    "validity": "Current"
-  },
   "product_testing": [
     "Buoyancy testing",
     "Load capacity testing",

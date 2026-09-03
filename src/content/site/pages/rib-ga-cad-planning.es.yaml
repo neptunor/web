@@ -1,0 +1,114 @@
+meta:
+  title: 'Guía GA y CAD para RIB — Qué debe solicitar el comprador | Neptunor'
+  description: 'Qué planos GA, dimensiones, distribuciones y archivos CAD de RIB y embarcaciones inflables son útiles para compras y planificación, y qué archivos de ingeniería deben mantenerse controlados.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'plano GA RIB'
+    - 'archivos CAD RIB'
+    - 'disposición general embarcación inflable'
+    - 'plano de dimensiones RIB'
+
+hero:
+  tagline: 'Planificación GA y CAD'
+  title: '¿Qué archivos CAD de un RIB debe compartir una fábrica?'
+  subtitle: 'Guía orientada al comprador sobre planos de planificación, evaluación del proyecto y acceso controlado a archivos de ingeniería para programas de RIB y embarcaciones inflables.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión de planificación CAD
+      href: /es/contact#project-brief
+    - text: Ver plataformas de embarcaciones
+      href: /products
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'Una fábrica debería facilitar la información de planificación de bajo riesgo: identidad del modelo, revisión, dimensiones principales, distribución GA, posiciones de equipos, datos de transporte o embalaje y limitaciones de uso claras. Los archivos editables DXF/DWG/STEP, planos estructurales, patrones de tubos, datos de moldes, interfaces detalladas, BOM y cálculos pueden contener propiedad intelectual o información confidencial del proyecto. Por eso el acceso debe depender de la identidad del comprador, la fase del proyecto y la aprobación de un NDA o de ingeniería.'
+  verified: '2026-09'
+
+public_files:
+  tagline: 'Información para planificación'
+  title: 'Archivos útiles para la compra y planificación inicial'
+  subtitle: 'Ayudan al comprador a decidir si avanza sin exponer la información necesaria para reproducir la embarcación.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: GA
+      icon_bg: blue
+      title: 'PDF de disposición general'
+      desc: 'Vistas superior, lateral y en planta con distribución principal, identidad del modelo, revisión, unidades y limitaciones de planificación.'
+    - icon: DIM
+      icon_bg: green
+      title: 'Resumen de dimensiones'
+      desc: 'Eslora total, manga, diámetro de tubo, rango de peso y holguras principales, sujetos a la configuración confirmada.'
+    - icon: DECK
+      icon_bg: purple
+      title: 'Distribución de cubierta y equipo'
+      desc: 'Posiciones de planificación de consola, asientos, motor, depósito, puntos de izado o remolque y opciones de equipo acordadas.'
+    - icon: PACK
+      icon_bg: orange
+      title: 'Datos de transporte y embalaje'
+      desc: 'Dimensiones embaladas, peso estimado, tipo de jaula o cartón e información útil para flete, almacenamiento y planificación del sitio.'
+
+controlled_files:
+  tagline: 'Información de ingeniería controlada'
+  title: 'Archivos que deben revisarse dentro de un proyecto real'
+  subtitle: 'El objetivo no es bloquear a compradores serios, sino liberar el nivel adecuado sin exponer el diseño de otro cliente ni la propiedad intelectual de fabricación.'
+  features:
+    - icon: DXF
+      icon_bg: blue
+      title: 'CAD 2D editable'
+      desc: 'Las distribuciones DXF o DWG pueden apoyar la coordinación de ingeniería, pero deben incluir revisión, copyright, uso previsto y avisos de no construcción.'
+    - icon: 3D
+      icon_bg: green
+      title: 'Modelos exteriores 3D'
+      desc: 'Los archivos STEP, IGES u otros modelos 3D pueden ser adecuados para un proyecto verificado, showroom, marina o integración después de revisar el alcance.'
+    - icon: INT
+      icon_bg: purple
+      title: 'Interfaces de instalación'
+      desc: 'Las interfaces de equipos, electricidad, combustible, dirección y montaje deben corresponder a la configuración final y no asumirse desde una plataforma genérica.'
+    - icon: IP
+      icon_bg: orange
+      title: 'Ingeniería de fabricación'
+      desc: 'Planos estructurales, patrones de tubos, archivos de moldes, rutas de utillaje, esquemas de laminado, BOM y cálculos requieren NDA y aprobación de proyecto o ingeniería.'
+
+review_steps:
+  tagline: 'Antes de solicitar archivos editables'
+  title: 'Da a la fábrica contexto suficiente para liberar el plano correcto'
+  subtitle: 'Un brief conciso protege el flujo de trabajo del comprador y la propiedad intelectual del fabricante.'
+  steps:
+    - step: '01'
+      title: 'Indica el modelo o el objetivo de planificación'
+      desc: 'Indica la plataforma, la eslora aproximada, la construcción del casco, el uso previsto y si comparas embarcaciones existentes o desarrollas una configuración nueva.'
+    - step: '02'
+      title: 'Explica el uso de ingeniería'
+      desc: 'Indica si el plano es para una marina, garaje, remolque, contenedor, integración de equipos, encaje de tender, licitación, showroom u otra tarea definida.'
+    - step: '03'
+      title: 'Identifica al comprador y el mercado'
+      desc: 'Facilita empresa, función, país o mercado objetivo y fase del proyecto. Esto ayuda a distinguir la planificación inicial de una integración de ingeniería o compra activa.'
+    - step: '04'
+      title: 'Solicita un NDA cuando sea necesario'
+      desc: 'Utiliza un NDA antes de compartir arte propio, referencias de competidores, especificaciones detalladas o archivos que revelen tu estrategia de producto.'
+    - step: '05'
+      title: 'Confirma los controles del archivo'
+      desc: 'Acordad la revisión, el uso permitido, la marca de agua o copyright, el proceso de sustitución y si el archivo es solo para planificación o para coordinación de ingeniería aprobada.'
+
+faqs:
+  tagline: 'Preguntas del comprador'
+  title: 'Preguntas sobre archivos GA y CAD de RIB'
+  items:
+    - q: '¿Puedo obtener un plano GA antes de enviar un RFQ?'
+      a: 'La información de producto para planificación puede apoyar la selección inicial. La fábrica debe confirmar el plano, la revisión y la configuración exactos antes de utilizarlos para compras, construcción o certificación.'
+    - q: '¿Por qué algunos archivos CAD no se pueden descargar públicamente?'
+      a: 'Los archivos editables y los datos detallados pueden exponer propiedad intelectual, diseños específicos de clientes o interfaces críticas de seguridad. La entrega controlada protege a ambas partes y permite el trabajo legítimo.'
+    - q: '¿Puedo usar un plano del sitio web como plano de producción?'
+      a: 'No. El material GA público o preliminar debe indicar su revisión y limitaciones. Las dimensiones, equipos, pesos y estado de cumplimiento finales deben proceder de la especificación confirmada y los documentos aplicables del proyecto.'
+    - q: '¿Qué debe contener el cajetín de un buen GA?'
+      a: 'Como mínimo: fabricante o marca, modelo, nombre y número del plano, revisión, fecha, unidades, escala cuando corresponda, estado y una frase clara como «No apto para construcción, certificación, replicación o utillaje» cuando sea necesario.'
+
+cta:
+  title: '¿Necesitas un archivo GA o CAD para un proyecto real?'
+  subtitle: 'Envía el modelo, el uso de ingeniería y el mercado objetivo. Recomendaremos el nivel adecuado de archivo de planificación o controlado.'
+  actions:
+    - variant: primary
+      text: Solicitar soporte de planificación CAD
+      href: /es/contact#project-brief
+    - text: Iniciar un proyecto OEM
+      href: /oem-manufacturing

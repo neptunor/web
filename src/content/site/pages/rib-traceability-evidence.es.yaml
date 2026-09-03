@@ -1,0 +1,100 @@
+meta:
+  title: 'Evidencia de trazabilidad de producción RIB — Del lote de material a la embarcación | Neptunor'
+  description: 'Cómo puede una fábrica de RIB y embarcaciones inflables mostrar una cadena de trazabilidad que conecte especificaciones, materiales, inspecciones, números de serie, embalaje y envío.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'trazabilidad producción RIB'
+    - 'expediente trazabilidad embarcación RIB'
+    - 'registros calidad embarcación inflable'
+    - 'evidencia calidad fábrica RIB'
+
+hero:
+  tagline: 'Trazabilidad y evidencia de calidad'
+  title: 'Cómo debe revisar un comprador el expediente de trazabilidad RIB'
+  subtitle: 'Marco práctico para conectar diseño aprobado, materiales, puertas de inspección, identidad de cada embarcación y registros de envío sin exponer propiedad intelectual de fabricación ni de otros clientes.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión de trazabilidad
+      href: /es/contact#project-brief
+    - text: Revisar el sistema de calidad
+      href: /quality
+
+answer:
+  label: 'Respuesta rápida'
+  text: 'Un expediente útil de trazabilidad RIB debe conectar el modelo y configuración aprobados con lotes de materiales, fecha de producción, resultados de inspección, referencia de serie o WIN/HIN cuando corresponda, registros de no conformidad y acciones correctivas, control final de embalaje y liberación del envío. Un expediente técnico maestro puede demostrar la base de diseño; el registro por embarcación muestra que la unidad entregada se fabricó según esa base controlada.'
+  verified: '2026-09'
+
+record_layers:
+  tagline: 'Cadena de evidencias'
+  title: 'Los registros que el comprador debe ver conectados'
+  subtitle: 'Los nombres exactos varían por proyecto y mercado. Lo importante es continuidad, responsabilidad, control de revisiones y recuperación.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Especificación aprobada'
+      desc: 'Modelo, revisión, dimensiones, materiales, equipo, arte, embalaje y supuestos de mercado aplicables.'
+    - icon: B
+      icon_bg: green
+      title: 'Lotes de materiales'
+      desc: 'Tejido PVC o CSM, aluminio, fibra de vidrio, resina, adhesivos, válvulas, herrajes y entradas controladas vinculadas a inspección.'
+    - icon: P
+      icon_bg: purple
+      title: 'Registros de proceso'
+      desc: 'Fabricación del casco, soldadura o unión de tubos, laminado, montaje, pares, instalación e inspección durante el proceso.'
+    - icon: T
+      icon_bg: orange
+      title: 'Registros de ensayos'
+      desc: 'Presión, retención de aire, dimensiones, carga, estructura u otros resultados con método, fecha, criterios y responsable.'
+    - icon: N
+      icon_bg: blue
+      title: 'No conformidades'
+      desc: 'Retención, análisis de causa, retrabajo o sustitución aprobados, acción correctiva y reinspección antes de liberar.'
+    - icon: R
+      icon_bg: green
+      title: 'Liberación y envío'
+      desc: 'Inspección final, relación de serie o lote, lista de embalaje, referencias de contenedor o envío y autorización de liberación.'
+
+traceability_flow:
+  tagline: 'Secuencia de verificación'
+  title: 'Sigue una embarcación entregada a través del sistema'
+  subtitle: 'Una muestra real o expediente anonimizado es más útil que una afirmación genérica de que existen registros.'
+  steps:
+    - step: '01'
+      title: 'Empieza por la identidad'
+      desc: 'Selecciona un modelo, pedido, número de serie o ejemplo anonimizado. Confirma cómo identifica la fábrica cada embarcación y su lote.'
+    - step: '02'
+      title: 'Vuelve a la base aprobada'
+      desc: 'Relaciona la embarcación con la especificación vigente, muestra aprobada, BOM, arte, embalaje y revisión usada para liberar la producción.'
+    - step: '03'
+      title: 'Sigue entradas y operaciones'
+      desc: 'Recorre lotes de material, proveedores o certificados, registros de proceso, línea y puntos de inspección vinculados a la fabricación.'
+    - step: '04'
+      title: 'Revisa ensayos y excepciones'
+      desc: 'Comprueba método, condiciones, resultado, umbral y cualquier no conformidad, retrabajo, sustitución o concesión.'
+    - step: '05'
+      title: 'Relaciona la liberación con el envío'
+      desc: 'Confirma que inspección final, relación de serie o lote, embalaje, cajas o contenedor y aprobación de liberación coinciden.'
+
+faqs:
+  tagline: 'Preguntas del comprador'
+  title: 'Preguntas sobre evidencia de trazabilidad RIB'
+  items:
+    - q: '¿La trazabilidad exige compartir todos los proveedores y registros internos?'
+      a: 'No. Se puede revisar evidencia relevante o muestras anonimizadas mientras se mantienen controlados proveedores, fórmulas, diseños y datos confidenciales. El objetivo es demostrar relación y recuperación.'
+    - q: '¿Cuál es la diferencia entre expediente maestro y expediente por embarcación?'
+      a: 'El expediente maestro describe la base de diseño y cumplimiento de un modelo o tipo. El expediente por embarcación muestra cómo se fabricó, inspeccionó, liberó y embaló una unidad o lote concreto.'
+    - q: '¿Cómo debe aparecer una embarcación retrabajada?'
+      a: 'Debe mantener su identificación, con no conformidad, instrucción aprobada, resultado de reinspección y decisión de liberación. El retrabajo no debe borrar la historia original.'
+    - q: '¿Puede el comprador solicitar un expediente de ejemplo antes del pedido?'
+      a: 'La fábrica puede proporcionar un ejemplo anonimizado o redactado y explicar los campos disponibles para un proyecto real. El conjunto final se acuerda según alcance, mercado y confidencialidad.'
+
+cta:
+  title: '¿Quieres verificar la cadena de evidencias antes de comprar?'
+  subtitle: 'Indica plataforma, mercado y nivel de auditoría. Expondremos los registros de trazabilidad y calidad adecuados para revisar.'
+  actions:
+    - variant: primary
+      text: Solicitar revisión de evidencias
+      href: /es/contact#project-brief
+    - text: Revisar preguntas de auditoría
+      href: /factory-audit-checklist

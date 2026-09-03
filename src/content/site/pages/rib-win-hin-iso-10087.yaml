@@ -1,0 +1,115 @@
+meta:
+  title: 'RIB WIN/HIN Identification Guide — EN ISO 10087 & EU Delivery Checks | Neptunor'
+  description: 'How RIB and inflatable boat buyers should review the Watercraft Identification Number, often called HIN or CIN, under the RCD and EN ISO 10087 framework.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB WIN HIN EN ISO 10087'
+    - 'RIB hull identification number'
+    - 'watercraft identification number'
+    - 'RIB CIN marking'
+
+hero:
+  tagline: 'Watercraft Identification'
+  title: 'How to Review a RIB WIN/HIN or CIN Marking'
+  subtitle: 'A practical buyer guide to checking the identity, format, placement, permanence and document consistency of a RIB or inflatable boat identification number.'
+  actions:
+    - variant: primary
+      text: Request an identification review
+      href: /contact#project-brief
+    - text: Review compliance documentation
+      href: /resources/rib-compliance-documentation
+
+answer:
+  label: 'Quick answer'
+  text: 'For an RCD-covered recreational craft, the Watercraft Identification Number (WIN) must identify the individual boat and remain linked to the responsible manufacturer, production sequence, month and year of production, and model year as required by the applicable framework. Industry documents may still call it HIN or CIN. Buyers should verify the actual number format, marking method, location and document references against the current RCD requirements, EN ISO 10087 edition adopted for the project, the builder’s plate, EU Declaration of Conformity, owner’s manual and boat-level records.'
+  verified: '2026-09'
+
+identity_layers:
+  tagline: 'Identity checks'
+  title: 'Review the number as part of the complete delivery identity'
+  subtitle: 'A number printed on a document is not enough. The physical marking, supporting documents and production records must refer to the same boat.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: M
+      icon_bg: blue
+      title: 'Manufacturer identity'
+      desc: 'Confirm the responsible legal manufacturer or brand party and check that the manufacturer identifier is assigned and used consistently for the project.'
+    - icon: S
+      icon_bg: green
+      title: 'Serial sequence'
+      desc: 'Check that the production sequence identifies the individual watercraft and is not confused with an engine serial number, order number or shipping reference.'
+    - icon: D
+      icon_bg: purple
+      title: 'Production timing'
+      desc: 'Review the production month and year and the model-year information required by the applicable identification format and project documentation.'
+    - icon: L
+      icon_bg: orange
+      title: 'Location and visibility'
+      desc: 'Confirm the required external and concealed or duplicate identification locations for the actual craft, including access for inspection without damaging the boat.'
+    - icon: P
+      icon_bg: blue
+      title: 'Permanent marking'
+      desc: 'Ask how the marking resists removal, alteration and normal exposure. The selected method must suit the hull, transom or other approved marking location.'
+    - icon: C
+      icon_bg: green
+      title: 'Cross-document consistency'
+      desc: 'Match the WIN/HIN or CIN to the builder’s plate, declaration, manual, invoice, inspection record, packing list and boat-level traceability pack.'
+
+review_steps:
+  tagline: 'Buyer review sequence'
+  title: 'Check identity before reviewing the certificate bundle'
+  subtitle: 'The sequence below helps prevent a correct document being attached to the wrong model or boat.'
+  steps:
+    - step: '01'
+      title: 'Confirm the regulatory path'
+      desc: 'Establish whether the craft is within the RCD scope, whether it is complete or partly completed, and who is the responsible manufacturer or final party placing it on the market.'
+    - step: '02'
+      title: 'Request the applicable identifier format'
+      desc: 'Ask which RCD provision, harmonised standard edition or national implementation is being used and have the responsible compliance professional confirm the current format before production marking.'
+    - step: '03'
+      title: 'Review visible and concealed markings'
+      desc: 'Confirm the required primary marking, any duplicate or concealed marking, character legibility, durability, access and protection against unauthorised alteration.'
+    - step: '04'
+      title: 'Match the delivery documents'
+      desc: 'Compare the identifier character by character across the builder’s plate, EU DoC where applicable, owner’s manual, inspection records, invoice, packing list and photos.'
+    - step: '05'
+      title: 'Record the boat-level reference'
+      desc: 'Retain the identifier with the approved configuration, material and test records, non-conformance history, final inspection and shipment release for warranty and market-surveillance support.'
+
+red_flags:
+  tagline: 'Red flags'
+  title: 'Identification mistakes that create avoidable risk'
+  items:
+    - q: 'The number is only on a removable sticker.'
+      a: 'Ask how the permanent marking and any concealed duplicate marking satisfy the applicable requirements for the craft and construction.'
+    - q: 'The number changes between the boat and the documents.'
+      a: 'Stop release and resolve the discrepancy through controlled document and production records before delivery or market placement.'
+    - q: 'The factory calls the number an IMO or registration number.'
+      a: 'A WIN/HIN/CIN is a product identification reference. It is not automatically the same as a flag-state registration, IMO or customs number.'
+    - q: 'A supplier claims one identifier covers an entire batch.'
+      a: 'Ask how each individual boat is identified and how the production sequence links to its inspection and shipment records.'
+    - q: 'The standard edition is not stated.'
+      a: 'Request the applicable regulatory and standards basis and have the responsible compliance party confirm the edition and transition requirements.'
+
+faqs:
+  tagline: 'Buyer FAQ'
+  title: 'Questions about RIB WIN/HIN identification'
+  items:
+    - q: 'Is WIN different from HIN or CIN?'
+      a: 'The terms are often used differently across regulations, standards and industry documents. WIN is the RCD terminology commonly used for watercraft identification; HIN and CIN may appear in older or national usage. Confirm the terminology and required format for the actual market.'
+    - q: 'Does the WIN prove that the boat is CE compliant?'
+      a: 'No. It identifies the watercraft. Compliance also depends on the applicable conformity assessment, technical documentation, declaration, marking, safety information and production controls.'
+    - q: 'Where should a buyer expect the number?'
+      a: 'The primary and any duplicate or concealed locations depend on the applicable RCD and EN ISO 10087 requirements and the craft construction. Ask for the marking drawing or inspection evidence for the actual model.'
+    - q: 'Can the boat number be corrected after production?'
+      a: 'Any correction must be controlled and documented. Altering a permanent identifier without a documented assessment can create traceability and compliance risk; consult the responsible manufacturer and compliance specialist first.'
+
+cta:
+  title: 'Need to verify a RIB identification set?'
+  subtitle: 'Send the target market, model, configuration and current marking or document sample. We will identify the questions that require confirmation before release.'
+  actions:
+    - variant: primary
+      text: Request an identity review
+      href: /contact#project-brief
+    - text: Review traceability evidence
+      href: /resources/rib-traceability-evidence

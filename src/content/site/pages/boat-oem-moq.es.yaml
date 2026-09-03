@@ -36,7 +36,7 @@ cost_drivers:
     - icon: F
       icon_bg: blue
       title: 'Rendimiento del Lote de Tejido'
-      desc: 'La eslora, el diámetro del tubo y la eficiencia de anidado deciden cuántos cascos rinde un rollo de tejido PVC de 150 m. Embarcaciones más largas y tubos más anchos reducen el rendimiento por rollo y elevan el MOQ práctico por configuración.'
+      desc: 'La eslora, el diámetro del tubo y la eficiencia de anidado afectan el uso de material y el MOQ práctico por configuración. Las condiciones finales se confirman según el modelo, la construcción y el embalaje aprobados.'
     - icon: C
       icon_bg: green
       title: 'Utillaje de Consola y Casco'
@@ -70,8 +70,8 @@ faqs:
   items:
     - q: '¿Puedo pedir menos de 90 embarcaciones?'
       a: 'Sí. Los niveles de muestra, co-branding y piloto existen precisamente para eso. La mayoría de las marcas nuevas empieza con un lote de co-branding de 5–10 embarcaciones sobre un casco probado y escala a configuraciones completas de 90–100+ cuando el mercado lo valida.'
-    - q: '¿Por qué el MOQ "estándar" sigue al rollo de tejido?'
-      a: 'El tejido de tubo se compra y corta en rollos madre de 150 m. Una configuración se precioa por rendimiento de rollo completo — normalmente 90–100+ dinghies según eslora y diámetro de tubo — por eso el nivel de volumen se expresa por configuración y no como una cifra única.'
+    - q: '¿Por qué el MOQ estándar depende de la configuración?'
+      a: 'El consumo de tejido depende de la eslora, el diámetro del tubo, la construcción, el colorway y la eficiencia de anidado. Por eso el volumen se confirma por configuración aprobada y no como una cifra única válida para todos los modelos.'
     - q: '¿Cómo de rápido puede salir un pedido repetido?'
       a: 'Los pedidos repetidos con especificaciones congeladas y huecos de material reservados suelen quedar en el extremo rápido de la ventana de 30–45 días, porque las puertas de muestreo, utillaje y aprobación ya están superadas.'
     - q: '¿El coste de utillaje aplica a todos los proyectos?'

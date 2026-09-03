@@ -40,8 +40,8 @@ function WorksPage() {
     <MarketingShell>
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
       <VideoShowcase
-        video={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.mp4`}
-        poster={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.jpg`}
+        video={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.mp4`}
+        poster={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.jpg`}
         flip
         {...pick(videoShowcase, locale).process}
       />

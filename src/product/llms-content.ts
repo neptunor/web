@@ -1,89 +1,85 @@
+import { SITE_DOMAIN, SITE_NAME } from '@/config/site'
+import { BRAND_COMPANY_NAME, BRAND_CONTACT, BRAND_PARENT_URL } from '@/config/branding'
+
+const SITE_URL = `https://${SITE_DOMAIN}`
+
 /**
- * `/llms.txt` content — hand-authored company facts card per llmstxt.org.
+ * Canonical `/llms.txt` identity card.
  *
- * [CONFIRM] placeholders from the week-1 checklist were filled from values
- * documented in this repo (factory.yaml FAQ, hero stats, geo facts). Business
- * should verify before public launch:
- *  - custom hull/console tooling MOQ tier (50–100+ pcs per tooling)
- *  - certificate numbers: not yet on record — supplied on request
+ * The llmstxt.org convention does not require website pages to be authored as
+ * MDX. It requires a concise Markdown index at the origin root. Detailed
+ * page content is exposed separately by `/llms-full.txt`.
  */
-export const LLMS_TXT = `# Neptunor
+export const LLMS_TXT = `# ${SITE_NAME}
 
-> Neptunor is a RIB boat and inflatable boat OEM/ODM manufacturer — an 18,000 m² marine manufacturing plant in Qingdao, China, serving boat brands, fleet operators and rescue organizations worldwide. We manufacture exclusively under our clients' brands: hull engineering, tube fabrication, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. The plant runs two production shifts daily with engineers across naval architecture, mold design, materials lab and production engineering.
-
-## Key facts
-
-- Legal entity: Neptunor Marine Co., Ltd. — B2B brand: Neptunor
-- Location: Qingdao, Shandong, China
-- Contact: info@neptunor.com
-- Minimum order quantity (tiered): 1–2 boats for samples / market tests · 5–10 units for co-branding small bulk · 20–50 units for pilot batches · 90–100+ units per approved configuration for standard volume production (subject to fabric-batch and packaging requirements) · 50–100+ units for new hull/console tooling (+20–35 days). Fabric yield varies with boat length, tube diameter and nesting layout.
-- Sample / prototype lead time: 10–15 days
-- Production lead time: 30–45 days from confirmed PO and deposit; new hull or console tooling adds 20–35 days
-- Manufacturing floor: 18,000 m² across 4 specialized workshops | Workers: 300+ | Annual capacity: 60,000+ boats (5,000 boats/month on 4 automated lines)
-- Plant operations: two production shifts daily · engineering team across R&D, mold design, materials lab and production engineering
-- Hard specs: 0.1 mm CNC cutting · 25 kW RF welding · 0.25 bar tube working pressure · welded multi-chamber tubes · 120-point assembly checklist · 0.35 bar 24h pressure-drop hold, ΔP > 0.02 bar/24h = reject · ERP batch traceability kept 10 years
-- Certifications: CE (EU Recreational Craft Directive 2013/53/EU), ISO 6185 (inflatable boats), ISO 9001, BSCI, REACH, RoHS — certificate numbers supplied on request
-- Export markets: 40+ countries with export-grade packing
-- Languages: English, Spanish; customer service in EN/CN/ES
-- Business model: B2B only (OEM, ODM, private label, fleet supply). Not a consumer retail store.
+> ${SITE_NAME} is the RIB boat and inflatable boat OEM/ODM manufacturing brand of ${BRAND_COMPANY_NAME}, operating from an 18,000 m² marine manufacturing plant in Qingdao, China. We manufacture RIB boats and inflatable boats for boat brands, distributors, fleet operators, resorts, marinas and professional rescue teams. Services include engineering review, tube and hull fabrication, tooling, sampling, quality control, private-label production and export documentation.
 
 ## Services
 
-- [Custom boat product development](https://neptunor.com/product-development): the six-step development pipeline — specification, engineering and 3D, prototyping, testing, tooling and mass production — for custom RIB and inflatable boats.
-- [Private label boat manufacturing](https://neptunor.com/solutions/private-label-boats): produce boats under your own brand — hull, tubes, fittings and packaging all carry your identity, no factory branding.
-- [Fleet & rental boat programs](https://neptunor.com/solutions/fleet-rental): durable fleets for marinas, resorts and rental operators, with matching accessories and fleet-friendly production runs.
-- [Rescue & professional boats](https://neptunor.com/solutions/rescue-professional): mission-configured boats for SAR agencies, patrol fleets, dive teams and humanitarian organizations.
-- [Yacht tender & dealer programs](https://neptunor.com/solutions/yacht-tender-dealers): branded tenders and dealer catalogs with stable specifications run after run.
-- [OEM manufacturing](https://neptunor.com/oem-manufacturing): manufacture your existing design or spec — engineering review, samples, container-scale runs with compliance documentation.
-- [Custom boat MOQ & lead time](https://neptunor.com/oem-boat-moq): the MOQ and lead-time framework — samples (1–2 boats, 10–15 days), trial/pilot orders (20–50 boats), standard volume (90–100+ boats per configuration) and production in 30–45 days.
-- [Launch a boat brand with a low-MOQ trial order](https://neptunor.com/new-brand-trial-order): launch path for new brands — samples, a 20–50 boat trial order, indicative price ranges and the guaranteed route to volume runs.
-- [ODM boat product development](https://neptunor.com/odm-development): your brief becomes an engineered hull, tube set and prototype, designed and built in-house.
-- [Request a quotation](https://neptunor.com/contact): submit boat type, size, quantity, printing method, accessories, target market and required launch timing for a project quote. The form accepts attached project files (spec sheets, sketches, briefs — engineering drawings, PDFs and image/vector formats) so a quote can be built from your actual specs.
+- [Custom boat product development](${SITE_URL}/product-development): specification review, engineering and 3D work, prototyping, testing, tooling and batch production for RIB boats and inflatable boats.
+- [Private-label boat manufacturing](${SITE_URL}/solutions/private-label-boats): approved RIB and inflatable-boat platforms produced with the buyer's brand graphics, colors and packaging.
+- [Fleet and rental boat programs](${SITE_URL}/solutions/fleet-rental): configuration and repeat-order support for marinas, resorts and rental operators, including model-specific spares planning.
+- [Rescue and professional boats](${SITE_URL}/solutions/rescue-professional): mission-configured RIB boats for rescue, patrol and dive-team programs.
+- [Yacht tender and dealer programs](${SITE_URL}/solutions/yacht-tender-dealers): branded inflatable tenders and dealer supply programs.
+- [OEM manufacturing](${SITE_URL}/oem-manufacturing): production to an existing design or approved specification with project-specific documentation.
+- [ODM boat development](${SITE_URL}/odm-development): engineering development from a buyer brief, market requirement or performance target.
+- [Request a quotation](${SITE_URL}/contact): submit boat type, size, quantity, target market, required documentation and project files for a project review.
 
-## Factory & quality
+## What We Do Not Do
 
-- [Factory and manufacturing capability](https://neptunor.com/factory): production processes, equipment, capacity and OEM capability of the Neptunor facility in Qingdao.
-- [Quality, testing and certifications](https://neptunor.com/quality): CE and ISO compliance, in-line inspection, air-retention and pressure testing, batch quality control.
-- [R&D center](https://neptunor.com/randdcenter): hull engineering, hydrodynamic test tank, prototype workshop, PVC fabric lab, RF welding, quality inspection lab.
-- [Technology](https://neptunor.com/technology): tube construction, military-grade PVC, Hypalon tubes, air-deck floor.
-- [Proof Center — factory evidence](https://neptunor.com/proof-center): entity facts, certificates with scope, equipment list, batch traceability sample and inspection documentation.
+- We do not sell RIB boats or inflatable boats directly to end consumers.
+- We do not offer SUP boards, paddleboards, kayaks, catamarans or whitewater rafts as product lines.
+- We do not offer standalone accessories as independent product lines; boat equipment and service parts are configured only with an RIB or inflatable-boat program.
+- We do not publish universal pricing, certification scope or delivery guarantees. MOQ, compliance documents and lead times are confirmed for the approved model and configuration.
 
-## Products available for customization
+## Key Information
 
-- [All boat platforms](https://neptunor.com/products): 9 series across 56 models — aluminum-hull RIBs, fiberglass-hull RIBs (36 models, 2.5–7.6 m), sport console boats, rescue and professional boats, inflatable dinghies and yacht tenders, inflatable catamarans, inflatable kayaks, inflatable whitewater rafts and inflatable accessories. Every platform is a starting point for customization, not a fixed catalog item.
-- [Aluminum hull RIBs](https://neptunor.com/products/aluminum-rib): rib-alloy 360 / 430 / 470 — welded marine-aluminum hulls for rental fleets, patrol and workboats.
-- [Fiberglass hull RIBs](https://neptunor.com/products/fiberglass-rib): 36 models from 2.5 m to 7.6 m — molded deep-V hulls for dealers, family leisure and charter (plus the rib-glass 380 / 520 / 640 baselines).
-- [Sport & console boats](https://neptunor.com/products/sport-console): sport-wave-450 / 550 platforms — center or jockey consoles for watersports and fast-response duty.
-- [Rescue & professional boats](https://neptunor.com/products/rescue-pro): rescue-guard-470, patrol-line-600 and dive-team-420 — mission consoles and documented seven-stage QC for SAR agencies, patrol and dive teams.
-- [Inflatable dinghies & yacht tenders](https://neptunor.com/products/inflatable-dinghy): airtender-270 and airdock-330 — packable tenders and dock boats with air-deck floors.
-- [Inflatable catamarans](https://neptunor.com/products/inflatable-catamaran): speed-470 (racing/rescue) and kaboat-fish-375 (fishing/recreation) — twin-hull drop-stitch designs.
-- [Inflatable kayaks](https://neptunor.com/products/inflatable-kayak): tour-365 full drop-stitch and hybrid-335 — touring performance and hybrid recreational.
-- [Inflatable whitewater rafts](https://neptunor.com/products/inflatable-raft): raft-white-380 — self-bailing I-Beam floor, frame-ready for river outfitters and expeditions.
-- [Inflatable accessories](https://neptunor.com/products/inflatable-accessories): drop-stitch seats (NSE-01) with universal 4-point mounting for kayaks, SUPs and rafts.
-- Accessories: consoles, seats, pumps, covers, trailers, life vests — customizable and bundled with boat orders.
+- [About Neptunor](${SITE_URL}/about): company identity, manufacturing focus and business model.
+- [Company entity page](${SITE_URL}/about/neptunor-entity): structured organization facts and related evidence pages.
+- [Factory and manufacturing capability](${SITE_URL}/factory): facility, production processes, equipment and capacity.
+- [Proof Center](${SITE_URL}/proof-center): factory evidence, certificate scope, inspection records and traceability information.
+- [RIB buyer resource center](${SITE_URL}/resources/rib-buyer-resource-center): compliance, sourcing, CAD, export packing and after-sales resources.
+- [Projects and case studies](${SITE_URL}/projects): published project information and application context.
+- [Knowledge Center](${SITE_URL}/knowledge): RIB and inflatable-boat manufacturing guidance.
 
-## Knowledge base for buyers
+## Contact
 
-- [Boat Product Development](https://neptunor.com/product-development): the six-step development pipeline — specification, engineering and 3D, prototyping, testing, tooling and mass production — for custom boats.
-- [How RIB boats are built](https://neptunor.com/knowledge/how-rib-boats-are-built)
-- [Inflatable tube construction explained](https://neptunor.com/knowledge/inflatable-tube-construction-explained)
-- [How to choose a reliable RIB OEM manufacturer](https://neptunor.com/knowledge/how-to-choose-rib-oem-manufacturer)
-- [OEM Trust & Factory Assurance — how to verify our factory, people and test data](https://neptunor.com/oem-trust-assurance): entity registration, physical factory audit, real engineers under NDA, QMS documents, third-party inspection and serial-numbered test records.
-- [OEM buyer guide — sourcing inflatable watercraft from Asia](https://neptunor.com/research/oem-buyer-guide)
-- [PVC vs Hypalon material comparison](https://neptunor.com/research/pvc-vs-hypalon)
-- [CE certification guide for inflatable boats](https://neptunor.com/research/ce-certification-guide)
-- [Inflatable boat certification guide](https://neptunor.com/inflatable-boat-certification)
-- [Frequently asked questions](https://neptunor.com/faq)
+- General enquiries: ${BRAND_CONTACT.email}
+- Phone / WhatsApp: ${BRAND_CONTACT.whatsapp} (${BRAND_CONTACT.whatsappLink})
+- Address: ${BRAND_CONTACT.address}
+- Website: ${BRAND_PARENT_URL}
+- Customer-service languages: English, Chinese and Spanish
 
-## Company
+## Key facts
 
-- [About Neptunor](https://neptunor.com/about)
-- [Company entity — the structured overview](https://neptunor.com/about/neptunor-entity): the GEO-facing page that links organization facts, services, factory evidence and knowledge together.
-- [Projects and case studies](https://neptunor.com/projects)
-- [Contact](https://neptunor.com/contact)
+- Legal entity: ${BRAND_COMPANY_NAME}; B2B brand: ${SITE_NAME}
+- Founded: 2012
+- Location: Qingdao, Shandong, China
+- Facility: 18,000 m² across 4 specialized workshops
+- Workers: 300+
+- Annual capacity: 60,000+ boats; reported monthly capacity: 5,000 boats/month on 4 automated lines
+- MOQ is project-specific: 5–10 units for selected co-branding on existing platforms, 20–50 units for pilot batches, 90–100+ units per approved configuration for standard volume, and 50–100+ units where new hull or console tooling is required. Fabric yield and packaging requirements affect the final MOQ.
+- Samples: 10–15 days
+- Production: 30–45 days after confirmed PO and deposit; new hull or console tooling adds 20–35 days
+- Quality controls: 7-stage Node 01–07 process, 120-point assembly checklist, 0.35 bar / 24-hour pressure hold, and ERP batch traceability retained for 10 years
+- Certification documentation: CE under the EU Recreational Craft Directive 2013/53/EU, ISO 6185, ISO 9001, BSCI, REACH and applicable RoHS documentation. Scope, certificate numbers and validity are confirmed per project.
+- Export markets: 40+ countries
+- Business model: B2B OEM, ODM, private label and fleet supply; not a consumer retail store
+
+## Certifications
+
+- [Certification and compliance guide](${SITE_URL}/inflatable-boat-certification): model- and destination-specific documentation for RIB boats and inflatable boats.
+- [Factory quality and inspection](${SITE_URL}/quality): quality-system, material, pressure-test and pre-shipment inspection information.
+- Certificate numbers, validity periods, issuing bodies and applicable model scope are supplied during project review rather than presented as universal claims.
+
+## AI Discovery Files
+
+- [Full Markdown site corpus](${SITE_URL}/llms-full.txt): generated Markdown containing the available public page, product, news, technology and case-study content.
+- [Structured organization entity](${SITE_URL}/entity.json): machine-readable organization and brand relationship data.
+- [Robots instructions](${SITE_URL}/robots.txt): crawler access policy for the site.
 
 ## Optional
 
-- [Terms of service](https://neptunor.com/terms)
-- [Privacy policy](https://neptunor.com/privacy)
+- [Terms of service](${SITE_URL}/terms)
+- [Privacy policy](${SITE_URL}/privacy)
 `

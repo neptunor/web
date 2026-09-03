@@ -24,7 +24,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Yes — you can launch an inflatable boat brand with a low-MOQ trial order. The entry point is tiered rather than all-or-nothing: order 1–2 samples first (ready in 10–15 days) to freeze your hull, graphics and packaging; then place a trial order of 20–50 boats (production in 30–45 days) to test real sell-through; finally scale into standard volume runs of 90–100+ boats per 150 m drop-stitch fabric roll once the format is proven. Small-batch co-branding starts from as few as 5–10 units for operators that want branded boats without any development stage at all. Your first container comes only when the data says it should.'
+  text: 'Yes — you can launch an inflatable boat brand with a low-MOQ trial order. The entry point is tiered rather than all-or-nothing: order 1–2 samples first (ready in 10–15 days) to freeze your hull, graphics and packaging; then place a trial order of 20–50 boats (production in 30–45 days) to test real sell-through; finally scale into standard volume runs of 90–100+ boats per approved configuration once the format is proven. Small-batch co-branding starts from as few as 5–10 units for operators that want branded boats without any development stage at all. Your first container comes only when the data says it should.'
   verified: '2026-08'
 
 trial_included:
@@ -80,7 +80,7 @@ trial_steps:
       desc: 'The important gate is in your market, not our factory: renters and customers confirm the boat format, graphics and price point before you scale.'
     - step: 'Gate 6'
       title: 'Scale Into Volume Runs (90–100+ Boats)'
-      desc: 'Once the format is proven, standard 150 m roll runs deliver full production efficiency, branded packaging and volume pricing. A container program is the goal, not the requirement.'
+      desc: 'Once the format is proven, approved configuration runs deliver consistent production planning, branded packaging and volume pricing. A container program is the goal, not the requirement.'
 
 trial_budget:
   tagline: Indicative Budget Ranges
@@ -97,9 +97,9 @@ trial_budget:
     - stage: 'Trial / pilot order (20–50 boats)'
       price: 'USD 180–260'
       notes: 'Existing hull platforms, stock materials and simplified packaging. The standard low-MOQ launch route.'
-    - stage: 'Standard volume (90–100+ boats per 150 m roll)'
+    - stage: 'Standard volume (90–100+ boats per approved configuration)'
       price: 'USD 150–220'
-      notes: 'Full 150 m fabric rolls, custom Pantone PVC options, branded packaging and volume pricing.'
+      notes: 'Approved material batches, custom Pantone PVC options, branded packaging and volume pricing.'
     - stage: 'Bespoke hull & tooling (add-on)'
       price: 'Quoted per project'
       notes: 'A bespoke hull shape adds 20–35 days of mould development within the overall schedule; tooling is itemized and quoted once.'
@@ -139,7 +139,7 @@ scale_path:
       desc: 'Colorways, graphics, packaging and accessory mix are adjusted against real market response. Artwork and BOM are frozen for the follow-up.'
     - step: 'Phase 3'
       title: 'Volume Run (90–100+ Boats)'
-      desc: 'Standard 150 m roll runs with full production efficiency, branded retail packaging and volume pricing — sample credits already applied.'
+      desc: 'Standard runs with the approved configuration, branded retail packaging and volume pricing — sample credits already applied.'
     - step: 'Phase 4'
       title: 'Container-Scale Programs'
       desc: '300+ boat programs with staggered shipments, custom Pantone materials and the full development pipeline — the same factory, now at full scale.'

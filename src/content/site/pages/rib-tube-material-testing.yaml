@@ -1,0 +1,114 @@
+meta:
+  title: 'RIB Tube Material Testing Guide — PVC, CSM/Hypalon & Adhesive Evidence | Neptunor'
+  description: 'What RIB buyers should ask about PVC and CSM/Hypalon tube materials, fabric certificates, seam and adhesive testing, UV exposure, air retention and batch traceability.'
+  dateModified: '2026-09-03'
+  keywords:
+    - 'RIB tube material testing'
+    - 'PVC vs CSM Hypalon RIB'
+    - 'RIB fabric test report'
+    - 'inflatable boat seam testing'
+
+hero:
+  tagline: 'Tube Materials & Testing'
+  title: 'How to Review PVC and CSM/Hypalon Tube Evidence'
+  subtitle: 'A buyer guide to material specifications, certificates, seam and adhesive controls, environmental testing and batch traceability for RIB and inflatable boat tubes.'
+  actions:
+    - variant: primary
+      text: Request a material evidence review
+      href: /contact#project-brief
+    - text: Compare construction options
+      href: /research/pvc-vs-hypalon
+
+answer:
+  label: 'Quick answer'
+  text: 'Tube-material evidence should identify the actual fabric system, supplier or material reference, construction and intended use, then connect technical data sheets or batch certificates to incoming inspection, welding or bonding process controls, seam or adhesion results, air-retention testing and the finished boat record. PVC and CSM/Hypalon should be compared by the project’s climate, use intensity, repair and service model—not described with an unsupported universal “best” claim.'
+  verified: '2026-09'
+
+material_evidence:
+  tagline: 'Evidence layers'
+  title: 'What a buyer should ask about the tube system'
+  subtitle: 'The relevant tests depend on material, construction, adhesive or welding method, climate, use and destination requirements.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: T
+      icon_bg: blue
+      title: 'Technical data sheet'
+      desc: 'Fabric construction, coating or elastomer system, total thickness or weight, color, intended use, storage guidance and declared performance information.'
+    - icon: B
+      icon_bg: green
+      title: 'Batch and incoming control'
+      desc: 'Material reference, batch or lot, delivery record, visual and dimensional checks, certificate review and release status before production.'
+    - icon: W
+      icon_bg: purple
+      title: 'Welding or bonding process'
+      desc: 'Defined preparation, equipment or parameters, operator controls, cure or dwell conditions and inspection criteria for the selected joining method.'
+    - icon: A
+      icon_bg: orange
+      title: 'Seam and adhesion evidence'
+      desc: 'Relevant seam strength, peel or adhesion checks, visual continuity, repair criteria and re-inspection records for the actual construction.'
+    - icon: U
+      icon_bg: blue
+      title: 'UV and environment'
+      desc: 'When relevant, review weathering, UV, temperature, chemical or abrasion evidence appropriate to the destination climate and operating cycle.'
+    - icon: P
+      icon_bg: green
+      title: 'Air retention and finished boat test'
+      desc: 'Connect tube-material and joining controls to chamber pressure, hold duration, pressure-drop criteria and final boat release records.'
+
+review_steps:
+  tagline: 'Buyer review sequence'
+  title: 'Evaluate the material as part of the finished boat—not as a standalone logo'
+  subtitle: 'A material certificate alone cannot prove that the delivered tube set was correctly joined and tested.'
+  steps:
+    - step: '01'
+      title: 'Define the use and climate'
+      desc: 'State whether the boat is for tender, fleet, rental, rescue, patrol, commercial or recreational use, plus the climate, UV exposure, storage and service conditions.'
+    - step: '02'
+      title: 'Identify the material and construction'
+      desc: 'Confirm PVC or CSM/Hypalon-type system, fabric reference, thickness or weight, tube design, chamber layout and whether seams are welded, bonded or mixed.'
+    - step: '03'
+      title: 'Check incoming and joining controls'
+      desc: 'Ask how material batches are released and how welding, surface preparation, adhesive, cure, pressure, temperature and operator controls are recorded.'
+    - step: '04'
+      title: 'Review performance evidence'
+      desc: 'Request applicable material, seam, adhesion, air-retention, dimensional, UV or environmental evidence tied to the actual model and project configuration.'
+    - step: '05'
+      title: 'Confirm maintenance and repair guidance'
+      desc: 'The owner’s manual and service plan should state inspection, pressure, storage, cleaning, repair-material compatibility and limits on modification.'
+
+comparison:
+  tagline: 'How to explain materials clearly'
+  title: 'Compare PVC and CSM/Hypalon by decision criteria'
+  subtitle: 'Avoid presenting one material as universally superior. The right choice depends on the total project requirement.'
+  items:
+    - title: 'Climate and UV exposure'
+      desc: 'Ask for evidence and maintenance guidance appropriate to the intended climate and storage conditions.'
+    - title: 'Use intensity and abrasion'
+      desc: 'Fleet, rental, rescue and frequent handling can change the required construction, reinforcement and inspection plan.'
+    - title: 'Joining and repair model'
+      desc: 'The material choice must match the factory joining process, repair method, training, spare materials and service network.'
+    - title: 'Cost and lifecycle'
+      desc: 'Compare purchase, maintenance, downtime, repair and replacement assumptions rather than only fabric unit cost.'
+
+faqs:
+  tagline: 'Buyer FAQ'
+  title: 'Questions about RIB tube-material testing'
+  items:
+    - q: 'Does a material certificate prove the whole tube is compliant?'
+      a: 'No. It supports the material record, but the finished tube also depends on design, joining process, workmanship, pressure and other applicable testing and documentation.'
+    - q: 'Is CSM/Hypalon always better than PVC?'
+      a: 'Not universally. Compare the actual climate, operating intensity, construction, repair model, budget and project requirements. The factory should recommend a configuration with evidence and conditions.'
+    - q: 'What should be traceable to the finished boat?'
+      a: 'At minimum, the material reference or batch, incoming release, joining or bonding process, relevant inspection and air-retention or final test record should be retrievable for the project.'
+    - q: 'What should the buyer receive after approval?'
+      a: 'Agree the model-specific material description, applicable certificate or declaration list, testing summary, maintenance and repair information, and the records available under the project confidentiality arrangement.'
+
+cta:
+  title: 'Need to choose a tube material for your project?'
+  subtitle: 'Send the operating climate, use intensity, target market and service model. We will identify the material and evidence questions to confirm.'
+  actions:
+    - variant: primary
+      text: Request material guidance
+      href: /contact#project-brief
+    - text: Review compliance documentation
+      href: /resources/rib-compliance-documentation

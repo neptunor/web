@@ -1,6 +1,6 @@
 meta:
   title: 'Capacidad de producción — Fábrica de 18.000 m² | {SITE}'
-  description: 'La capacidad de la fábrica de Neptunor: 18.000 m² que producen más de 60.000+ embarcaciones de embarcación al año. Fabricación OEM/ODM a gran escala.'
+  description: 'La capacidad de la fábrica de Neptunor: 18.000 m² que producen hasta 60.000 embarcaciones al año. Fabricación OEM/ODM a gran escala.'
   dateModified: '2026-08-07'
   keywords:
     - 'capacidad de producción de embarcación'
@@ -10,22 +10,22 @@ meta:
 hero:
   tagline: Capacidad de producción
   title: Capacidad de fabricación y producción anual
-  subtitle: 'Instalación de 18.000 m² que produce más de 60.000+ embarcaciones de embarcación al año, con margen para escalar'
+  subtitle: 'Instalación de 18.000 m² que produce hasta 60.000 embarcaciones al año, con margen para escalar'
 
 answer:
   label: 'Respuesta directa'
-  text: 'Capacidad de la fábrica: 18.000 m² repartidos en cuatro talleres especializados, más de 60.000+ embarcaciones de embarcación al año, más de 300 trabajadores en dos turnos y exportación a más de 40 países. El MOQ se confirma según la configuración del proyecto — muestra (1–2 unidades), piloto (20–50 unidades) y volumen estándar (90–100+ unidades por rollo de 150 m); consulta nuestra Guía de MOQ y Branding Flexible para la lógica completa. Plazo de entrega de 30–45 días y muestras en 10–15 días.'
+  text: 'Capacidad de la fábrica: 18.000 m² repartidos en cuatro talleres especializados, hasta 60.000 embarcaciones al año, más de 300 trabajadores en dos turnos y exportación a más de 40 países. El MOQ se confirma según la configuración del proyecto — muestra (1–2 unidades), piloto (20–50 unidades) y volumen estándar (90–100+ unidades por configuración aprobada); consulta nuestra Guía de MOQ y Branding Flexible para la lógica completa. Plazo de entrega de 30–45 días y muestras en 10–15 días.'
   verified: '2026-08'
 
-intro: Neptunor opera una de las instalaciones dedicadas más grandes de fabricación de embarcaciones hinchables en Qingdao, China. Nuestra fábrica de 18.000 m² está organizada en cuatro talleres especializados que trabajan en paralelo, lo que nos da la capacidad de producir más de 60.000+ embarcaciones al año en las líneas de embarcación y equipo de seguridad.
+intro: Neptunor opera una de las instalaciones dedicadas más grandes de fabricación de embarcaciones hinchables en Qingdao, China. Nuestra fábrica de 18.000 m² está organizada en cuatro talleres especializados que trabajan en paralelo, lo que nos da la capacidad de producir hasta 60.000 embarcaciones al año, según la mezcla de productos.
 
 highlights:
   - value: 18,000 m2
     label: Superficie total de fabricación
     detail: En 4 talleres especializados
-  - value: 60,000+
+  - value: Hasta 60.000
     label: Embarcaciones producidas al año
-    detail: Embarcaciones y equipo de seguridad
+    detail: RIB y embarcaciones inflables
   - value: 300+
     label: Plantilla cualificada
     detail: Más de 25 ingenieros, 2 turnos al día
@@ -40,21 +40,18 @@ highlights:
     detail: Desde 2012
 
 workshops:
-  - title: Producción de embarcaciones de embarcación
-    description: '4 líneas de ensamblaje automatizadas para embarcaciones hinchables con una producción combinada de unas 5.000 embarcaciones al mes. Las estaciones de impresión digital y serigrafía funcionan simultáneamente. Capacidad anual de embarcación: más de 60.000+ embarcaciones.'
-    output: 'Más de 60.000+ embarcación al año'
-  - title: Producción de embarcaciones de embarcación
-    description: 'Capacidad de producción ampliada para embarcaciones de embarcación con líneas de ensamblaje adicionales. La unión de núcleos drop-stitch, la impresión digital y las estaciones de ensamblaje funcionan en paralelo.'
+  - title: Producción de RIB y embarcaciones hinchables
+    description: '4 líneas de ensamblaje automatizadas para RIB y embarcaciones hinchables. Las estaciones de impresión digital y serigrafía funcionan simultáneamente; la capacidad anual se programa según la mezcla de productos aprobada.'
+    output: 'Hasta 60.000 embarcaciones/año'
+  - title: Preparación y montaje de embarcaciones
+    description: 'Las líneas de montaje se programan para RIB y embarcaciones hinchables según el pedido aprobado. La unión de núcleos drop-stitch, la impresión digital y las estaciones de ensamblaje funcionan en paralelo.'
     output: 'Capacidad de embarcación ampliada'
-  - title: Embarcaciones y accesorios embarcación
-    description: 'Líneas de producción polivalentes para embarcaciones de embarcación y accesorios. Las estaciones de soldadura de aire caliente, las prensas dieléctricas RF y los puestos de ensamblaje se reconfiguran según la mezcla de pedidos. Capacidad anual: más de 5.000 unidades.'
-    output: 'Más de 5.000 unidades al año'
-  - title: Equipo de seguridad
-    description: 'Área de producción de sala limpia independiente para chalecos salvavidas y equipo de seguridad. Estaciones dedicadas de costura, inserción de espuma y ensayos. Capacidad anual de chalecos salvavidas: más de 50.000 unidades.'
-    output: 'Más de 50.000 chalecos salvavidas al año'
+  - title: Montaje y embalaje de embarcaciones
+    description: 'Las áreas flexibles de producción y embalaje se adaptan a los pedidos de RIB y embarcaciones inflables. Las estaciones de soldadura, montaje, inspección y embalaje de exportación se programan según la mezcla de pedidos aprobada.'
+    output: 'Programado según la mezcla de productos'
 
 oem_capacity:
-  moq: 'embarcación: muestra 1–2 | piloto 20–50 | volumen 90–100+ (por rollo de 150 m)'
+  moq: 'embarcación: muestra 1–2 | piloto 20–50 | volumen 90–100+ por configuración aprobada'
   lead_time: 'Estándar de 30–45 días. Muestras en 10–15 días. Acelerado disponible.'
   payment: 'T/T 30% de depósito + 70% de saldo. Se aceptan L/C y Western Union.'
 

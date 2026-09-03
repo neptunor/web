@@ -64,7 +64,7 @@ function AboutPage() {
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7">
         <div className="grid gap-5 md:grid-cols-2">
           <img
-            src={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.jpg`}
+            src={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.jpg`}
             alt={t('content.seo.aboutFactoryAlt')}
             width={1600}
             height={1000}

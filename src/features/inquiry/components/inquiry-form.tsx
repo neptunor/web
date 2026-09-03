@@ -51,6 +51,7 @@ export function InquiryForm({
   const [docs, setDocs] = useState<Record<string, boolean>>({})
   const [consent, setConsent] = useState(false)
   const [submitSuccess, setSubmitSuccess] = useState(false)
+  const [successSummary, setSuccessSummary] = useState<InquirySummary | null>(null)
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({})
   const [showValidation, setShowValidation] = useState(false)
   const formRef = useRef<HTMLFormElement>(null)
@@ -164,6 +165,14 @@ export function InquiryForm({
       const r = await submitInquiry({ data: fd })
       if (r.ok) {
         trackLead(`inquiry:${String(fd.get('category') ?? 'unsure')}`)
+        setSuccessSummary({
+          company: String(fd.get('company') ?? ''),
+          email: String(fd.get('email') ?? ''),
+          category: selectedLabel(form, 'category'),
+          quantity: selectedLabel(form, 'quantity'),
+          timeline: selectedLabel(form, 'timeline'),
+          projectStage: selectedLabel(form, 'projectStage'),
+        })
         setSubmitSuccess(true)
         form.reset()
         setStep(1)
@@ -269,10 +278,6 @@ export function InquiryForm({
               <option value="sport-console">{t('inquiry.categoryOptions.sport-console')}</option>
               <option value="rescue-pro">{t('inquiry.categoryOptions.rescue-pro')}</option>
               <option value="inflatable-dinghy">{t('inquiry.categoryOptions.inflatable-dinghy')}</option>
-              <option value="inflatable-catamaran">{t('inquiry.categoryOptions.inflatable-catamaran')}</option>
-              <option value="inflatable-kayak">{t('inquiry.categoryOptions.inflatable-kayak')}</option>
-              <option value="inflatable-raft">{t('inquiry.categoryOptions.inflatable-raft')}</option>
-              <option value="accessories">{t('inquiry.categoryOptions.accessories')}</option>
               <option value="multiple">{t('inquiry.categoryOptions.multiple')}</option>
               <option value="unsure">{t('inquiry.categoryOptions.unsure')}</option>
             </Select>
@@ -540,26 +545,89 @@ export function InquiryForm({
       </fieldset>
       </form>
 
-      {submitSuccess && typeof document !== 'undefined' && createPortal(
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-          <div className="rounded-xl bg-background p-8 shadow-xl text-center max-w-sm mx-4">
-            <p className="text-2xl font-bold text-primary"><Check size={28} className="mx-auto mb-2" /></p>
-            <p className="text-[18px] font-bold">{t('inquiry.okA.title')}</p>
-            <p className="mt-3 text-[14px] leading-relaxed text-fg-2">
-              {t('inquiry.submittedSuccess')}
-            </p>
+      {submitSuccess && successSummary && typeof document !== 'undefined' && createPortal(
+        <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto bg-black/50 p-4" role="presentation">
+          <div
+            className="my-8 w-full max-w-lg rounded-xl bg-background p-6 shadow-xl md:p-8"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="inquiry-confirmation-title"
+          >
+            <div className="text-center">
+              <p className="text-2xl font-bold text-primary"><Check size={28} className="mx-auto mb-2" /></p>
+              <h2 id="inquiry-confirmation-title" className="text-[18px] font-bold">{t('inquiry.okA.title')}</h2>
+              <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{t('inquiry.okA.body')}</p>
+            </div>
+
+            <div className="mt-6 rounded-xl border border-border bg-bg-alt p-4">
+              <p className="text-[13px] font-bold">{t('inquiry.confirmationSummary')}</p>
+              <dl className="mt-3 grid gap-2 text-[13px] sm:grid-cols-2">
+                <SummaryItem label={t('inquiry.confirmationCompany')} value={successSummary.company} />
+                <SummaryItem label={t('inquiry.confirmationEmail')} value={successSummary.email} />
+                <SummaryItem label={t('inquiry.confirmationCategory')} value={successSummary.category} />
+                <SummaryItem label={t('inquiry.confirmationQuantity')} value={successSummary.quantity} />
+                <SummaryItem label={t('inquiry.confirmationTimeline')} value={successSummary.timeline} />
+                <SummaryItem label={t('inquiry.confirmationStage')} value={successSummary.projectStage} />
+              </dl>
+            </div>
+
+            <div className="mt-4 rounded-xl border border-primary/20 bg-primary/5 p-4">
+              <p className="flex items-center gap-2 text-[13px] font-bold text-primary">
+                <ShieldCheck size={15} /> {t('inquiry.whatNext')}
+              </p>
+              <p className="mt-1.5 text-[13px] leading-relaxed text-fg-2">{t('inquiry.whatNextBody')}</p>
+            </div>
+
+            <div className="mt-5 flex flex-col gap-2 sm:flex-row">
+              <a
+                href={fl('/products')}
+                className="inline-flex min-h-11 flex-1 items-center justify-center rounded-lg border border-border px-4 py-2 text-center text-[13px] font-bold text-primary transition-colors hover:border-primary/40"
+              >
+                {t('inquiry.confirmationCatalog')}
+              </a>
+              <a
+                href={fl('/contact#trust-verification')}
+                className="inline-flex min-h-11 flex-1 items-center justify-center rounded-lg border border-border px-4 py-2 text-center text-[13px] font-bold text-primary transition-colors hover:border-primary/40"
+              >
+                {t('inquiry.confirmationTrust')}
+              </a>
+            </div>
             <button
               type="button"
-              className="mt-6 rounded-lg bg-primary px-6 py-3 text-[14px] font-bold text-white transition-colors hover:bg-primary/90"
+              className="mt-4 w-full rounded-lg bg-primary px-6 py-3 text-[14px] font-bold text-white transition-colors hover:bg-primary/90"
               onClick={() => setSubmitSuccess(false)}
             >
-              OK
+              {t('inquiry.confirmationClose')}
             </button>
           </div>
         </div>,
         document.body,
       )}
     </>
+  )
+}
+
+interface InquirySummary {
+  company: string
+  email: string
+  category: string
+  quantity: string
+  timeline: string
+  projectStage: string
+}
+
+function selectedLabel(form: HTMLFormElement, name: string): string {
+  const field = form.elements.namedItem(name)
+  if (field instanceof HTMLSelectElement) return field.selectedOptions[0]?.textContent?.trim() || field.value
+  return field instanceof HTMLInputElement ? field.value.trim() : ''
+}
+
+function SummaryItem({ label, value }: { label: string; value: string }) {
+  return (
+    <div>
+      <dt className="text-[11px] font-semibold uppercase tracking-wide text-fg-3">{label}</dt>
+      <dd className="mt-0.5 break-words font-medium text-fg-1">{value || '—'}</dd>
+    </div>
   )
 }
 
